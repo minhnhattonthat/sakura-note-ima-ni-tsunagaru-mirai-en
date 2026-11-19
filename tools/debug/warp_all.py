@@ -34,10 +34,11 @@ def scenes():
     return rows
 
 
-def run(rom, name, out, states, sav):
+def run(rom, name, out, states, sav, extra=()):
     d = out / "runs" / name
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(rom), "--out", str(d),
-           "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'",
+           "--script", str(ROOT / "tools" / "debug" / "warp.lua"), *[x for s in extra for x in ("--script", s)],
+           "--var", f"SCENE='{name}'",
            "--var", "STOP_AFTER=30", "--frames", "20000", "--timeout", "1500",
            "--sav", str(sav)]  # blank EEPROM or a fixture: same title menu every run
     if states:
@@ -59,6 +60,8 @@ def main():
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--out", default=str(ROOT / "work" / "qa" / "scenes"))
     ap.add_argument("--no-states", action="store_true")
+    ap.add_argument("--script", action="append", default=[],
+                    help="extra Lua probe for every run, e.g. tools/debug/textlog.lua (text coverage)")
     a = ap.parse_args()
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -72,7 +75,7 @@ def main():
     # save fixtures are built from the original ROM (a save holds no code), once, before the parallel runs
     savs = {r["name"]: fixture(r["save"]) if r["save"] else blank_save() for r in rows if r["name"] in names}
     with ThreadPoolExecutor(a.jobs) as ex:
-        results = list(ex.map(lambda n: run(a.rom, n, out, not a.no_states, savs[n]), names))
+        results = list(ex.map(lambda n: run(a.rom, n, out, not a.no_states, savs[n], a.script), names))
     bad = 0
     for name, ok, why in results:
         print(f"{'ok  ' if ok else 'FAIL'} {name} {why}")

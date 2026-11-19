@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (every graphics-text row English or ruled out; cold-boot tour of
-  47 scenes passes the visual-QA gate; inkbox done; stress saves and textcover still to do).
-  Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 a3175bc8b7811ae58ec3ae114cb34a7460c2958f,
-  romcheck ok, check ok, smoke ok; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 on it.
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done; inkbox done; stress saves done (D13 engine
+  fix); the gate must be re-run on the new build; textcover plumbing done, coverage itself is the big job left).
+  Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 c98c098d43ac64482b298744ef18cbb613cff107,
+  romcheck ok, check ok. The visual-QA gate passed on the previous build (a3175bc8): re-tour this one (see Next 1).
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -100,12 +100,34 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (`work/qa/verdicts/`), `recheck_2.tsv` = name entry kana keyboard ok by D11. `inkbox.py` on newgame_popup,
     save_confirm, load_popup, episode_ch1_confirm: every button and line centred within 2 px; the popup title bar
     text sits 12 px right of the bar centre in the original too (the game's own layout, not a bug).
+  - Phase 8 stress saves (2026-11-20, `docs/re/nameentry.md`, D13): the name entry capped names at 6 characters
+    while the English defaults are 8-9 letters (field showed "Kurosaw", Backspace left a stale letter).
+    `tools/namefield.py` (applied by the build, allowed by romcheck, `tests/test_namefield.py`): cap 9 (the save
+    field's size), 12 px cell pitch, cursor x to match; the file-select name line builder (0x0207F290) no longer
+    loses its terminator with 9 + 9 letters (the name vanished and the copy overran a heap block). Fixture
+    `stress_names` (all items, chapters 1-4, names 9 x W) and 10 `stress_*` scenes (file select, load popup,
+    episode board, status grid, item description, NEWEXP, save screen, dialogue, profile, name entry); warp.lua
+    token `names:C6:9` forces names in RAM (name record 0x021BC4CA). Long names print in full in dialogue,
+    board header and profile. Lint `NAME_PX` 40 -> 72 (9 x W); 10 lines re-worded (review-log). Shots in
+    `work/qa/stress/` all looked right by eye (not yet through the gate).
+  - Text coverage plumbing: `tools/debug/textlog.lua` hooks the text engine's expand routine 0x0203764C (r1 =
+    string body) and logs `TEXT <hash>`; `tools/textcover_keys.py` writes `build/strings.tsv` (5,343 keys, every
+    default build regenerates it); `warp_all.py --script tools/debug/textlog.lua` adds the probe to every run.
+    Keys verified against an in-game log (2499:0, 2612 labels). Baseline 2026-11-20: the 58 warp scenes show
+    64/5,343 strings (`work/qa/cover.txt`).
 - **Next:**
-  1. Phase 8 left: stress saves (longest names `WWWWWWWWW` via `save.py edit --name` on a game-written fixture,
-     full item grid = `all_items`; route each through file select/load popup, status, NEWEXP, save screen; sheets
-     to the gate as extra manifest dirs), then `textcover.py` (needs a `TEXT` log from the message hook and
-     `build/strings.tsv`; waive what is shown unreachable in `docs/text_unshown.tsv`). The 4033 choice labels were
-     translated without scene context: check them when their scenes are reached.
+  1. Re-run the tour and gate on the new build (sha1 c98c098d): `warp_all.py` (build + `work/qa/tour_jp`),
+     `tour_cmp.py`, `qa_gate.py init ... --build build/sakuranote_en.nds`, add `work/qa/stress` as an extra
+     manifest dir (no JP pair: judge on their own; the brief's stress note is the scene's `shows` column),
+     `vqa_run.py` on the chunks. Sheets that changed: name_boy/dog/cat (12 px field) + all `stress_*`.
+  2. Text coverage (phase 8 release gate): `warp_all.py build/sakuranote_en.nds --out work/qa/cover --no-states
+     --script C:/.../tools/debug/textlog.lua`, then `textcover.py work/qa/cover build/strings.tsv --waive
+     docs/text_unshown.tsv`. The 58 warp scenes reach only a small part of the 5,343 strings (story dialogue is
+     triggered by map events). Plan: (a) a mash runner over every debug map-list row (`docs/re/maplist.tsv`,
+     scenario 1-4 x boy/dog/cat) with textlog + A-mash and walking; (b) for what no route reaches, a forced-display
+     harness (load the message file, point r1 at each string in an open dialogue box) to prove it renders, and
+     waive with that reason; (c) waive 2612/2614 (status `data`, debug-only) in `docs/text_unshown.tsv`. The 4033
+     choice labels were translated without scene context: check them when their scenes are reached.
   2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
      the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
      write). Decide when the title screen is in the tour.

@@ -128,6 +128,9 @@ def main():
     out.write_bytes(data)
     import writelog
     out.with_suffix(".writes.txt").write_text(writelog.dump(writes), encoding="utf-8", newline="\n")
+    if mode == "en" and not qa and not a.out:
+        import textcover_keys  # text coverage keys of this build (tools/debug/textlog.lua logs the same hash)
+        textcover_keys.write(data, out.parent / "strings.tsv")
     same = data == romfs.ROM.read_bytes()
     print(f"{out} ({mode}) {len(data):#x} bytes sha1 {hashlib.sha1(data).hexdigest()}"
           f"{' (identical to the dump)' if same else ''}")

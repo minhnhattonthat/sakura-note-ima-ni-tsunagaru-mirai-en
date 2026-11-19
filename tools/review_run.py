@@ -5,6 +5,8 @@
 
 The pairs come from the batch's .out.tsv (so a batch can be reviewed before it is merged). Each report is
 work/tl/review/bNNN.md; the summary line per batch is `bNNN<TAB>critical<TAB>important<TAB>minor<TAB>assessment`.
+Exit 1 if any reviewer run failed (nonzero codex exit, or a missing/empty report without the four headings);
+a completed review with findings is not a failure. --summary exits 1 if any stored report is invalid.
 """
 import re
 import sys
@@ -37,8 +39,28 @@ def review(name):
     parts.append(f"=== pairs {name} ===\n" + pairs(name))
     pf = REV / f"{name}.prompt.txt"
     pf.write_text("\n\n".join(parts), encoding="utf-8", newline="\n")
-    codex_run.main([str(REV / f"{name}.md"), str(pf)])
-    return summary_line(name)
+    rc = codex_run.main([str(REV / f"{name}.md"), str(pf)])
+    problem = report_problem(name)
+    if rc and not problem:
+        problem = f"reviewer exit {rc}"
+    return (False, f"{name}\t-\t-\t-\tFAILED: {problem}") if problem else (True, summary_line(name))
+
+
+def report_problem(name):
+    """Why bNNN.md is not a completed review (None if it is). Findings are not a problem; a broken run is."""
+    p = REV / f"{name}.md"
+    if not p.exists():
+        return "no report"
+    text = p.read_text(encoding="utf-8")
+    if not text.strip():
+        return "empty report"
+    missing = [h for h in ("Critical", "Important", "Minor", "Assessment")
+               if not re.search(rf"^#+\s*{h}\b", text, re.I | re.M)]
+    if missing:
+        return "report lacks " + ", ".join(missing)
+    if counts(text)[1] == "?":
+        return "empty Assessment"
+    return None
 
 
 def counts(text):
@@ -64,16 +86,25 @@ def summary_line(name):
 
 def main(argv):
     if argv == ["--summary"]:
+        bad = 0
         for p in sorted(REV.glob("b[0-9][0-9][0-9].md")):
-            print(summary_line(p.stem))
-        return 0
+            problem = report_problem(p.stem)
+            bad += bool(problem)
+            print(f"{p.stem}\t-\t-\t-\tINVALID: {problem}" if problem else summary_line(p.stem))
+        return 1 if bad else 0
     names = [a for a in argv if re.fullmatch(r"b\d{3}", a)]
     if not names:
         sys.exit(__doc__)
     jobs = int(argv[argv.index("--jobs") + 1]) if "--jobs" in argv else 4
+    failed = []
     with ThreadPoolExecutor(jobs) as ex:
-        for line in ex.map(review, names):
+        for name, (ok, line) in zip(names, ex.map(review, names)):
             print(line, flush=True)
+            if not ok:
+                failed.append(name)
+    if failed:
+        print(f"{len(failed)} review(s) failed: {' '.join(failed)}", file=sys.stderr)
+        return 1
     return 0
 
 

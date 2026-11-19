@@ -3,7 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows, inkbox, stress saves done; visual-QA gate passes on
-  the current build; text coverage runners built, sweeps partly run: 1,479/5,343 strings shown, see Next 1).
+  the current build; text coverage probe extended 2026-11-20 (see Next 1), sweeps to re-run: 1,397/5,343 shown,
+  107 waived).
   Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 c98c098d43ac64482b298744ef18cbb613cff107,
   romcheck ok, check ok. Gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 on this build
   (57 sheets incl. the 10 stress sheets; name-entry kana tabs ok by D11, `verdicts/recheck_3.tsv`).
@@ -126,11 +127,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
     pages). `work/qa/cover/mash/` = an older plain mash; `work/qa/cover/runs/` = the 58 warp scenes.
     `tests/test_scrrefs.py`. `vqa_run.py` labels stress sheets (single image, scene note from scenes.tsv).
 - **Next:**
-  1. Finish the coverage sweeps. They were killed by the host for low memory (16 GB RAM; ~22 DeSmuME at once is too
-     many): restart with **at most ~8 emulators in total**, one runner at a time, e.g. `evcover.py --jobs 8`, then
-     `mashcover.py --jobs 8`, then `battlecover.py --jobs 8`. Each skips runs that already have a log; incomplete
-     runs (no `final.png`) were deleted. Done so far: ev 37/~200, map 70/~530, battle 13/60. Then
-     `textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv` (now 1,479/5,343).
+  1. Re-run the coverage sweeps with the extended probe. 2026-11-20: `textlog.lua` now also hooks the message fetch
+     0x0203742C/0x020374C4 and the tag loader 0x020360F4 (the expand hook alone saw 0/113 tags, 2/131 item
+     strings; `docs/re/scripts.md` §Coverage). Old map/battle runs (old probe) were deleted; ev now has 48/200 runs
+     with the new probe. `work/qa/cover/runs/` (58 warp scenes) and `mash/` are still old-probe: re-run the scenes
+     with `warp_all.py build/sakuranote_en.nds --out work/qa/cover/runs --no-states --script tools/debug/textlog.lua`.
+     Some runs freeze DeSmuME at 0 % CPU; timeouts cut to 360/300/420 s (ev/map/battle; full runs take ~75/55/120 s).
+     **Memory:** the sweep at `--jobs 8` was killed again by the host for low memory, though the emulators use only
+     ~75 MB each: the host had ~2 GB free with no emulator running. Use `--jobs 4`, one runner at a time (ev, then
+     `mashcover.py`, then `battlecover.py`), and check free memory first. Each runner skips runs with a log;
+     incomplete runs (no `final.png`) were deleted. Then `textcover.py work/qa/cover build/strings.tsv --waive
+     docs/text_unshown.tsv`.
+     Computed indices: many dialogue strings are named by no immediate (`scrrefs.py --unref`, e.g. 2512:11-87 in
+     the school scripts 1596/1601; GetRandom is used 241 times). Reaching them needs forcing (e.g. a hook on the
+     MessageObj native that rewrites the index), not more mashing.
   2. Close the gaps: group the never-shown ids by file (`scrrefs.tsv` says which script names each). NPC lines in
      TouchPositive/TouchNegative (13 chars, longer than "StartScript": entryname.lua can't rename to them) and
      MapExit, and NearScript branches behind flags, need more: ideas are patching the script's own function-name

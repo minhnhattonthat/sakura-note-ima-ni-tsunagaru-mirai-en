@@ -71,7 +71,8 @@ def run(rom, out, c, s, p, r, presses, npcfile=None):
            *(["--script", str(ROOT / "tools" / "debug" / "entryname.lua"),
               "--var", f"NPCFILE='{npcfile.as_posix()}'"] if npcfile else []),
            "--var", f"SCENE='{program(c, s, p, r, presses)}'",
-           "--var", "STOP_AFTER=10", "--frames", "16000", "--timeout", "900", "--sav", str(blank_save())]
+           "--var", "STOP_AFTER=10", "--frames", "16000", "--timeout", "300",  # a full run takes 45-80 s
+ "--sav", str(blank_save())]
     pr = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
     log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
     return d.name, f"exit {pr.returncode} text {log.count('TEXT ')}"

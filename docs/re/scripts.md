@@ -36,4 +36,13 @@
   `tools/debug/entryname.lua` starting every NPC object script at NearScript (the name copies are patched on that
   file's open and restored the next frame; patching during the map script's own start breaks the map). Logs under
   `work/qa/cover/map/`. `work/qa/cover/mash/` = an earlier plain mash (no NPC patch).
+- Probe `tools/debug/textlog.lua` - verified 2026-11-20: the expand routine 0x0203764C alone missed every string
+  that is fetched without expansion (2610 tags 0/113, 2605 items 2/131, map names, board). Callers of the FILEDATA
+  loader 0x0202D4C8 (arm9 + overlays, ARM `bl` scan) that index an offset table right after it: 0x0203742C and its
+  twin 0x020374C4 (message fetch: r1 = file id, r2 = index; copies one string out) and the tag loader 0x020360F4
+  (2610). The probe hooks the table read in each (0x02037448 r4/r6, 0x020374DC r5/r4, 0x020361F0 r4/r6) and hashes
+  the body at base + [base + 4i] + 4. Other loader callers (0x02034B1C.., 0x0204429C, 0x02048910) load whole files.
+- Hangs: some event runs freeze the emulator at 0 % CPU right after boot (seen 2026-11-20, 8 at once); a full run
+  takes 60-95 s, so evcover's timeout is 360 s.
+- Waivers: `docs/text_unshown.tsv` (2612/2614 debug-only, 2610:0-4 name placeholders).
 - Report: `textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.

@@ -46,7 +46,8 @@ def run(rom, out, ev, presses):
            "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
            "--script", str(ROOT / "tools" / "debug" / "textlog.lua"),
            "--var", f"SCENE='debug:{keys}'", "--var", f"SWAP='{OPENING_EVENT}:{ev}'", "--var", "FILELOG=1",
-           "--var", "STOP_AFTER=10", "--frames", str(presses * 80 + 2000), "--timeout", "1200",
+           "--var", "STOP_AFTER=10", "--frames", str(presses * 80 + 2000), "--timeout", "360",  # a full run takes 60-95 s
+
            "--shot-every", "600", "--sav", str(blank_save())]
     pr = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
     log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""

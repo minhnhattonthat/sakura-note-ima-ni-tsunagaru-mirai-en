@@ -3,152 +3,152 @@
   "id": "2580:0",
   "hdr": "0007 000F",
   "jp": "そろそろ出かけなくちゃ。{n}町を妖怪から守るのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Time to get going.{n}We'll protect this town from yokai!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:1",
   "hdr": "0007 000F",
   "jp": "な～んて。",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee, listen to me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:2",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん、どこまで{n}本気にしてくれたかな……",
-  "en": "",
-  "status": "todo",
+  "en": "I wonder how seriously{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun took all that...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:3",
   "hdr": "0007 000F",
   "jp": "もちろん、わたしは本気。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm serious, of course.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:4",
   "hdr": "0007 000F",
   "jp": "ねえ、{var_EF}{slot}{slot}{slot}{slot}{slot}くんに{n}この話をする時、とても……",
-  "en": "",
-  "status": "todo",
+  "en": "You know, when I told{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun about this, I was so...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:5",
   "hdr": "0007 000F",
   "jp": "とってもドキドキしたのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "My heart was pounding so hard.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:6",
   "hdr": "0007 000F",
   "jp": "変な女！　って思われたら{n}どうしようって。",
-  "en": "",
-  "status": "todo",
+  "en": "I kept thinking, what if he thinks,{n}\"What a weird girl!\"?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:7",
   "hdr": "0008 0014",
   "jp": "七海、ママ、お買い物に{n}行ってくるからね。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami, Mom's going out{n}to do some shopping.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:8",
   "hdr": "0008 0014",
   "jp": "何か食べたいもの、ある？",
-  "en": "",
-  "status": "todo",
+  "en": "Is there anything you'd like to eat?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:9",
   "hdr": "0007 000F",
   "jp": "……ない。",
-  "en": "",
-  "status": "todo",
+  "en": "...No.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:10",
   "hdr": "0008 0014",
   "jp": "そう……{n}それじゃ、留守番お願いね。",
-  "en": "",
-  "status": "todo",
+  "en": "All right...{n}Look after things while I'm out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:11",
   "hdr": "0008 0014",
   "jp": "今夜は花火大会だから{n}ベランダから一緒に見ようよ。",
-  "en": "",
-  "status": "todo",
+  "en": "The fireworks festival is tonight.{n}Let's watch from the balcony together.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:12",
   "hdr": "0007 000F",
   "jp": "はーい。",
-  "en": "",
-  "status": "todo",
+  "en": "Okaaay.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:13",
   "hdr": "0007 000F",
   "jp": "やった！　これで抜け出すのが{n}簡単になった！",
-  "en": "",
-  "status": "todo",
+  "en": "Yes! Now it'll be easy{n}to sneak out!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:14",
   "hdr": "0004 000D",
   "jp": "わわわん、くーん……{n}{col_F8}(ママさん、かわいそうです……)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof, whine...{n}{col_F8}(Poor Mama-san...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:15",
   "hdr": "0007 000F",
   "jp": "じゃ、{var_ED}{slot}{slot}{slot}{slot}{slot}{n}留守番、お願いね！",
-  "en": "",
-  "status": "todo",
+  "en": "Well, {var_ED}{slot}{slot}{slot}{slot}{slot},{n}look after the place for me!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:16",
   "hdr": "0004 000D",
   "jp": "わん？　わわわわわん！{n}{col_F8}(え？　ボクも行きます)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof? W-w-w-woof!{n}{col_F8}(What? I'm coming too.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:17",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}！　早く、早く！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}! Hurry, hurry!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2580:18",
   "hdr": "0007 000F",
   "jp": "急がなくちゃ、ママが帰ってきちゃうよ！",
-  "en": "",
-  "status": "todo",
+  "en": "We have to hurry!{n}Mom will be back soon!",
+  "status": "done",
   "notes": ""
  }
 ]

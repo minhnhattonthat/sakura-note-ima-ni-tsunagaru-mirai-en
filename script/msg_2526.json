@@ -3,728 +3,728 @@
   "id": "2526:0",
   "hdr": "0003 000E",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！！{n}会えて良かった！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!!{n}Good to see you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:1",
   "hdr": "0003 000E",
   "jp": "ああ、顔見たら、いいことを{n}思いついたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Ah, seeing your face{n}has given me a good idea.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:2",
   "hdr": "0003 000E",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}に戦う力をあげるね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll give you the power to fight,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:3",
   "hdr": "0003 000E",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}家にはそれくらいの{n}恩返しをしなくちゃね。",
-  "en": "",
-  "status": "todo",
+  "en": "It's the least I can do{n}to repay the {var_F0}{slot}{slot}{slot}{slot}{slot} family.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:4",
   "hdr": "0003 000E",
   "jp": "さあ、{var_EF}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:5",
   "hdr": "0003 000E",
   "jp": "ほら、カナメが{n}好きなナントカカイザー……",
-  "en": "",
-  "status": "todo",
+  "en": "You know, that What's-his-kaiser{n}Kaname likes...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:6",
   "hdr": "0003 000E",
   "jp": "あの台詞を言ってみな。{n}あの、歯が浮くようなやつさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Try saying his line.{n}That painfully cheesy one.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:7",
   "hdr": "0005 0012",
   "jp": "うう……",
-  "en": "",
-  "status": "todo",
+  "en": "Ugh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:8",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、どうしよう！？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, what do we do!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:9",
   "hdr": "FFFF 00FF",
   "jp": "少年は猫の言葉を思い出した。{n}少しためらった後に{n}ヒーローの台詞を叫んでみた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy remembered the cat's words.{n}After a moment's hesitation,{n}he tried shouting the hero's lines.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:10",
   "hdr": "FFFF 00FF",
   "jp": "「世界の秩序を守るため{n}　我々は出会ったのだ！{n}　時空を超えたサダメに応え{n}　ナスカイザー、変身！」",
-  "en": "",
-  "status": "todo",
+  "en": "\"We met to protect{n}the order of this world!{n}Answering destiny's call{n}across time and space...{n}Nazkaiser, transform!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:11",
   "hdr": "0007 000F",
   "jp": "え！？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:12",
   "hdr": "0005 0012",
   "jp": "ナ、ナスカイザー……",
-  "en": "",
-  "status": "todo",
+  "en": "N-Nazkaiser...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:13",
   "hdr": "0022 0027",
   "jp": "キキキキ！　笑わせるな！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee hee! Don't make me laugh!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:14",
   "hdr": "0022 0027",
   "jp": "キキ……キィ……猫め……",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee... Hee... That blasted cat...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:15",
   "hdr": "0005 0012",
   "jp": "やったな、{var_EF}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "You did it, {var_EF}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:16",
   "hdr": "0008 0014",
   "jp": "ナスカイザーが{n}いたみたいだけど……",
-  "en": "",
-  "status": "todo",
+  "en": "I thought I saw{n}Nazkaiser here...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:17",
   "hdr": "0006 0014",
   "jp": "うん、いたと思う。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, I think he was here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:18",
   "hdr": "0005 0012",
   "jp": "いたかもしれないし、幻かも{n}しれないね、うん。",
-  "en": "",
-  "status": "todo",
+  "en": "Maybe he was. Or maybe{n}we imagined it. Yes.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:19",
   "hdr": "0005 0012",
   "jp": "でも、ぼくには{var_EF}{slot}{slot}{slot}{slot}{slot}が{n}頑張っている姿が見えたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "But I saw you giving it your all,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:20",
   "hdr": "0007 000F",
   "jp": "うん、わたしも！{n}ありがとう、{var_EF}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "Me too!{n}Thank you, {var_EF}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:21",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}！{n}大変！　ケガしてるの！？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}!{n}Oh no! Are you hurt!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:22",
   "hdr": "0004 000D",
   "jp": "くいーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:23",
   "hdr": "0004 000D",
   "jp": "くいーん……{n}{col_F8}(七海さん、うれしそうでしたよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(You looked so happy, Nanami-san.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:24",
   "hdr": "0004 000D",
   "jp": "くーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:25",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(良かったなぁ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Oh, what a relief...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:26",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}……{n}あなたも戦ってくれたのね？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}...{n}You fought for us too, didn't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:27",
   "hdr": "0004 000D",
   "jp": "うぃーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:28",
   "hdr": "0004 000D",
   "jp": "うぃーん……{n}{col_F8}(そうです……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(Yes, I did...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:29",
   "hdr": "0007 000F",
   "jp": "ありがとう、{var_ED}{slot}{slot}{slot}{slot}{slot}。{n}ほんとうに、ありがとうね。",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you, {var_ED}{slot}{slot}{slot}{slot}{slot}.{n}Thank you so, so much.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:30",
   "hdr": "0004 000D",
   "jp": "わん……",
-  "en": "",
-  "status": "todo",
+  "en": "Woof...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:31",
   "hdr": "0004 000D",
   "jp": "わん……{n}{col_F8}(ちょっと寝ます……)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof...{n}{col_F8}(I'll sleep for a little while...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:32",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}！？{n}{var_ED}{slot}{slot}{slot}{slot}{slot}！？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}!?{n}{var_ED}{slot}{slot}{slot}{slot}{slot}!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:33",
   "hdr": "0004 000D",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:34",
   "hdr": "0007 000F",
   "jp": "ぐっすり眠ってる……",
-  "en": "",
-  "status": "todo",
+  "en": "Fast asleep...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:35",
   "hdr": "0005 0012",
   "jp": "さあ、急いで桜を助けないと。",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, we've got to hurry{n}and save the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:36",
   "hdr": "0005 0012",
   "jp": "ほら、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}七海ちゃんの涙は？",
-  "en": "",
-  "status": "todo",
+  "en": "Now, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}Where are Nanami-chan's Tears?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:37",
   "hdr": "0007 000F",
   "jp": "わたしの涙？{n}……恥ずかしい……",
-  "en": "",
-  "status": "todo",
+  "en": "My Tears?{n}...That's embarrassing...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:38",
   "hdr": "FFFF 00FF",
   "jp": "少年は……探した。{n}そして、焦った。{n}どこに落としたんだ？",
-  "en": "",
-  "status": "todo",
+  "en": "The boy... searched.{n}Then he began to panic.{n}Where had he dropped them?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:39",
   "hdr": "0007 000F",
   "jp": "あそこ！",
-  "en": "",
-  "status": "todo",
+  "en": "Over there!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:40",
   "hdr": "0023 0011",
   "jp": "七海、おれ、やっぱり{n}七海のこと……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami, I still...{n}I really do...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:41",
   "hdr": "0007 000F",
   "jp": "あっ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Ah!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:42",
   "hdr": "0023 0011",
   "jp": "七海、おれ、考えたんだけど{n}どうせ電車通学だから……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami, I've been thinking.{n}I take the train to school anyway...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:43",
   "hdr": "0007 000F",
   "jp": "コジマ最低！　最悪！",
-  "en": "",
-  "status": "todo",
+  "en": "Kojima, you're awful! The worst!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:44",
   "hdr": "0023 0011",
   "jp": "え……",
-  "en": "",
-  "status": "todo",
+  "en": "Huh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:45",
   "hdr": "0007 000F",
   "jp": "どうしよう……",
-  "en": "",
-  "status": "todo",
+  "en": "What do we do...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:46",
   "hdr": "0022 0027",
   "jp": "キーキキキキ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee-hee-hee-hee!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:47",
   "hdr": "0008 0014",
   "jp": "きゃっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Eek!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:48",
   "hdr": "0004 000D",
   "jp": "またですかぁ……",
-  "en": "",
-  "status": "todo",
+  "en": "Again...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:49",
   "hdr": "0008 0014",
   "jp": "キキ……うう……{n}ごめん……油断……キキキキ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee... Ugh...{n}Sorry... Let my guard... Hee hee!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:50",
   "hdr": "0007 000F",
   "jp": "ママ！",
-  "en": "",
-  "status": "todo",
+  "en": "Mom!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:51",
   "hdr": "0022 0027",
   "jp": "どうして……キキキキ！{n}わたしをふったのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Why... Hee-hee-hee!{n}Why did you dump me?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:52",
   "hdr": "0022 0027",
   "jp": "キキ！　カナメくん！{n}どうしてこの女がいいのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee! Kaname-kun!{n}Why do you like this woman?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:53",
   "hdr": "0006 0014",
   "jp": "何を言うの！",
-  "en": "",
-  "status": "todo",
+  "en": "What are you saying?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:54",
   "hdr": "0005 0012",
   "jp": "妖怪が取りついてるんだよ。{n}今は我慢して！",
-  "en": "",
-  "status": "todo",
+  "en": "A yokai's possessing her.{n}Just bear with it for now!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:55",
   "hdr": "0004 000D",
   "jp": "わわわん！　わわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff! Ruff-ruff-ruff-ruff!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:56",
   "hdr": "0004 000D",
   "jp": "わわわん！　わわわわん！{n}{col_F8}(ママさん！　しっかりして！)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff! Ruff-ruff-ruff-ruff!{n}{col_F8}(Mama-san! Pull yourself together!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:57",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}、ダメよ！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}, don't!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:58",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くんも、ダメ！{n}だって、ママなんだもん！",
-  "en": "",
-  "status": "todo",
+  "en": "You too, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun! Don't!{n}That's my mom!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:59",
   "hdr": "0007 000F",
   "jp": "ひどいよ！{n}ママは関係ないじゃない！",
-  "en": "",
-  "status": "todo",
+  "en": "You're so cruel!{n}Mom has nothing to do with this!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:60",
   "hdr": "0022 0027",
   "jp": "森羅万象、関係ないことなど{n}何もない！　キキ！",
-  "en": "",
-  "status": "todo",
+  "en": "All things in this world are linked!{n}Nothing is unrelated! Hee hee!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:61",
   "hdr": "0008 0014",
   "jp": "キキ……七海……逃げて……",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee... Nanami... Run...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:62",
   "hdr": "0007 000F",
   "jp": "ママ！　ママ！　いやだよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Mom! Mom! No!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:63",
   "hdr": "0004 000D",
   "jp": "わおーーん！",
-  "en": "",
-  "status": "todo",
+  "en": "Awoooo!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:64",
   "hdr": "0004 000D",
   "jp": "わおーーん！{n}{col_F8}(もうーーーーー！)",
-  "en": "",
-  "status": "todo",
+  "en": "Awoooo!{n}{col_F8}(Enoooough!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:65",
   "hdr": "0004 000D",
   "jp": "わん、わわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, ruff-ruff!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:66",
   "hdr": "0004 000D",
   "jp": "わん、わわん！{n}{col_F8}(この涙、見てください！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, ruff-ruff!{n}{col_F8}(Please look at these Tears!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:67",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わおーん！",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff-ruff! Awooo!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:68",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わおーん！{n}{col_F8}(七海さんを泣かせないで！)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff-ruff! Awooo!{n}{col_F8}(Don't make Nanami-san cry!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:69",
   "hdr": "0004 000D",
   "jp": "ガル……くいん！？",
-  "en": "",
-  "status": "todo",
+  "en": "Grr... Whine!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:70",
   "hdr": "0004 000D",
   "jp": "ガル……くいん！？{n}{col_F8}(どうしたらいいんですか！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Grr... Whine!?{n}{col_F8}(What am I supposed to do!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:71",
   "hdr": "0004 000D",
   "jp": "わんわん！　がう！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof-woof! Grr!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:72",
   "hdr": "0004 000D",
   "jp": "わんわん！　がう！{n}{col_F8}(こんなに頑張ってるのに！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof-woof! Grr!{n}{col_F8}(I'm trying so hard!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:73",
   "hdr": "0004 000D",
   "jp": "がうがう！　わおーん！",
-  "en": "",
-  "status": "todo",
+  "en": "Grr, grr! Awooo!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:74",
   "hdr": "0004 000D",
   "jp": "がうがう！　わおーん！{n}{col_F8}(これ以上、どうするんですか！)",
-  "en": "",
-  "status": "todo",
+  "en": "Grr, grr! Awooo!{n}{col_F8}(What more can I do?!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:75",
   "hdr": "0004 000D",
   "jp": "わわわわん！　がるー。",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff-ruff! Grrr.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:76",
   "hdr": "0004 000D",
   "jp": "わわわわん！　がるー。{n}{col_F8}(桜さん、おねがいです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff-ruff! Grrr.{n}{col_F8}(Sakura-san, please!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:77",
   "hdr": "0004 000D",
   "jp": "わわんわぅ、わん、わわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff, woof, ruff-ruff-ruff-ruff!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:78",
   "hdr": "0004 000D",
   "jp": "わわんわぅ、わん、わわわわん！{n}{col_F8}(助かろうとしてください！)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff, woof, ruff-ruff-ruff-ruff!{n}{col_F8}(Please try to survive!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:79",
   "hdr": "0004 000D",
   "jp": "わわわん……",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:80",
   "hdr": "0004 000D",
   "jp": "わわわん……{n}{col_F8}(あなたの中に……)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff-ruff-ruff...{n}{col_F8}(Inside you...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:81",
   "hdr": "0004 000D",
   "jp": "わう、わわわわわん！　がるっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, ruff-ruff-ruff-ruff-ruff! Grr!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:82",
   "hdr": "0004 000D",
   "jp": "わう、わわわわわん！　がるっ！{n}{col_F8}(もうキマヨイはいませんよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, ruff-ruff-ruff-ruff-ruff! Grr!{n}{col_F8}(Waverwood isn't there anymore!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:83",
   "hdr": "0005 0012",
   "jp": "ええっ！？　どうして！？",
-  "en": "",
-  "status": "todo",
+  "en": "What!? Why!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:84",
   "hdr": "0004 000D",
   "jp": "くいーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:85",
   "hdr": "0004 000D",
   "jp": "くいーん……{n}{col_F8}(くやしいです……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(It's so frustrating...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:86",
   "hdr": "0009 0012",
   "jp": "うう……",
-  "en": "",
-  "status": "todo",
+  "en": "Ugh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:87",
   "hdr": "0005 0012",
   "jp": "佐倉さん！",
-  "en": "",
-  "status": "todo",
+  "en": "Sakura-san!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:88",
   "hdr": "0009 0012",
   "jp": "悲しい涙じゃダメなんです。{n}こっちを使わないと！",
-  "en": "",
-  "status": "todo",
+  "en": "Tears of Sorrow won't work.{n}We have to use these!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:89",
   "hdr": "0005 0012",
   "jp": "悲しい涙じゃダメ？{n}いや、とにかく、{var_EF}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "Tears of Sorrow won't work?{n}Well, anyway, {var_EF}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2526:90",
   "hdr": "00FF 000C",
   "jp": "『{col_F8}うれしいナミダ{col_FC}』を手に入れた！！",
-  "en": "",
-  "status": "todo",
+  "en": "Got {col_F8}Tears of Joy{col_FC}!!",
+  "status": "done",
   "notes": ""
  }
 ]

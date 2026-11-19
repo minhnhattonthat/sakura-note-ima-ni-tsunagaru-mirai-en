@@ -3,296 +3,296 @@
   "id": "2559:0",
   "hdr": "0009 0012",
   "jp": "ええと、何がどうなって{n}いるんでしょうか？",
-  "en": "",
-  "status": "todo",
+  "en": "Um, just what exactly{n}is going on here?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:1",
   "hdr": "0005 0012",
   "jp": "七海ちゃんかタカコさんから{n}何も聞いていませんか？",
-  "en": "",
-  "status": "todo",
+  "en": "Haven't Nanami-chan or Takako-san{n}told you anything?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:2",
   "hdr": "0009 0012",
   "jp": "実はわたし、離婚したものの{n}どうしても七海に会いたくて……",
-  "en": "",
-  "status": "todo",
+  "en": "Well, even after the divorce,{n}I wanted so badly to see Nanami...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:3",
   "hdr": "0009 0012",
   "jp": "恥ずかしながら、この町へ{n}来ているというわけです。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm ashamed to admit it,{n}but that's why I'm here in town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:4",
   "hdr": "0009 0012",
   "jp": "でも、タカコとの約束があって{n}七海と会うわけにもいかず……",
-  "en": "",
-  "status": "todo",
+  "en": "But I made a promise to Takako,{n}so I can't see Nanami...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:5",
   "hdr": "0006 0014",
   "jp": "どんな約束ですか？",
-  "en": "",
-  "status": "todo",
+  "en": "What sort of promise?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:6",
   "hdr": "0009 0012",
   "jp": "七海が新しい生活に慣れるまで{n}会わないという約束です。",
-  "en": "",
-  "status": "todo",
+  "en": "I promised not to see Nanami until{n}she settled into her new life.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:7",
   "hdr": "0009 0012",
   "jp": "でも、あきらめきれずに{n}町をうろうろと……",
-  "en": "",
-  "status": "todo",
+  "en": "But I couldn't give up,{n}so I've been wandering around town...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:8",
   "hdr": "0009 0012",
   "jp": "あははは、情けない。",
-  "en": "",
-  "status": "todo",
+  "en": "Ha ha ha. Pathetic, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:9",
   "hdr": "0005 0012",
   "jp": "では、今回の桜を巡る事件は{n}まったく知らないわけですね。",
-  "en": "",
-  "status": "todo",
+  "en": "So you know nothing about{n}the trouble with the cherry trees.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:10",
   "hdr": "0009 0012",
   "jp": "桜を巡る事件……？",
-  "en": "",
-  "status": "todo",
+  "en": "Trouble with the cherry trees...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:11",
   "hdr": "0005 0012",
   "jp": "妖怪も登場します。",
-  "en": "",
-  "status": "todo",
+  "en": "There are yokai involved, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:12",
   "hdr": "0009 0012",
   "jp": "はあ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:13",
   "hdr": "0005 0012",
   "jp": "七海ちゃんはこの件に深く{n}関わっているようで……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan seems to be{n}deeply involved in all this...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:14",
   "hdr": "0005 0012",
   "jp": "さらに、事件は桐谷町の{n}桜と関係しているらしく……",
-  "en": "",
-  "status": "todo",
+  "en": "And it seems to be connected{n}to Kiriya Town's cherry tree...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:15",
   "hdr": "0005 0012",
   "jp": "でも、詳細を知るはずの{n}重要人物は行方不明……",
-  "en": "",
-  "status": "todo",
+  "en": "But the key person who should{n}know the details is missing...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:16",
   "hdr": "0009 0012",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}さん。失礼ですが{n}あなた、妄想がすぎるんじゃ……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}-san, forgive me,{page}but isn't your imagination{n}getting the better of you...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:17",
   "hdr": "0006 0014",
   "jp": "失礼よ、佐倉さん。{n}それじゃあ、こういう理由はどう？",
-  "en": "",
-  "status": "todo",
+  "en": "That's rude, Sakura-san.{n}Then how about this explanation?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:18",
   "hdr": "0006 0014",
   "jp": "七海ちゃんは桐谷町へ{n}行くつもりらしい。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan seems to be planning{n}to go to Kiriya Town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:19",
   "hdr": "0006 0014",
   "jp": "たぶん、うちの子も一緒。{n}だから、探しているの。",
-  "en": "",
-  "status": "todo",
+  "en": "Our son is probably with her.{n}That's why we're looking for them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:20",
   "hdr": "0009 0012",
   "jp": "それならわかります。{n}ぜひ、わたしも一緒に！",
-  "en": "",
-  "status": "todo",
+  "en": "Now that makes sense.{n}Please, let me come with you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:21",
   "hdr": "0006 0014",
   "jp": "じゃあ、駅に行きましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "Then let's go to the station.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:22",
   "hdr": "0005 0012",
   "jp": "仕方ない。{n}木吉探しは後にしよう。",
-  "en": "",
-  "status": "todo",
+  "en": "No choice, then.{n}Finding Kikichi will have to wait.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:23",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(そうだね)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(You're right.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:24",
   "hdr": "002A 0027",
   "jp": "キマヨイキマヨイ……",
-  "en": "",
-  "status": "todo",
+  "en": "Waverwood, Waverwood...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:25",
   "hdr": "002A 0027",
   "jp": "ムシャクシャしてるぜ！{n}誰でもいいぜ！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm so sick of everything!{n}Anyone will do!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:26",
   "hdr": "0003 000E",
   "jp": "ニャゴ！{n}{col_FA}(ハルカ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(Haruka!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:27",
   "hdr": "0005 0012",
   "jp": "ハルカさん、あぶない！",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka-san, look out!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:28",
   "hdr": "0006 0014",
   "jp": "カナメくん！{n}あなた！",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname-kun!{n}Honey!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:29",
   "hdr": "0006 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:30",
   "hdr": "0006 0014",
   "jp": "ウソでしょ……",
-  "en": "",
-  "status": "todo",
+  "en": "This can't be happening...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:31",
   "hdr": "0005 0012",
   "jp": "ハルカさん……",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka-san...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:32",
   "hdr": "0009 0012",
   "jp": "救急車を呼ばないと！",
-  "en": "",
-  "status": "todo",
+  "en": "We need an ambulance!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:33",
   "hdr": "0005 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:34",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(くやしいよ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(It can't end like this...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:35",
   "hdr": "002A 0012",
   "jp": "な、なんてことを……{n}俺はなんてことを……",
-  "en": "",
-  "status": "todo",
+  "en": "W-what have I done...?{n}What have I done...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2559:36",
   "hdr": "0006 0014",
   "jp": "ウソよね？　ねえ！{n}ねえってば！",
-  "en": "",
-  "status": "todo",
+  "en": "This isn't real, is it? Hey!{n}Answer me!",
+  "status": "done",
   "notes": ""
  }
 ]

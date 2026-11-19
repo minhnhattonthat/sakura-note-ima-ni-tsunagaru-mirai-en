@@ -3,192 +3,192 @@
   "id": "2555:0",
   "hdr": "0006 0014",
   "jp": "どうして、わたしが手伝うのよ。{n}カナメくんの友だちの話でしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "Why should I help?{n}It's your friend, Kaname-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:1",
   "hdr": "0005 0012",
   "jp": "それだけじゃないんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "There's more to it than that.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:2",
   "hdr": "0005 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}と町が{n}ピンチなんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot} and the town{n}are in danger.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:3",
   "hdr": "0006 0014",
   "jp": "……妖怪がどうこうって話？",
-  "en": "",
-  "status": "todo",
+  "en": "...Is this about those yokai again?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:4",
   "hdr": "0005 0012",
   "jp": "うん。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:5",
   "hdr": "0006 0014",
   "jp": "まだ言うの？",
-  "en": "",
-  "status": "todo",
+  "en": "You're still going on about that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:6",
   "hdr": "0003 000E",
   "jp": "{col_FA}(カナメ、もう後にしようよ。{n}　いつか誤解は解けるよ)",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FA}(Kaname, leave it for now.{n}She'll understand someday.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:7",
   "hdr": "001E 0015",
   "jp": "ニャス！{n}{col_FA}(大変だ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(We've got trouble!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:8",
   "hdr": "001D 0016",
   "jp": "{col_FA}(学校で、{var_EF}{slot}{slot}{slot}{slot}{slot}が{n}　妖怪に襲われていたんだ)",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FA}(Yokai were attacking{n}{var_EF}{slot}{slot}{slot}{slot}{slot} at school.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:9",
   "hdr": "0003 000E",
   "jp": "にゃ？{n}{col_FA}(なんだって？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow?{n}{col_FA}(What did you say?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:10",
   "hdr": "0005 0012",
   "jp": "ね、猫さんたち、どうしたんだ！？",
-  "en": "",
-  "status": "todo",
+  "en": "C-cats! What's wrong!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:11",
   "hdr": "0006 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:12",
   "hdr": "0006 0014",
   "jp": "はい……{n}はぁ……",
-  "en": "",
-  "status": "todo",
+  "en": "Yes...{n}Oh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:13",
   "hdr": "0006 0014",
   "jp": "それは大変ですね……{n}はい、伝えます。",
-  "en": "",
-  "status": "todo",
+  "en": "That's awful...{n}Yes, I'll tell him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:14",
   "hdr": "0006 0014",
   "jp": "七海ちゃんが家のお金を{n}持ち出そうとして……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan tried to take{n}some money from home...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:15",
   "hdr": "0006 0014",
   "jp": "叱ったら、家を飛び出したんだって。",
-  "en": "",
-  "status": "todo",
+  "en": "When her mom scolded her,{n}she ran out of the house.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:16",
   "hdr": "0006 0014",
   "jp": "桐谷町へ行くつもりみたいだって……",
-  "en": "",
-  "status": "todo",
+  "en": "She thinks Nanami's planning{n}to go to Kiriya Town...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:17",
   "hdr": "0003 000E",
   "jp": "にゃー！{n}{col_FA}(ほら、ハルカ、見て！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(Here, Haruka! Look!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:18",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}の写真？{n}{var_EE}{slot}{slot}{slot}{slot}{slot}、あなた……",
-  "en": "",
-  "status": "todo",
+  "en": "A photo of {var_EF}{slot}{slot}{slot}{slot}{slot}?{n}{var_EE}{slot}{slot}{slot}{slot}{slot}, you...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:19",
   "hdr": "0005 0012",
   "jp": "今は信じてくれなくてもいいから……{n}応援だけ、してくれないかな？",
-  "en": "",
-  "status": "todo",
+  "en": "You don't have to believe me yet...{n}But could you at least support me?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:20",
   "hdr": "0005 0012",
   "jp": "君に背中を向けられたら{n}ぼくは何もできないんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "If you turn your back on me,{n}I can't do anything.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:21",
   "hdr": "0005 0012",
   "jp": "出会った日から、今でも……{n}それは変わらない。",
-  "en": "",
-  "status": "todo",
+  "en": "From the day we met, even now...{n}That hasn't changed.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:22",
   "hdr": "0006 0014",
   "jp": "とりあえず、駅へ行きましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "Let's go to the station for now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2555:23",
   "hdr": "0005 0012",
   "jp": "ありがとう！",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you!",
+  "status": "done",
   "notes": ""
  }
 ]

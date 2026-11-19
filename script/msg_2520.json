@@ -3,1584 +3,1584 @@
   "id": "2520:0",
   "hdr": "00FF 000C",
   "jp": "もう40年前の古い電車だ。",
-  "en": "",
-  "status": "todo",
+  "en": "This old train is forty years old.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:1",
   "hdr": "00FF 000C",
   "jp": "さびしげなフミキリだ。",
-  "en": "",
-  "status": "todo",
+  "en": "A lonely-looking railroad crossing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:2",
   "hdr": "0070 0012",
   "jp": "君、この町に何しに来たの？{n}ここは遊ぶ場所なんてないぞ？",
-  "en": "",
-  "status": "todo",
+  "en": "What brings you to this town, kid?{n}There's nowhere to play here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:3",
   "hdr": "0070 0012",
   "jp": "さぼってるんじゃないよ。{n}仕事がないんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm not slacking off.{n}There's no work to do.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:4",
   "hdr": "006B 0011",
   "jp": "おやっさん、俺のモンキーレンチ{n}どこにいったか知らない？",
-  "en": "",
-  "status": "todo",
+  "en": "Foreman, have you seen{n}my Adjustable Wrench?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:5",
   "hdr": "006A 0012",
   "jp": "知らねぇよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Beats me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:6",
   "hdr": "006B 0011",
   "jp": "おやっさん！{n}空からモンキーレンチが！",
-  "en": "",
-  "status": "todo",
+  "en": "Foreman! An Adjustable Wrench{n}just fell out of the sky!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:7",
   "hdr": "006A 0012",
   "jp": "いいから働け。",
-  "en": "",
-  "status": "todo",
+  "en": "Just get to work.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:8",
   "hdr": "00FF 000C",
   "jp": "勇気がたりない！",
-  "en": "",
-  "status": "todo",
+  "en": "Not enough courage!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:9",
   "hdr": "006D 0011",
   "jp": "話しかけたい……でも恥ずかしい……{n}サイン欲しいな……",
-  "en": "",
-  "status": "todo",
+  "en": "I want to talk to him... Too shy...{n}I'd love his autograph...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:10",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！　そんなガラクタ{n}ほっといて、はやく行こう？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun! Leave that junk.{n}Come on, let's go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:11",
   "hdr": "006F 0012",
   "jp": "気づいたかい？{n}この町にはネコがいない。",
-  "en": "",
-  "status": "todo",
+  "en": "Have you noticed?{n}There aren't any cats in this town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:12",
   "hdr": "00FF 000C",
   "jp": "これは……さすがにムリだろう。{n}フェンスにとびうつるなんて……",
-  "en": "",
-  "status": "todo",
+  "en": "This... has to be impossible.{n}Jumping across to that fence...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:13",
   "hdr": "00FF 000C",
   "jp": "「たちいりきんし」",
-  "en": "",
-  "status": "todo",
+  "en": "\"Keep Out\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:14",
   "hdr": "0007 000F",
   "jp": "この工場、となりにすんでた{n}おじさんの工場だったんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "This factory belonged to the man{n}who lived next door to us.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:15",
   "hdr": "0007 000F",
   "jp": "もう、工場はつぶれちゃったし{n}おじさんもひっこしちゃったけど……",
-  "en": "",
-  "status": "todo",
+  "en": "The factory's closed down now,{n}and he's moved away, though...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:16",
   "hdr": "0005 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、そんなガラクタ{n}ほっといて、みんなと合流しよう。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, leave that junk.{n}Let's catch up with everyone.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:17",
   "hdr": "00FF 000C",
   "jp": "↑桜ヶ丘{n}→桐谷精巧",
-  "en": "",
-  "status": "todo",
+  "en": "Sakuragaoka: Straight ahead{n}Kiriya Precision: Right",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:18",
   "hdr": "0070 0012",
   "jp": "どこへ行くんだい？{n}この先は、工場しかないよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Where are you headed?{n}There are only factories up ahead.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:19",
   "hdr": "0070 0012",
   "jp": "もしかして、廃工場めぐり？{n}子供のくせにしぶいな。",
-  "en": "",
-  "status": "todo",
+  "en": "Touring abandoned factories?{n}Pretty grown-up tastes for a kid.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:20",
   "hdr": "00FF 000C",
   "jp": "桐谷精巧前",
-  "en": "",
-  "status": "todo",
+  "en": "Outside Kiriya Precision",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:21",
   "hdr": "0011 0017",
   "jp": "開けろってば！",
-  "en": "",
-  "status": "todo",
+  "en": "I said open up!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:22",
   "hdr": "0012 0018",
   "jp": "おとなしく捕まっちゃえよ～！！",
-  "en": "",
-  "status": "todo",
+  "en": "Quit fussing and let us catch you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:23",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん{n}なにか押さえるもの！　はやく！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun! Something to{n}hold it shut! Quick!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:24",
   "hdr": "0007 000F",
   "jp": "そんなんじゃダメだよ！{n}押さえきれないよ！",
-  "en": "",
-  "status": "todo",
+  "en": "That won't work!{n}It won't hold the door shut!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:25",
   "hdr": "0007 000F",
   "jp": "はやくそれをトビラに！",
-  "en": "",
-  "status": "todo",
+  "en": "Quick, put that against the door!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:26",
   "hdr": "0007 000F",
   "jp": "これでもう大丈夫だね。",
-  "en": "",
-  "status": "todo",
+  "en": "There. We should be safe now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:27",
   "hdr": "0007 000F",
   "jp": "……おかしいなぁ。{n}ダレもいないよ。",
-  "en": "",
-  "status": "todo",
+  "en": "...That's strange.{n}Nobody's here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:28",
   "hdr": "0007 000F",
   "jp": "みんな、どこに行っちゃったんだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "I wonder where everyone went.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:29",
   "hdr": "00FF 000C",
   "jp": "壊れたロッカーの扉だ。{n}押さえるものに使えそう！",
-  "en": "",
-  "status": "todo",
+  "en": "A broken locker door.{n}It could hold the door shut!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:30",
   "hdr": "00FF 000C",
   "jp": "ビニール傘だ。{n}押さえるものに使えるかも。",
-  "en": "",
-  "status": "todo",
+  "en": "A plastic umbrella.{n}Maybe it could hold the door shut.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:31",
   "hdr": "00FF 000C",
   "jp": "空き缶だ。{n}これで扉を押さえるのは難しいかも……",
-  "en": "",
-  "status": "todo",
+  "en": "An empty can.{n}It might not hold the door shut...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:32",
   "hdr": "00FF 000C",
   "jp": "七海を置いていけない！",
-  "en": "",
-  "status": "todo",
+  "en": "Can't leave Nanami behind!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:33",
   "hdr": "0007 000F",
   "jp": "な、なんでもないよ。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くん、行こう？",
-  "en": "",
-  "status": "todo",
+  "en": "I-it's nothing.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun, shall we go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:34",
   "hdr": "0007 000F",
   "jp": "キャー！！",
-  "en": "",
-  "status": "todo",
+  "en": "Aaah!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:35",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん、ごめん……{n}シャッターが閉まっちゃった……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun, I'm sorry...{n}The shutter closed...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:36",
   "hdr": "0007 000F",
   "jp": "ええと、たしか前に来た時は{n}管理人さんが……",
-  "en": "",
-  "status": "todo",
+  "en": "Um, the last time I came here,{n}I think the caretaker...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:37",
   "hdr": "0007 000F",
   "jp": "そうだ！{n}思い出した！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, right!{n}I remember!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:38",
   "hdr": "0007 000F",
   "jp": "管理人さんが使ってるカギが{n}どこかにあるはずだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "The key the caretaker uses{n}should be around here somewhere.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:39",
   "hdr": "0007 000F",
   "jp": "それを使えば開くと思う。{n}……多分。",
-  "en": "",
-  "status": "todo",
+  "en": "I think it'll open with that.{n}...Probably.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:40",
   "hdr": "0007 000F",
   "jp": "おねがい、{var_EF}{slot}{slot}{slot}{slot}{slot}くん！{n}カギを探して！",
-  "en": "",
-  "status": "todo",
+  "en": "Please, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}Find the key!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:41",
   "hdr": "00FF 000C",
   "jp": "もう出てこれないと思う。{n}余計なことはしないでおこう。",
-  "en": "",
-  "status": "todo",
+  "en": "It probably can't get out now.{n}Better leave well enough alone.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:42",
   "hdr": "00FF 000C",
   "jp": "ぼんやりしている。{n}スキだらけだ……",
-  "en": "",
-  "status": "todo",
+  "en": "It's staring into space.{n}Its guard is wide open...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:43",
   "hdr": "00FF 000C",
   "jp": "疲れ果てている。{n}やるなら今がチャンスだ……",
-  "en": "",
-  "status": "todo",
+  "en": "It's completely worn out.{n}Now's the chance to make a move...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:44",
   "hdr": "0007 000F",
   "jp": "カギみつかったんだ。{n}さすが{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "You found the key!{n}I knew you could, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:45",
   "hdr": "0007 000F",
   "jp": "勝手に走って行っちゃって{n}ゴメンね……",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry I ran off{n}on my own...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:46",
   "hdr": "0007 000F",
   "jp": "パパの机にあった{n}これ、見てたの。",
-  "en": "",
-  "status": "todo",
+  "en": "I was looking at this.{n}It was on Dad's desk.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:47",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}が産まれた時の写真。",
-  "en": "",
-  "status": "todo",
+  "en": "A photo from when{n}{var_ED}{slot}{slot}{slot}{slot}{slot} was born.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:48",
   "hdr": "0007 000F",
   "jp": "私、泣きながら笑ってて変な顔でしょ？{n}恥ずかしくて、思わず逃げちゃった！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm laughing and crying.{n}My face looks funny, doesn't it?{page}I got so embarrassed,{n}I just ran away!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:49",
   "hdr": "0007 000F",
   "jp": "この時がはじめてかな……{n}うれしくてナミダがでたのは。",
-  "en": "",
-  "status": "todo",
+  "en": "I think that was the first time...{n}I cried Tears because I was happy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:50",
   "hdr": "0007 000F",
   "jp": "あ！　こんな話してる場合じゃなかった！{n}はやくパパを見つけなきゃね！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh! This isn't the time for this!{n}We've got to hurry and find Dad!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:51",
   "hdr": "00FF 000C",
   "jp": "気絶している。{n}そんなことより先を急ごう。",
-  "en": "",
-  "status": "todo",
+  "en": "It's unconscious.{n}Never mind that. Better hurry on.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:52",
   "hdr": "00FF 000C",
   "jp": "眼を回している。{n}そんなことより先を急ごう。",
-  "en": "",
-  "status": "todo",
+  "en": "Its head is spinning.{n}Never mind that. Better hurry on.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:53",
   "hdr": "00FF 000C",
   "jp": "七海がまっている。{n}むかえにいこう。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami's waiting.{n}Better go get her.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:54",
   "hdr": "0007 000F",
   "jp": "ひどい……{n}足場がめちゃくちゃにされてるよ……",
-  "en": "",
-  "status": "todo",
+  "en": "This is awful...{n}The platforms are all wrecked...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:55",
   "hdr": "0007 000F",
   "jp": "ここから先に進むのは無理みたいだね。{n}他に道が無いか、探してみよう。",
-  "en": "",
-  "status": "todo",
+  "en": "Looks like we can't go any farther.{n}Let's look for another way.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:56",
   "hdr": "0007 000F",
   "jp": "スイッチがいっぱいあるね。",
-  "en": "",
-  "status": "todo",
+  "en": "There are so many switches.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:57",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！{n}なにか動いたよ！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}Something moved!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:58",
   "hdr": "0007 000F",
   "jp": "もしかしたら……",
-  "en": "",
-  "status": "todo",
+  "en": "Maybe...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:59",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！{n}もっとスイッチ押してみて！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}Try pressing more switches!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:60",
   "hdr": "0007 000F",
   "jp": "あ、何かが開いた！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, something opened!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:61",
   "hdr": "0007 000F",
   "jp": "大きい機械が動き出したよ！",
-  "en": "",
-  "status": "todo",
+  "en": "The big machine started moving!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:62",
   "hdr": "0007 000F",
   "jp": "ポンプが動いてるよ！",
-  "en": "",
-  "status": "todo",
+  "en": "The pump's running!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:63",
   "hdr": "0007 000F",
   "jp": "ランプが光ってクルクルしているよ！",
-  "en": "",
-  "status": "todo",
+  "en": "The light's flashing and spinning!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:64",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！{n}なんか行けそうだよ！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}Looks like we can get through!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:65",
   "hdr": "0007 000F",
   "jp": "先に進むてがかりがないか{n}探してみよう！",
-  "en": "",
-  "status": "todo",
+  "en": "Let's look for a clue{n}to help us get farther!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:66",
   "hdr": "00FF 000C",
   "jp": "スイッチAがある。{n}押してみようか？",
-  "en": "",
-  "status": "todo",
+  "en": "Here's switch A.{n}Press it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:67",
   "hdr": "00FF 000C",
   "jp": "やめておこう……",
-  "en": "",
-  "status": "todo",
+  "en": "Better not...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:68",
   "hdr": "00FF 000C",
   "jp": "バルブでエラーが発生しました。{n}異物を取り除いてください。",
-  "en": "",
-  "status": "todo",
+  "en": "Valve error detected.{n}Please remove the obstruction.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:69",
   "hdr": "00FF 000C",
   "jp": "浄化槽に汚水を移しました。",
-  "en": "",
-  "status": "todo",
+  "en": "Wastewater transferred{n}to the treatment tank.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:70",
   "hdr": "0007 000F",
   "jp": "なにか起こったみたい！{n}行ってみよう、{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "Something happened!{n}Let's go see, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:71",
   "hdr": "00FF 000C",
   "jp": "変なものがつまっているようだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Something strange seems to be stuck.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:72",
   "hdr": "0010 0017",
   "jp": "こっちはそれどころじゃないんだよ！",
-  "en": "",
-  "status": "todo",
+  "en": "I've got bigger problems right now!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:73",
   "hdr": "0010 0017",
   "jp": "ギャー！　いてててて！",
-  "en": "",
-  "status": "todo",
+  "en": "Aaagh! Ow, ow, ow!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:74",
   "hdr": "0010 0017",
   "jp": "うわーん、ゲーロン様ぁ～！！",
-  "en": "",
-  "status": "todo",
+  "en": "Waaah! Croakmire-sama!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:75",
   "hdr": "00FF 000C",
   "jp": "定期入れが落ちてる。{n}だれかの落し物かな。",
-  "en": "",
-  "status": "todo",
+  "en": "A Commuter Pass Holder.{n}Did somebody drop it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:76",
   "hdr": "0070 0012",
   "jp": "ああ、どうするかなぁ……{n}これじゃ帰れない……ん？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, what am I going to do...?{n}I can't get home like this... Hm?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:77",
   "hdr": "0070 0012",
   "jp": "あれ？　あれあれ？{n}もしかしてそれは俺の定期入れ？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Wait a minute!{n}Is that my Commuter Pass Holder?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:78",
   "hdr": "0070 0012",
   "jp": "うわ、見つけてくれたんだ！{n}ありがとう！",
-  "en": "",
-  "status": "todo",
+  "en": "Wow, you found it!{n}Thank you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:79",
   "hdr": "0070 0012",
   "jp": "なにかお礼がしたいんだけど{n}あいにく、何ももってないんだよねー。",
-  "en": "",
-  "status": "todo",
+  "en": "I'd like to give you a reward,{n}but I haven't got anything on me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:80",
   "hdr": "0070 0012",
   "jp": "あ、そうだ。{n}どうせ仕事もないし、これあげるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, I know. Take this.{n}I've got no work anyway.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:81",
   "hdr": "0070 0012",
   "jp": "ほんと、ありがとね。{n}これで帰れるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Thanks so much.{n}Now I can get home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:82",
   "hdr": "00FF 000C",
   "jp": "おや？　小さな文字で何か書いてある。{n}小さすぎて読めない……",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Something's written in tiny print.{n}It's too small to read...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:83",
   "hdr": "00FF 000C",
   "jp": "おや？　小さな文字で何か書いてある。{n}老眼鏡で大きくして読んでみよう。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Something's written in tiny print.{page}Let's use the Reading Glasses{n}to make it bigger and read it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:84",
   "hdr": "00FF 000C",
   "jp": "《彼は決まった時間に家を出るの。{n}　まじめな人ってステキ。》",
-  "en": "",
-  "status": "todo",
+  "en": "\"He leaves home at the same time daily.{n}I love a man who's so dependable.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:85",
   "hdr": "00FF 000C",
   "jp": "《今日もコンビニ弁当みたい。{n}　体調が心配……》",
-  "en": "",
-  "status": "todo",
+  "en": "\"Another convenience store lunch today.{n}I'm worried about his health...\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:86",
   "hdr": "00FF 000C",
   "jp": "《あっそれと、空き缶はゴミ箱に{n}　捨てなきゃだめだゾ！》",
-  "en": "",
-  "status": "todo",
+  "en": "\"Oh, and you need to put{n}your empty cans in the trash!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:87",
   "hdr": "00FF 000C",
   "jp": "《でもせっかくだから{n}　私がもらっておくね。》",
-  "en": "",
-  "status": "todo",
+  "en": "\"But since it's here,{n}I'll keep this one.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:88",
   "hdr": "00FF 000C",
   "jp": "《最近よく携帯で{n}　楽しそうに会話してるけど……》",
-  "en": "",
-  "status": "todo",
+  "en": "\"He's been chatting so happily{n}on his Cell Phone lately...\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:89",
   "hdr": "00FF 000C",
   "jp": "《相手は誰なの？》",
-  "en": "",
-  "status": "todo",
+  "en": "\"Who is he talking to?\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:90",
   "hdr": "00FF 000C",
   "jp": "《相手は誰なの？　誰なの？　誰？{n}　誰？　誰誰誰誰誰誰誰誰誰誰だれ》",
-  "en": "",
-  "status": "todo",
+  "en": "\"Who is he talking to? Who? Who?{n}Who? Who? Who? Who? Who? Who?{page}Who? Who? Who? Who? Who? Who? Who?\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:91",
   "hdr": "00FF 000C",
   "jp": "《彼のことが好きなあまり{n}　携帯を盗んでしまった》",
-  "en": "",
-  "status": "todo",
+  "en": "\"I love him so much,{n}I stole his Cell Phone.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:92",
   "hdr": "00FF 000C",
   "jp": "《急に怖くなって、彼の携帯を{n}　ゴミ箱に捨ててしまった。》",
-  "en": "",
-  "status": "todo",
+  "en": "\"I suddenly got scared{n}and threw his Cell Phone away.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:93",
   "hdr": "00FF 000C",
   "jp": "《でも許してくれるよね。{n}　好きだからしょうがないよね。》",
-  "en": "",
-  "status": "todo",
+  "en": "\"But he'll forgive me, right?{n}I can't help it. I love him.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:94",
   "hdr": "00FF 000C",
   "jp": "……なんだこれ。{n}ちょっと怖い感じがする。",
-  "en": "",
-  "status": "todo",
+  "en": "...What is this?{n}It's kind of creepy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:95",
   "hdr": "00FF 000C",
   "jp": "よく見てみると、ゴミ箱の中に{n}携帯電話がつっこんである。",
-  "en": "",
-  "status": "todo",
+  "en": "A closer look reveals a Cell Phone{n}stuffed into the trash can.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:96",
   "hdr": "0070 0012",
   "jp": "待ち合わせ場所、ここでいいんだよな……{n}間違ってたら、彼女に怒られちゃうよ。",
-  "en": "",
-  "status": "todo",
+  "en": "This is where we're meeting, right?{n}My girlfriend will be mad if I'm wrong.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:97",
   "hdr": "0070 0012",
   "jp": "携帯なくして、確認もできないし{n}あーまいったな。",
-  "en": "",
-  "status": "todo",
+  "en": "I lost my Cell Phone, so I can't check.{n}Oh, what a mess.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:98",
   "hdr": "0070 0012",
   "jp": "え、なに？{n}気をつけたほうがいい？　何に？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? What?{n}I should be careful? Of what?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:99",
   "hdr": "0070 0012",
   "jp": "あ、それ俺の携帯じゃん！{n}どこに落ちてた？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, that's my Cell Phone!{n}Where did you find it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:100",
   "hdr": "0070 0012",
   "jp": "サンキュー。{n}これで彼女と連絡とれるわ。",
-  "en": "",
-  "status": "todo",
+  "en": "Thanks! Now I can{n}get in touch with my girlfriend.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:101",
   "hdr": "0070 0012",
   "jp": "えーと、お礼お礼っと。{n}これでいい？",
-  "en": "",
-  "status": "todo",
+  "en": "Let's see... a reward, a reward...{n}Will this do?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:102",
   "hdr": "006D 0011",
   "jp": "あの人は普通の兄ちゃんに見えるだろ？{n}だけど実はすごい技術者なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "He looks like an ordinary guy, right?{n}But he's an amazing engineer.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:103",
   "hdr": "006D 0011",
   "jp": "もういくつものすごい特許を{n}とっているんだよ。あやかりたいなあ。",
-  "en": "",
-  "status": "todo",
+  "en": "He's already got all these{n}incredible patents!{page}If only some of that{n}would rub off on me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:104",
   "hdr": "006D 0011",
   "jp": "話しかけろって？{n}無理だよ！　緊張しちゃって！",
-  "en": "",
-  "status": "todo",
+  "en": "You want me to talk to him?{n}No way! I'm too nervous!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:105",
   "hdr": "006D 0011",
   "jp": "でもせめて{n}サインだけでも欲しいなあ……",
-  "en": "",
-  "status": "todo",
+  "en": "But I'd at least like{n}to get his autograph...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:106",
   "hdr": "006C 0012",
   "jp": "え？　オレのサインが欲しい？{n}変わった子だなあ。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? You want my autograph?{n}You're an unusual kid.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:107",
   "hdr": "006C 0012",
   "jp": "別にいいけど。{n}アンケート用紙の裏でいいのかい？",
-  "en": "",
-  "status": "todo",
+  "en": "Sure, I don't mind.{n}Is the back of this survey okay?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:108",
   "hdr": "006D 0011",
   "jp": "うっひゃあ！{n}こ、これ、もらってきてくれたの？",
-  "en": "",
-  "status": "todo",
+  "en": "Wooow!{n}Y-you got this for me?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:109",
   "hdr": "006D 0011",
   "jp": "うわぁ、うわぁ。{n}ガクブチにいれて、毎日おがむわ……",
-  "en": "",
-  "status": "todo",
+  "en": "Wow, just wow! I'll frame it{n}and worship it every day...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:110",
   "hdr": "006D 0011",
   "jp": "代わりに、俺の大事な限定レアものの{n}トルクレンチをあげよう。",
-  "en": "",
-  "status": "todo",
+  "en": "Here, take my treasured{n}limited-edition Torque Wrench.{page}It's a rare one!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:111",
   "hdr": "006D 0011",
   "jp": "え？　何に使うかわからない？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? You don't know what it's for?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:112",
   "hdr": "006D 0011",
   "jp": "ええと、あれだ。{n}ヒーローごっこの武器とかで使いなよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, um... use it as a weapon{n}when you play heroes or something.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:113",
   "hdr": "006D 0011",
   "jp": "ガクブチも立派なやつを{n}用意しなきゃな。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll have to get{n}a really nice frame, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:114",
   "hdr": "006C 0012",
   "jp": "世界がひっくりかえるような{n}ひらめき待ち……",
-  "en": "",
-  "status": "todo",
+  "en": "Waiting for an idea{n}that'll turn the world upside down...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:115",
   "hdr": "006C 0012",
   "jp": "ん、まてよ。{n}何かひらめきそうだ……",
-  "en": "",
-  "status": "todo",
+  "en": "Hm, hang on.{n}I think an idea's coming...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:116",
   "hdr": "006C 0012",
   "jp": "あ、だめだ。{n}ひらめきが、ひっこんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, nope.{n}The idea went back into hiding.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:117",
   "hdr": "006E 0012",
   "jp": "ああ、あとひとつでそろうのに……{n}いったいどこにあるんだろう……",
-  "en": "",
-  "status": "todo",
+  "en": "Just one more to finish the set...{n}Where on earth could it be...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:118",
   "hdr": "006E 0012",
   "jp": "ちょっとあっちに行ってくれないか。{n}おじさん今、落ち込み中で……あ！",
-  "en": "",
-  "status": "todo",
+  "en": "Could you go somewhere else?{n}I'm feeling pretty low... Ah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:119",
   "hdr": "006E 0012",
   "jp": "そ、それはもしかして{n}桐谷精巧起業記念限定トルクレンチ？",
-  "en": "",
-  "status": "todo",
+  "en": "C-could that be the{n}Kiriya Precision Founding{page}Commemorative Torque Wrench?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:120",
   "hdr": "006E 0012",
   "jp": "なんで君のようなちびっこが！{n}どうやって手に入れたの！？",
-  "en": "",
-  "status": "todo",
+  "en": "What's a little kid doing with that!?{n}How did you get it!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:121",
   "hdr": "006E 0012",
   "jp": "君が持っていてもしょうがないよ！{n}ほら、これあげるからレンチをくれ！",
-  "en": "",
-  "status": "todo",
+  "en": "What good is it to you?{n}Here, take this! Give me the wrench!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:122",
   "hdr": "00FF 000C",
   "jp": "ずいぶん勝手なオトナだ……",
-  "en": "",
-  "status": "todo",
+  "en": "What a selfish grown-up...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:123",
   "hdr": "006E 0012",
   "jp": "わざわざ転職して{n}桐谷にひっこしてきたかいがあったぞ！",
-  "en": "",
-  "status": "todo",
+  "en": "Changing jobs and moving to Kiriya{n}just for this was worth it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:124",
   "hdr": "00FF 000C",
   "jp": "あおあおとした、ねこじゃらしだ。{n}{var_EE}{slot}{slot}{slot}{slot}{slot}に持って帰ってやろう。",
-  "en": "",
-  "status": "todo",
+  "en": "A fresh, green foxtail stalk.{n}He'll take it home for {var_EE}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:125",
   "hdr": "00FF 000C",
   "jp": "おっと、軍手が片方だけ落ちている。{n}もう片方は見つからないだろうな……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, there's one Work Glove here.{n}He probably won't find the other...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:126",
   "hdr": "00FF 000C",
   "jp": "今、なにか光ったような……{n}でも汚くて、とても近づく気になれない。",
-  "en": "",
-  "status": "todo",
+  "en": "Did something just sparkle...?{page}But it's so dirty, he doesn't even{n}want to go near it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:127",
   "hdr": "00FF 000C",
   "jp": "今、なにか光ったような……{n}汚いのはイヤだが、気になる！",
-  "en": "",
-  "status": "todo",
+  "en": "Did something just sparkle...?{n}It's filthy, but he's curious!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:128",
   "hdr": "00FF 000C",
   "jp": "軍手をつけて拾ってみよう。",
-  "en": "",
-  "status": "todo",
+  "en": "He'll put on the Work Glove{n}and pick it up.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:129",
   "hdr": "006F 0012",
   "jp": "うん？{n}ネコがいないのはどうしてかって？",
-  "en": "",
-  "status": "todo",
+  "en": "Hm?{n}Why aren't there any cats?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:130",
   "hdr": "006F 0012",
   "jp": "さぁね。{n}少し前まで、たくさんいたんだが……",
-  "en": "",
-  "status": "todo",
+  "en": "Who knows? There were plenty{n}around here until a while ago...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:131",
   "hdr": "006F 0012",
   "jp": "それがいつのまにか{n}人も、猫もいなくなっちまったんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Then, before I knew it,{n}the people and cats were all gone.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:132",
   "hdr": "006F 0012",
   "jp": "ネコ好きとしては{n}かなり寂しいことだね。",
-  "en": "",
-  "status": "todo",
+  "en": "For a cat lover like me,{n}it's pretty lonely.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:133",
   "hdr": "006F 0012",
   "jp": "あ！{n}ネコだ！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh!{n}A cat!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:134",
   "hdr": "006F 0012",
   "jp": "うーん、きっと君のもってるそれが{n}気になってでてきたのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm. Maybe it came out to see{n}that thing you've got?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:135",
   "hdr": "006F 0012",
   "jp": "良かったら、そのネコグッズを{n}もらえないかな？",
-  "en": "",
-  "status": "todo",
+  "en": "If you don't mind,{n}could I have that cat toy?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:136",
   "hdr": "006F 0012",
   "jp": "これも縁だと思って{n}アイツを飼ってみようかなって。",
-  "en": "",
-  "status": "todo",
+  "en": "Maybe we were meant to meet.{n}I'm thinking of taking that cat in.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:137",
   "hdr": "006F 0012",
   "jp": "ありがとう！{n}大切にするよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you!{n}I'll take good care of it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:138",
   "hdr": "006C 0012",
   "jp": "ひらめいた！",
-  "en": "",
-  "status": "todo",
+  "en": "I've got it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:139",
   "hdr": "006C 0012",
   "jp": "君のおかげのような気がする……{n}なんでかは、わからないけれど。",
-  "en": "",
-  "status": "todo",
+  "en": "I feel like it's thanks to you...{n}Though I couldn't say why.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:140",
   "hdr": "006C 0012",
   "jp": "さて、忙しくなるぞ。{n}まずは仕事の仲間を呼びもどさなきゃ。",
-  "en": "",
-  "status": "todo",
+  "en": "Right, I'll be busy now!{n}First, I need my coworkers back.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:141",
   "hdr": "006C 0012",
   "jp": "桐谷復興プロジェクト！{n}どうだい、かっこいいひびきだろう？",
-  "en": "",
-  "status": "todo",
+  "en": "The Kiriya Revival Project!{n}How's that? Sounds cool, huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:142",
   "hdr": "00FF 000C",
   "jp": "豆電球が落ちている。{n}妖怪は光に弱そうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "A Miniature Light Bulb is lying here.{n}Yokai seem to be weak against light.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:143",
   "hdr": "006A 0012",
   "jp": "ドライバー、持ってるか。{n}持ってたら貸してくれ。",
-  "en": "",
-  "status": "todo",
+  "en": "Got a Screwdriver?{n}Lend it here if you do.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:144",
   "hdr": "006A 0012",
   "jp": "……ちょっと待ってな。{n}しばらくかかりそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "...Hang on a bit.{n}Looks like this'll take a while.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:145",
   "hdr": "006A 0012",
   "jp": "おう、ぼうずか。{n}ドライバー貸してくれてありがとな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, it's you, kid.{n}Thanks for lending me the Screwdriver.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:146",
   "hdr": "006A 0012",
   "jp": "俺の最後の仕事も、ぶじ終わったよ。",
-  "en": "",
-  "status": "todo",
+  "en": "My last job's all done.{n}Went off without a hitch.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:147",
   "hdr": "006A 0012",
   "jp": "これはお礼だ。{n}大事なものを詰め込んでうめるといい。",
-  "en": "",
-  "status": "todo",
+  "en": "Here's a little thank-you.{n}Fill it with things you treasure.{page}Then bury it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:148",
   "hdr": "006A 0012",
   "jp": "何年後になるかはわからねえけどよ……",
-  "en": "",
-  "status": "todo",
+  "en": "Can't say how many years it'll be...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:149",
   "hdr": "006A 0012",
   "jp": "それを掘り出した時にはこの町のことも{n}一緒に思い出してくれよ！",
-  "en": "",
-  "status": "todo",
+  "en": "But when you dig it up,{n}remember this town, too!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:150",
   "hdr": "00FF 000C",
   "jp": "壊れた機械がころがってる。{n}よくみるとラジオのようだ。",
-  "en": "",
-  "status": "todo",
+  "en": "A broken machine is lying here.{n}On closer look, it seems to be a radio.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:151",
   "hdr": "00FF 000C",
   "jp": "電球のようなものが割れている。{n}これを交換したら動くかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Something like a light bulb is broken.{n}Would replacing it make this work?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:152",
   "hdr": "00FF 000C",
   "jp": "真空管を交換した！",
-  "en": "",
-  "status": "todo",
+  "en": "Replaced the Vacuum Tube!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:153",
   "hdr": "0070 0012",
   "jp": "うん、いいね。{n}懐かしくて、温かみのある音楽だ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah, that's nice.{n}Such warm music. Takes me back.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:154",
   "hdr": "0070 0012",
   "jp": "ちょっと仕事がなくて{n}やさぐれてたけど……",
-  "en": "",
-  "status": "todo",
+  "en": "I was getting pretty bitter{n}about being out of work...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:155",
   "hdr": "0070 0012",
   "jp": "なんか元気がでてきた……気がする。",
-  "en": "",
-  "status": "todo",
+  "en": "But I'm feeling a little better...{n}I think.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:156",
   "hdr": "00FF 000C",
   "jp": "ラジオから音楽が流れている。{n}曲名はわからないけど……いい曲だ。",
-  "en": "",
-  "status": "todo",
+  "en": "Music is playing on the radio.{n}He doesn't know it... but it's nice.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:157",
   "hdr": "00FF 000C",
   "jp": "チャンネルを変えてみようか？",
-  "en": "",
-  "status": "todo",
+  "en": "Change the station?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:158",
   "hdr": "00FF 000C",
   "jp": "電球のようなものが落ちている。",
-  "en": "",
-  "status": "todo",
+  "en": "Something like a light bulb{n}is lying here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:159",
   "hdr": "0007 000F",
   "jp": "……どうしてこんなことに{n}なっちゃったのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "...How did things{n}end up like this?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:160",
   "hdr": "0007 000F",
   "jp": "もうみんな妖怪に{n}やられちゃったの？",
-  "en": "",
-  "status": "todo",
+  "en": "Did the yokai already{n}get everyone?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:161",
   "hdr": "0007 000F",
   "jp": "パパも！？{n}そうだ、パパの机……",
-  "en": "",
-  "status": "todo",
+  "en": "Dad, too!?{n}Oh, right! Dad's desk...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:162",
   "hdr": "0007 000F",
   "jp": "パパ……あっ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Dad... Ah!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:163",
   "hdr": "0007 000F",
   "jp": "な、なんでもないよ。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くん、行こう？",
-  "en": "",
-  "status": "todo",
+  "en": "I-it's nothing.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun, let's go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:164",
   "hdr": "0007 000F",
   "jp": "ありがとう……{n}ううん、ごめんね……",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you...{n}No, I'm sorry...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:165",
   "hdr": "0007 000F",
   "jp": "パパの机で写真を見つけて……{n}胸がキュンとなっちゃって……",
-  "en": "",
-  "status": "todo",
+  "en": "I found a photo on Dad's desk...{n}And my heart gave a little ache...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:166",
   "hdr": "0007 000F",
   "jp": "それで、自分でもわからないうちに{n}走り出しちゃったの。",
-  "en": "",
-  "status": "todo",
+  "en": "Then, before I even knew{n}what I was doing, I started running.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:167",
   "hdr": "0007 000F",
   "jp": "パパに……会いたくて、ね。",
-  "en": "",
-  "status": "todo",
+  "en": "I just... wanted to see Dad.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:168",
   "hdr": "0007 000F",
   "jp": "写真は{var_ED}{slot}{slot}{slot}{slot}{slot}が{n}生まれた時にとったものなの。",
-  "en": "",
-  "status": "todo",
+  "en": "We took that photo{n}when {var_ED}{slot}{slot}{slot}{slot}{slot} was born.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:169",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}はここで{n}生まれたんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot} was born here,{n}you know.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:170",
   "hdr": "0007 000F",
   "jp": "おなかに赤ちゃんがいるのに{n}捨てられちゃった母犬から……",
-  "en": "",
-  "status": "todo",
+  "en": "The mother dog had been abandoned,{n}even though she was having puppies...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:171",
   "hdr": "0007 000F",
   "jp": "え？　写真はダメ。{n}恥ずかしいから見せない！",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? No, you can't see the photo!{n}It's too embarrassing!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:172",
   "hdr": "0007 000F",
   "jp": "だって、わたし、泣いてるんだもん。",
-  "en": "",
-  "status": "todo",
+  "en": "Because I'm crying in it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:173",
   "hdr": "0007 000F",
   "jp": "感動して、うれしくて{n}泣いちゃったの。",
-  "en": "",
-  "status": "todo",
+  "en": "I was so moved, so happy,{n}that I started crying.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:174",
   "hdr": "0007 000F",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:175",
   "hdr": "0007 000F",
   "jp": "パパ、どこに行ったのかな？{n}まだ工場にいるのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Where did Dad go?{n}Is he still in the factory?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:176",
   "hdr": "0070 0012",
   "jp": "あら、でないな。{n}怒っちゃったかな。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh, no answer.{n}Maybe they're mad at me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:177",
   "hdr": "0070 0012",
   "jp": "まいったなぁ。{n}どこで落としたんだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, man.{n}Where could I have dropped it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:178",
   "hdr": "0005 0012",
   "jp": "最近、大きな会社がつぶれちゃって{n}桐谷の工場もたくさんなくなったんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "A big company went under recently.{n}Lots of Kiriya's factories closed, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:179",
   "hdr": "0005 0012",
   "jp": "……オトナの事情に{n}子供をまきこんじゃ、いかんよなぁ。",
-  "en": "",
-  "status": "todo",
+  "en": "...Kids shouldn't get dragged{n}into grown-ups' problems, should they?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:180",
   "hdr": "0005 0012",
   "jp": "……うん？{n}あ、いや、うちは大丈夫だぞ！！",
-  "en": "",
-  "status": "todo",
+  "en": "...Hm?{n}Oh, no! Our family's fine!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:181",
   "hdr": "00FF 000C",
   "jp": "スイッチBがある。{n}押してみようか？",
-  "en": "",
-  "status": "todo",
+  "en": "There's a switch marked B.{n}Press it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:182",
   "hdr": "00FF 000C",
   "jp": "スイッチCがある。{n}押してみようか？",
-  "en": "",
-  "status": "todo",
+  "en": "There's a switch marked C.{n}Press it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:183",
   "hdr": "00FF 000C",
   "jp": "スイッチDがある。{n}押してみようか？",
-  "en": "",
-  "status": "todo",
+  "en": "There's a switch marked D.{n}Press it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:184",
   "hdr": "00FF 000C",
   "jp": "桜のはなびらが舞っている。",
-  "en": "",
-  "status": "todo",
+  "en": "Cherry blossom petals{n}are dancing in the air.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:185",
   "hdr": "00FF 000C",
   "jp": "なんだか元気や勇気がわいてきた！",
-  "en": "",
-  "status": "todo",
+  "en": "Somehow, he feels full of{n}energy and courage!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:186",
   "hdr": "0020 0015",
   "jp": "シャバ！　シャバ！　ピュ～。",
-  "en": "",
-  "status": "todo",
+  "en": "Freedom! Freedom! Cheep!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:187",
   "hdr": "0020 0015",
   "jp": "ピッ？　キグウ！　グウゼン！？{n}ソノセツハ{sp}オセワニ{sp}ナリマシテー。",
-  "en": "",
-  "status": "todo",
+  "en": "Peep? Fancy that! What a coincidence!{n}Thanks for your help back then!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:188",
   "hdr": "0020 0015",
   "jp": "ピュウ！　サイゴノモンダイデス！",
-  "en": "",
-  "status": "todo",
+  "en": "Cheep! Final question!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:189",
   "hdr": "0020 0015",
   "jp": "トリバクフノ{sp}オブギョーサマ。{n}ジョウニアツイ{sp}トイエバ？",
-  "en": "",
-  "status": "todo",
+  "en": "Which Bird Shogunate magistrate{n}is known for being kindhearted?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:190",
   "hdr": "0020 0015",
   "jp": "ピッピピュウ！　セイカイ！",
-  "en": "",
-  "status": "todo",
+  "en": "Peep-peep-cheep! Correct!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:191",
   "hdr": "0020 0015",
   "jp": "ホトケノ『{col_F9}ピッチィ{col_FC}』サマ！{n}ジブンサガシデ{sp}オデカケチュウ！",
-  "en": "",
-  "status": "todo",
+  "en": "The merciful {col_F9}Chirpy{col_FC}!{n}Out on a journey of self-discovery!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:192",
   "hdr": "0020 0015",
   "jp": "ビュッピュ～！　ザンネン！",
-  "en": "",
-  "status": "todo",
+  "en": "Bzz-cheep! Too bad!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:193",
   "hdr": "0020 0015",
   "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}ノ{sp}エピソードヲ{sp}チェック！{n}ヒント！　ピピッ！",
-  "en": "",
-  "status": "todo",
+  "en": "Check {var_EE}{slot}{slot}{slot}{slot}{slot}'s episodes!{n}There's your hint! Peep-peep!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:194",
   "hdr": "0020 0015",
   "jp": "ピピュウ！？　ゼンモンセイカイ！！{n}コングラッピュ～！！！",
-  "en": "",
-  "status": "todo",
+  "en": "Cheep!? Every answer correct!!{n}Con-grat-you-cheep!!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:195",
   "hdr": "0020 0015",
   "jp": "プレゼント{sp}フォー{sp}ピュー！",
-  "en": "",
-  "status": "todo",
+  "en": "A present for cheep!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:196",
   "hdr": "0020 0015",
   "jp": "ソンジャ{sp}オイトマシマス。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I'll be taking my leave.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2520:197",
   "hdr": "0020 0015",
   "jp": "サヨナラ！　サヨナラ！{n}ピピピッ！",
-  "en": "",
-  "status": "todo",
+  "en": "Goodbye! Goodbye!{n}Peep-peep-peep!",
+  "status": "done",
   "notes": ""
  }
 ]

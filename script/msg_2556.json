@@ -3,152 +3,152 @@
   "id": "2556:0",
   "hdr": "0009 0012",
   "jp": "参ったな……{n}桐谷へ帰るしかないな……",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I'm stuck...{n}I'll have to go back to Kiriya...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:1",
   "hdr": "0003 000E",
   "jp": "にゃ！？{n}{col_FA}(あ、あんたは！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!?{n}{col_FA}(Y-you!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:2",
   "hdr": "0006 0014",
   "jp": "七海ちゃんのお父さん。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan's father.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:3",
   "hdr": "0009 0012",
   "jp": "え？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:4",
   "hdr": "0006 0014",
   "jp": "何度かお会いしてますよね。",
-  "en": "",
-  "status": "todo",
+  "en": "We've met a few times, haven't we?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:5",
   "hdr": "0003 000E",
   "jp": "ニャース！　にゃんにゃ！{n}{col_FA}(佐倉！　木吉の子孫！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Meow-meow!{n}{col_FA}(Sakura! Kikichi's descendant!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:6",
   "hdr": "0006 0014",
   "jp": "逃げたじゃないですか。",
-  "en": "",
-  "status": "todo",
+  "en": "You ran away, remember?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:7",
   "hdr": "0009 0012",
   "jp": "ああ、{var_EF}{slot}{slot}{slot}{slot}{slot}くんの！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, you're {var_EF}{slot}{slot}{slot}{slot}{slot}-kun's mom!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:8",
   "hdr": "0006 0014",
   "jp": "そうです。{n}{var_F0}{slot}{slot}{slot}{slot}{slot}{sp}ハルカです。",
-  "en": "",
-  "status": "todo",
+  "en": "That's right.{n}I'm Haruka {var_F0}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:9",
   "hdr": "0005 0012",
   "jp": "どういうつながり！？",
-  "en": "",
-  "status": "todo",
+  "en": "How do you two know each other!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:10",
   "hdr": "0005 0012",
   "jp": "まあ、いいや。{n}佐倉さん、ぼくのことおぼえてます？",
-  "en": "",
-  "status": "todo",
+  "en": "Well, never mind.{n}Sakura-san, do you remember me?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:11",
   "hdr": "0009 0012",
   "jp": "ええと……",
-  "en": "",
-  "status": "todo",
+  "en": "Let's see...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:12",
   "hdr": "0005 0012",
   "jp": "披露宴で一度だけお会いしました。{n}{var_F0}{slot}{slot}{slot}{slot}{slot}{sp}カナメです。",
-  "en": "",
-  "status": "todo",
+  "en": "We met once at the wedding reception.{n}I'm Kaname {var_F0}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:13",
   "hdr": "0009 0012",
   "jp": "あっ！{n}ナスカイザーおたく！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh!{n}The Nazkaiser geek!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:14",
   "hdr": "0005 0012",
   "jp": "そういう認識ですか……",
-  "en": "",
-  "status": "todo",
+  "en": "That's how you remember me...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:15",
   "hdr": "0006 0014",
   "jp": "ねえ、佐倉さん。{n}七海ちゃんのこと、聞いてます？",
-  "en": "",
-  "status": "todo",
+  "en": "Sakura-san, have you heard{n}about Nanami-chan?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:16",
   "hdr": "0006 0014",
   "jp": "七海ちゃんのこと、聞いてます？",
-  "en": "",
-  "status": "todo",
+  "en": "Have you heard about Nanami-chan?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:17",
   "hdr": "0006 0014",
   "jp": "桐谷町へ行くつもりらしいですよ。",
-  "en": "",
-  "status": "todo",
+  "en": "She seems to be planning{n}to go to Kiriya Town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2556:18",
   "hdr": "0003 000E",
   "jp": "ニャー！　ニニャー！{n}{col_FA}(そうだよ、本題に入ってよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Meeeow!{n}{col_FA}(Right. Get to the point already.)",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,112 +3,112 @@
   "id": "2569:0",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わわわん！{n}{col_F8}(七海さん！　ママさん！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof! W-woof!{n}{col_F8}(Nanami-san! Mama-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:1",
   "hdr": "000E 0012",
   "jp": "チャオ！{n}わが母校はどうだったかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Ciao!{n}How was my old school?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:2",
   "hdr": "002E 000F",
   "jp": "とっても普通でした。",
-  "en": "",
-  "status": "todo",
+  "en": "It was very ordinary.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:3",
   "hdr": "000E 0012",
   "jp": "あははは。普通か。そりゃそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Ha ha ha! Ordinary, huh?{n}I suppose it would be.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:4",
   "hdr": "0008 0014",
   "jp": "先生、{var_ED}{slot}{slot}{slot}{slot}{slot}は{n}どこが悪いんですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Doctor, what's wrong{n}with {var_ED}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:5",
   "hdr": "000E 0012",
   "jp": "ああ、{var_ED}{slot}{slot}{slot}{slot}{slot}はねえ……",
-  "en": "",
-  "status": "todo",
+  "en": "Ah, about {var_ED}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:6",
   "hdr": "000E 0012",
   "jp": "別にどこも悪くないね。",
-  "en": "",
-  "status": "todo",
+  "en": "There's nothing wrong, really.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:7",
   "hdr": "000E 0012",
   "jp": "きっとね、引っ越しで疲れたんだ。{n}トラックで来たんだよね？",
-  "en": "",
-  "status": "todo",
+  "en": "The move probably wore him out.{n}You came in a truck, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:8",
   "hdr": "000E 0012",
   "jp": "犬はだいたい乗り物には{n}弱いからね。",
-  "en": "",
-  "status": "todo",
+  "en": "Dogs tend to get motion sickness,{n}you see.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:9",
   "hdr": "000E 0012",
   "jp": "でも、もうだいじょうぶ。{n}な？",
-  "en": "",
-  "status": "todo",
+  "en": "But you're all better now.{n}Right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:10",
   "hdr": "0004 000D",
   "jp": "くぅーん……{n}{col_F8}(ちがうんです……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(That's not it...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:11",
   "hdr": "0004 000D",
   "jp": "(ボク、あのマンション、苦手です)",
-  "en": "",
-  "status": "todo",
+  "en": "(I don't feel good in that tower.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:12",
   "hdr": "002E 000F",
   "jp": "良かったね、{var_ED}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "That's a relief, {var_ED}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2569:13",
   "hdr": "0004 000D",
   "jp": "(七海さん……)",
-  "en": "",
-  "status": "todo",
+  "en": "(Nanami-san...)",
+  "status": "done",
   "notes": ""
  }
 ]

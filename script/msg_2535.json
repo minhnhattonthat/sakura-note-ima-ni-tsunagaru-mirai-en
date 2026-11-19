@@ -3,152 +3,152 @@
   "id": "2535:0",
   "hdr": "0003 000E",
   "jp": "今日はもう、{n}ゆっくり眠りたいよ……",
-  "en": "",
-  "status": "todo",
+  "en": "All I want now{n}is a good night's sleep...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:1",
   "hdr": "0003 000E",
   "jp": "ハルカ……{n}元気だしてね。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka...{n}Chin up, all right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:2",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(大変！　七海さんが大変なんです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof! Woof-woof-woof!{page}{col_F8}(Help! Nanami-san is in trouble!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:3",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(お願いです！　神社の結界破って下さい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof! Woof-woof-woof!{page}{col_F8}(Please! Break the barrier{n}around the shrine!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:4",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(妖怪の存在を信じてますよね？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof! Woof-woof-woof!{page}{col_F8}(You believe yokai exist,{n}don't you?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:5",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}？　{var_EF}{slot}{slot}{slot}{slot}{slot}！？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}? {var_EF}{slot}{slot}{slot}{slot}{slot}!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:6",
   "hdr": "0006 0014",
   "jp": "ねえ、{var_EE}{slot}{slot}{slot}{slot}{slot}、大変なのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Listen, {var_EE}{slot}{slot}{slot}{slot}{slot}!{n}Something terrible's happened!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:7",
   "hdr": "0003 000E",
   "jp": "ナーゴ！　ナーゴナーゴ！{n}{col_FA}(神社！　神社神社！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Meow, meow!{n}{col_FA}(The shrine! The shrine, the shrine!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:8",
   "hdr": "0006 0014",
   "jp": "え？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:9",
   "hdr": "0003 000E",
   "jp": "ナーゴ！　ナーゴフンギャー！{n}{col_FA}(神社！　{var_EF}{slot}{slot}{slot}{slot}{slot}は神社だよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Mee-yow!{page}{col_FA}(The shrine!{n}{var_EF}{slot}{slot}{slot}{slot}{slot} is at the shrine!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:10",
   "hdr": "0006 0014",
   "jp": "ご飯はあげたでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "I already fed you, didn't I?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:11",
   "hdr": "0003 000E",
   "jp": "にゃー……{n}{col_FA}(ハルカ、長いつきあいなのにね……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{page}{col_FA}(Haruka, after all these years{n}together...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:12",
   "hdr": "0003 000E",
   "jp": "にゃい！{n}{col_FA}(来い！)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew!{n}{col_FA}(Come!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:13",
   "hdr": "0006 0014",
   "jp": "ねえ、今、来いって言ったの！？",
-  "en": "",
-  "status": "todo",
+  "en": "Wait, did you just say \"Come\"!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:14",
   "hdr": "0003 000E",
   "jp": "にゃ！{n}{col_FA}(そう！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(Yes!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:15",
   "hdr": "0006 0014",
   "jp": "わかった。でも、ちょっと待って。{n}カナメくんに電話してくる！",
-  "en": "",
-  "status": "todo",
+  "en": "All right. But wait a moment.{n}I'll go call Kaname-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:16",
   "hdr": "0006 0014",
   "jp": "もう！　カナメくん！{n}どうしてこういう時にいないのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, Kaname-kun!{n}Why are you never here when I need you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:17",
   "hdr": "0006 0014",
   "jp": "カナメくん、高台の方を探すって。{n}わたしは丘下を回るわ。",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname-kun will search Hilltop.{n}I'll look around Lower Hill.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2535:18",
   "hdr": "0003 000E",
   "jp": "にゃー！　ナーーーーゴ！{n}{col_FA}(だから、神社だよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Meeeeeow!{n}{col_FA}(I said, the shrine!)",
+  "status": "done",
   "notes": ""
  }
 ]

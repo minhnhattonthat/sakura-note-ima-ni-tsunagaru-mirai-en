@@ -3,272 +3,272 @@
   "id": "2553:0",
   "hdr": "0006 0014",
   "jp": "そして、バタバタ帰って行ったの。",
-  "en": "",
-  "status": "todo",
+  "en": "Then he rushed off home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:1",
   "hdr": "0006 0014",
   "jp": "ね？　変でしょ？{n}上州先生、おかしくなったのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "See? Isn't that strange?{n}Dr. Joshu's lost his mind!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:2",
   "hdr": "0005 0012",
   "jp": "……本当に妖怪がどうこうって{n}言ったのかい？",
-  "en": "",
-  "status": "todo",
+  "en": "...Did he really say something{n}about yokai?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:3",
   "hdr": "0006 0014",
   "jp": "そうよ。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}に伝えろ、って。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes.{n}He said to tell {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:4",
   "hdr": "0006 0014",
   "jp": "しかも、鳥と{var_EE}{slot}{slot}{slot}{slot}{slot}に{n}おどされているとかなんとか。",
-  "en": "",
-  "status": "todo",
+  "en": "And something about a bird{n}and {var_EE}{slot}{slot}{slot}{slot}{slot} threatening him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:5",
   "hdr": "0005 0012",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:6",
   "hdr": "0006 0014",
   "jp": "……あなた？{n}まさか、信じるの？",
-  "en": "",
-  "status": "todo",
+  "en": "...Honey?{n}Don't tell me you believe him?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:7",
   "hdr": "0005 0012",
   "jp": "春から町の空気がザワザワして{n}いることと関係あるのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Could it be connected to that uneasy{n}feeling in town since spring?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:8",
   "hdr": "0005 0012",
   "jp": "七海ちゃんの様子がおかしいことにも{n}関係ある？",
-  "en": "",
-  "status": "todo",
+  "en": "And to the way Nanami-chan{n}has been acting strangely?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:9",
   "hdr": "0003 000E",
   "jp": "にゃっ！　にゃにゃっ！{n}{col_FA}(そうだよ！　カナメ、そうだよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Meow, meow!{n}{col_FA}(Yes! That's right, Kaname!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:10",
   "hdr": "0003 000E",
   "jp": "にゃーーーっ！　にゃにゃっ！{n}{col_FA}(やっぱりカナメ、すごいよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow! Meow, meow!{n}{col_FA}(I knew it! You're amazing, Kaname!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:11",
   "hdr": "0005 0012",
   "jp": "うーん、上州先生のところへ{n}行ってみるか……",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm... Maybe I should{n}go see Dr. Joshu...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:12",
   "hdr": "0006 0014",
   "jp": "待ってよ。{n}何よ、どうなっているの？",
-  "en": "",
-  "status": "todo",
+  "en": "Hold on.{n}What? What's going on?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:13",
   "hdr": "0006 0014",
   "jp": "あなた、しっかりして！？",
-  "en": "",
-  "status": "todo",
+  "en": "Honey, snap out of it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:14",
   "hdr": "0005 0012",
   "jp": "ハルカさん、落ち着いて。{n}これは……きっと大事なことだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka-san, calm down.{n}This... This must be important.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:15",
   "hdr": "0006 0014",
   "jp": "七海ちゃんね。{n}七海ちゃんの母親に会うんでしょ！",
-  "en": "",
-  "status": "todo",
+  "en": "It's Nanami-chan, isn't it?{n}You're going to see her mother!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:16",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(ハルカ、今、その話は……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Haruka, now's not the time...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:17",
   "hdr": "0006 0014",
   "jp": "行かないでって言ったらどうする？",
-  "en": "",
-  "status": "todo",
+  "en": "What if I asked you not to go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:18",
   "hdr": "0005 0012",
   "jp": "……一緒に行こうって言う。",
-  "en": "",
-  "status": "todo",
+  "en": "...I'd ask you to come with me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:19",
   "hdr": "0005 0012",
   "jp": "七海ちゃんのお母さん……{n}タカコさんは友だちなんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan's mother...{n}Takako-san is a friend.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:20",
   "hdr": "0005 0012",
   "jp": "今、離婚したばかりで{n}ちょっと参ってるんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "She's just been through a divorce.{n}It's been a bit hard on her.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:21",
   "hdr": "0005 0012",
   "jp": "力になってあげたいと思ってる。",
-  "en": "",
-  "status": "todo",
+  "en": "I want to help her.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:22",
   "hdr": "0006 0014",
   "jp": "ずっと隠すつもりだったでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "You were going to keep it{n}a secret forever, weren't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:23",
   "hdr": "0006 0014",
   "jp": "ほんっとにもう！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, honestly!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:24",
   "hdr": "0006 0014",
   "jp": "息子は母親より友だちを選んで{n}花火大会に行っちゃうし……",
-  "en": "",
-  "status": "todo",
+  "en": "First my son chooses his friends{n}over his own mother...{page}Off he goes to the fireworks festival...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:25",
   "hdr": "0006 0014",
   "jp": "それに何？",
-  "en": "",
-  "status": "todo",
+  "en": "And what's all this?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:26",
   "hdr": "0006 0014",
   "jp": "鳥と猫に脅された獣医とか{n}妖怪とか……",
-  "en": "",
-  "status": "todo",
+  "en": "A vet threatened by a bird and a cat,{n}and yokai...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:27",
   "hdr": "0006 0014",
   "jp": "わからない。{n}何がどうなってるの？",
-  "en": "",
-  "status": "todo",
+  "en": "I don't understand.{n}What on earth is going on?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:28",
   "hdr": "0005 0012",
   "jp": "ハルカさん、ぼくを信じて。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka-san, trust me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:29",
   "hdr": "0006 0014",
   "jp": "……行きなさいよ。{n}止めたら、わたしが悪者じゃない。",
-  "en": "",
-  "status": "todo",
+  "en": "...Go, then.{n}I'd be the bad guy if I stopped you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:30",
   "hdr": "0005 0012",
   "jp": "悪者はいないよ。{n}ちょっと誤解があるだけ。",
-  "en": "",
-  "status": "todo",
+  "en": "There's no bad guy here.{n}Just a little misunderstanding.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:31",
   "hdr": "0005 0012",
   "jp": "……行こう、{var_EE}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "",
-  "status": "todo",
+  "en": "...Let's go, {var_EE}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:32",
   "hdr": "0003 000E",
   "jp": "にゃう？{n}{col_FA}(いいのかい？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow?{n}{col_FA}(Are you sure?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2553:33",
   "hdr": "0005 0012",
   "jp": "ヒーローは孤独なのだ！",
-  "en": "",
-  "status": "todo",
+  "en": "A hero stands alone!",
+  "status": "done",
   "notes": ""
  }
 ]

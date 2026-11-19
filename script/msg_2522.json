@@ -3,264 +3,264 @@
   "id": "2522:0",
   "hdr": "0007 000F",
   "jp": "やっぱり……乗ってないか。",
-  "en": "",
-  "status": "todo",
+  "en": "I thought so... Not on board.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:1",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}がいないと{n}変な感じ。",
-  "en": "",
-  "status": "todo",
+  "en": "It feels strange{n}without {var_ED}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:2",
   "hdr": "0007 000F",
   "jp": "今ごろ、寂しがってるかな。",
-  "en": "",
-  "status": "todo",
+  "en": "I wonder if he's lonely right now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:3",
   "hdr": "0007 000F",
   "jp": "えへへ、それはわたしか。",
-  "en": "",
-  "status": "todo",
+  "en": "Hehe. Maybe that's just me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:4",
   "hdr": "0007 000F",
   "jp": "おれがいるじゃないか！　って{n}言わないの？",
-  "en": "",
-  "status": "todo",
+  "en": "Aren't you going to say,{n}\"Hey, you've got me!\"?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:5",
   "hdr": "FFFF 00FF",
   "jp": "少年は真面目に考えた。{n}{n}ぼくはあの犬ほどに、七海の{n}役に立っているのだろうか。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy gave it serious thought.{n}{n}Am I as much help to Nanami{n}as that dog is?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:6",
   "hdr": "FFFF 00FF",
   "jp": "いや、そもそも……",
-  "en": "",
-  "status": "todo",
+  "en": "No, come to think of it...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:7",
   "hdr": "FFFF 00FF",
   "jp": "ぼくは誰かの役に立って{n}いるのだろうか。{n}{n}七海の、両親の、近所の、町の、{n}世界の……",
-  "en": "",
-  "status": "todo",
+  "en": "Am I any help to anyone?{n}{n}To Nanami, my parents, my neighbors,{n}my town, the world...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:8",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！{n}ようこそ、桐谷町へ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}Welcome to Kiriya Town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:9",
   "hdr": "0007 000F",
   "jp": "とりあえず、桜の様子を{n}見に行くでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "We'll go check on the cherry tree{n}first, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:10",
   "hdr": "0007 000F",
   "jp": "問題の、桐谷町の桜は{n}桜ヶ丘に立っているの。",
-  "en": "",
-  "status": "todo",
+  "en": "The Kiriya cherry tree we're{n}worried about is in Sakuragaoka.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:11",
   "hdr": "0007 000F",
   "jp": "あっちよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Over there!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:12",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん。{n}桜ヶ丘へ行ってみようよ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.{n}Let's go to Sakuragaoka.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:13",
   "hdr": "0007 000F",
   "jp": "これが桐谷町の桜。",
-  "en": "",
-  "status": "todo",
+  "en": "This is Kiriya's cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:14",
   "hdr": "0007 000F",
   "jp": "こうして見ると{n}本当に元気が無さそう。",
-  "en": "",
-  "status": "todo",
+  "en": "Seeing it like this,{n}it really does look sick.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:15",
   "hdr": "0007 000F",
   "jp": "歩奥神社の桜から《気》が{n}届いていれば……",
-  "en": "",
-  "status": "todo",
+  "en": "If only the spiritual energy{n}from Pork Shrine's cherry tree{page}could reach it...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:16",
   "hdr": "0007 000F",
   "jp": "どうしてこんなことに{n}なっちゃったのかな……",
-  "en": "",
-  "status": "todo",
+  "en": "How did things{n}end up like this...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:17",
   "hdr": "0007 000F",
   "jp": "これじゃ、町と同じ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's just like the town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:18",
   "hdr": "0007 000F",
   "jp": "いま、通ってきた工場はね、{n}ぜーんぶ空っぽなの。",
-  "en": "",
-  "status": "todo",
+  "en": "Those factories we just passed?{n}Every single one's empty.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:19",
   "hdr": "0007 000F",
   "jp": "生産は外国の工場に移転するって{n}親会社が決めたんだって。",
-  "en": "",
-  "status": "todo",
+  "en": "The company that owned them decided{n}to move production to factories abroad.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:20",
   "hdr": "0007 000F",
   "jp": "とっても安くできるし{n}それが時代の流れ……",
-  "en": "",
-  "status": "todo",
+  "en": "It's much cheaper that way,{n}and that's how times are changing...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:21",
   "hdr": "0007 000F",
   "jp": "働いていた人たちも、どこかへ{n}引っ越してしまったの。",
-  "en": "",
-  "status": "todo",
+  "en": "The people who worked there{n}all moved away somewhere, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:22",
   "hdr": "0007 000F",
   "jp": "だから今はホンの少ししか{n}残っていないんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "So now there are only{n}a few people left.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:23",
   "hdr": "0007 000F",
   "jp": "桜の元気がなくなったのは{n}きっとそのせいね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sure that's why{n}the cherry tree got so weak.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:24",
   "hdr": "0007 000F",
   "jp": "一生懸命咲いても見てくれる人が{n}いないもんね。",
-  "en": "",
-  "status": "todo",
+  "en": "Even if it tries its best to bloom,{n}there's nobody here to see it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:25",
   "hdr": "0007 000F",
   "jp": "張り合い、ないよね……",
-  "en": "",
-  "status": "todo",
+  "en": "Nothing to look forward to...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:26",
   "hdr": "0031 0017",
   "jp": "七海ぃ……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanamiii...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:27",
   "hdr": "0007 000F",
   "jp": "もう！　ここにもいるの！？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, come on! You're here, too!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:28",
   "hdr": "0032 0018",
   "jp": "泣いちゃイヤだよ、七海！",
-  "en": "",
-  "status": "todo",
+  "en": "Don't you cry, Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:29",
   "hdr": "0007 000F",
   "jp": "泣かないわよ！",
-  "en": "",
-  "status": "todo",
+  "en": "I won't!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:30",
   "hdr": "0031 0017",
   "jp": "本当は泣き虫らしいじゃない。{n}だから心配でぇ……",
-  "en": "",
-  "status": "todo",
+  "en": "I hear you're really a crybaby.{n}That's why I'm sooo worried...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:31",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、あっち！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, over there!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2522:32",
   "hdr": "0007 000F",
   "jp": "はやく、はやく！",
-  "en": "",
-  "status": "todo",
+  "en": "Hurry, hurry!",
+  "status": "done",
   "notes": ""
  }
 ]

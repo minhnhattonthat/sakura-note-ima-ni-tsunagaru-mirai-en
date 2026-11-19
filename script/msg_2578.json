@@ -3,208 +3,208 @@
   "id": "2578:0",
   "hdr": "0004 000D",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん、早く{n}来ないかな……",
-  "en": "",
-  "status": "todo",
+  "en": "I hope {var_EF}{slot}{slot}{slot}{slot}{slot}-kun{n}gets here soon...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:1",
   "hdr": "0004 000D",
   "jp": "わ！　わーん！　わわわん！{n}{col_F8}(わっ！　わーっ！　びっくり)",
-  "en": "",
-  "status": "todo",
+  "en": "Yip! Woof! W-w-woof!{n}{col_F8}(Ah! Aaah! You startled me!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:2",
   "hdr": "0009 0012",
   "jp": "おーーーーー！{n}{var_ED}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "Heeey!{n}{var_ED}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:3",
   "hdr": "0009 0012",
   "jp": "元気だったか！",
-  "en": "",
-  "status": "todo",
+  "en": "Have you been well?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:4",
   "hdr": "0004 000D",
   "jp": "わんわわん！　わん、わんわん！{n}{col_F8}(パパさん、ボク、元気でーす！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof-woof! Woof, woof-woof!{n}{col_F8}(Papa-san, I'm doing very well!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:5",
   "hdr": "0009 0012",
   "jp": "タカコと七海はどうしてる？",
-  "en": "",
-  "status": "todo",
+  "en": "How are Takako and Nanami?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:6",
   "hdr": "0004 000D",
   "jp": "わん、わわわん！　わんわん！{n}{col_F8}(大変なんです、七海さんが！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, w-w-woof! Woof-woof!{n}{col_F8}(It's terrible! Nanami-san is...!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:7",
   "hdr": "0009 0012",
   "jp": "そうか、元気か。{n}良かった……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, they're doing well?{n}That's a relief...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:8",
   "hdr": "0004 000D",
   "jp": "わわわん……{n}{col_F8}(パパさん……)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof...{n}{col_F8}(Papa-san...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:9",
   "hdr": "0009 0012",
   "jp": "おれ、ダメなんだよね……{n}こうなるって予想はしてたけどさ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm hopeless, aren't I...?{n}I knew this would happen, but...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:10",
   "hdr": "0009 0012",
   "jp": "起きたら家の中はひとりだろ？{n}たまらなくて……",
-  "en": "",
-  "status": "todo",
+  "en": "I woke up all alone in the house.{n}I couldn't stand it...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:11",
   "hdr": "0009 0012",
   "jp": "15秒くらい悩んだんだけど{n}電車に乗っちゃった。",
-  "en": "",
-  "status": "todo",
+  "en": "I thought it over for 15 seconds{n}or so, then got on a train.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:12",
   "hdr": "0009 0012",
   "jp": "約束だから七海には会えないけど{n}ここに来るくらいはいいよな。",
-  "en": "",
-  "status": "todo",
+  "en": "I promised I wouldn't see Nanami,{n}but coming here is all right, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:13",
   "hdr": "0009 0012",
   "jp": "七海、どうしてる？{n}友達できたかな……いや、まだか。",
-  "en": "",
-  "status": "todo",
+  "en": "How's Nanami? Made any friends?{n}...No, probably not yet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:14",
   "hdr": "0004 000D",
   "jp": "わわわわわん……{n}{col_F8}(そうですねえ……)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-w-woof...{n}{col_F8}(Well, let's see...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:15",
   "hdr": "0004 000D",
   "jp": "わわーん。{n}{col_F8}(あ、そうだ)",
-  "en": "",
-  "status": "todo",
+  "en": "Wooof.{n}{col_F8}(Oh, that's right.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:16",
   "hdr": "0004 000D",
   "jp": "わん、わわわわわん、わわん！{n}{col_F8}(いま、{var_EF}{slot}{slot}{slot}{slot}{slot}くん、来ます)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, w-w-w-woof, woof!{n}{col_F8}({var_EF}{slot}{slot}{slot}{slot}{slot}-kun will be here soon.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:17",
   "hdr": "0004 000D",
   "jp": "わわん、わわわわわん！{n}{col_F8}(七海さんのお友達です！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof-woof, w-w-w-woof!{n}{col_F8}(He's Nanami-san's friend!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:18",
   "hdr": "0009 0012",
   "jp": "ああ、そうそう。{n}七海にはおまえがいるもんな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, of course.{n}Nanami has you, doesn't she?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:19",
   "hdr": "0009 0012",
   "jp": "それにしても、このマンション{n}いいよな……",
-  "en": "",
-  "status": "todo",
+  "en": "Still, this apartment building{n}is nice...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:20",
   "hdr": "0009 0012",
   "jp": "おれも住みたかったな……",
-  "en": "",
-  "status": "todo",
+  "en": "I wish I could've lived here too...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:21",
   "hdr": "0009 0012",
   "jp": "家賃だけ払って{n}住めないなんて……",
-  "en": "",
-  "status": "todo",
+  "en": "Paying the rent when I can't{n}even live here...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:22",
   "hdr": "0004 000D",
   "jp": "わわんわん！{n}{col_F8}({var_EF}{slot}{slot}{slot}{slot}{slot}くん！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof-woof!{n}{col_F8}({var_EF}{slot}{slot}{slot}{slot}{slot}-kun!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:23",
   "hdr": "0009 0012",
   "jp": "な、なんだ？",
-  "en": "",
-  "status": "todo",
+  "en": "W-what is it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:24",
   "hdr": "0006 0014",
   "jp": "……うちの子が何か？",
-  "en": "",
-  "status": "todo",
+  "en": "...Do you want something with my son?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2578:25",
   "hdr": "0009 0012",
   "jp": "い、いえ、なんでもありません！",
-  "en": "",
-  "status": "todo",
+  "en": "N-no, nothing at all!",
+  "status": "done",
   "notes": ""
  }
 ]

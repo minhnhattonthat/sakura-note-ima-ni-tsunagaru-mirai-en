@@ -3,136 +3,136 @@
   "id": "2576:0",
   "hdr": "0004 000D",
   "jp": "ママさん、今日は{n}ナスカイザーみないんですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Mama-san, aren't you watching{n}Nazkaiser today?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:1",
   "hdr": "0004 000D",
   "jp": "桜がみえます。{n}あそこに集合です！",
-  "en": "",
-  "status": "todo",
+  "en": "I can see the cherry tree.{n}That's where we're meeting!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:2",
   "hdr": "0004 000D",
   "jp": "七海さんは本を読む事が{n}大好きなんですよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-san just loves{n}reading books!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:3",
   "hdr": "0004 000D",
   "jp": "さっき干したばっかりの{n}クッションです。ふっかふか！",
-  "en": "",
-  "status": "todo",
+  "en": "This cushion was just put out{n}to air. It's so fluffy!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:4",
   "hdr": "0004 000D",
   "jp": "本を読んでる七海さんは{n}すごい集中しているんですよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-san concentrates so hard{n}when she's reading.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:5",
   "hdr": "0004 000D",
   "jp": "ボクが話しかけても、ママさんが{n}話しかけても、気づかないくらい！",
-  "en": "",
-  "status": "todo",
+  "en": "She doesn't even notice when{n}Mama-san or I speak to her!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:6",
   "hdr": "0004 000D",
   "jp": "ベッドに乗ると怒られます……",
-  "en": "",
-  "status": "todo",
+  "en": "I get scolded if I climb on the bed...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:7",
   "hdr": "005A 0013",
   "jp": "お、お客様！{n}おちついて～！",
-  "en": "",
-  "status": "todo",
+  "en": "P-please, dear customer!{n}Calm dooown!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:8",
   "hdr": "002B 0013",
   "jp": "ねぇ、聞いてる？",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, are you listening?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:9",
   "hdr": "002A 0011",
   "jp": "お、犬だ。{n}アイス食う？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, a dog.{n}Want an Ice Pop?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:10",
   "hdr": "003B 0012",
   "jp": "俺のアイスが消えた！{n}消えたよ！",
-  "en": "",
-  "status": "todo",
+  "en": "My Ice Pop vanished!{n}It's gone!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:11",
   "hdr": "0004 000D",
   "jp": "七海さんを知りませんか！？",
-  "en": "",
-  "status": "todo",
+  "en": "Have you seen Nanami-san!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:12",
   "hdr": "0004 000D",
   "jp": "聞いてくれないです……",
-  "en": "",
-  "status": "todo",
+  "en": "They won't listen to me...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:13",
   "hdr": "FF1A 00FF",
   "jp": "テスト27{n}テスト28",
-  "en": "",
-  "status": "todo",
+  "en": "Test 27{n}Test 28",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:14",
   "hdr": "FF1A 00FF",
   "jp": "テスト29{n}テスト30",
-  "en": "",
-  "status": "todo",
+  "en": "Test 29{n}Test 30",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:15",
   "hdr": "FF1A 00FF",
   "jp": "テスト31{n}テスト32",
-  "en": "",
-  "status": "todo",
+  "en": "Test 31{n}Test 32",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2576:16",
   "hdr": "FF1A 00FF",
   "jp": "テスト33{n}テスト34",
-  "en": "",
-  "status": "todo",
+  "en": "Test 33{n}Test 34",
+  "status": "done",
   "notes": ""
  }
 ]

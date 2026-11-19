@@ -3,168 +3,168 @@
   "id": "2567:0",
   "hdr": "0039 0012",
   "jp": "うん？　どうした、わんこ。{n}エサがほしいのか？",
-  "en": "",
-  "status": "todo",
+  "en": "Hm? What is it, doggy?{n}Want something to eat?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:1",
   "hdr": "0004 000D",
   "jp": "ママさんがよくナスカイザーを{n}みているテレビです。",
-  "en": "",
-  "status": "todo",
+  "en": "This is the TV Mama-san{n}often watches Nazkaiser on.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:2",
   "hdr": "0004 000D",
   "jp": "ふかふかのクッションです。{n}いいにおいがします。",
-  "en": "",
-  "status": "todo",
+  "en": "What a soft, fluffy cushion.{n}It smells nice.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:3",
   "hdr": "0004 000D",
   "jp": "七海さんの本棚です。{n}ボクは読めません……",
-  "en": "",
-  "status": "todo",
+  "en": "This is Nanami-san's bookshelf.{n}I can't read...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:4",
   "hdr": "0039 0012",
   "jp": "すまんなあ。{n}さっきので最後なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry, little fellow.{n}That was the last of it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:5",
   "hdr": "FF1A 00FF",
   "jp": "テスト6{n}テスト7",
-  "en": "",
-  "status": "todo",
+  "en": "Test 6{n}Test 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:6",
   "hdr": "FF1A 00FF",
   "jp": "テスト8{n}テスト9",
-  "en": "",
-  "status": "todo",
+  "en": "Test 8{n}Test 9",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:7",
   "hdr": "FF1A 00FF",
   "jp": "テスト10{n}テスト11",
-  "en": "",
-  "status": "todo",
+  "en": "Test 10{n}Test 11",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:8",
   "hdr": "FF1A 00FF",
   "jp": "テスト12{n}テスト13",
-  "en": "",
-  "status": "todo",
+  "en": "Test 12{n}Test 13",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:9",
   "hdr": "FF1A 00FF",
   "jp": "テスト14{n}テスト15",
-  "en": "",
-  "status": "todo",
+  "en": "Test 14{n}Test 15",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:10",
   "hdr": "FF1A 00FF",
   "jp": "テスト16{n}テスト17",
-  "en": "",
-  "status": "todo",
+  "en": "Test 16{n}Test 17",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:11",
   "hdr": "FF1A 00FF",
   "jp": "テスト18{n}テスト19",
-  "en": "",
-  "status": "todo",
+  "en": "Test 18{n}Test 19",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:12",
   "hdr": "FF1A 00FF",
   "jp": "テスト20{n}テスト21",
-  "en": "",
-  "status": "todo",
+  "en": "Test 20{n}Test 21",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:13",
   "hdr": "FF1A 00FF",
   "jp": "テスト22{n}テスト23",
-  "en": "",
-  "status": "todo",
+  "en": "Test 22{n}Test 23",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:14",
   "hdr": "FF1A 00FF",
   "jp": "テスト24{n}テスト25",
-  "en": "",
-  "status": "todo",
+  "en": "Test 24{n}Test 25",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:15",
   "hdr": "FF1A 00FF",
   "jp": "テスト26{n}テスト27",
-  "en": "",
-  "status": "todo",
+  "en": "Test 26{n}Test 27",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:16",
   "hdr": "FF1A 00FF",
   "jp": "テスト28{n}テスト29",
-  "en": "",
-  "status": "todo",
+  "en": "Test 28{n}Test 29",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:17",
   "hdr": "FF1A 00FF",
   "jp": "テスト30{n}テスト31",
-  "en": "",
-  "status": "todo",
+  "en": "Test 30{n}Test 31",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:18",
   "hdr": "FF1A 00FF",
   "jp": "テスト32{n}テスト33",
-  "en": "",
-  "status": "todo",
+  "en": "Test 32{n}Test 33",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:19",
   "hdr": "FF1A 00FF",
   "jp": "テスト34{n}テスト35",
-  "en": "",
-  "status": "todo",
+  "en": "Test 34{n}Test 35",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2567:20",
   "hdr": "FF1A 00FF",
   "jp": "テスト36{n}テスト37",
-  "en": "",
-  "status": "todo",
+  "en": "Test 36{n}Test 37",
+  "status": "done",
   "notes": ""
  }
 ]

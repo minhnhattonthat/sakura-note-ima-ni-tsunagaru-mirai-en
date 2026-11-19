@@ -2,57 +2,57 @@
  {
   "id": "arm9:092798",
   "jp": "{col_F7}はじめから",
-  "en": "",
+  "en": "{col_F7}Start",
   "max": 14,
-  "status": "todo",
+  "status": "done",
   "notes": "title menu item (New Game)"
  },
  {
   "id": "arm9:0927A6",
   "jp": "{col_F7}--/--/--　--:--",
-  "en": "",
+  "en": "{col_F7}--/--/-- --:--",
   "max": 32,
-  "status": "todo",
+  "status": "done",
   "notes": "save slot date template"
  },
  {
   "id": "arm9:0941C0",
   "jp": "クロサワトオル",
-  "en": "",
+  "en": "Toru K.",
   "max": 20,
-  "status": "todo",
+  "status": "done",
   "notes": "default full name (surname + given)"
  },
  {
   "id": "arm9:0941D4",
   "jp": "クロサワ",
-  "en": "",
+  "en": "Kurosawa",
   "max": 20,
-  "status": "todo",
+  "status": "done",
   "notes": "default surname"
  },
  {
   "id": "arm9:0941E8",
   "jp": "トオル",
-  "en": "",
+  "en": "Toru",
   "max": 20,
-  "status": "todo",
+  "status": "done",
   "notes": "default given name"
  },
  {
   "id": "arm9:0941FC",
   "jp": "トロイメライ",
-  "en": "",
+  "en": "Traumerei",
   "max": 20,
-  "status": "todo",
+  "status": "done",
   "notes": "default pet name (dog or cat: guess)"
  },
  {
   "id": "arm9:094210",
   "jp": "ラインホルト",
-  "en": "",
+  "en": "Reinhold",
   "max": 20,
-  "status": "todo",
+  "status": "done",
   "notes": "default pet name (dog or cat: guess)"
  }
 ]

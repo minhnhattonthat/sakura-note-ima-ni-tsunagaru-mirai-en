@@ -3,184 +3,184 @@
   "id": "2510:0",
   "hdr": "0004 000D",
   "jp": "あれ……こっちへ行くと{n}ハウスに戻ってしまうぞ……",
-  "en": "",
-  "status": "todo",
+  "en": "Huh... If I go this way,{n}I'll end up back home...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:1",
   "hdr": "0004 000D",
   "jp": "あっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Ah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:2",
   "hdr": "0003 000E",
   "jp": "にゃにゃーー……",
-  "en": "",
-  "status": "todo",
+  "en": "Mew-meow...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:3",
   "hdr": "0003 000E",
   "jp": "にゃにゃーー……{n}{col_FA}(まったくもう……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew-meow...{n}{col_FA}(Oh, honestly...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:4",
   "hdr": "0004 000D",
   "jp": "わわわわんわ！",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof, woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:5",
   "hdr": "0004 000D",
   "jp": "わわわわんわ！{n}{col_F8}(七海さんが！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof, woof, woof!{n}{col_F8}(Nanami-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:6",
   "hdr": "0004 000D",
   "jp": "わわわわんわ　わわんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof, woof, woof! Woof-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:7",
   "hdr": "0004 000D",
   "jp": "わわわわんわ　わわんわん！{n}{col_F8}(七海さんが、いないんです！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof, woof, woof! Woof-woof!{n}{col_F8}(Nanami-san is missing!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:8",
   "hdr": "0003 000E",
   "jp": "にゃ……",
-  "en": "",
-  "status": "todo",
+  "en": "Mew...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:9",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(ったく、しょうがないね……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew...{n}{col_FA}(Oh, fine. What choice do I have...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:10",
   "hdr": "0003 000E",
   "jp": "にゃぅ！",
-  "en": "",
-  "status": "todo",
+  "en": "Mew!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:11",
   "hdr": "0003 000E",
   "jp": "にゃぅ！{n}{col_FA}(探す！)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew!{n}{col_FA}(I'll search!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:12",
   "hdr": "FFFF 00FF",
   "jp": "少年は漠然と理解した。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy had a vague idea of what it meant.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:13",
   "hdr": "FFFF 00FF",
   "jp": "今、猫と犬は会話をした。{n}内容は状況から判断して……{n}「七海を捜せ！」",
-  "en": "",
-  "status": "todo",
+  "en": "The cat and dog had just spoken.{n}Judging by the situation...{n}\"Find Nanami!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:14",
   "hdr": "FFFF 00FF",
   "jp": "もう完全に巻き込まれている。{n}引いてる場合じゃない。{n}どうせなら、ヒーローらしくなってやる。",
-  "en": "",
-  "status": "todo",
+  "en": "He was already caught up in all this.{n}This was no time to back away.{n}He might as well act like a hero.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:15",
   "hdr": "FFFF 00FF",
   "jp": "少年は心の中で叫んだ。{n}「七海、すぐ行くぞ！」",
-  "en": "",
-  "status": "todo",
+  "en": "The boy shouted in his heart.{n}\"Nanami, I'm coming!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:16",
   "hdr": "00FF 000C",
   "jp": "タカコがいたら、なんて説明しよう。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}は思いとどまった。",
-  "en": "",
-  "status": "todo",
+  "en": "What would he tell Takako{n}if she was there?{page}{var_EF}{slot}{slot}{slot}{slot}{slot} thought better of it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:17",
   "hdr": "FFFF 00FF",
   "jp": "妖怪が町のあちらこちらにいた。",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai were all over town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:18",
   "hdr": "FFFF 00FF",
   "jp": "町の人たちは誰もそれに{n}気づいていないようだった。",
-  "en": "",
-  "status": "todo",
+  "en": "None of the townspeople{n}seemed to notice them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:19",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。{n}ぼくと七海は特別だ。妖怪が見える。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought,{n}Nanami and I are special.{n}We can see yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:20",
   "hdr": "FFFF 00FF",
   "jp": "しかし、同時に、がっかりした。{n}この能力はどんな役に立つ？",
-  "en": "",
-  "status": "todo",
+  "en": "But he felt let down, too.{n}What good was this power?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:21",
   "hdr": "FFFF 00FF",
   "jp": "スプーン曲げより{n}役に立たなさそうだった。",
-  "en": "",
-  "status": "todo",
+  "en": "It seemed even less useful{n}than bending spoons.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2510:22",
   "hdr": "00FF 000C",
   "jp": "七海が心配だ。{n}みんなのところへ急ごう。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm worried about Nanami.{n}I'd better hurry back to everyone.",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,432 +3,432 @@
   "id": "2565:0",
   "hdr": "0024 0010",
   "jp": "おまえ、消えかかってるぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, you're starting to fade.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:1",
   "hdr": "0003 000E",
   "jp": "もうすぐ生まれ変わるらしいよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Seems I'll be reborn soon.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:2",
   "hdr": "0024 0010",
   "jp": "ふーん。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:3",
   "hdr": "0003 000E",
   "jp": "わたしのチャンスは{n}あと1回なんだとさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Seems I've got just one{n}chance left.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:4",
   "hdr": "0003 000E",
   "jp": "今まで8回生きたんだね……{n}なんにも覚えてないけど。",
-  "en": "",
-  "status": "todo",
+  "en": "So I've lived eight times already...{n}Can't remember any of them, though.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:5",
   "hdr": "0009 0012",
   "jp": "佐倉木吉さん？",
-  "en": "",
-  "status": "todo",
+  "en": "Kikichi-san?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:6",
   "hdr": "0028 0016",
   "jp": "こら、待て！",
-  "en": "",
-  "status": "todo",
+  "en": "You there! Stop!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:7",
   "hdr": "0009 0012",
   "jp": "すいません、少しだけ。{n}わたしのご先祖様なんです！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry, just a moment!{n}He's my ancestor!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:8",
   "hdr": "0028 0016",
   "jp": "うーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:9",
   "hdr": "0024 0010",
   "jp": "おれからも頼む！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm asking you too!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:10",
   "hdr": "0024 0010",
   "jp": "おれはどうせ地獄行きだろ？{n}ちょっとくらい、いいじゃねえかよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm going to hell anyway, right?{n}Can't you spare me a minute?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:11",
   "hdr": "0028 0016",
   "jp": "むむむ……まあ……目をつぶろう。",
-  "en": "",
-  "status": "todo",
+  "en": "Hrrm... Well... I'll turn a blind eye.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:12",
   "hdr": "0024 0010",
   "jp": "おおタカシ！{n}死んでしまうとはなにごとだ！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, Takashi!{n}How could you go and die on me?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:13",
   "hdr": "0009 0012",
   "jp": "妖怪と戦うなんてはじめてで{n}あっさりやられましたよ……",
-  "en": "",
-  "status": "todo",
+  "en": "I'd never fought a yokai before.{n}It made short work of me...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:14",
   "hdr": "0024 0010",
   "jp": "契約の更新はどうなったんだ！？",
-  "en": "",
-  "status": "todo",
+  "en": "What happened to renewing the pact?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:15",
   "hdr": "0009 0012",
   "jp": "まだです。{n}でも、なんとかします。",
-  "en": "",
-  "status": "todo",
+  "en": "Not yet.{n}But I'll work something out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:16",
   "hdr": "0009 0012",
   "jp": "お奉行様にお願いして、戻って{n}仕切り直しです。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll ask the magistrate to let me{n}go back and try again.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:17",
   "hdr": "0024 0010",
   "jp": "そうか……{n}でも、すまねえな。",
-  "en": "",
-  "status": "todo",
+  "en": "I see...{n}Still, I'm sorry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:18",
   "hdr": "0009 0012",
   "jp": "……木吉さん？",
-  "en": "",
-  "status": "todo",
+  "en": "...Kikichi-san?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:19",
   "hdr": "0024 0010",
   "jp": "なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "What is it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:20",
   "hdr": "0009 0012",
   "jp": "知っておきたいことがあるんです。",
-  "en": "",
-  "status": "todo",
+  "en": "There's something I'd like to know.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:21",
   "hdr": "0009 0012",
   "jp": "あなたは桜のために、娘さんの涙を{n}手に入れたんですよね。",
-  "en": "",
-  "status": "todo",
+  "en": "You got your daughter's Tears{n}for the cherry tree, didn't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:22",
   "hdr": "0009 0012",
   "jp": "つまり、かわいい娘を泣かしたわけだ。",
-  "en": "",
-  "status": "todo",
+  "en": "So you made your own dear{n}daughter cry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:23",
   "hdr": "0009 0012",
   "jp": "桜って、そんな大事ですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Is the cherry tree that important?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:24",
   "hdr": "0024 0010",
   "jp": "おまえも娘より仕事を取ったんじゃ{n}ないのか？",
-  "en": "",
-  "status": "todo",
+  "en": "Didn't you choose your work{n}over your daughter too?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:25",
   "hdr": "0009 0012",
   "jp": "それとこれとは……{n}いや、同じですね……はい。",
-  "en": "",
-  "status": "todo",
+  "en": "That's different...{n}No, you're right. It's the same.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:26",
   "hdr": "0024 0010",
   "jp": "おれは、樹医だったから、いつも{n}家にいなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "I was a tree doctor,{n}so I was always away from home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:27",
   "hdr": "0024 0010",
   "jp": "患木があると聞けば東西南北旅から旅。",
-  "en": "",
-  "status": "todo",
+  "en": "Wherever I heard of an ailing tree,{n}I'd set off. One trip after another.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:28",
   "hdr": "0024 0010",
   "jp": "だから、娘のおたねにはさびしい{n}思いをさせていたんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "So my daughter Otane{n}was left feeling lonely.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:29",
   "hdr": "0024 0010",
   "jp": "たまに家に帰っても、悲しそうに{n}泣くんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Even when I did come home,{n}she'd cry such sad tears.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:30",
   "hdr": "0024 0010",
   "jp": "おとうはまた出て行くんでしょ？{n}そう言って泣きやがる。",
-  "en": "",
-  "status": "todo",
+  "en": "\"Dad, you're going away again,{n}aren't you?\" And she'd start crying.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:31",
   "hdr": "0024 0010",
   "jp": "おれは、その涙を契約に{n}使おうと思っていたんだが……",
-  "en": "",
-  "status": "todo",
+  "en": "I was going to use those Tears{n}for the pact, but...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:32",
   "hdr": "0024 0010",
   "jp": "……できなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "...I couldn't do it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:33",
   "hdr": "0024 0010",
   "jp": "娘の悲しみの涙で桜が元気になっても{n}おれはぜんぜん喜べないと思ったよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Even if her sad tears healed the tree,{n}I knew I couldn't be happy about it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:34",
   "hdr": "0009 0012",
   "jp": "どうしたんです？",
-  "en": "",
-  "status": "todo",
+  "en": "What did you do?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:35",
   "hdr": "0024 0010",
   "jp": "おれは、おたねに言ったんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I told Otane.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:36",
   "hdr": "0024 0010",
   "jp": "樹医はやめると言った。{n}ずっと家にいるってな。",
-  "en": "",
-  "status": "todo",
+  "en": "I said I'd quit being a tree doctor.{n}I'd stay home for good.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:37",
   "hdr": "0024 0010",
   "jp": "そしたら、おたねはまた泣いた。{n}涙をポロポロ流してよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Then Otane cried again.{n}The tears just kept rolling down.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:38",
   "hdr": "0024 0010",
   "jp": "初めて見る、娘のうれし涙だった。",
-  "en": "",
-  "status": "todo",
+  "en": "For the first time, I saw{n}my daughter's Tears of Joy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:39",
   "hdr": "0024 0010",
   "jp": "おれはおたねに事情を話して{n}その涙をもらって桜に注いだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I explained it all to Otane,{n}then took those Tears to the tree.{page}I poured them over it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:40",
   "hdr": "0024 0010",
   "jp": "それから、約束通り樹医をやめて{n}地域密着型の植木屋になったんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Then I quit, just like I promised,{n}and became a local gardener.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:41",
   "hdr": "0003 000E",
   "jp": "ちょ、ちょっと待ってよ。",
-  "en": "",
-  "status": "todo",
+  "en": "H-hold on a minute.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:42",
   "hdr": "0003 000E",
   "jp": "なんだかイイ話みたいに語ってるけど{n}マズイんじゃないの？",
-  "en": "",
-  "status": "todo",
+  "en": "You make it sound so touching,{n}but isn't there a problem?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:43",
   "hdr": "0003 000E",
   "jp": "契約更新の条件は、同じ事を{n}子孫がするってことなんでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "To renew the pact, your descendants{n}have to do the same thing, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:44",
   "hdr": "0024 0010",
   "jp": "ああ、そうか！{n}うれし涙じゃないとダメってことか！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, right!{n}They have to be Tears of Joy!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:45",
   "hdr": "0009 0012",
   "jp": "うれし涙……{n}今の状況でそれはちょっと……",
-  "en": "",
-  "status": "todo",
+  "en": "Tears of Joy...{n}With things as they are, that's...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:46",
   "hdr": "0009 0012",
   "jp": "いや、なんとかしなくちゃ。{n}方法は探します。",
-  "en": "",
-  "status": "todo",
+  "en": "No, I have to do something.{n}I'll find a way.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:47",
   "hdr": "0024 0010",
   "jp": "重ね重ね、すまねえな。{n}情けない先祖でスマン……",
-  "en": "",
-  "status": "todo",
+  "en": "I've caused you so much trouble.{n}Sorry I'm such a sorry ancestor...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:48",
   "hdr": "0009 0012",
   "jp": "いいえ。",
-  "en": "",
-  "status": "todo",
+  "en": "Not at all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:49",
   "hdr": "0009 0012",
   "jp": "あなたが育てた桐谷の桜。{n}春に咲く、あの桜。",
-  "en": "",
-  "status": "todo",
+  "en": "The Kiriya cherry tree you raised...{n}That tree that blooms each spring...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:50",
   "hdr": "0009 0012",
   "jp": "200年ずっと、桐谷の人たちに{n}春を告げています。",
-  "en": "",
-  "status": "todo",
+  "en": "For 200 years, it's announced{n}spring to the people of Kiriya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:51",
   "hdr": "0009 0012",
   "jp": "200年ずっと、桐谷の人たちを{n}喜ばせてくれています。",
-  "en": "",
-  "status": "todo",
+  "en": "For 200 years, it's brought joy{n}to the people of Kiriya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:52",
   "hdr": "0009 0012",
   "jp": "木吉さん。尊敬しますよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Kikichi-san. You have my respect.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2565:53",
   "hdr": "0024 0010",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  }
 ]

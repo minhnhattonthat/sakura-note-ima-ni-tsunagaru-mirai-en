@@ -3,288 +3,288 @@
   "id": "2575:0",
   "hdr": "0016 0027",
   "jp": "なぜだ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Why!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:1",
   "hdr": "0016 0027",
   "jp": "おまえたちが、おれたちの復活を願い{n}塔を建てたのではないのか！",
-  "en": "",
-  "status": "todo",
+  "en": "Didn't you build that tower{n}because you wanted us back!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:2",
   "hdr": "0007 000F",
   "jp": "うーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Mmm...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:3",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わわわわわん！{n}{col_F8}(七海さん、よくぞご無事で……)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof! W-w-w-woof!{n}{col_F8}(Nanami-san, thank goodness...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:4",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}……{n}あなたも一緒にさらわれたのね……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}...{n}They kidnapped you too...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:5",
   "hdr": "0004 000D",
   "jp": "ぐうぅ……{n}{col_F8}(いいえ、ぼくは……)",
-  "en": "",
-  "status": "todo",
+  "en": "Grrr...{n}{col_F8}(No, I...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:6",
   "hdr": "0007 000F",
   "jp": "こわかったわね……",
-  "en": "",
-  "status": "todo",
+  "en": "You must have been scared...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:7",
   "hdr": "0007 000F",
   "jp": "あなたが助けてくれたの？{n}ありがとう！",
-  "en": "",
-  "status": "todo",
+  "en": "You saved me?{n}Thank you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:8",
   "hdr": "0007 000F",
   "jp": "今日はこれで2回目。{n}きみはわたしのヒーローだね。",
-  "en": "",
-  "status": "todo",
+  "en": "That's twice today.{n}You're my hero.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:9",
   "hdr": "0007 000F",
   "jp": "ナスカイザーみたい！",
-  "en": "",
-  "status": "todo",
+  "en": "Just like Nazkaiser!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:10",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(七海さん、ぼくも……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Nanami-san, I helped too...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:11",
   "hdr": "0005 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:12",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:13",
   "hdr": "0006 0014",
   "jp": "心配したじゃないの！",
-  "en": "",
-  "status": "todo",
+  "en": "You had me so worried!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:14",
   "hdr": "0005 0012",
   "jp": "あれ？　七海ちゃん！？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Nanami-chan!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:15",
   "hdr": "0006 0014",
   "jp": "……お知り合い？",
-  "en": "",
-  "status": "todo",
+  "en": "...You know her?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:16",
   "hdr": "0005 0012",
   "jp": "え？　ああ。{n}友だちの娘さんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Oh, yes.{n}She's a friend's daughter.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:17",
   "hdr": "0007 000F",
   "jp": "こんにちは。",
-  "en": "",
-  "status": "todo",
+  "en": "Hello.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:18",
   "hdr": "0007 000F",
   "jp": "吉田七海といいます。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くんが助けてくれて……",
-  "en": "",
-  "status": "todo",
+  "en": "My name is Nanami.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun saved me...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:19",
   "hdr": "0006 0014",
   "jp": "いったい、なにがあったの？",
-  "en": "",
-  "status": "todo",
+  "en": "What on earth happened?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:20",
   "hdr": "0007 000F",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:21",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わんわんわん！{n}{col_F8}(七海さんは悪くないですよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof! Woof, woof, woof!{n}{col_F8}(It isn't Nanami-san's fault!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:22",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わんわんわん！{n}{col_F8}(だって妖怪にさらわれたんですから)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof! Woof, woof, woof!{n}{col_F8}(The yokai kidnapped her!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:23",
   "hdr": "0006 0014",
   "jp": "あら……わたし、嫌われちゃったかな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh... I guess he doesn't like me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:24",
   "hdr": "0005 0012",
   "jp": "まあ、もう遅いから{n}とにかく家へ帰ろうか。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, it's getting late.{n}Let's head home for now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:25",
   "hdr": "0006 0014",
   "jp": "そうね、{var_EF}{slot}{slot}{slot}{slot}{slot}、帰りましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes. Let's go home,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:26",
   "hdr": "0006 0014",
   "jp": "あなたは七海さんを送ってあげたら？",
-  "en": "",
-  "status": "todo",
+  "en": "Why don't you take Nanami-san home?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:27",
   "hdr": "0005 0012",
   "jp": "ん、そうだな。",
-  "en": "",
-  "status": "todo",
+  "en": "Mm, good idea.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:28",
   "hdr": "0005 0012",
   "jp": "ねえ、七海ちゃん。",
-  "en": "",
-  "status": "todo",
+  "en": "Say, Nanami-chan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:29",
   "hdr": "0005 0012",
   "jp": "この町、どう思う？",
-  "en": "",
-  "status": "todo",
+  "en": "What do you think of this town?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:30",
   "hdr": "0005 0012",
   "jp": "おじさんは長いこと住んでるけど{n}いいところだと思うよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I've lived here a long time,{n}and I think it's a nice place.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:31",
   "hdr": "0005 0012",
   "jp": "だから、七海ちゃんも{n}気に入るといいな。",
-  "en": "",
-  "status": "todo",
+  "en": "So I hope you'll like it too,{n}Nanami-chan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:32",
   "hdr": "0005 0012",
   "jp": "まだ、落ち着かないかも{n}しれないけど……",
-  "en": "",
-  "status": "todo",
+  "en": "You might not feel settled in{n}just yet...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:33",
   "hdr": "0005 0012",
   "jp": "うん、そのうち、{var_EF}{slot}{slot}{slot}{slot}{slot}に{n}案内させるといいよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, you should have{n}{var_EF}{slot}{slot}{slot}{slot}{slot} show you around sometime.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:34",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くんのお父さんは{n}わたしのママが好きなんですか？",
-  "en": "",
-  "status": "todo",
+  "en": "You're {var_EF}{slot}{slot}{slot}{slot}{slot}-kun's dad...{n}Do you like my mom?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2575:35",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(良かったですね、七海さん……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I'm glad for you, Nanami-san...)",
+  "status": "done",
   "notes": ""
  }
 ]

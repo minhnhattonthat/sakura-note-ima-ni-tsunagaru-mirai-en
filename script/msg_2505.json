@@ -3,256 +3,256 @@
   "id": "2505:0",
   "hdr": "FFFF 00FF",
   "jp": "連休初日。{n}少年は15時間ほど{n}眠ってから目覚めた。",
-  "en": "",
-  "status": "todo",
+  "en": "The first day of the long weekend.{n}The boy woke up after sleeping{n}for about fifteen hours.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:1",
   "hdr": "002F 0012",
   "jp": "ええっ！？　それは大変だね。{n}だいじょうぶ？",
-  "en": "",
-  "status": "todo",
+  "en": "What!? That's awful.{n}Are you okay?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:2",
   "hdr": "002F 0012",
   "jp": "……うん……うん……{n}うん……",
-  "en": "",
-  "status": "todo",
+  "en": "...Yeah... Yeah...{n}Yeah...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:3",
   "hdr": "002F 0012",
   "jp": "ああ、そうだね。{n}それはいいかもしれない。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, right.{n}That might be a good idea.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:4",
   "hdr": "002F 0012",
   "jp": "まあ、本人次第だけど{n}ちゃんと伝えるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, it's up to him, but I'll be{n}sure to tell him about Nanami-chan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:5",
   "hdr": "002F 0012",
   "jp": "ナイス・タイミング！{n}{var_EF}{slot}{slot}{slot}{slot}{slot}、ちょっと来て。",
-  "en": "",
-  "status": "todo",
+  "en": "Perfect timing!{n}{var_EF}{slot}{slot}{slot}{slot}{slot}, come here a second.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:6",
   "hdr": "002F 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、ちょっと来てー。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, come here a second!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:7",
   "hdr": "002F 0012",
   "jp": "吉田七海ちゃん、わかるよな？",
-  "en": "",
-  "status": "todo",
+  "en": "You know Nanami-chan, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:8",
   "hdr": "002F 0012",
   "jp": "元気がなくて、部屋に{n}閉じこもってるんだって。",
-  "en": "",
-  "status": "todo",
+  "en": "I hear she's been feeling down{n}and staying shut in her room.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:9",
   "hdr": "002F 0012",
   "jp": "話しかけても、テキトーな{n}返事しかしないんだそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "When anyone talks to her,{n}she barely bothers to answer.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:10",
   "hdr": "002F 0012",
   "jp": "だから、七海ちゃんのお母さんは{n}とっても心配している。",
-  "en": "",
-  "status": "todo",
+  "en": "So Nanami-chan's mom{n}is really worried.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:11",
   "hdr": "002F 0012",
   "jp": "それで、{var_EF}{slot}{slot}{slot}{slot}{slot}となら{n}口をきくんじゃないかって……",
-  "en": "",
-  "status": "todo",
+  "en": "She thought maybe she'd talk{n}if it was you, {var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:12",
   "hdr": "002F 0012",
   "jp": "どうだろう、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}様子を見に行ってくれないか？",
-  "en": "",
-  "status": "todo",
+  "en": "What do you say, {var_EF}{slot}{slot}{slot}{slot}{slot}?{n}Could you go and see how she is?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:13",
   "hdr": "002F 0012",
   "jp": "七海ちゃんの家は高台にできた{n}新しいマンションだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan lives in that new{n}apartment building up on Hilltop.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:14",
   "hdr": "002F 0012",
   "jp": "通りを南に抜けて行けば{n}そんなに遠くはない。",
-  "en": "",
-  "status": "todo",
+  "en": "Head south along the street.{n}It's not that far.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:15",
   "hdr": "002F 0012",
   "jp": "もちろん、行く行かないは{n}{var_EF}{slot}{slot}{slot}{slot}{slot}次第だけどね。",
-  "en": "",
-  "status": "todo",
+  "en": "Of course, whether you go{n}is up to you, {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:16",
   "hdr": "002F 0012",
   "jp": "ああ、もし行くなら{n}お母さんにも声かけてな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, if you do go,{n}let Mom know too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:17",
   "hdr": "002F 0012",
   "jp": "ちょっと待った、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}お母さんには話したのか？",
-  "en": "",
-  "status": "todo",
+  "en": "Hold on, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}Have you talked to Mom?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:18",
   "hdr": "002F 0012",
   "jp": "お母さんにも声かけてな。",
-  "en": "",
-  "status": "todo",
+  "en": "Let Mom know too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:19",
   "hdr": "0006 0014",
   "jp": "お父さんの声が聞こえたけど……{n}吉田さんの家へ行くの？",
-  "en": "",
-  "status": "todo",
+  "en": "I heard Dad talking...{n}Are you going to Yoshida-san's?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:20",
   "hdr": "0006 0014",
   "jp": "お母さん、ちょっと心配だな。",
-  "en": "",
-  "status": "todo",
+  "en": "Mom's a little worried.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:21",
   "hdr": "0006 0014",
   "jp": "昨日の夜、神社へ行ったのは{n}吉田さんに呼ばれたから？",
-  "en": "",
-  "status": "todo",
+  "en": "Did you go to the shrine last night{n}because Yoshida-san asked you to?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:22",
   "hdr": "0006 0014",
   "jp": "夜、うちまで来て{n}呼び出すなんて……非常識よ。",
-  "en": "",
-  "status": "todo",
+  "en": "Coming here at night to get you{n}to go out... How thoughtless!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:23",
   "hdr": "0006 0014",
   "jp": "いいわ。{n}わたしも行く。",
-  "en": "",
-  "status": "todo",
+  "en": "All right.{n}I'm coming too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:24",
   "hdr": "0006 0014",
   "jp": "善は急げ、急がばまっすぐ{n}戦闘準備OK。",
-  "en": "",
-  "status": "todo",
+  "en": "No time like the present! In a hurry?{n}Go straight through!{page}Ready for battle!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:25",
   "hdr": "0006 0014",
   "jp": "高台のえらそうな{n}マンションでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "That stuck-up apartment building{n}on Hilltop, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:26",
   "hdr": "0006 0014",
   "jp": "行くわよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Let's go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:27",
   "hdr": "002F 0012",
   "jp": "え！？　ハルカさんも行くの？{n}い、いや……気をつけてね。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh!? You're going too, Haruka-san?{n}N-no, I... Take care.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:28",
   "hdr": "0006 0014",
   "jp": "わたしが{var_EF}{slot}{slot}{slot}{slot}{slot}を送って行ったら{n}何か問題あるわけ？",
-  "en": "",
-  "status": "todo",
+  "en": "Is there some problem with me{n}taking {var_EF}{slot}{slot}{slot}{slot}{slot} over there?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:29",
   "hdr": "0003 000E",
   "jp": "にゃー……",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:30",
   "hdr": "002F 0012",
   "jp": "あれ、どうしたの？{n}忘れ物？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, what's wrong?{n}Forget something?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2505:31",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、学校楽しい？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, is school fun?",
+  "status": "done",
   "notes": ""
  }
 ]

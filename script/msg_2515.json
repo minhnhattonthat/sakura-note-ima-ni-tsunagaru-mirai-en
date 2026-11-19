@@ -3,440 +3,440 @@
   "id": "2515:0",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、電話よ。{n}キイチくんから。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, phone for you.{n}It's Kiichi-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:1",
   "hdr": "FFFF 00FF",
   "jp": "少年は友人の名を聞いて{n}思い出した。",
-  "en": "",
-  "status": "todo",
+  "en": "Hearing his friend's name,{n}the boy remembered.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:2",
   "hdr": "FFFF 00FF",
   "jp": "昨夜、絶交だと言われた時の{n}胸の痛みを……",
-  "en": "",
-  "status": "todo",
+  "en": "The ache in his chest last night,{n}when he'd been told{n}their friendship was over...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:3",
   "hdr": "0006 0014",
   "jp": "ほら、急いで！",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, hurry!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:4",
   "hdr": "000B 0011",
   "jp": "あのさ……今、ガンタが{n}うちに来てるんだけど……",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, so... Ganta's{n}over at my place right now...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:5",
   "hdr": "000B 0011",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}も来ない？",
-  "en": "",
-  "status": "todo",
+  "en": "Want to come over too, {var_EF}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:6",
   "hdr": "000B 0011",
   "jp": "ガンタがおまえの話を{n}聞きたがっているんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Ganta wants to hear{n}your side of the story.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:7",
   "hdr": "000B 0011",
   "jp": "もちろん、俺も聞きたいし。{n}絶交中だけど……来ない？",
-  "en": "",
-  "status": "todo",
+  "en": "Of course, I want to hear it too.{page}We're still not friends, but...{n}Want to come over?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:8",
   "hdr": "000B 0011",
   "jp": "いや、来い！",
-  "en": "",
-  "status": "todo",
+  "en": "No, you HAVE to come!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:9",
   "hdr": "000B 0011",
   "jp": "俺たちを神社に置き去りにした{n}理由を説明する義務がある！",
-  "en": "",
-  "status": "todo",
+  "en": "You owe us an explanation{n}for ditching us at the shrine!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:10",
   "hdr": "000B 0011",
   "jp": "じゃあ、店の倉庫で{n}待ってるからな。",
-  "en": "",
-  "status": "todo",
+  "en": "We'll be waiting{n}in the store's storeroom.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:11",
   "hdr": "0006 0014",
   "jp": "今日もおでかけ？{n}キイチくんたちと？",
-  "en": "",
-  "status": "todo",
+  "en": "Going out again today?{n}With Kiichi-kun and the others?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:12",
   "hdr": "0006 0014",
   "jp": "いいんだけど、お昼ご飯までに{n}帰って来て。",
-  "en": "",
-  "status": "todo",
+  "en": "That's fine, but come home{n}in time for lunch.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:13",
   "hdr": "0006 0014",
   "jp": "もし、帰って来られない時は{n}電話を借りて連絡して。",
-  "en": "",
-  "status": "todo",
+  "en": "If you can't make it back,{n}borrow a phone and call me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:14",
   "hdr": "0006 0014",
   "jp": "……{var_EF}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "",
-  "status": "todo",
+  "en": "...{var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:15",
   "hdr": "0006 0014",
   "jp": "信じていないわけじゃないの。{n}でも、なんだか、最近、変よ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's not that I don't trust you.{n}But lately, something feels strange.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:16",
   "hdr": "FFFF 00FF",
   "jp": "少年にもわかっていた。{n}最近、何もかもが変だ。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy knew it, too.{n}Everything was strange lately.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:17",
   "hdr": "FFFF 00FF",
   "jp": "七海、変なおじさん、妖怪……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami, the Strange Man, the yokai...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:18",
   "hdr": "FFFF 00FF",
   "jp": "しかし、母親に説明するのは{n}とても難しいと思った。",
-  "en": "",
-  "status": "todo",
+  "en": "But he thought it would be very hard{n}to explain it all to his mother.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:19",
   "hdr": "0006 0014",
   "jp": "いつか聞きたいな。{n}今、{var_EF}{slot}{slot}{slot}{slot}{slot}が考えたこと。",
-  "en": "",
-  "status": "todo",
+  "en": "Someday, I'd like to hear{n}what you just thought, {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:20",
   "hdr": "0006 0014",
   "jp": "ねえ、{var_EE}{slot}{slot}{slot}{slot}{slot}を{n}見なかった？",
-  "en": "",
-  "status": "todo",
+  "en": "Say, have you seen{n}{var_EE}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:21",
   "hdr": "0004 000D",
   "jp": "わん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:22",
   "hdr": "0004 000D",
   "jp": "わん！{n}{col_F8}(待ってください！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!{n}{col_F8}(Please wait!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:23",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:24",
   "hdr": "0007 000F",
   "jp": "ここが、{var_EF}{slot}{slot}{slot}{slot}{slot}くんち？",
-  "en": "",
-  "status": "todo",
+  "en": "Is this your house,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:25",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}がどんどん走って{n}行っちゃうからついてきたの。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot} kept running ahead,{n}so I followed.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:26",
   "hdr": "0007 000F",
   "jp": "わたしが行きたいところ、{n}知ってたのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "I wonder if he knew{n}where I wanted to go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:27",
   "hdr": "0004 000D",
   "jp": "わわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:28",
   "hdr": "0004 000D",
   "jp": "わわわん！{n}{col_F8}(あたりまえです)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof!{n}{col_F8}(Of course I did.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:29",
   "hdr": "0004 000D",
   "jp": "わわわん！　わわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof! W-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:30",
   "hdr": "0004 000D",
   "jp": "わわわん！　わわわん！{n}{col_F8}(ボクもなんでもわかりますから！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof! W-woof!{n}{col_F8}(I understand everything, too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:31",
   "hdr": "0007 000F",
   "jp": "うわ、得意になってる。",
-  "en": "",
-  "status": "todo",
+  "en": "Wow, look how proud he is.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:32",
   "hdr": "0004 000D",
   "jp": "くぅーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:33",
   "hdr": "0004 000D",
   "jp": "くぅーん……{n}{col_F8}(通じた？　ビミョウかな……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(Did she understand? Hard to say...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:34",
   "hdr": "0007 000F",
   "jp": "ねえ、{var_EF}{slot}{slot}{slot}{slot}{slot}くん。{n}話したいことがあるの。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun.{n}There's something I want to tell you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:35",
   "hdr": "0007 000F",
   "jp": "今、いいかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Is now a good time?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:36",
   "hdr": "FFFF 00FF",
   "jp": "少年は考えた。{n}今は、まったく、よくない。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought about it.{n}Now was a very bad time.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:37",
   "hdr": "FFFF 00FF",
   "jp": "今は、七海よりも{n}ガンタとキイチだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Right now, Ganta and Kiichi{n}had to come before Nanami.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:38",
   "hdr": "FFFF 00FF",
   "jp": "少年は事情を説明した。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy explained what had happened.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:39",
   "hdr": "FFFF 00FF",
   "jp": "昨日のこと。{n}友だちに絶交宣言されたこと。",
-  "en": "",
-  "status": "todo",
+  "en": "About yesterday.{n}About his friend saying they were through.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:40",
   "hdr": "0007 000F",
   "jp": "そうか……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:41",
   "hdr": "0007 000F",
   "jp": "ごめんね。{n}わたしのせいだね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry.{n}It's my fault, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:42",
   "hdr": "0007 000F",
   "jp": "そうだ！{n}わたしも行く。いいでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "I know! I'll come, too.{n}That's okay, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:43",
   "hdr": "0007 000F",
   "jp": "そして、わたしから説明する。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くんは悪くないって。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll explain it to them myself.{n}It's not your fault, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:44",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くんは、わたしを{n}助けてくれただけだもん。",
-  "en": "",
-  "status": "todo",
+  "en": "You were only helping me,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:45",
   "hdr": "FFFF 00FF",
   "jp": "七海から説明してもらうことは{n}とても良い考えに思えた。",
-  "en": "",
-  "status": "todo",
+  "en": "Having Nanami explain{n}seemed like a very good idea.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:46",
   "hdr": "FFFF 00FF",
   "jp": "同時に、男らしくないとも{n}思った。",
-  "en": "",
-  "status": "todo",
+  "en": "At the same time,{n}it didn't seem very manly.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:47",
   "hdr": "FFFF 00FF",
   "jp": "男らしいかどうかなどと{n}考えたのは初めてだった。",
-  "en": "",
-  "status": "todo",
+  "en": "He had never wondered{n}whether he was being manly before.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:48",
   "hdr": "0007 000F",
   "jp": "そうと決まれば、早速行こう！{n}スーパーの方へ行けばいいんだよね。",
-  "en": "",
-  "status": "todo",
+  "en": "Then let's get going!{n}Toward the supermarket, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:49",
   "hdr": "00FF 000C",
   "jp": "この先は高台地区へ続いている。{n}今は用事はない。",
-  "en": "",
-  "status": "todo",
+  "en": "This way leads to Hilltop.{n}There's no need to go there now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:50",
   "hdr": "00FF 000C",
   "jp": "この先には桐谷町へ向かう駅がある。{n}今は用事はない。",
-  "en": "",
-  "status": "todo",
+  "en": "The station for Kiriya is up ahead.{n}There's no need to go there now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:51",
   "hdr": "0007 000F",
   "jp": "キイチくんちへ行くんでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "We're going to Kiichi-kun's, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:52",
   "hdr": "00FF 000C",
   "jp": "桜の木の裏には誰もいない。",
-  "en": "",
-  "status": "todo",
+  "en": "No one's behind the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:53",
   "hdr": "0007 000F",
   "jp": "あれ、{var_EF}{slot}{slot}{slot}{slot}{slot}くん忘れ物？{n}わたしたちここで待ってるね。",
-  "en": "",
-  "status": "todo",
+  "en": "Forget something, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun?{n}We'll wait here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2515:54",
   "hdr": "0004 000D",
   "jp": "わん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!",
+  "status": "done",
   "notes": ""
  }
 ]

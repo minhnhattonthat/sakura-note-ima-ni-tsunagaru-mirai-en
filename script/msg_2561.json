@@ -3,456 +3,456 @@
   "id": "2561:0",
   "hdr": "0024 0010",
   "jp": "ったく、死んじまうとはな……",
-  "en": "",
-  "status": "todo",
+  "en": "Sheesh. You had to go and die...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:1",
   "hdr": "0003 000E",
   "jp": "ふん！",
-  "en": "",
-  "status": "todo",
+  "en": "Hmph!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:2",
   "hdr": "0024 0010",
   "jp": "あんたは{var_EF}{slot}{slot}{slot}{slot}{slot}の{n}父親だよな。",
-  "en": "",
-  "status": "todo",
+  "en": "You're {var_EF}{slot}{slot}{slot}{slot}{slot}'s{n}father, aren't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:3",
   "hdr": "0024 0010",
   "jp": "うん、気配が似てるぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yep. You've got the same presence.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:4",
   "hdr": "0005 0012",
   "jp": "似てますか。気配ですか。ハハハ。",
-  "en": "",
-  "status": "todo",
+  "en": "Have we? The same presence? Ha ha ha.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:5",
   "hdr": "0024 0010",
   "jp": "そうか、死んじまったのか……",
-  "en": "",
-  "status": "todo",
+  "en": "So, you're dead, eh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:6",
   "hdr": "0024 0010",
   "jp": "ここはな、鳥幕府の奉行所だ。",
-  "en": "",
-  "status": "todo",
+  "en": "This here's the Bird Shogunate's{n}magistrate's court.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:7",
   "hdr": "0024 0010",
   "jp": "極楽へ行けるのか{n}地獄へ落ちるのか……",
-  "en": "",
-  "status": "todo",
+  "en": "Whether you go to paradise{n}or fall into hell...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:8",
   "hdr": "0024 0010",
   "jp": "鳥奉行のピッチィ様が{n}お裁きをするのさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Chirpy-sama, the bird magistrate,{n}passes judgment on you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:9",
   "hdr": "0005 0012",
   "jp": "鳥が……ですか。",
-  "en": "",
-  "status": "todo",
+  "en": "A bird... does that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:10",
   "hdr": "0024 0010",
   "jp": "どんな事情か知らないが{n}200年くらい前からだな。",
-  "en": "",
-  "status": "todo",
+  "en": "Don't ask me why, but it's been{n}that way for about 200 years.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:11",
   "hdr": "0024 0010",
   "jp": "エンマ様は鳥幕府に{n}業務委託したらしい。",
-  "en": "",
-  "status": "todo",
+  "en": "Apparently, Lord Enma hired{n}the Bird Shogunate to do the work.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:12",
   "hdr": "0005 0012",
   "jp": "あははは……委託！{n}鳥幕府！",
-  "en": "",
-  "status": "todo",
+  "en": "Ha ha ha... Hired them!{n}The Bird Shogunate!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:13",
   "hdr": "0005 0012",
   "jp": "そんなの、どんな霊能者も{n}言ってませんよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I've never heard a single psychic{n}mention anything like that.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:14",
   "hdr": "0024 0010",
   "jp": "徹底した箝口令のおかげだな。",
-  "en": "",
-  "status": "todo",
+  "en": "That's what a strict gag order{n}will do for you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:15",
   "hdr": "0024 0010",
   "jp": "ああ、一応自己紹介しておくぞ。{n}おれは佐倉木吉。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, better introduce myself.{n}I'm Kikichi.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:16",
   "hdr": "0024 0010",
   "jp": "佐倉タカシと七海の先祖だ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm an ancestor of{n}Takashi Sakura and Nanami.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:17",
   "hdr": "0024 0010",
   "jp": "ところで、猫よ。{n}犬に説明してくれたか？",
-  "en": "",
-  "status": "todo",
+  "en": "By the way, cat.{n}Did you explain it to the dog?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:18",
   "hdr": "0024 0010",
   "jp": "最後にアイツに会った時に{n}詳細は猫に聞けと言っておいたんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Last time I saw him, I told him{n}to ask you for the details.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:19",
   "hdr": "0003 000E",
   "jp": "契約がどうこうってやつ？{n}よりによって犬に？　知らないよ！",
-  "en": "",
-  "status": "todo",
+  "en": "That stuff about a pact?{n}To the dog, of all creatures?{page}I don't know anything about it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:20",
   "hdr": "0024 0010",
   "jp": "げっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Yikes!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:21",
   "hdr": "0003 000E",
   "jp": "もし会ってたとしても{n}犬には荷が重すぎるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Even if they'd met, that's too much{n}for a dog to handle.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:22",
   "hdr": "0003 000E",
   "jp": "それにわたしだって、ちゃんと{n}理解していたわけじゃないしね。",
-  "en": "",
-  "status": "todo",
+  "en": "Besides, I hadn't quite{n}understood it all myself.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:23",
   "hdr": "0024 0010",
   "jp": "そうだ！　そうだった！{n}おれも全部話してなかったんだ！",
-  "en": "",
-  "status": "todo",
+  "en": "Right! That's right!{n}I hadn't told you everything!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:24",
   "hdr": "0003 000E",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:25",
   "hdr": "0024 0010",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:26",
   "hdr": "0005 0012",
   "jp": "あの……これからどうにか{n}すればいいんじゃないですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Um... couldn't we still{n}do something about it now?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:27",
   "hdr": "0005 0012",
   "jp": "というわけで木吉さん……",
-  "en": "",
-  "status": "todo",
+  "en": "So, Kikichi-san...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:28",
   "hdr": "0005 0012",
   "jp": "なんとか地上へ戻る方法は{n}ありませんかね……",
-  "en": "",
-  "status": "todo",
+  "en": "Isn't there some way{n}to get back to the living world...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:29",
   "hdr": "0024 0010",
   "jp": "……強く念じればいい。{n}地上へ戻りたいってな。",
-  "en": "",
-  "status": "todo",
+  "en": "...Just wish hard enough.{n}Wish you could go back up there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:30",
   "hdr": "0005 0012",
   "jp": "それだけでいいんですか？",
-  "en": "",
-  "status": "todo",
+  "en": "That's all it takes?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:31",
   "hdr": "0024 0010",
   "jp": "ああ、簡単なもんだ。{n}でもな……鳥幕府、あなどれないぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah, easy as that. But...{n}don't dismiss the Bird Shogunate.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:32",
   "hdr": "0024 0010",
   "jp": "ちゃんと保険をかけていやがる。",
-  "en": "",
-  "status": "todo",
+  "en": "Those sneaks covered their backs.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:33",
   "hdr": "0024 0010",
   "jp": "そういう方法でここを{n}出てく奴は、呪われるんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Anyone who leaves this place{n}that way gets cursed.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:34",
   "hdr": "0024 0010",
   "jp": "おれの奇っ怪な姿を見ろよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Just look at my freakish body.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:35",
   "hdr": "0005 0012",
   "jp": "………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:36",
   "hdr": "0024 0010",
   "jp": "しかも、すぐに見つかって{n}連れ戻されるのがオチさ。",
-  "en": "",
-  "status": "todo",
+  "en": "And you'll just get caught{n}and dragged right back here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:37",
   "hdr": "0024 0010",
   "jp": "鳥はあちこちにいるからな。{n}鳥の情報網はすごいぞ、あんた。",
-  "en": "",
-  "status": "todo",
+  "en": "Birds are everywhere, my friend.{page}You wouldn't believe how fast{n}they pass the word along.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:38",
   "hdr": "0005 0012",
   "jp": "他の方法はないんですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Isn't there any other way?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:39",
   "hdr": "0024 0010",
   "jp": "死んだけど生き返りたいって{n}話だぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "You're dead, and you want{n}to come back to life.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:40",
   "hdr": "0024 0010",
   "jp": "そんなに方法が{n}あるはずないだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "How many ways do you think{n}there could be?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:41",
   "hdr": "0005 0012",
   "jp": "ぼくはまだ死ぬわけには{n}いかないんです。",
-  "en": "",
-  "status": "todo",
+  "en": "I can't let myself die yet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:42",
   "hdr": "0005 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}はまだ{n}小学生だし、それに……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot} is still{n}in grade school. And besides...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:43",
   "hdr": "0005 0012",
   "jp": "ハルカさんは、かなりの{n}おっちょこちょいです。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka-san can be{n}awfully scatterbrained.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:44",
   "hdr": "0005 0012",
   "jp": "二人きりだと、そのうち{n}火事を出します。",
-  "en": "",
-  "status": "todo",
+  "en": "Left on their own, those two{n}will start a fire sooner or later.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:45",
   "hdr": "0005 0012",
   "jp": "だから、ぼくがちゃんと{n}火の元の確認をしないと……",
-  "en": "",
-  "status": "todo",
+  "en": "So I have to be there to check{n}that everything's turned off...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:46",
   "hdr": "0005 0012",
   "jp": "そんなことじゃなくて！",
-  "en": "",
-  "status": "todo",
+  "en": "That's not what I mean!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:47",
   "hdr": "0005 0012",
   "jp": "息子が、友だちのために{n}がんばっています。",
-  "en": "",
-  "status": "todo",
+  "en": "My son is doing his best{n}to help his friend.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:48",
   "hdr": "0005 0012",
   "jp": "手伝ってやりたいんです。{n}見守ってやりたいんです。",
-  "en": "",
-  "status": "todo",
+  "en": "I want to help him.{n}I want to watch over him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:49",
   "hdr": "0005 0012",
   "jp": "いいえ……",
-  "en": "",
-  "status": "todo",
+  "en": "No...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:50",
   "hdr": "0005 0012",
   "jp": "もっと一緒にいたいんです……",
-  "en": "",
-  "status": "todo",
+  "en": "I want more time with him...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:51",
   "hdr": "0024 0010",
   "jp": "……すまねえな。{n}あんたの息子を巻き込んで。",
-  "en": "",
-  "status": "todo",
+  "en": "...I'm sorry, my friend.{n}For dragging your son into this.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:52",
   "hdr": "0024 0010",
   "jp": "なんとかしてやりたいが……",
-  "en": "",
-  "status": "todo",
+  "en": "I wish I could do something...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:53",
   "hdr": "0024 0010",
   "jp": "いや、待てよ！",
-  "en": "",
-  "status": "todo",
+  "en": "No, hang on!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:54",
   "hdr": "0024 0010",
   "jp": "鳥奉行のピッチィ様は{n}情にもろいお方だ。",
-  "en": "",
-  "status": "todo",
+  "en": "Chirpy-sama, the bird magistrate,{n}has a soft heart.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:55",
   "hdr": "0024 0010",
   "jp": "それに賭けてみろ。{n}やってみる価値はある！",
-  "en": "",
-  "status": "todo",
+  "en": "Take a chance on that.{n}It's worth a try!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2561:56",
   "hdr": "0005 0012",
   "jp": "わかりました。やってみます。",
-  "en": "",
-  "status": "todo",
+  "en": "All right. I'll try it.",
+  "status": "done",
   "notes": ""
  }
 ]

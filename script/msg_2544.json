@@ -3,88 +3,88 @@
   "id": "2544:0",
   "hdr": "0003 000E",
   "jp": "どこ行ったんだよ、犬！",
-  "en": "",
-  "status": "todo",
+  "en": "Where'd you go, dog?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:1",
   "hdr": "0003 000E",
   "jp": "あら？",
-  "en": "",
-  "status": "todo",
+  "en": "Hm?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:2",
   "hdr": "0003 000E",
   "jp": "今、{var_EF}{slot}{slot}{slot}{slot}{slot}の声が聞こえた……{n}「助けて」って聞こえたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I just heard {var_EF}{slot}{slot}{slot}{slot}{slot}'s voice...{n}I heard him call, \"Help!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:3",
   "hdr": "0003 000E",
   "jp": "またここに入るのか……",
-  "en": "",
-  "status": "todo",
+  "en": "Back in here again...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:4",
   "hdr": "0003 000E",
   "jp": "仕方ない。{n}行きますか。",
-  "en": "",
-  "status": "todo",
+  "en": "No choice, then.{n}In I go.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:5",
   "hdr": "0003 000E",
   "jp": "にや……{n}{col_FA}(ふふふ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Heh heh heh...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:6",
   "hdr": "0010 0017",
   "jp": "げっ……",
-  "en": "",
-  "status": "todo",
+  "en": "Urk...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:7",
   "hdr": "0003 000E",
   "jp": "にやにや……{n}{col_FA}(たたるよ、たたるよ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew, mew...{n}{col_FA}(I'll curse you... I'll curse you...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:8",
   "hdr": "0010 0018",
   "jp": "た、たたるなっ！",
-  "en": "",
-  "status": "todo",
+  "en": "D-don't curse me!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:9",
   "hdr": "0003 000E",
   "jp": "ニャッ！{n}{col_FA}(こっちだよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew!{n}{col_FA}(Over here.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2544:10",
   "hdr": "0003 000E",
   "jp": "ニャーーーッ！{n}{col_FA}(逃げろーーー！)",
-  "en": "",
-  "status": "todo",
+  "en": "MEOOOW!{n}{col_FA}(Ruuun!)",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,144 +3,144 @@
   "id": "2530:0",
   "hdr": "0006 0014",
   "jp": "ねえ、{var_EE}{slot}{slot}{slot}{slot}{slot}、どう思う？",
-  "en": "",
-  "status": "todo",
+  "en": "What do you think, {var_EE}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:1",
   "hdr": "0003 000E",
   "jp": "(この女……ハルカは、時々{n}　こうして、わたしに相談する)",
-  "en": "",
-  "status": "todo",
+  "en": "(This woman... Haruka sometimes{n}asks my advice like this.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:2",
   "hdr": "0003 000E",
   "jp": "(自分の考えを整理するためらしい。{n}　わたしとしては、うっとうしい)",
-  "en": "",
-  "status": "todo",
+  "en": "(Apparently it helps her think.{n}I find it a nuisance.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:3",
   "hdr": "0003 000E",
   "jp": "(でも、わたしはガマンする。{n}　わたしはハルカに恩を感じている)",
-  "en": "",
-  "status": "todo",
+  "en": "(Still, I put up with it.{n}I owe Haruka for her kindness.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:4",
   "hdr": "0003 000E",
   "jp": "(猫は恩を忘れやすいなんて{n}　誰が言ったんだろう……)",
-  "en": "",
-  "status": "todo",
+  "en": "(Who said cats are quick{n}to forget kindness...?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:5",
   "hdr": "0006 0014",
   "jp": "女から何度も電話が来てたのよ。{n}カナメさん、いますか？　って。",
-  "en": "",
-  "status": "todo",
+  "en": "A woman kept calling, asking,{n}\"Is Kaname-san there?\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:6",
   "hdr": "0006 0014",
   "jp": "その電話が来なくなったと{n}いうことは……",
-  "en": "",
-  "status": "todo",
+  "en": "And now she's stopped calling...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:7",
   "hdr": "0006 0014",
   "jp": "すでに連絡を取ったという{n}ことでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "That means she's already{n}gotten in touch with him, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:8",
   "hdr": "0003 000E",
   "jp": "ににゃー……{n}{col_FA}(そうかも……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mreow...{n}{col_FA}(Could be...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:9",
   "hdr": "0006 0014",
   "jp": "女は桐谷(きりや)町の{n}吉田って言ってたわ。",
-  "en": "",
-  "status": "todo",
+  "en": "She said her name was Yoshida,{n}from Kiriya Town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:10",
   "hdr": "0006 0014",
   "jp": "桐谷のことなんて{n}何も知らないけど……",
-  "en": "",
-  "status": "todo",
+  "en": "I don't know a thing{n}about Kiriya, though...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:11",
   "hdr": "0006 0014",
   "jp": "いえ確か《大桜餅(だいさくらもち)》{n}が名物よね。",
-  "en": "",
-  "status": "todo",
+  "en": "No, wait. It's famous for{n}Great Sakura Mochi, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:12",
   "hdr": "0006 0014",
   "jp": "もう、こんな情報、役に立たないわ！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, what good does knowing that do?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:13",
   "hdr": "002F 0012",
   "jp": "あー、ひとやすみ、と。{n}ナスカイザー始まるし。",
-  "en": "",
-  "status": "todo",
+  "en": "Ahh, time for a break.{n}Nazkaiser's starting, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:14",
   "hdr": "0006 0014",
   "jp": "じゃあ、わたしは今のウチに{n}買い物へ行ってくるわね。",
-  "en": "",
-  "status": "todo",
+  "en": "Then I'll go do the shopping{n}while you're watching.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:15",
   "hdr": "002F 0012",
   "jp": "あ、そう。{n}気をつけてね。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, okay.{n}Take care.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:16",
   "hdr": "0003 000E",
   "jp": "(ハルカ。{n}　なぜカナメにキチンと聞かないの？)",
-  "en": "",
-  "status": "todo",
+  "en": "(Haruka.{n}Why don't you just ask Kaname?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2530:17",
   "hdr": "0003 000E",
   "jp": "(そしてカナメ。なぜハルカの気持ちに{n}　気づかないの？)",
-  "en": "",
-  "status": "todo",
+  "en": "(And Kaname. Can't you see{n}how Haruka feels?)",
+  "status": "done",
   "notes": ""
  }
 ]

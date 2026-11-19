@@ -3,216 +3,216 @@
   "id": "2508:0",
   "hdr": "00FF 000C",
   "jp": "連休中で小学校には誰もいない。{n}そんなことより、今は神社へ急ごう。",
-  "en": "",
-  "status": "todo",
+  "en": "School is empty over the holiday.{n}Anyway, hurry to the shrine for now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:1",
   "hdr": "00FF 000C",
   "jp": "この先は高台地区へ続いている。{n}そんなことより、今は神社へ急ごう。",
-  "en": "",
-  "status": "todo",
+  "en": "This way leads to Hilltop District.{n}Anyway, hurry to the shrine for now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:2",
   "hdr": "00FF 000C",
   "jp": "この先には桐谷町へ向かう駅がある。{n}そんなことより、今は神社へ急ごう。",
-  "en": "",
-  "status": "todo",
+  "en": "Ahead is the station for Kiriya.{n}Anyway, hurry to the shrine for now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:3",
   "hdr": "FFFF 00FF",
   "jp": "神社に入ると少年は{n}注意深く周囲を見回した。",
-  "en": "",
-  "status": "todo",
+  "en": "As he entered the shrine grounds,{n}the boy carefully looked around.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:4",
   "hdr": "FFFF 00FF",
   "jp": "七海はまだ来ていなかったので{n}ホッとした。",
-  "en": "",
-  "status": "todo",
+  "en": "He was relieved to find{n}Nanami wasn't there yet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:5",
   "hdr": "FFFF 00FF",
   "jp": "七海と待ち合わせていることを{n}ガンタたちに知られたら……",
-  "en": "",
-  "status": "todo",
+  "en": "If Ganta and Kiichi found out{n}he was meeting Nanami here...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:6",
   "hdr": "FFFF 00FF",
   "jp": "「ミノハメツ」",
-  "en": "",
-  "status": "todo",
+  "en": "\"I'M DOOMED.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:7",
   "hdr": "0006 0014",
   "jp": "……{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}神社へ遊びに行ったんじゃなかったの？",
-  "en": "",
-  "status": "todo",
+  "en": "...{var_EF}{slot}{slot}{slot}{slot}{slot}.{n}Weren't you going to the shrine to play?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:8",
   "hdr": "000A 0013",
   "jp": "こんな桜のどこが面白いんだ？{n}どうせ異常気象とかだろ。",
-  "en": "",
-  "status": "todo",
+  "en": "What's so great about this tree?{n}It's just weird weather or something.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:9",
   "hdr": "000B 0011",
   "jp": "相変わらず満開だ……{n}不思議だよな、もうすぐ夏だってのに。",
-  "en": "",
-  "status": "todo",
+  "en": "Still in full bloom...{n}Weird, when it's almost summer.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:10",
   "hdr": "000D 0010",
   "jp": "なんだよ、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}そりゃないだろうよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}You can't do this to me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:11",
   "hdr": "000D 0010",
   "jp": "どうして一般人を{n}連れて来たんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Why'd you bring{n}ordinary folks along?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:12",
   "hdr": "000D 0010",
   "jp": "今日は大事な{n}作戦会議なんだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "We're having an important{n}strategy meeting today, aren't we?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:13",
   "hdr": "000D 0010",
   "jp": "いやー、おれはうれしいよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Well now, I'm glad to hear it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:14",
   "hdr": "000D 0010",
   "jp": "桜のために立ち上がることに{n}決めたんだってな。",
-  "en": "",
-  "status": "todo",
+  "en": "You decided to stand up{n}for the cherry tree, huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:15",
   "hdr": "000D 0010",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}から聞いたぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot} told me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:16",
   "hdr": "000D 0010",
   "jp": "あれ？{n}あの犬、どこ行った？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?{n}Where'd that dog go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:17",
   "hdr": "000D 0010",
   "jp": "まあ、いいか。{n}いてもうるさいだけだもんな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, well.{n}Only makes a racket anyway.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:18",
   "hdr": "000D 0010",
   "jp": "しっかし、どうしようかな。{n}一般人を退去させないと……",
-  "en": "",
-  "status": "todo",
+  "en": "Still, what to do?{n}Gotta get those ordinary folks to leave...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:19",
   "hdr": "000D 0010",
   "jp": "ん！？　んんん！{n}ぴっかりひらめいたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm!? Hmmmmm!{n}I've had a bright idea.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:20",
   "hdr": "000D 0010",
   "jp": "おまえさん、木に登れ。{n}桜の中に身を潜めるんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Climb the tree, my friend.{n}Hide among the cherry branches.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:21",
   "hdr": "000D 0010",
   "jp": "おまえの姿が見えなくなれば{n}一般人たちは捜すはず。",
-  "en": "",
-  "status": "todo",
+  "en": "Once they can't see you,{n}those ordinary folks will look for you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:22",
   "hdr": "000D 0010",
   "jp": "でも、それでも見つからなかったら{n}どこかへ行ってしまうはず！",
-  "en": "",
-  "status": "todo",
+  "en": "But if they still can't find you,{n}they're bound to go somewhere else!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:23",
   "hdr": "000D 0010",
   "jp": "さあ、少年！　登れ！",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, boy! Climb!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:24",
   "hdr": "FFFF 00FF",
   "jp": "変なおじさんは知らなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "The strange man didn't know.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:25",
   "hdr": "FFFF 00FF",
   "jp": "少年は知っていたが{n}なんとかなると思った。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy knew,{n}but thought he'd manage somehow.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2508:26",
   "hdr": "FFFF 00FF",
   "jp": "少年は木登りが{n}苦手だった。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy was bad{n}at climbing trees.",
+  "status": "done",
   "notes": ""
  }
 ]

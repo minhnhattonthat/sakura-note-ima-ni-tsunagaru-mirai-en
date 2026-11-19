@@ -3,208 +3,208 @@
   "id": "2573:0",
   "hdr": "0004 000D",
   "jp": "ど、どうしよう、どうしよう！",
-  "en": "",
-  "status": "todo",
+  "en": "Wh-what do I do? What do I do?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:1",
   "hdr": "0004 000D",
   "jp": "このニオイは！",
-  "en": "",
-  "status": "todo",
+  "en": "This scent!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:2",
   "hdr": "0004 000D",
   "jp": "そ、そうだ。ママさんと一緒にいた{n}カナメって人のニオイだ！",
-  "en": "",
-  "status": "todo",
+  "en": "Th-that's it! It's that man Kaname,{n}the one who was with Mama-san!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:3",
   "hdr": "0004 000D",
   "jp": "カナメ、助けてくれるかな……",
-  "en": "",
-  "status": "todo",
+  "en": "I wonder if Kaname will help...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:4",
   "hdr": "000D 0010",
   "jp": "大変だぞー、妖怪が動き出したぞー。{n}って、中にいれてくれよー！",
-  "en": "",
-  "status": "todo",
+  "en": "Trouble! The yokai are on the move!{n}Come on, let me in!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:5",
   "hdr": "0004 000D",
   "jp": "おい、七海さんを返せ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hey! Give Nanami-san back!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:6",
   "hdr": "000D 0010",
   "jp": "おれがさらったんじゃないよ、もう。{n}妖怪がさらったんだよ！",
-  "en": "",
-  "status": "todo",
+  "en": "I didn't kidnap her! Honestly.{n}The yokai took her!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:7",
   "hdr": "000D 0010",
   "jp": "この結界を破ることができるのは{n}世の不思議を信じる人間だけなんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Only a human who believes in{n}the world's mysteries...{page}can break through this barrier.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:8",
   "hdr": "0004 000D",
   "jp": "おじさんはどうなんですか？",
-  "en": "",
-  "status": "todo",
+  "en": "What about you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:9",
   "hdr": "000D 0010",
   "jp": "おじさん、人間じゃないから。{n}いや、人間だけどワケありだから……",
-  "en": "",
-  "status": "todo",
+  "en": "I'm not human, you see.{page}Well, I am, but...{n}It's complicated.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:10",
   "hdr": "0004 000D",
   "jp": "役立たず……",
-  "en": "",
-  "status": "todo",
+  "en": "You're no help...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:11",
   "hdr": "000D 0010",
   "jp": "ふん、人を非難するおまえさんは{n}どうなんだ？",
-  "en": "",
-  "status": "todo",
+  "en": "Hmph! You're quick to blame me.{n}What about you, my friend?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:12",
   "hdr": "0004 000D",
   "jp": "ボ、ボクは七海さんを守ります！",
-  "en": "",
-  "status": "todo",
+  "en": "I-I'll protect Nanami-san!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:13",
   "hdr": "000D 0010",
   "jp": "だったら、犬魂、見せてみぃ！",
-  "en": "",
-  "status": "todo",
+  "en": "Then show me a dog's determination!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:14",
   "hdr": "000D 0010",
   "jp": "無理無理！{n}結界があるんだって、もう。",
-  "en": "",
-  "status": "todo",
+  "en": "No chance! No chance!{n}I told you, there's a barrier!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:15",
   "hdr": "0004 000D",
   "jp": "こっちじゃないなあ。{n}知ってるニオイがしないです……",
-  "en": "",
-  "status": "todo",
+  "en": "Not this way.{n}I don't smell anything familiar...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:16",
   "hdr": "000D 0010",
   "jp": "ヒーローだ！{n}とにかく、ヒーローを連れてこい！",
-  "en": "",
-  "status": "todo",
+  "en": "A hero!{n}Just bring me a hero!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:17",
   "hdr": "0004 000D",
   "jp": "やっぱり七海さんは神社だった……{n}でも、ニオイを見失ったぞ……",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-san was at the shrine,{n}just as I thought...{page}But I've lost the scent...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:18",
   "hdr": "0004 000D",
   "jp": "ん！？　このニオイは！？",
-  "en": "",
-  "status": "todo",
+  "en": "Hm!? What's this scent!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:19",
   "hdr": "0004 000D",
   "jp": "カナメのニオイ……{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くんのニオイ……",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname's scent...{n}And {var_EF}{slot}{slot}{slot}{slot}{slot}-kun's scent...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:20",
   "hdr": "0004 000D",
   "jp": "この家は……そうか、わかった！{n}ふたりは家族なんだ！",
-  "en": "",
-  "status": "todo",
+  "en": "This house... Oh, now I understand!{n}They're family!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:21",
   "hdr": "0004 000D",
   "jp": "さあ、どうしよう。{n}七海さんのピンチを伝えないと！",
-  "en": "",
-  "status": "todo",
+  "en": "Now, what should I do?{page}I have to tell them{n}Nanami-san is in danger!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:22",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(大変！　七海さんが大変なんです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof! Woof-woof-woof!{n}{col_F8}(Help! Nanami-san is in trouble!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:23",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(お願いです！　神社の結界破って下さい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof! Woof-woof-woof!{page}{col_F8}(Please! Break through the barrier{n}at the shrine!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:24",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(妖怪の存在を信じてますよね？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof! Woof-woof-woof!{n}{col_F8}(You believe in yokai, don't you?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2573:25",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！{n}{col_F8}(よろしくお願いします！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof-woof!{n}{col_F8}(I'm counting on you!)",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,120 +3,120 @@
   "id": "2528:0",
   "hdr": "0003 000E",
   "jp": "マンガやゲームの本しか入っていない。{n}カナメを見て育ったからかな……",
-  "en": "",
-  "status": "todo",
+  "en": "Nothing but comics and game books.{page}Growing up watching Kaname{n}will do that, I suppose...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:1",
   "hdr": "0003 000E",
   "jp": "マンガやゲームの本しか入っていない。{n}カナメは資料だって言ってたけど……",
-  "en": "",
-  "status": "todo",
+  "en": "Nothing but comics and game books.{page}Kaname said they were{n}for research, but...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:2",
   "hdr": "0003 000E",
   "jp": "ばらばらになったプラモデルや{n}カードゲームが押し込んである。",
-  "en": "",
-  "status": "todo",
+  "en": "Model kits in pieces and card games{n}are crammed inside.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:3",
   "hdr": "00FF 000C",
   "jp": "冷蔵庫の下からかすかに{n}にぼしのにおいがする……",
-  "en": "",
-  "status": "todo",
+  "en": "A faint smell of dried sardines{n}drifts from under the fridge...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:4",
   "hdr": "0003 000E",
   "jp": "カナメの仕事中によくナスカイザーの{n}テーマが流れている。",
-  "en": "",
-  "status": "todo",
+  "en": "The Nazkaiser theme often plays{n}while Kaname's working.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:5",
   "hdr": "0003 000E",
   "jp": "あんまりうるさいのは{n}好みじゃあないんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm not fond of{n}all that racket.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:6",
   "hdr": "0003 000E",
   "jp": "ぎりぎり手が届きそうだ……",
-  "en": "",
-  "status": "todo",
+  "en": "I might just be able to reach it...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:7",
   "hdr": "0003 000E",
   "jp": "手が届かないからあきらめよう……",
-  "en": "",
-  "status": "todo",
+  "en": "Can't reach it. Best give up...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:8",
   "hdr": "0003 000E",
   "jp": "もう、にぼしはないよ。",
-  "en": "",
-  "status": "todo",
+  "en": "No more dried sardines.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:9",
   "hdr": "0003 000E",
   "jp": "にぼしひときれに{n}ふりまわされるわたしじゃないよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I won't let one bit of dried sardine{n}push me around.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:10",
   "hdr": "0003 000E",
   "jp": "虫の死骸だ。{n}持って帰ってハルカにみせてあげよう。",
-  "en": "",
-  "status": "todo",
+  "en": "A Dead Bug.{page}I'll take it home{n}and show Haruka.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:11",
   "hdr": "0003 000E",
   "jp": "またたびの実だ！",
-  "en": "",
-  "status": "todo",
+  "en": "A silver vine berry!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:12",
   "hdr": "0003 000E",
   "jp": "あっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Ah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:13",
   "hdr": "0003 000E",
   "jp": "こんなことをやってる場合じゃないよ！",
-  "en": "",
-  "status": "todo",
+  "en": "I don't have time for this!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2528:14",
   "hdr": "0003 000E",
   "jp": "ナスカイザーの等身大人形だ。{n}食べられないし、興味ないね。",
-  "en": "",
-  "status": "todo",
+  "en": "A life-size Nazkaiser figure.{n}Can't eat it. Not interested.",
+  "status": "done",
   "notes": ""
  }
 ]

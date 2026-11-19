@@ -3,96 +3,96 @@
   "id": "2549:0",
   "hdr": "0003 000E",
   "jp": "どいてどいて！",
-  "en": "",
-  "status": "todo",
+  "en": "Move! Out of the way!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:1",
   "hdr": "0010 0017",
   "jp": "猫だ！　たたられる～！",
-  "en": "",
-  "status": "todo",
+  "en": "A cat! It'll curse us!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:2",
   "hdr": "0003 000E",
   "jp": "桜さん、おじゃまします。",
-  "en": "",
-  "status": "todo",
+  "en": "Sakura-san, pardon the intrusion.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:3",
   "hdr": "0003 000E",
   "jp": "桐谷町の桜……{n}桜さんの子供なんでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "The cherry tree in Kiriya Town...{n}That's your child, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:4",
   "hdr": "FF19 00FF",
   "jp": "そう……でも、枯れてしまいそうなの。{n}だからわたしは《気》を送って……",
-  "en": "",
-  "status": "todo",
+  "en": "Yes... But my child is dying.{n}So I've been sending spiritual energy...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:5",
   "hdr": "0003 000E",
   "jp": "送ったのに届かないんだよね。{n}あのマンションのせいでさ。",
-  "en": "",
-  "status": "todo",
+  "en": "But it can't get through, can it?{n}Because of that tower.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:6",
   "hdr": "0003 000E",
   "jp": "マンションに当たって散った{n}桜さんの《気》が……",
-  "en": "",
-  "status": "todo",
+  "en": "Your spiritual energy hit the tower{n}and scattered...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:7",
   "hdr": "0003 000E",
   "jp": "シャーーーッ！！",
-  "en": "",
-  "status": "todo",
+  "en": "Hissss!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:8",
   "hdr": "0010 0018",
   "jp": "ひっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Eek!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:9",
   "hdr": "0003 000E",
   "jp": "桜さんの《気》が妖怪どもを{n}目覚めさせちゃったんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Your spiritual energy{n}woke those yokai up.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:10",
   "hdr": "FF19 00FF",
   "jp": "ごめんなさい……{n}でも……",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry...{n}But...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2549:11",
   "hdr": "0003 000E",
   "jp": "うん、気持ちはわかるよ……",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, I know how you feel...",
+  "status": "done",
   "notes": ""
  }
 ]

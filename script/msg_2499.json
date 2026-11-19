@@ -3,104 +3,104 @@
   "id": "2499:0",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、おかえりなさい。",
-  "en": "",
-  "status": "todo",
+  "en": "Welcome home, {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:1",
   "hdr": "0006 0014",
   "jp": "今ね、買い物に行ってきたの。{n}今夜は豚バラの煮込みよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I just got back from shopping.{n}We're having stewed pork belly tonight.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:2",
   "hdr": "0006 0014",
   "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}は帰ってるかしら？",
-  "en": "",
-  "status": "todo",
+  "en": "I wonder if {var_EE}{slot}{slot}{slot}{slot}{slot}{n}is home yet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:3",
   "hdr": "002F 0012",
   "jp": "おかえり、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}ナスカイザー始まってるぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Welcome home, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}Nazkaiser's already started.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:4",
   "hdr": "0006 0014",
   "jp": "自分の部屋で見てって言ったでしょ。",
-  "en": "",
-  "status": "todo",
+  "en": "I told you to watch it in your room.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:5",
   "hdr": "002F 0012",
   "jp": "ここで見たいんだよな……",
-  "en": "",
-  "status": "todo",
+  "en": "But I want to watch it here...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:6",
   "hdr": "002F 0012",
   "jp": "もう何回も見たんだけどさ{n}父さんの原点だから仕方ないよな。",
-  "en": "",
-  "status": "todo",
+  "en": "I've seen it so many times, but...{n}It's what got your dad started.{page}I can't help myself, can I?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:7",
   "hdr": "0006 0014",
   "jp": "まったくもう！{n}仕事なんだか趣味なんだか……",
-  "en": "",
-  "status": "todo",
+  "en": "Honestly!{n}Is this work or a hobby...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:8",
   "hdr": "0006 0014",
   "jp": "大変！　ミリン忘れてきちゃった。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, no! I left the mirin behind!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:9",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、スーパーへ行って{n}もらってきてくれない？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, could you go{n}pick it up at the supermarket?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:10",
   "hdr": "0006 0014",
   "jp": "わたし、お金を払って{n}そのまま出てきちゃったみたい。",
-  "en": "",
-  "status": "todo",
+  "en": "I think I paid for it{n}and just walked out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:11",
   "hdr": "0006 0014",
   "jp": "ごめんね、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}特別にアイスも買ってきていいから。",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}You can buy an Ice Pop as a treat.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2499:12",
   "hdr": "002F 0012",
   "jp": "ご苦労さま。{n}ナスカイザー、録画しとくよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Thanks for doing that.{n}I'll record Nazkaiser for you!",
+  "status": "done",
   "notes": ""
  }
 ]

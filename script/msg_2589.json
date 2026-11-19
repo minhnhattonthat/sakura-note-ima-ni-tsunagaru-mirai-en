@@ -3,96 +3,96 @@
   "id": "2589:0",
   "hdr": "0007 000F",
   "jp": "待って！　どこへ行くの！？",
-  "en": "",
-  "status": "todo",
+  "en": "Wait! Where are you going?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:1",
   "hdr": "0004 000D",
   "jp": "わわん！{n}{col_F8}(急がないと大変です！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof!{n}{col_F8}(We'll be in trouble if we don't hurry!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:2",
   "hdr": "0004 000D",
   "jp": "わん！　わわわん！{n}{col_F8}(ママさんとの約束です！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! W-woof!{n}{col_F8}(We made a promise to Mama-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:3",
   "hdr": "0004 000D",
   "jp": "わん！{n}{col_F8}(待ってください！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!{n}{col_F8}(Please wait!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:4",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:5",
   "hdr": "0007 000F",
   "jp": "ここが、{var_EF}{slot}{slot}{slot}{slot}{slot}くんち？",
-  "en": "",
-  "status": "todo",
+  "en": "Is this your house, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:6",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}がどんどん走って{n}行っちゃうから着いてきたの。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot} kept running ahead,{n}so I followed.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:7",
   "hdr": "0007 000F",
   "jp": "わたしが行きたいところ、{n}知ってたのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Did you know{n}where I wanted to go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:8",
   "hdr": "0004 000D",
   "jp": "わわわん！{n}{col_F8}(あたりまえです)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof!{n}{col_F8}(Of course I did.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:9",
   "hdr": "0004 000D",
   "jp": "わわわん！　わわわん！{n}{col_F8}(ボクも言葉わかりますから！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof! W-woof!{n}{col_F8}(I understand words too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:10",
   "hdr": "0007 000F",
   "jp": "うわ、得意になってる。",
-  "en": "",
-  "status": "todo",
+  "en": "Wow, he's feeling pretty proud.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2589:11",
   "hdr": "0004 000D",
   "jp": "くぅーん……{n}{col_F8}(通じた？　ビミョウかな……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Did she understand? Maybe not...)",
+  "status": "done",
   "notes": ""
  }
 ]

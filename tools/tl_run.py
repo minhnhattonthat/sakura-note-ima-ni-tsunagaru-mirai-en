@@ -1,6 +1,8 @@
 """Translate batches with `codex exec` (Orca workers have no translator subagents): prompt, check, fix rounds.
 
-    python -X utf8 tools/tl_run.py b001 b002 ... [--jobs 4] [--rounds 3] [--fix-only]
+    python -X utf8 tools/tl_run.py b001 b002 ... [--jobs 4] [--rounds 3] [--fix-only | --review]
+
+--review: apply the Critical/Important findings of work/tl/review/bNNN.md to the existing .out.tsv, then check.
 
 Per batch: the prompt is docs/translator-brief.md + docs/style-reference.md + docs/synopsis.md + the batch's glossary
 rows (build/terms_bNNN.txt) + work/tl/bNNN.tsv. The answer becomes work/tl/bNNN.out.tsv (report lines starting with
@@ -58,7 +60,7 @@ def write_out(name, order, rows):
     (TL / f"{name}.out.tsv").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
-def run(name, rounds, fix_only):
+def run(name, rounds, fix_only, review=False):
     batch = (TL / f"{name}.tsv").read_text(encoding="utf-8")
     order = [line.split("\t")[0] for line in batch.splitlines() if line.strip()]
     terms = (ROOT / f"build/terms_{name}.txt").read_text(encoding="utf-8")
@@ -72,6 +74,18 @@ def run(name, rounds, fix_only):
                              set(order))
         write_out(name, order, rows)
     entries, gl = batches.index(), batches.glossary()
+    if review:
+        rep = (TL / "review" / f"{name}.md").read_text(encoding="utf-8")
+        findings = re.split(r"#+\s*Minor", rep, flags=re.I)[0]
+        current = (TL / f"{name}.out.tsv").read_text(encoding="utf-8")
+        prompt = (head + f"\n\n=== batch {name} (input) ===\n{batch}\n\n=== your current output ===\n{current}\n\n"
+                  "=== reviewer findings (fix every Critical and Important one; you may improve on the suggested "
+                  "EN, but keep the widths) ===\n" + findings +
+                  "\n\nReply with the COMPLETE corrected output: every input id once, same order, id<TAB>English.")
+        fixed, rep2 = parse(ask(name, "v1", prompt), set(order))
+        report += rep2
+        rows.update(fixed)
+        write_out(name, order, rows)
     for r in range(1, rounds + 1):
         bad, _ = batches.check_batch(name, entries, gl)
         if not bad:
@@ -101,7 +115,8 @@ def main(argv):
     jobs = int(argv[argv.index("--jobs") + 1]) if "--jobs" in argv else 4
     rounds = int(argv[argv.index("--rounds") + 1]) if "--rounds" in argv else 3
     with ThreadPoolExecutor(jobs) as ex:
-        ok = list(ex.map(lambda n: run(n, rounds, "--fix-only" in argv), names))
+        ok = list(ex.map(lambda n: run(n, rounds, "--fix-only" in argv or "--review" in argv, "--review" in argv),
+                         names))
     return 0 if all(ok) else 1
 
 

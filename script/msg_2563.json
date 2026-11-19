@@ -3,296 +3,296 @@
   "id": "2563:0",
   "hdr": "0028 0016",
   "jp": "おい、{var_F0}{slot}{slot}{slot}{slot}{slot}{sp}カナメ。{n}時間だぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, Kaname {var_F0}{slot}{slot}{slot}{slot}{slot}.{n}It's time.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:1",
   "hdr": "0005 0012",
   "jp": "は、はい。",
-  "en": "",
-  "status": "todo",
+  "en": "Y-yes.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:2",
   "hdr": "0005 0012",
   "jp": "時間がありません。{n}契約の更新方法を教えてください。",
-  "en": "",
-  "status": "todo",
+  "en": "There's no time.{n}Please tell me how to renew the pact.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:3",
   "hdr": "0024 0010",
   "jp": "おれが契約を結んだのは{n}キマヨイという妖怪だ。",
-  "en": "",
-  "status": "todo",
+  "en": "The yokai I made that pact with{n}was called Waverwood.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:4",
   "hdr": "0024 0010",
   "jp": "咲谷町の神社の桜から枝を{n}もらって……",
-  "en": "",
-  "status": "todo",
+  "en": "I got a branch from the cherry tree{n}at the shrine in Sakuya...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:5",
   "hdr": "0024 0010",
   "jp": "桐谷で咲かせるのがおれの{n}夢だった。",
-  "en": "",
-  "status": "todo",
+  "en": "My dream was to have it{n}bloom in Kiriya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:6",
   "hdr": "0024 0010",
   "jp": "ところが桐谷に植えた桜は{n}まったく育たない。",
-  "en": "",
-  "status": "todo",
+  "en": "But once I planted it in Kiriya,{n}the cherry tree wouldn't grow at all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:7",
   "hdr": "0024 0010",
   "jp": "樹医の誇りをかけて世話をしたが{n}今にも枯れそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I put all my pride as a tree doctor{n}into caring for it, but it was dying.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:8",
   "hdr": "0024 0010",
   "jp": "そして、おれは気づいた。",
-  "en": "",
-  "status": "todo",
+  "en": "Then I realized something.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:9",
   "hdr": "0024 0010",
   "jp": "その桜にはキマヨイという{n}妖怪がとりついていたんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "That yokai, Waverwood,{n}had possessed the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:10",
   "hdr": "0024 0010",
   "jp": "だから、木が迷って、うまく{n}育たなかったんだな。",
-  "en": "",
-  "status": "todo",
+  "en": "The poor tree was wavering.{n}No wonder it couldn't grow properly.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:11",
   "hdr": "0005 0012",
   "jp": "キマヨイ……木が迷う……あはは。",
-  "en": "",
-  "status": "todo",
+  "en": "Waverwood... a wavering tree...{n}Ha ha.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:12",
   "hdr": "0024 0010",
   "jp": "言っとくけど、200年前は{n}妖怪は普通にいたんだぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll have you know, 200 years ago,{n}yokai were everywhere.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:13",
   "hdr": "0024 0010",
   "jp": "その中でもキマヨイは恐ろしい妖怪だ。{n}人間にとりつくと大変なことになる。",
-  "en": "",
-  "status": "todo",
+  "en": "Even among yokai,{n}Waverwood was scary.{page}When it possesses a human,{n}things get really bad.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:14",
   "hdr": "0005 0012",
   "jp": "もしかして、気の迷いが……",
-  "en": "",
-  "status": "todo",
+  "en": "You mean, a wavering impulse...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:15",
   "hdr": "0024 0010",
   "jp": "そういうことだ。",
-  "en": "",
-  "status": "todo",
+  "en": "That's about the size of it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:16",
   "hdr": "0024 0010",
   "jp": "それで、おれはキマヨイに頼んだ。{n}どうか、おとなしくしてくれ。",
-  "en": "",
-  "status": "todo",
+  "en": "So I begged Waverwood,{n}\"Please, just settle down.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:17",
   "hdr": "0024 0010",
   "jp": "どうか、桜から出て行って{n}この木を元気にしてやってくれ、と。",
-  "en": "",
-  "status": "todo",
+  "en": "Please leave the cherry tree{n}and make it healthy again.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:18",
   "hdr": "0024 0010",
   "jp": "すると、キマヨイは条件を{n}出して来た。",
-  "en": "",
-  "status": "todo",
+  "en": "Then Waverwood{n}gave me its terms.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:19",
   "hdr": "0024 0010",
   "jp": "一番愛する者の涙を桜に注げ。{n}そうすれば200年、眠ってやる。",
-  "en": "",
-  "status": "todo",
+  "en": "\"Pour the tears of the person{n}you love most onto the cherry tree.{page}Do that, and I'll sleep{n}for 200 years.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:20",
   "hdr": "0005 0012",
   "jp": "はぁ……でも、どういう意図が{n}あったんでしょうね、その条件。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh... but why would it{n}ask you to do that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:21",
   "hdr": "0024 0010",
   "jp": "知るか。相手はキマヨイだぞ？{n}理屈もなんもないんだろうよ。",
-  "en": "",
-  "status": "todo",
+  "en": "How should I know? It's Waverwood!{n}Probably no reason to it at all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:22",
   "hdr": "0024 0010",
   "jp": "とにかく、おれは、その条件を{n}のむしかなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "Anyway, I had no choice{n}but to agree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:23",
   "hdr": "0024 0010",
   "jp": "……おれには、おたねという名前の{n}娘がいたんだが……",
-  "en": "",
-  "status": "todo",
+  "en": "...I had a daughter{n}named Otane, you see...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:24",
   "hdr": "0005 0012",
   "jp": "一番愛する者、ですね？",
-  "en": "",
-  "status": "todo",
+  "en": "The person you loved most, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:25",
   "hdr": "0024 0010",
   "jp": "そう。おれはおたねの涙を{n}桜に注いだってわけだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Right. So I poured Otane's tears{n}onto the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:26",
   "hdr": "0024 0010",
   "jp": "キマヨイは契約を守って{n}桜は元気になったってわけだな。",
-  "en": "",
-  "status": "todo",
+  "en": "Waverwood kept its end of the pact,{n}and the cherry tree got better.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:27",
   "hdr": "0005 0012",
   "jp": "それじゃあ、更新というのは{n}佐倉タカシさんが……",
-  "en": "",
-  "status": "todo",
+  "en": "So, to renew it,{n}Takashi Sakura-san has to...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:28",
   "hdr": "0024 0010",
   "jp": "七海の涙を手に入れて桜に注ぐ。{n}ま、注ぐのは代理人でもいいかもな。",
-  "en": "",
-  "status": "todo",
+  "en": "Get Nanami's Tears{n}and pour them onto the cherry tree.{page}Well, maybe someone else could{n}do the pouring for him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:29",
   "hdr": "0024 0010",
   "jp": "そうすれば……",
-  "en": "",
-  "status": "todo",
+  "en": "And then...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:30",
   "hdr": "0024 0010",
   "jp": "桜は、また200年は元気に{n}咲き続けるだろうよ。",
-  "en": "",
-  "status": "todo",
+  "en": "The cherry tree should bloom{n}in good health for 200 more years.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:31",
   "hdr": "0024 0010",
   "jp": "だからおれは七海を桐谷町へ{n}戻そうとあれやこれや……",
-  "en": "",
-  "status": "todo",
+  "en": "So I tried all sorts of things{n}to get Nanami back to Kiriya...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:32",
   "hdr": "0024 0010",
   "jp": "でも、怖い思いさせて心が痛んだよ。{n}七海はおたねに似ていたしな……",
-  "en": "",
-  "status": "todo",
+  "en": "But it hurt to scare her like that.{n}Nanami looked so much like Otane...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:33",
   "hdr": "0028 0016",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}{sp}カナメ！{n}何をしている！",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname {var_F0}{slot}{slot}{slot}{slot}{slot}!{n}What are you doing?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:34",
   "hdr": "0028 0016",
   "jp": "お裁き拒否は即刻地獄行きだぞ！",
-  "en": "",
-  "status": "todo",
+  "en": "Refuse your hearing,{n}and it's straight to hell!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:35",
   "hdr": "0005 0012",
   "jp": "はいっ！！",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, sir!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2563:36",
   "hdr": "0024 0010",
   "jp": "カナメさんよ。{n}子孫と桜を頼む。",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname-san, I'm counting on you.{n}Look after my family and the tree.",
+  "status": "done",
   "notes": ""
  }
 ]

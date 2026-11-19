@@ -3,328 +3,328 @@
   "id": "2517:0",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。{n}先生たちと出会ったら面倒だ……",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought running into{n}Nobiyo-sensei and the other teachers{n}would mean trouble...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:1",
   "hdr": "FFFF 00FF",
   "jp": "しかし、誰にも会わずに屋上まで{n}行くことができた。",
-  "en": "",
-  "status": "todo",
+  "en": "But they made it all the way to the roof{n}without meeting anyone.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:2",
   "hdr": "FFFF 00FF",
   "jp": "大人にも、妖怪にも、会わなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "No adults. No yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:3",
   "hdr": "0007 000F",
   "jp": "ね！？　見えるでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "See!? You can see it, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:4",
   "hdr": "0007 000F",
   "jp": "神社から出た桜の《気》が{n}マンションにぶつかって……",
-  "en": "",
-  "status": "todo",
+  "en": "The cherry tree's spiritual energy{n}comes from the shrine...{page}Then it hits the apartment tower...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:5",
   "hdr": "000A 0013",
   "jp": "なーんにも見えない。",
-  "en": "",
-  "status": "todo",
+  "en": "I don't see a single thing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:6",
   "hdr": "000B 0011",
   "jp": "平和な風景……",
-  "en": "",
-  "status": "todo",
+  "en": "Looks peaceful...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:7",
   "hdr": "0007 000F",
   "jp": "そんな……あ、そうだ！",
-  "en": "",
-  "status": "todo",
+  "en": "But... Oh, I know!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:8",
   "hdr": "000A 0013",
   "jp": "うわっ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Whoa!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:9",
   "hdr": "0007 000F",
   "jp": "信じた？",
-  "en": "",
-  "status": "todo",
+  "en": "Believe me now?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:10",
   "hdr": "000B 0011",
   "jp": "う、うん……",
-  "en": "",
-  "status": "todo",
+  "en": "Y-yeah...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:11",
   "hdr": "0007 000F",
   "jp": "神社から出ている桜の《気》は{n}本当は、まっすぐ進むはずだった。",
-  "en": "",
-  "status": "todo",
+  "en": "The cherry tree's spiritual energy{n}comes from the shrine.{page}It was supposed to go straight ahead.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:12",
   "hdr": "0007 000F",
   "jp": "でも、わたしのマンションにぶつかって{n}町中に広がってしまった。",
-  "en": "",
-  "status": "todo",
+  "en": "But it hit my apartment tower{n}and spread all over town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:13",
   "hdr": "0007 000F",
   "jp": "本当なら、桜の《気》は桐谷町に{n}届くはずだったの。",
-  "en": "",
-  "status": "todo",
+  "en": "The cherry tree's spiritual energy{n}was supposed to reach Kiriya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:14",
   "hdr": "0007 000F",
   "jp": "だから、一緒に桐谷町へ{n}行って欲しいの。",
-  "en": "",
-  "status": "todo",
+  "en": "That's why I want you{n}to come to Kiriya with me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:15",
   "hdr": "0007 000F",
   "jp": "それを{var_EF}{slot}{slot}{slot}{slot}{slot}くんに{n}言いたかったの。",
-  "en": "",
-  "status": "todo",
+  "en": "That's what I wanted to tell you,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:16",
   "hdr": "000B 0011",
   "jp": "桐谷町には何があるの？",
-  "en": "",
-  "status": "todo",
+  "en": "What's in Kiriya?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:17",
   "hdr": "0007 000F",
   "jp": "桜。元気をなくした桜。{n}その桜を元気にしてあげればいいのよ！",
-  "en": "",
-  "status": "todo",
+  "en": "A cherry tree. It's grown weak.{n}We just need to make it healthy again!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:18",
   "hdr": "000A 0013",
   "jp": "マジかよ……",
-  "en": "",
-  "status": "todo",
+  "en": "You're kidding...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:19",
   "hdr": "0011 0017",
   "jp": "七海～、気づいたなあ！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanamiii! You figured it out!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:20",
   "hdr": "001C 0027",
   "jp": "なんだ……{n}お邪魔少年が増えていやガル。",
-  "en": "",
-  "status": "todo",
+  "en": "What...?{n}More meddling brats!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:21",
   "hdr": "001C 0027",
   "jp": "ふん。こうしてくれるワ。",
-  "en": "",
-  "status": "todo",
+  "en": "Hmph. Take THIS!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:22",
   "hdr": "0007 000F",
   "jp": "きゃっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Eek!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:23",
   "hdr": "000A 0013",
   "jp": "助けてくれー！",
-  "en": "",
-  "status": "todo",
+  "en": "Heeelp!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:24",
   "hdr": "0012 0018",
   "jp": "ガランリュウ様！{n}引き離し作戦成功です！",
-  "en": "",
-  "status": "todo",
+  "en": "Garanryu-sama!{n}We split them up as planned!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:25",
   "hdr": "001C 0027",
   "jp": "失敗するはずなかろうガ。{n}ほら、七海を確保だ！",
-  "en": "",
-  "status": "todo",
+  "en": "As if it could FAIL!{n}Now grab Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:26",
   "hdr": "0012 0018",
   "jp": "はっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, sir!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:27",
   "hdr": "000A 0013",
   "jp": "ど、どうする？",
-  "en": "",
-  "status": "todo",
+  "en": "W-what do we do?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:28",
   "hdr": "000B 0011",
   "jp": "桐谷町へ行くんだよね？",
-  "en": "",
-  "status": "todo",
+  "en": "We're going to Kiriya, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:29",
   "hdr": "000A 0013",
   "jp": "じゃあ、駅だな。",
-  "en": "",
-  "status": "todo",
+  "en": "Then it's off to the station.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:30",
   "hdr": "000B 0011",
   "jp": "切符代、ある？",
-  "en": "",
-  "status": "todo",
+  "en": "Got money for a Train Ticket?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:31",
   "hdr": "000A 0013",
   "jp": "ないぞ、おれ、ないぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Not me. I got nothing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:32",
   "hdr": "0007 000F",
   "jp": "わたしも……",
-  "en": "",
-  "status": "todo",
+  "en": "Me neither...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:33",
   "hdr": "FFFF 00FF",
   "jp": "少年は思い浮かべた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy remembered something.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:34",
   "hdr": "FFFF 00FF",
   "jp": "机の引き出しに入れたままの{n}お年玉の残りを……",
-  "en": "",
-  "status": "todo",
+  "en": "The New Year's Gift Money{n}he still had left in his desk drawer...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:35",
   "hdr": "000A 0013",
   "jp": "じゃあ、各自電車賃を{n}用意して駅に集合！",
-  "en": "",
-  "status": "todo",
+  "en": "Then everybody get your train fare{n}and meet at the station!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:36",
   "hdr": "000B 0011",
   "jp": "了解！",
-  "en": "",
-  "status": "todo",
+  "en": "Roger!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:37",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん、後でね！",
-  "en": "",
-  "status": "todo",
+  "en": "See you later, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:38",
   "hdr": "0031 0018",
   "jp": "見つけた～！",
-  "en": "",
-  "status": "todo",
+  "en": "Fooound you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:39",
   "hdr": "0012 0017",
   "jp": "あっ、出たなー！",
-  "en": "",
-  "status": "todo",
+  "en": "Aha! There you are!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2517:40",
   "hdr": "0031 0018",
   "jp": "ふん！{n}猫がいない道に気をつけな！",
-  "en": "",
-  "status": "todo",
+  "en": "Hmph! Watch your step{n}on roads where there's no cat!",
+  "status": "done",
   "notes": ""
  }
 ]

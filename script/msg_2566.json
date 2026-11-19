@@ -3,232 +3,232 @@
   "id": "2566:0",
   "hdr": "0024 0010",
   "jp": "はぁ……{n}みんなうまくやってっかな……",
-  "en": "",
-  "status": "todo",
+  "en": "Ahh...{n}Wonder how everyone's doing...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:1",
   "hdr": "0003 000E",
   "jp": "うん、気になるね……",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, I've been wondering too...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:2",
   "hdr": "0003 000E",
   "jp": "……強く念じれば{n}見に行けるんだっけ？",
-  "en": "",
-  "status": "todo",
+  "en": "...If I wish hard enough,{n}I can go and see them, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:3",
   "hdr": "0024 0010",
   "jp": "猫にもできるのかは{n}わからないけどな。",
-  "en": "",
-  "status": "todo",
+  "en": "Can't say I know{n}if a cat can do it, though.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:4",
   "hdr": "0024 0010",
   "jp": "それに……呪われるぞ。{n}変な顔にされるぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Besides... you'll be cursed.{n}They'll give you a funny face.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:5",
   "hdr": "0003 000E",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:6",
   "hdr": "0024 0010",
   "jp": "やめとけよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Don't do it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:7",
   "hdr": "0003 000E",
   "jp": "わたし……{n}キマヨイに取りつかれたな。",
-  "en": "",
-  "status": "todo",
+  "en": "I think...{n}Waverwood's got hold of me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:8",
   "hdr": "0024 0010",
   "jp": "おいおい！",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, hey!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:9",
   "hdr": "0003 000E",
   "jp": "いや、猫の気まぐれかぁ。",
-  "en": "",
-  "status": "todo",
+  "en": "No, just a cat's whim, I suppose.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:10",
   "hdr": "0003 000E",
   "jp": "ここはどこだい……",
-  "en": "",
-  "status": "todo",
+  "en": "Where am I...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:11",
   "hdr": "0003 000E",
   "jp": "やっぱり猫じゃ{n}ダメだったかな。",
-  "en": "",
-  "status": "todo",
+  "en": "Maybe it doesn't work{n}for cats after all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:12",
   "hdr": "0003 000E",
   "jp": "さびしいね、こりゃ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's lonely here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:13",
   "hdr": "0003 000E",
   "jp": "そうだよ、さびしいよ。{n}わたしはさびしいよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, lonely.{n}I'm lonely.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:14",
   "hdr": "0003 000E",
   "jp": "ハルカ、カナメ、{var_EF}{slot}{slot}{slot}{slot}{slot}……",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka, Kaname,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:15",
   "hdr": "0003 000E",
   "jp": "会いたいよ……",
-  "en": "",
-  "status": "todo",
+  "en": "I want to see you...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:16",
   "hdr": "0003 000E",
   "jp": "ねえ、ここはどこ？{n}こんなところで迷い猫？",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, where am I?{n}A lost cat, in a place like this?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:17",
   "hdr": "0003 000E",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！！{n}会えて良かった！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!!{n}I'm so glad to see you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:18",
   "hdr": "0003 000E",
   "jp": "ああ、顔見たら、いいことを{n}思いついたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Ah, seeing your face{n}has given me an idea.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:19",
   "hdr": "0003 000E",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}に戦う力をあげるね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll give you the strength to fight,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:20",
   "hdr": "0003 000E",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}家にはそれくらいの{n}恩返しをしなくちゃね。",
-  "en": "",
-  "status": "todo",
+  "en": "It's the least I can do{n}to repay the {var_F0}{slot}{slot}{slot}{slot}{slot} family.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:21",
   "hdr": "0003 000E",
   "jp": "さあ、{var_EF}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "",
-  "status": "todo",
+  "en": "Now, {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:22",
   "hdr": "0003 000E",
   "jp": "ほら、カナメが{n}好きなナントカカイザー……",
-  "en": "",
-  "status": "todo",
+  "en": "You know that What's-his-kaiser{n}Kaname likes...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:23",
   "hdr": "0003 000E",
   "jp": "あの台詞を言ってみな。{n}あの、歯が浮くようなやつさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Try saying that line of his.{n}That horribly cheesy one.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:24",
   "hdr": "0003 000E",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}……{n}その力はわたしの9回目の命。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}...{n}That power is my ninth life.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:25",
   "hdr": "0003 000E",
   "jp": "きっと、とてつもなく{n}強いはずだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "It should make you{n}incredibly strong.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:26",
   "hdr": "0003 000E",
   "jp": "……はぁ……{n}なんだか眠くなったね。",
-  "en": "",
-  "status": "todo",
+  "en": "...Ahh...{n}I'm getting sleepy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:27",
   "hdr": "0003 000E",
   "jp": "コタツが恋しいよ……",
-  "en": "",
-  "status": "todo",
+  "en": "I miss the kotatsu...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2566:28",
   "hdr": "0003 000E",
   "jp": "……おやすみ。",
-  "en": "",
-  "status": "todo",
+  "en": "...Good night.",
+  "status": "done",
   "notes": ""
  }
 ]

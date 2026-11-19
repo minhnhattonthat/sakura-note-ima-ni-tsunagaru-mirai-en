@@ -3,128 +3,128 @@
   "id": "2590:0",
   "hdr": "0007 000F",
   "jp": "あれ？　ママは……",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Where's Mom...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:1",
   "hdr": "0007 000F",
   "jp": "チャンスかも……",
-  "en": "",
-  "status": "todo",
+  "en": "This might be my chance...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:2",
   "hdr": "0007 000F",
   "jp": "あった……ママのお財布。",
-  "en": "",
-  "status": "todo",
+  "en": "There it is... Mom's wallet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:3",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(七海さん……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Nanami-san...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:4",
   "hdr": "0007 000F",
   "jp": "ママ、ごめんね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry, Mom.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:5",
   "hdr": "0008 0014",
   "jp": "七海！　何をしているの？",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami! What are you doing?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:6",
   "hdr": "0007 000F",
   "jp": "ママ……",
-  "en": "",
-  "status": "todo",
+  "en": "Mom...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:7",
   "hdr": "0008 0014",
   "jp": "お金を取ろうとしたのね！",
-  "en": "",
-  "status": "todo",
+  "en": "You were trying to take money!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:8",
   "hdr": "0007 000F",
   "jp": "ごめんね。でも……",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry. But...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:9",
   "hdr": "0008 0014",
   "jp": "でも、なに？{n}桐谷(きりや)町へ行きたいって話？",
-  "en": "",
-  "status": "todo",
+  "en": "But what? Is this about{n}wanting to go to Kiriya Town?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:10",
   "hdr": "0007 000F",
   "jp": "ど、どうして知ってるの！？",
-  "en": "",
-  "status": "todo",
+  "en": "H-how did you know!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:11",
   "hdr": "0008 0014",
   "jp": "地図、出しっぱなしだったわよ。{n}桐谷町にしるしがついていたわ。",
-  "en": "",
-  "status": "todo",
+  "en": "You left the map out.{n}You'd marked Kiriya Town on it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:12",
   "hdr": "0008 0014",
   "jp": "そんなにパパに会いたい？",
-  "en": "",
-  "status": "todo",
+  "en": "Do you miss Dad that much?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:13",
   "hdr": "0008 0014",
   "jp": "ママとふたりでがんばるって{n}あなたも言ったじゃない。",
-  "en": "",
-  "status": "todo",
+  "en": "You said we'd manage together,{n}just you and Mom.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:14",
   "hdr": "0008 0014",
   "jp": "気持ちはわかるけど{n}コソコソするのはやめて！",
-  "en": "",
-  "status": "todo",
+  "en": "I know how you feel,{n}but stop sneaking around!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2590:15",
   "hdr": "0007 000F",
   "jp": "なにも……{n}なにも知らないくせに！",
-  "en": "",
-  "status": "todo",
+  "en": "You don't...{n}You don't know anything!",
+  "status": "done",
   "notes": ""
  }
 ]

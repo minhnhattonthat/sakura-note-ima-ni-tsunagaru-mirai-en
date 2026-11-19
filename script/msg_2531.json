@@ -3,144 +3,144 @@
   "id": "2531:0",
   "hdr": "0003 000E",
   "jp": "(ここの医者は、腕は悪くない。{n}　でも、保定がヘタだ)",
-  "en": "",
-  "status": "todo",
+  "en": "(The doctor here isn't bad.{n}But he can't hold an animal still.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:1",
   "hdr": "0003 000E",
   "jp": "せっかく遊びに来たんだから、{n}あの医者をからかってやろう。",
-  "en": "",
-  "status": "todo",
+  "en": "Since I've come all this way,{n}I'll have a little fun with him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:2",
   "hdr": "000E 0012",
   "jp": "チャオ！　おっと……君は……{n}{var_F0}{slot}{slot}{slot}{slot}{slot}さんちの{var_EE}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "Ciao! Oh... you're...{page}{var_EE}{slot}{slot}{slot}{slot}{slot}!{n}From {var_F0}{slot}{slot}{slot}{slot}{slot}-san's house!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:3",
   "hdr": "000E 0012",
   "jp": "また、ひやかしかい？{n}ジャマしないでくれよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Here to tease me again?{n}Don't get in my way, all right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:4",
   "hdr": "0003 000E",
   "jp": "にゃ！{n}{col_FA}(ふん！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(Hmph!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:5",
   "hdr": "000E 0012",
   "jp": "チャオ！　はナイかな？{n}イヤ行ける！　もっとこう軽快に……",
-  "en": "",
-  "status": "todo",
+  "en": "Is \"Ciao!\" no good?{n}No, it works! A little livelier...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:6",
   "hdr": "0020 0015",
   "jp": "キーワードハ『{col_F9}モチ{col_FC}』ー！！{n}ピピッ！",
-  "en": "",
-  "status": "todo",
+  "en": "The keyword is {col_F9}MOCHI{col_FC}!{n}Cheep cheep!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:7",
   "hdr": "000E 0012",
   "jp": "最近クイズ番組が{n}お気に入りみたいなんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "He's really taken to{n}quiz shows lately.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:8",
   "hdr": "000E 0012",
   "jp": "ヒントが断ぺん的すぎて{n}よくわからないんだけどね。",
-  "en": "",
-  "status": "todo",
+  "en": "His clues are so scattered,{n}I can't make much sense of them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:9",
   "hdr": "0004 000D",
   "jp": "ねえ、ネコさん、ネコさん。{n}この町、変じゃないですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Excuse me, Cat-san? Cat-san?{n}Isn't this town a little strange?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:10",
   "hdr": "0004 000D",
   "jp": "ボクは引っ越して来たばかりで{n}よく、わからないんです。",
-  "en": "",
-  "status": "todo",
+  "en": "I've only just moved here,{n}so I don't really know.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:11",
   "hdr": "0003 000E",
   "jp": "(残念ながら、犬が言ってることなんて{n}　半分もわからない)",
-  "en": "",
-  "status": "todo",
+  "en": "(Sadly, I can't understand{n}even half of what dogs say.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:12",
   "hdr": "0004 000D",
   "jp": "あれ？　通じないのかな？{n}ニャ？　ニャニャニャ？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Can't you understand me?{n}Meow? Meow meow meow?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:13",
   "hdr": "0003 000E",
   "jp": "フミャー！！{n}{col_FA}(猫語をバカにしないでよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Mrrrow!{n}{col_FA}(Don't make fun of our language.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:14",
   "hdr": "0004 000D",
   "jp": "しゅん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whimper...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:15",
   "hdr": "000E 0012",
   "jp": "どうしたんだよ、{var_EE}{slot}{slot}{slot}{slot}{slot}。{n}君も具合が悪いのかい？",
-  "en": "",
-  "status": "todo",
+  "en": "What's wrong, {var_EE}{slot}{slot}{slot}{slot}{slot}?{n}Are you feeling sick, too?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:16",
   "hdr": "000E 0012",
   "jp": "春からこっち、多いんだよね。{n}桜がまだ咲いているせいかな？",
-  "en": "",
-  "status": "todo",
+  "en": "I've had lots of sick animals{n}since spring.{page}Could it be because the cherry tree{n}is still in bloom?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2531:17",
   "hdr": "000E 0012",
   "jp": "あ、そろそろ{var_ED}{slot}{slot}{slot}{slot}{slot}の{n}ママさんたちが来るころだな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, {var_ED}{slot}{slot}{slot}{slot}{slot}'s Mama-san{n}and the others should be here soon.",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,168 +3,168 @@
   "id": "2543:0",
   "hdr": "0005 0012",
   "jp": "お。手伝ってくれるのか？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh. Going to help me out?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:1",
   "hdr": "0003 000E",
   "jp": "にゃー{n}{col_FA}(まあね)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow.{n}{col_FA}(Well, yes.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:2",
   "hdr": "0005 0012",
   "jp": "なんだかさ……{n}空気がザワザワしてるよね。",
-  "en": "",
-  "status": "todo",
+  "en": "Somehow...{n}The air feels restless, doesn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:3",
   "hdr": "0005 0012",
   "jp": "幽霊とか妖怪とかが{n}いそうな感じっていうのかな。",
-  "en": "",
-  "status": "todo",
+  "en": "Like there might be ghosts{n}or yokai around, I guess.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:4",
   "hdr": "0003 000E",
   "jp": "にゃにゃ……{n}{col_FA}(こういうことには敏感だね)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew, mew...{n}{col_FA}(You do pick up on these things.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:5",
   "hdr": "0003 000E",
   "jp": "にゃー{n}{col_FA}(そう、その通りだよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow.{n}{col_FA}(Yes, that's right.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:6",
   "hdr": "0005 0012",
   "jp": "ますます、不安だよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Now I'm even more worried.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:7",
   "hdr": "0005 0012",
   "jp": "あれ？　もう帰っちゃうのかい。{n}{var_EE}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Heading home already,{n}{var_EE}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:8",
   "hdr": "0005 0012",
   "jp": "どこにいるんだろうなあ。",
-  "en": "",
-  "status": "todo",
+  "en": "Where could they be?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:9",
   "hdr": "0005 0012",
   "jp": "あ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:10",
   "hdr": "0008 0014",
   "jp": "いた？",
-  "en": "",
-  "status": "todo",
+  "en": "Did you find her?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:11",
   "hdr": "0005 0012",
   "jp": "いや、まだ……",
-  "en": "",
-  "status": "todo",
+  "en": "No, not yet...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:12",
   "hdr": "0008 0014",
   "jp": "花火大会ってどこ？",
-  "en": "",
-  "status": "todo",
+  "en": "Where's the fireworks festival?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:13",
   "hdr": "0005 0012",
   "jp": "川向こうだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Across the river.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:14",
   "hdr": "0005 0012",
   "jp": "だから、このあたりの人たちは{n}会場まで行かないんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "So people around here don't go{n}all the way to the festival.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:15",
   "hdr": "0005 0012",
   "jp": "この高台から見るのが普通だね。",
-  "en": "",
-  "status": "todo",
+  "en": "We usually watch from this Hilltop.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:16",
   "hdr": "0008 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くんも、そうする？",
-  "en": "",
-  "status": "todo",
+  "en": "Will {var_EF}{slot}{slot}{slot}{slot}{slot}-kun{n}be doing that too?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:17",
   "hdr": "0005 0012",
   "jp": "うん、会場は歩いて行ける{n}距離じゃないし。",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah. The festival's too far{n}to walk to, anyway.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:18",
   "hdr": "0005 0012",
   "jp": "あっちの方、行ってみようか。",
-  "en": "",
-  "status": "todo",
+  "en": "Shall we try over that way?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:19",
   "hdr": "0003 000E",
   "jp": "ハルカ、どうして{n}来なかったのよ……",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka, why didn't{n}you come along...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2543:20",
   "hdr": "0003 000E",
   "jp": "あっ。あいつは！",
-  "en": "",
-  "status": "todo",
+  "en": "Ah! That's...!",
+  "status": "done",
   "notes": ""
  }
 ]

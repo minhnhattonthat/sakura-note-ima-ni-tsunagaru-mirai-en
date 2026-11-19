@@ -3,560 +3,560 @@
   "id": "2545:0",
   "hdr": "0003 000E",
   "jp": "にゃにゃーー……{n}{col_FA}(まったくもう……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew, meooow...{n}{col_FA}(Oh, for goodness' sake...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:1",
   "hdr": "0004 000D",
   "jp": "わわわわんわ！{n}{col_F8}(七海さんが！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof!{n}{col_F8}(Nanami-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:2",
   "hdr": "0004 000D",
   "jp": "わわわわんわ　わわんわん！{n}{col_F8}(七海さんが、いないんです！)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof! Woof, woof!{n}{col_F8}(Nanami-san is missing!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:3",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(ったく、しょうがないね……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Honestly... What can you do?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:4",
   "hdr": "0003 000E",
   "jp": "にゃぅ！{n}{col_FA}(探す！)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew!{n}{col_FA}(I'll look!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:5",
   "hdr": "0003 000E",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:6",
   "hdr": "0003 000E",
   "jp": "こっちは、あいつに任せよう。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll leave this side to him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:7",
   "hdr": "0003 000E",
   "jp": "にゃにゃ、んにゃー{n}{col_FA}(大丈夫かい？　少し休むといいよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew, mew, meow.{n}{col_FA}(You all right? Rest a little.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:8",
   "hdr": "000D 0010",
   "jp": "あ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:9",
   "hdr": "0003 000E",
   "jp": "七海がいなくなったって？",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami's gone missing?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:10",
   "hdr": "000D 0010",
   "jp": "そうなんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "That's right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:11",
   "hdr": "000D 0010",
   "jp": "神社で妖怪の様子を探っていたら{n}まず、犬が来たんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I was at the shrine, checking{n}on the yokai. The dog came first.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:12",
   "hdr": "000D 0010",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}と七海が作戦会議を{n}する予定だったそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Seems {var_EF}{slot}{slot}{slot}{slot}{slot} and Nanami{n}had planned a strategy meeting.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:13",
   "hdr": "000D 0010",
   "jp": "でも、妖怪に襲われて、犬は{n}七海とはぐれたらしい。",
-  "en": "",
-  "status": "todo",
+  "en": "But the dog got separated from{n}Nanami when the yokai attacked.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:14",
   "hdr": "000D 0010",
   "jp": "神社で待つことにしたんだけど{n}犬は1分も待てなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "We decided to wait at the shrine,{n}but he couldn't last a minute.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:15",
   "hdr": "000D 0010",
   "jp": "七海さーんって探しに{n}行っちまったんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Off he went, looking for her,{n}calling, \"Nanami-saaan!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:16",
   "hdr": "000D 0010",
   "jp": "そのうち、{var_EF}{slot}{slot}{slot}{slot}{slot}が来た。",
-  "en": "",
-  "status": "todo",
+  "en": "Then {var_EF}{slot}{slot}{slot}{slot}{slot} came along.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:17",
   "hdr": "000D 0010",
   "jp": "でも、いろいろあって{n}{var_EF}{slot}{slot}{slot}{slot}{slot}も行っちまった。",
-  "en": "",
-  "status": "todo",
+  "en": "But one thing led to another,{n}and {var_EF}{slot}{slot}{slot}{slot}{slot} left too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:18",
   "hdr": "000D 0010",
   "jp": "仕方がないからおれは{n}ふたりを探してるってわけだ。",
-  "en": "",
-  "status": "todo",
+  "en": "So what else could I do?{n}I'm out looking for the two of them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:19",
   "hdr": "0003 000E",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}も七海を{n}探してると思うよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I think {var_EF}{slot}{slot}{slot}{slot}{slot} is{n}looking for Nanami too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:20",
   "hdr": "0003 000E",
   "jp": "ところで、あんた。{n}七海に何をさせるつもり？",
-  "en": "",
-  "status": "todo",
+  "en": "Anyway, you.{n}What do you want Nanami to do?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:21",
   "hdr": "000D 0010",
   "jp": "いわゆる……契約の更新。{n}それには七海の協力が必要なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's what you'd call...{n}a pact renewal.{page}I need Nanami's help with it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:22",
   "hdr": "0003 000E",
   "jp": "はぁ？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:23",
   "hdr": "000D 0010",
   "jp": "200年前、おれが結んだ契約。{n}その期限が切れたんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "The pact I made 200 years ago.{n}It's expired.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:24",
   "hdr": "0003 000E",
   "jp": "ってことは、あんたが原因で{n}こんな事件が起こってるのかい？",
-  "en": "",
-  "status": "todo",
+  "en": "So you're the reason{n}all this is happening?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:25",
   "hdr": "0003 000E",
   "jp": "あんた、何者？",
-  "en": "",
-  "status": "todo",
+  "en": "Who are you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:26",
   "hdr": "0024 0010",
   "jp": "おれは佐倉木吉(ききち)。{n}200年前は樹医だった。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm Kikichi.{n}I was a tree doctor 200 years ago.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:27",
   "hdr": "0024 0010",
   "jp": "樹医ってわかるか？{n}木の病気を治す医者だ。",
-  "en": "",
-  "status": "todo",
+  "en": "Know what a tree doctor is?{n}A doctor who cures sick trees.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:28",
   "hdr": "0003 000E",
   "jp": "その樹医がどうして？",
-  "en": "",
-  "status": "todo",
+  "en": "What's a tree doctor{n}doing mixed up in this?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:29",
   "hdr": "0024 0010",
   "jp": "んああああ……長い話だ。{n}とりあえず、七海たちを探そう。",
-  "en": "",
-  "status": "todo",
+  "en": "Uuugh... It's a long story.{n}Let's find Nanami and the boy first.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:30",
   "hdr": "0003 000E",
   "jp": "ああ、そうだね。{n}長い話より、そっちがいいや。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, let's.{n}Better than a long story.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:31",
   "hdr": "0024 0010",
   "jp": "マンションには戻ってないみたいだ。{n}他を当たろうぜ。",
-  "en": "",
-  "status": "todo",
+  "en": "Looks like she hasn't come back{n}to the tower. Let's try elsewhere.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:32",
   "hdr": "0024 0010",
   "jp": "あれ？　七海の家がここだって{n}何で知ってるんだ、おれ。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? How do I know{n}Nanami lives here?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:33",
   "hdr": "000D 0010",
   "jp": "こなくそー！",
-  "en": "",
-  "status": "todo",
+  "en": "Take thaaat!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:34",
   "hdr": "0003 000E",
   "jp": "にゃー……{n}{col_FA}(はぁ……毛が乱れたわ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Sigh... My fur's all messed up...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:35",
   "hdr": "0010 0017",
   "jp": "出たな、たたり猫！",
-  "en": "",
-  "status": "todo",
+  "en": "There you are, curse-bringing cat!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:36",
   "hdr": "0003 000E",
   "jp": "にゃっ{n}{col_FA}(失礼な)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew.{n}{col_FA}(How rude.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:37",
   "hdr": "0010 0018",
   "jp": "待ってろよ。{n}大将に報告してくるから。",
-  "en": "",
-  "status": "todo",
+  "en": "You wait right there.{n}I'm going to report to the boss.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:38",
   "hdr": "0010 0017",
   "jp": "大将はたたりなんて{n}恐れないお方なんだぞ！",
-  "en": "",
-  "status": "todo",
+  "en": "Our boss ain't scared{n}of any curse!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:39",
   "hdr": "0003 000E",
   "jp": "にぃ……{n}{col_FA}(たたり方なんて知らないよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew...{n}{col_FA}(I don't even know how to curse.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:40",
   "hdr": "0004 000D",
   "jp": "わわわわん！　わわわわん！{n}{col_F8}(七海さん、七海さん！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof! Woof, woof!{n}{col_F8}(Nanami-san! Nanami-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:41",
   "hdr": "000D 0010",
   "jp": "ふう、ここならいいかな。",
-  "en": "",
-  "status": "todo",
+  "en": "Phew. This spot should do.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:42",
   "hdr": "0003 000E",
   "jp": "……どうして{n}この子なんだい？",
-  "en": "",
-  "status": "todo",
+  "en": "...Why does it have{n}to be this girl?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:43",
   "hdr": "0004 000D",
   "jp": "七海さん、いい子なんです！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-san is a good girl!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:44",
   "hdr": "000D 0010",
   "jp": "うーん…………{n}おれは理由を知っている。",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm...{n}I know the reason.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:45",
   "hdr": "000D 0010",
   "jp": "そんな気がする。{n}でも、思い出せない。",
-  "en": "",
-  "status": "todo",
+  "en": "I feel like I do.{n}But I can't remember.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:46",
   "hdr": "000D 0010",
   "jp": "人間だった頃のことが{n}関係してるんだろうなあ……",
-  "en": "",
-  "status": "todo",
+  "en": "It must have something to do{n}with when I was human...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:47",
   "hdr": "0003 000E",
   "jp": "思い出せ！",
-  "en": "",
-  "status": "todo",
+  "en": "Then remember!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:48",
   "hdr": "000D 0010",
   "jp": "……おれの記憶は{n}鳥幕府に封じられて……",
-  "en": "",
-  "status": "todo",
+  "en": "...My memories were sealed away{n}by the Bird Shogunate...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:49",
   "hdr": "000D 0010",
   "jp": "鳥幕府！？　なんだそれ？",
-  "en": "",
-  "status": "todo",
+  "en": "The Bird Shogunate?! What's that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:50",
   "hdr": "0003 000E",
   "jp": "自分で言ったんだろ！",
-  "en": "",
-  "status": "todo",
+  "en": "You're the one who said it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:51",
   "hdr": "000D 0010",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！{n}良かった、無事だったな。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!{n}Thank goodness you're safe.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:52",
   "hdr": "000D 0010",
   "jp": "おまえさんはヒーローのくせに{n}自覚が足りないから心配したぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "You're a hero, but you hardly{n}seem to realize it, my friend.{page}You had me worried.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:53",
   "hdr": "0007 000F",
   "jp": "あ、{var_EF}{slot}{slot}{slot}{slot}{slot}くん！{n}助けに来てくれたのね！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}You came to save me!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:54",
   "hdr": "000D 0010",
   "jp": "助けたのは……",
-  "en": "",
-  "status": "todo",
+  "en": "The one who saved you was...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:55",
   "hdr": "0007 000F",
   "jp": "あっ！？　誘拐犯！",
-  "en": "",
-  "status": "todo",
+  "en": "Ah! The kidnapper!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:56",
   "hdr": "000D 0010",
   "jp": "ひどい！",
-  "en": "",
-  "status": "todo",
+  "en": "That's cruel!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:57",
   "hdr": "000D 0010",
   "jp": "おれは、おまえさんたちの{n}良きアドバイザーじゃないか！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm your trusty adviser,{n}aren't I?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:58",
   "hdr": "0007 000F",
   "jp": "………ホント？",
-  "en": "",
-  "status": "todo",
+  "en": "...Really?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:59",
   "hdr": "FFFF 00FF",
   "jp": "少年はとりあえず、悪人では{n}なさそうだとだけ答えた。",
-  "en": "",
-  "status": "todo",
+  "en": "For now, the boy only said{n}that he didn't seem like a bad person.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:60",
   "hdr": "000D 0010",
   "jp": "評価低いのね……",
-  "en": "",
-  "status": "todo",
+  "en": "You don't think much of me...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:61",
   "hdr": "0004 000D",
   "jp": "わわわん、わんわん！{n}{col_F8}(七海さん、ボク頑張りました)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof! Arf, arf!{n}{col_F8}(Nanami-san, I did my best!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:62",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}、わわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}, woof, woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:63",
   "hdr": "0004 000D",
   "jp": "わわわん！　わん、わわわわん！{n}{col_F8}(な、なんて？　意味不明です！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Arf, woof, woof!{n}{col_F8}(W-what? That makes no sense!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:64",
   "hdr": "0007 000F",
   "jp": "あれ？　この猫は？{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くんの猫？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? This cat...{n}Is it yours, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:65",
   "hdr": "0003 000E",
   "jp": "にゃー、にゃーごう{n}{col_FA}(わたしは誰のものでもないって)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow, meooow.{n}{col_FA}(I keep saying, nobody owns me.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:66",
   "hdr": "0007 000F",
   "jp": "猫、伸びるから好き。",
-  "en": "",
-  "status": "todo",
+  "en": "I like cats. They stretch.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:67",
   "hdr": "0004 000D",
   "jp": "わわわん、わんわん！{n}{col_F8}(ボクも伸びますよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof! Arf, arf!{n}{col_F8}(I can stretch too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:68",
   "hdr": "0003 000E",
   "jp": "ニャーーーッ！{n}{col_FA}(なんたるはずかしめ！)",
-  "en": "",
-  "status": "todo",
+  "en": "MEOOOW!{n}{col_FA}(How humiliating!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2545:69",
   "hdr": "0003 000E",
   "jp": "ニャニャ！{n}{col_FA}(やってらんないね！)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew, mew!{n}{col_FA}(I've had enough of this!)",
+  "status": "done",
   "notes": ""
  }
 ]

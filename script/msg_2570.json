@@ -3,264 +3,264 @@
   "id": "2570:0",
   "hdr": "0004 000D",
   "jp": "ワンワン！{n}{col_F8}(七海さん、お散歩しませんか？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof!{page}{col_F8}(Nanami-san,{n}shall we go for a walk?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:1",
   "hdr": "002E 000F",
   "jp": "ママ、{var_ED}{slot}{slot}{slot}{slot}{slot}ったら{n}オシッコがしたいみたい。",
-  "en": "",
-  "status": "todo",
+  "en": "Mom, I think{n}{var_ED}{slot}{slot}{slot}{slot}{slot} needs to pee.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:2",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(そりゃ、しますけど……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Well, yes, I do, but...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:3",
   "hdr": "0008 0014",
   "jp": "ま、本能だから仕方ないか。{n}でも……",
-  "en": "",
-  "status": "todo",
+  "en": "Well, that's nature for you.{n}But...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:4",
   "hdr": "0008 0014",
   "jp": "ママはお友達と会う約束を{n}してるのよね……",
-  "en": "",
-  "status": "todo",
+  "en": "Mom's promised to meet a friend,{n}you see...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:5",
   "hdr": "002E 000F",
   "jp": "だいじょうぶ。{n}ひとりで帰れるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's okay.{n}I can get home on my own.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:6",
   "hdr": "0008 0014",
   "jp": "そう？{n}じゃあ、遅くならないようにね。",
-  "en": "",
-  "status": "todo",
+  "en": "Can you?{n}Then don't be too late.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:7",
   "hdr": "002E 000F",
   "jp": "うん。",
-  "en": "",
-  "status": "todo",
+  "en": "Okay.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:8",
   "hdr": "0008 0014",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}、七海を{n}たのんだわよ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}, take care{n}of Nanami for me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:9",
   "hdr": "0004 000D",
   "jp": "わん！{n}{col_F8}(はいっ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!{n}{col_F8}(Yes, ma'am!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:10",
   "hdr": "002E 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}ったら、もう{n}ガマンできないって。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot} says{n}he can't hold it anymore.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:11",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(七海さん……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Nanami-san...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:12",
   "hdr": "002E 000F",
   "jp": "どこに行こうか？{n}{var_ED}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "",
-  "status": "todo",
+  "en": "Where should we go,{n}{var_ED}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:13",
   "hdr": "002E 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}ー！{n}遠く行っちゃだめだよー！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}!{n}Don't go too far!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:14",
   "hdr": "000E 0012",
   "jp": "あれ？{n}忘れ物かい？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh?{n}Did you forget something?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:15",
   "hdr": "0020 0015",
   "jp": "キーワードハ『{col_F9}サクラ{col_FC}』ー！！{n}ピピッ！",
-  "en": "",
-  "status": "todo",
+  "en": "The keyword is {col_F9}SAKURA{col_FC}!!{n}Cheep cheep!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:16",
   "hdr": "000E 0012",
   "jp": "最近クイズ番組が{n}お気に入りみたいなんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "He's been really into quiz shows{n}lately, it seems.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:17",
   "hdr": "000E 0012",
   "jp": "ヒントが断ぺん的すぎて{n}よくわからないんだけどね。",
-  "en": "",
-  "status": "todo",
+  "en": "The clues are so scattered,{n}I can't make much sense of them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:18",
   "hdr": "0004 000D",
   "jp": "わん！　わんわん！{n}{col_F8}(わっ！　あやしいやつ)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof!{n}{col_F8}(Oh! He looks suspicious!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:19",
   "hdr": "000D 0010",
   "jp": "こら、犬！　だまれ、犬！",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, dog! Quiet, dog!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:20",
   "hdr": "0004 000D",
   "jp": "わん！　わんわん！{n}{col_F8}(七海さん、無視です、無視)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof!{page}{col_F8}(Nanami-san, ignore him!{n}Just ignore him!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:21",
   "hdr": "002E 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}、やめなさい！{n}吠えたら失礼でしょ！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}, stop it!{n}It's rude to bark at people!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:22",
   "hdr": "000D 0010",
   "jp": "なんと……あんた七海ちゃん？",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I'll be...{n}Are you Nanami-chan?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:23",
   "hdr": "002E 000F",
   "jp": "そうですけど……",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, but...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:24",
   "hdr": "0004 000D",
   "jp": "わん！　ガウガウ！{n}{col_F8}(この人、この世の者じゃないです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Grrr, grrr!{page}{col_F8}(This man isn't{n}from the world of the living!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:25",
   "hdr": "000D 0010",
   "jp": "なんてこったい、もう。{n}こんなに早く会えるとは！",
-  "en": "",
-  "status": "todo",
+  "en": "Well, would you look at that!{n}Never thought I'd find you so soon!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:26",
   "hdr": "000D 0010",
   "jp": "ってことはアレだ、あんたは{n}おれの……",
-  "en": "",
-  "status": "todo",
+  "en": "Then that means...{n}You're my...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:27",
   "hdr": "000D 0010",
   "jp": "おお！　おおお！？{n}このニオイ！　なつかしいニオイ！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh! Oooh!?{n}That smell! I remember that smell!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:28",
   "hdr": "0004 000D",
   "jp": "わん！　わんわん！{n}{col_F8}(七海さんのニオイをかぐなー！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof!{n}{col_F8}(Stop sniffing Nanami-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:29",
   "hdr": "002E 000F",
   "jp": "やめてください！{n}{var_ED}{slot}{slot}{slot}{slot}{slot}、行こう！",
-  "en": "",
-  "status": "todo",
+  "en": "Please stop!{n}{var_ED}{slot}{slot}{slot}{slot}{slot}, let's go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:30",
   "hdr": "002E 000F",
   "jp": "えっ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:31",
   "hdr": "000D 0010",
   "jp": "ステイ！",
-  "en": "",
-  "status": "todo",
+  "en": "Stay!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2570:32",
   "hdr": "0004 000D",
   "jp": "ステイしてしまった……",
-  "en": "",
-  "status": "todo",
+  "en": "I stayed...",
+  "status": "done",
   "notes": ""
  }
 ]

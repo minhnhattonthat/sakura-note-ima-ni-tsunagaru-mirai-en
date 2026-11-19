@@ -3,296 +3,296 @@
   "id": "2532:0",
   "hdr": "0003 000E",
   "jp": "……この世の者じゃないよね？",
-  "en": "",
-  "status": "todo",
+  "en": "...You're not of this world, are you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:1",
   "hdr": "000D 0010",
   "jp": "げっ。妖怪より怖い年増猫。",
-  "en": "",
-  "status": "todo",
+  "en": "Gah! An old she-cat!{n}Scarier than a yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:2",
   "hdr": "0003 000E",
   "jp": "失礼じゃない？",
-  "en": "",
-  "status": "todo",
+  "en": "Aren't you rude?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:3",
   "hdr": "000D 0010",
   "jp": "おれは猫に用はないんだよ。{n}おれが探しているのは七海って女の子。",
-  "en": "",
-  "status": "todo",
+  "en": "I've got no business with cats.{n}I'm looking for a girl named Nanami.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:4",
   "hdr": "000D 0010",
   "jp": "この町にいるはずなんだよね。{n}桜を救うには七海が必要なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "She should be here in this town.{page}I need Nanami{n}to save the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:5",
   "hdr": "0003 000E",
   "jp": "桜を救う？",
-  "en": "",
-  "status": "todo",
+  "en": "Save the cherry tree?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:6",
   "hdr": "000D 0010",
   "jp": "猫ならわかるだろ？{n}で、七海の居場所、知らない？",
-  "en": "",
-  "status": "todo",
+  "en": "You're a cat. You understand, right?{n}So, any idea where Nanami is?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:7",
   "hdr": "0003 000E",
   "jp": "知らないよ、そんな子。",
-  "en": "",
-  "status": "todo",
+  "en": "I don't know any girl by that name.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:8",
   "hdr": "00FF 000C",
   "jp": "桜の木が気になる……{n}境内へ行ってみよう。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm worried about the cherry tree...{n}Let's go into the shrine grounds.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:9",
   "hdr": "000D 0010",
   "jp": "ヒーローよ、いずこ。{n}この際、ヒロインでもいい……",
-  "en": "",
-  "status": "todo",
+  "en": "Where are you, my hero?{n}I'd settle for a heroine now...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:10",
   "hdr": "0003 000E",
   "jp": "なつかしい……{n}もう10年前か。",
-  "en": "",
-  "status": "todo",
+  "en": "This takes me back...{n}Ten years already.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:11",
   "hdr": "FFFF 00FF",
   "jp": "わたしはここに捨てられて{n}ミャーミャー泣いていた。",
-  "en": "",
-  "status": "todo",
+  "en": "I was abandoned here,{n}crying and mewing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:12",
   "hdr": "FFFF 00FF",
   "jp": "そんなわたしをハルカは家へ{n}連れて帰ってくれた。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka found me like that{n}and took me home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:13",
   "hdr": "FFFF 00FF",
   "jp": "あの頃、ハルカは毎日のように{n}ここにお参りに来ていた。",
-  "en": "",
-  "status": "todo",
+  "en": "Back then, Haruka came here{n}to pray almost every day.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:14",
   "hdr": "FFFF 00FF",
   "jp": "子供を授かりますように、ってね。",
-  "en": "",
-  "status": "todo",
+  "en": "She prayed for a child, you see.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:15",
   "hdr": "0003 000E",
   "jp": "せめてもの恩返しに、ハルカの{n}願いをかなえてくれないか……",
-  "en": "",
-  "status": "todo",
+  "en": "\"Could you grant Haruka's wish?{n}It's the least I can do to repay her.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:16",
   "hdr": "0003 000E",
   "jp": "わたしはそう桜にたのんだっけ。",
-  "en": "",
-  "status": "todo",
+  "en": "That's what I asked the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:17",
   "hdr": "0003 000E",
   "jp": "そのせいかどうか知らないけど{n}すぐに{var_EF}{slot}{slot}{slot}{slot}{slot}ができた……",
-  "en": "",
-  "status": "todo",
+  "en": "I don't know if that's what did it,{page}but soon Haruka was expecting{n}{var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:18",
   "hdr": "0003 000E",
   "jp": "こんにちは、桜さん。",
-  "en": "",
-  "status": "todo",
+  "en": "Hello, Sakura-san.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:19",
   "hdr": "0003 000E",
   "jp": "ねえ、もう春はとっくに終わったよ。{n}どうしてまだがんばってるんだい？",
-  "en": "",
-  "status": "todo",
+  "en": "Spring's been over for ages.{n}Why are you still trying so hard?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:20",
   "hdr": "0003 000E",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:21",
   "hdr": "FF19 00FF",
   "jp": "…………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:22",
   "hdr": "0003 000E",
   "jp": "ああ。わたしとしたことが。{n}木と話す時は上へ登るんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, of course. How silly of me.{page}To talk to a tree,{n}you have to climb up.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:23",
   "hdr": "0003 000E",
   "jp": "話せる？",
-  "en": "",
-  "status": "todo",
+  "en": "Can you talk?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:24",
   "hdr": "0003 000E",
   "jp": "わたしで役に立てることがあるかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Is there anything I can do to help?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:25",
   "hdr": "FF19 00FF",
   "jp": "あの子が……死んでしまう……",
-  "en": "",
-  "status": "todo",
+  "en": "That child... is going to die...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:26",
   "hdr": "0003 000E",
   "jp": "あの子？　どこの子？",
-  "en": "",
-  "status": "todo",
+  "en": "That child? Which child?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:27",
   "hdr": "FF19 00FF",
   "jp": "力を……送らないと……{n}わたしの《気》を……",
-  "en": "",
-  "status": "todo",
+  "en": "I must... send strength...{n}My spiritual energy...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:28",
   "hdr": "0003 000E",
   "jp": "《気》を送るために咲いてるの？",
-  "en": "",
-  "status": "todo",
+  "en": "You're blooming to send{n}spiritual energy?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:29",
   "hdr": "0003 000E",
   "jp": "誰を助けるにしても、これじゃあ{n}自分が危ないでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "Whoever you're trying to help,{n}you're putting yourself in danger.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:30",
   "hdr": "FF19 00FF",
   "jp": "お願い……塔が……邪魔なの……",
-  "en": "",
-  "status": "todo",
+  "en": "Please... the tower...{n}It's in the way...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:31",
   "hdr": "0003 000E",
   "jp": "塔？",
-  "en": "",
-  "status": "todo",
+  "en": "The tower?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:32",
   "hdr": "0003 000E",
   "jp": "ちょっと待ってね。{n}下で何かはじまった。",
-  "en": "",
-  "status": "todo",
+  "en": "Hold on a moment.{n}Something's happening down below.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:33",
   "hdr": "FF19 00FF",
   "jp": "妖怪が……《気》を……奪う……{n}わたしの……大切な……《気》……",
-  "en": "",
-  "status": "todo",
+  "en": "The yokai... steal...{n}my spiritual energy...{page}My... precious... spiritual energy...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:34",
   "hdr": "0003 000E",
   "jp": "ホントだ！{n}あれはまさしく妖怪！",
-  "en": "",
-  "status": "todo",
+  "en": "You're right!{n}That's definitely a yokai!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:35",
   "hdr": "0003 000E",
   "jp": "ちょっとからかってやるかい。",
-  "en": "",
-  "status": "todo",
+  "en": "Let's have a little fun with it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2532:36",
   "hdr": "0016 0027",
   "jp": "ブヒッ！　ネコ！{n}たたりに来たか！",
-  "en": "",
-  "status": "todo",
+  "en": "Oink! A cat!{n}Have you come to curse me?!",
+  "status": "done",
   "notes": ""
  }
 ]

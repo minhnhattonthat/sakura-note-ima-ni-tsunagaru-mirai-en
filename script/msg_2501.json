@@ -3,432 +3,432 @@
   "id": "2501:0",
   "hdr": "FFFF 00FF",
   "jp": "少年が家に帰ると両親はいなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "When the boy got home,{n}neither of his parents was there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:1",
   "hdr": "FFFF 00FF",
   "jp": "「急用ででかけます。{n}　ごはんまでには帰ります」{n}母親が書いたメモがあった。",
-  "en": "",
-  "status": "todo",
+  "en": "\"Something urgent came up.{n}I'll be back by dinner.\"{n}His mother had left a note.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:2",
   "hdr": "0006 0014",
   "jp": "ごめん、おそくなっちゃった。{n}お父さんは？",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry I'm late.{n}Where's Dad?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:3",
   "hdr": "0006 0014",
   "jp": "そう、まだなのね。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, he's not back yet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:4",
   "hdr": "0006 0014",
   "jp": "ナスカイザーが終わってすぐに{n}電話があって、出かけていったのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "He got a call right after Nazkaiser{n}ended, and then he went out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:5",
   "hdr": "0006 0014",
   "jp": "急いでごはん作るからね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll get dinner ready in a hurry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:6",
   "hdr": "FFFF 00FF",
   "jp": "家の中に豚バラ煮込みのニオイが{n}立ちこめるころ、父親が帰って来た。",
-  "en": "",
-  "status": "todo",
+  "en": "As the smell of stewed pork belly{n}filled the house, his father came home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:7",
   "hdr": "00FF 000C",
   "jp": "今日はもう、外へ出るのはやめておこう。",
-  "en": "",
-  "status": "todo",
+  "en": "Better stay home for the rest of today.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:8",
   "hdr": "0005 0012",
   "jp": "ただいまー。{n}{var_EE}{slot}{slot}{slot}{slot}{slot}も帰ったよー。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm home!{n}{var_EE}{slot}{slot}{slot}{slot}{slot}'s back, too!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:9",
   "hdr": "0005 0012",
   "jp": "いやー、打ち合わせはキライだな。{n}移動時間がもったいなくてさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Man, I hate meetings.{n}All that travel time goes to waste.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:10",
   "hdr": "0005 0012",
   "jp": "おっ、このニオイ！{n}豚バラの煮込み！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, that smell!{n}Braised pork belly!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:11",
   "hdr": "0006 0014",
   "jp": "……外で食べてくるんだと思った。",
-  "en": "",
-  "status": "todo",
+  "en": "...I thought you were eating out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:12",
   "hdr": "0005 0012",
   "jp": "……なんで？",
-  "en": "",
-  "status": "todo",
+  "en": "...Why?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:13",
   "hdr": "0006 0014",
   "jp": "カンよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Just a hunch.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:14",
   "hdr": "0005 0012",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:15",
   "hdr": "0005 0012",
   "jp": "そうだ、取り引き先で{n}お土産をもらったよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, right. A business contact{n}gave me a little gift.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:16",
   "hdr": "0005 0012",
   "jp": "《大桜餅(だいさくらもち)》{n}っていうんだってさ。",
-  "en": "",
-  "status": "todo",
+  "en": "They call it{n}'Great Sakura Mochi.'",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:17",
   "hdr": "0006 0014",
   "jp": "わたしはいらないわ。{n}そんなもの。",
-  "en": "",
-  "status": "todo",
+  "en": "I don't want any.{n}Not that stuff.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:18",
   "hdr": "0005 0012",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:19",
   "hdr": "0005 0012",
   "jp": "そんなものって……",
-  "en": "",
-  "status": "todo",
+  "en": "\"That stuff\"...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:20",
   "hdr": "0006 0014",
   "jp": "そんなものよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, that stuff!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:21",
   "hdr": "0003 000E",
   "jp": "にゃーす",
-  "en": "",
-  "status": "todo",
+  "en": "Meow.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:22",
   "hdr": "0003 000E",
   "jp": "にゃーす{n}{col_FA}(知ーらない)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow.{n}{col_FA}(Leave me out of it.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:23",
   "hdr": "0005 0012",
   "jp": "まいったな。あははは……",
-  "en": "",
-  "status": "todo",
+  "en": "Well, this is awkward. Ahaha...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:24",
   "hdr": "0005 0012",
   "jp": "《大桜餅》、くう？",
-  "en": "",
-  "status": "todo",
+  "en": "Want some Great Sakura Mochi?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:25",
   "hdr": "0005 0012",
   "jp": "《大桜餅》、くう？",
-  "en": "",
-  "status": "todo",
+  "en": "Want some Great Sakura Mochi?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:26",
   "hdr": "0003 000E",
   "jp": "にゃーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Meoow...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:27",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、ハグさせて。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, let me hug you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:28",
   "hdr": "0006 0014",
   "jp": "電話か……きっとお父さんは外出よ。{n}今夜もふたりきりね。",
-  "en": "",
-  "status": "todo",
+  "en": "The phone... I bet Dad has to go out.{n}Just the two of us again tonight.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:29",
   "hdr": "0005 0012",
   "jp": "ちょっと行ってくる。{n}バグ、父さんが原因だった。",
-  "en": "",
-  "status": "todo",
+  "en": "I've got to head out.{n}Turns out Dad caused that bug.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:30",
   "hdr": "0006 0014",
   "jp": "ほーら、ね。",
-  "en": "",
-  "status": "todo",
+  "en": "See? What did I tell you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:31",
   "hdr": "FFFF 00FF",
   "jp": "少年と母親はふたりだけで{n}豚バラの煮込みを食べた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy and his mother ate{n}the braised pork belly, just the two{n}of them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:32",
   "hdr": "FFFF 00FF",
   "jp": "少年が寝る時間になっても父親は{n}帰ってこなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "His father still wasn't home{n}when it was time for the boy to sleep.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:33",
   "hdr": "FFFF 00FF",
   "jp": "少年は《バグ》と戦う父親の姿を{n}思い浮かべた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy pictured his father{n}fighting a 'bug.'",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:34",
   "hdr": "FFFF 00FF",
   "jp": "それから、神社で出会った{n}変なおじさんのことを考えた。{n}正直に言って……{n}人間とは思えない顔をしていた。",
-  "en": "",
-  "status": "todo",
+  "en": "Then he thought about the strange man{n}he'd met at the shrine.{n}To be honest...{n}that face hardly looked human.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:35",
   "hdr": "FFFF 00FF",
   "jp": "本当に人間ではないのかもしれない。{n}怪人とか妖怪とか……",
-  "en": "",
-  "status": "todo",
+  "en": "Maybe he really wasn't human.{n}Maybe he was a monster, or a yokai...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:36",
   "hdr": "FFFF 00FF",
   "jp": "それに、神社の桜のこと。{n}桜は本当に枯れてしまうのだろうか。",
-  "en": "",
-  "status": "todo",
+  "en": "And what about the shrine cherry tree?{n}Was it really going to die?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:37",
   "hdr": "FFFF 00FF",
   "jp": "枯れたら、水をやっても{n}もうダメなのだろうか……",
-  "en": "",
-  "status": "todo",
+  "en": "Once it died, would even watering it{n}be no use...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:38",
   "hdr": "FFFF 00FF",
   "jp": "桜が咲かないと{n}ぼくは悲しむだろうか。{n}涙を流すだろうか。{n}七海のように……",
-  "en": "",
-  "status": "todo",
+  "en": "Would he be sad{n}if the cherry tree didn't bloom?{n}Would he cry?{n}Like Nanami...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:39",
   "hdr": "00FF 000C",
   "jp": "ハルカはもう寝ているようだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka seems to be asleep already.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:40",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof! Woof-woof-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:41",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(大変！　七海さんが大変なんです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof! Woof-woof-woof!{page}{col_F8}(Oh, no! Nanami-san is in trouble!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:42",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof! Woof-woof-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:43",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(神社の結界を破って下さい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof! Woof-woof-woof!{page}{col_F8}(Please break the shrine's barrier!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:44",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof! Woof-woof-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:45",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！　わわわわわん！{n}{col_F8}(世の不思議、信じてますよね？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof! Woof-woof-woof!{page}{col_F8}(You believe in the world's{n}mysteries, don't you?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:46",
   "hdr": "FFFF 00FF",
   "jp": "少年は思い出した。{n}この犬は七海が飼っている{var_ED}{slot}{slot}{slot}{slot}{slot}。{n}しかし、なぜ……",
-  "en": "",
-  "status": "todo",
+  "en": "The boy remembered.{n}This was Nanami's dog, {var_ED}{slot}{slot}{slot}{slot}{slot}.{n}But why...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:47",
   "hdr": "FFFF 00FF",
   "jp": "少年は気づく。{n}犬は必死だ。{n}ぼくに伝えたいことがあるのか？",
-  "en": "",
-  "status": "todo",
+  "en": "The boy noticed how desperate{n}the dog was.{n}Was it trying to tell him something?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:48",
   "hdr": "0003 000E",
   "jp": "にゃー",
-  "en": "",
-  "status": "todo",
+  "en": "Meow.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:49",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:50",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！{n}{col_F8}(よろしくお願いします！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof!{n}{col_F8}(I'm counting on you, please!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:51",
   "hdr": "FFFF 00FF",
   "jp": "少年は理解した。{n}ぼくはこの犬におどされている、と。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy understood.{n}This dog was threatening him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:52",
   "hdr": "00FF 000C",
   "jp": "犬にしたがっておこう……",
-  "en": "",
-  "status": "todo",
+  "en": "Better do what the dog wants...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2501:53",
   "hdr": "00FF 000C",
   "jp": "神社へ行かないと{n}何をされるかわからない……",
-  "en": "",
-  "status": "todo",
+  "en": "Who knows what it'll do{n}if he doesn't go to the shrine...",
+  "status": "done",
   "notes": ""
  }
 ]

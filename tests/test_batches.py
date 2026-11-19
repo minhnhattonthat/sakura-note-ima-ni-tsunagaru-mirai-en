@@ -31,7 +31,7 @@ def test_tag_chars():
 
 
 def test_honorific_after_katakana_only():
-    e = {"id": "2500:1", "hdr": "000D 0010", "jp": "ナナミちゃんとおじさん"}
+    e = {"id": "2500:1", "hdr": "000D 0010", "jp": "ナナミちゃんがおじさんと{n}ちゃんと話す"}  # ちゃんと = properly
     assert any("-chan" in p for p in batches.problems(e, "Nanami and the man", []))
     assert not any("-san" in p for p in batches.problems(e, "Nanami-chan and the man", []))
 

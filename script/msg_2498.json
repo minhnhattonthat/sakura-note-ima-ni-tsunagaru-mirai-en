@@ -3,296 +3,296 @@
   "id": "2498:0",
   "hdr": "FFFF 00FF",
   "jp": "人は誰でも{n}ヒーロー、ヒロインに{n}なることができる。",
-  "en": "",
-  "status": "todo",
+  "en": "Anyone can become{n}a hero or a heroine.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:1",
   "hdr": "FFFF 00FF",
   "jp": "でも、なりたいと思って{n}なれるものではない。",
-  "en": "",
-  "status": "todo",
+  "en": "But wanting to be one{n}isn't enough to make it happen.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:2",
   "hdr": "FFFF 00FF",
   "jp": "誰かにヒーローだと認めてもらい……{n}誰かにヒロインだと認めてもらい……",
-  "en": "",
-  "status": "todo",
+  "en": "Someone has to see you as their hero...{n}Someone has to see you as their heroine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:3",
   "hdr": "FFFF 00FF",
   "jp": "つまり、他の誰かに{n}認めてもらうことが重要だ。",
-  "en": "",
-  "status": "todo",
+  "en": "In other words, what matters{n}is being recognized by someone else.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:4",
   "hdr": "FFFF 00FF",
   "jp": "誰かがそう思ってくれるなら{n}本人の自覚なんて{n}必要ないのかもしれない。",
-  "en": "",
-  "status": "todo",
+  "en": "If someone sees you that way,{n}perhaps you don't need{n}to realize it yourself.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:5",
   "hdr": "FFFF 00FF",
   "jp": "……本当の主人公は{n}ヒーロー、ヒロインのまわりにいる{n}あの人や、その人なのかも……",
-  "en": "",
-  "status": "todo",
+  "en": "...Maybe the real main characters{n}are the people around{n}the hero and heroine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:6",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！{n}いい加減に起きなさい！　遅刻よ！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!{n}Get up already! You're late!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:7",
   "hdr": "FFFF 00FF",
   "jp": "はじまりの日",
-  "en": "",
-  "status": "todo",
+  "en": "The Beginning Day",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:8",
   "hdr": "FFFF 00FF",
   "jp": "咲谷(さくや)小学校5年2組教室。{n}放課後。",
-  "en": "",
-  "status": "todo",
+  "en": "Sakuya Elementary School.{n}Grade 5, Class 2. After school.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:9",
   "hdr": "000A 0013",
   "jp": "三連休！　三連休！{n}おまえら、予定は？",
-  "en": "",
-  "status": "todo",
+  "en": "Three days off! Three days off!{n}You guys got plans?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:10",
   "hdr": "000B 0011",
   "jp": "おれ、神社の桜を見に行くんだ。{n}まだバカみたいに咲いてるんだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "I'm going to see the shrine cherry tree.{n}It's still blooming like crazy, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:11",
   "hdr": "000A 0013",
   "jp": "桜見たっておもしろくねえよな？{n}{var_EF}{slot}{slot}{slot}{slot}{slot}はどっか行くのか？",
-  "en": "",
-  "status": "todo",
+  "en": "Who cares about blossoms, right?{n}Going anywhere, {var_EF}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:12",
   "hdr": "000B 0011",
   "jp": "まずいぞ。早く帰らないと{n}ナスカイザーが始まる！",
-  "en": "",
-  "status": "todo",
+  "en": "Uh-oh! I've gotta get home!{n}Nazkaiser's about to start!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:13",
   "hdr": "000A 0013",
   "jp": "ナスカイザー見るって……{n}テレビなんて録画でいいだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "You're watching Nazkaiser...?{n}Can't you just record it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:14",
   "hdr": "000B 0011",
   "jp": "おれはリアルタイムで{n}見る主義なの！",
-  "en": "",
-  "status": "todo",
+  "en": "I make a point of watching it{n}when it airs!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:15",
   "hdr": "000B 0011",
   "jp": "というわけで、おれ、帰る。",
-  "en": "",
-  "status": "todo",
+  "en": "So, on that note, I'm heading home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:16",
   "hdr": "000A 0013",
   "jp": "明日、{var_EF}{slot}{slot}{slot}{slot}{slot}ンちいくぞ。{n}新しいゲームあるんだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "I'm coming over tomorrow,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}. Got a new game, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:17",
   "hdr": "000B 0011",
   "jp": "マジ！？　さすが！",
-  "en": "",
-  "status": "todo",
+  "en": "Really!? I knew you would!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:18",
   "hdr": "000A 0013",
   "jp": "おまえは桜だろ？",
-  "en": "",
-  "status": "todo",
+  "en": "Aren't you going to see blossoms?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:19",
   "hdr": "000B 0011",
   "jp": "やっぱりゲームの方がいい！",
-  "en": "",
-  "status": "todo",
+  "en": "Games sound better after all!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:20",
   "hdr": "000A 0013",
   "jp": "じゃあな、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}また明日！",
-  "en": "",
-  "status": "todo",
+  "en": "See ya, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}Till tomorrow!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:21",
   "hdr": "000A 0013",
   "jp": "制服着た女子、見た？{n}私立からの転校生だよな。",
-  "en": "",
-  "status": "todo",
+  "en": "See that girl in a uniform?{n}She came from a private school, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:22",
   "hdr": "000B 0011",
   "jp": "でも、変な女子だぞ、あれ。",
-  "en": "",
-  "status": "todo",
+  "en": "She's kind of weird, though.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:23",
   "hdr": "000A 0013",
   "jp": "そうなんだよ、これ、見ろよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah, check this out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:24",
   "hdr": "000B 0011",
   "jp": "あの子、ハンカチを{n}落としていったんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "That girl dropped her handkerchief.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:25",
   "hdr": "000B 0011",
   "jp": "そのハンカチがさあ……",
-  "en": "",
-  "status": "todo",
+  "en": "And get this, the handkerchief...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:26",
   "hdr": "000A 0013",
   "jp": "なんと、ナスカイザーグッズ！{n}笑えるだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "It's Nazkaiser stuff!{n}Pretty funny, huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:27",
   "hdr": "000A 0013",
   "jp": "女子なのに古代戦士ナスカイザー。",
-  "en": "",
-  "status": "todo",
+  "en": "A girl who's into{n}Nazkaiser, Ancient Warrior.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:28",
   "hdr": "000B 0011",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、このハンカチ{n}持って帰れ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, take this{n}handkerchief home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:29",
   "hdr": "000B 0011",
   "jp": "おまえの父さん、ナスカイザーの{n}ゲーム作ってんだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "Your dad makes Nazkaiser games,{n}doesn't he?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:30",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。{n}落としたところを見たなら{n}返してやればいいのに。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought:{n}If they saw her drop it,{n}why didn't they give it back?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:31",
   "hdr": "FFFF 00FF",
   "jp": "二人とも女子が苦手だからってもう……{n}はっきり言って気にしすぎ。",
-  "en": "",
-  "status": "todo",
+  "en": "So they were both awkward around girls.{n}Honestly...{n}They worried about it far too much.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:32",
   "hdr": "000A 0013",
   "jp": "なんか言った？",
-  "en": "",
-  "status": "todo",
+  "en": "You say something?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:33",
   "hdr": "000B 0011",
   "jp": "じゃ、これ。{n}また、明日な！",
-  "en": "",
-  "status": "todo",
+  "en": "Here, take it.{n}See you tomorrow!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:34",
   "hdr": "00FF 000C",
   "jp": "この先は高台地区へ続いている。{n}今は用事はない。",
-  "en": "",
-  "status": "todo",
+  "en": "This way leads to the Hilltop District.{n}There's nothing to do there now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:35",
   "hdr": "00FF 000C",
   "jp": "この先には神社や商店街がある。{n}今は用事はない。",
-  "en": "",
-  "status": "todo",
+  "en": "The shrine and shopping street are ahead.{n}There's nothing to do there now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2498:36",
   "hdr": "00FF 000C",
   "jp": "左側にいる男の子に話かけてみよう。",
-  "en": "",
-  "status": "todo",
+  "en": "Try talking to the boy on the left.",
+  "status": "done",
   "notes": ""
  }
 ]

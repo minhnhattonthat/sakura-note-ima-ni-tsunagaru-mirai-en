@@ -3,104 +3,104 @@
   "id": "2582:0",
   "hdr": "0004 000D",
   "jp": "七海さん！　七海さん！{n}どこにいますかー！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-san! Nanami-san!{n}Where are you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:1",
   "hdr": "000D 0010",
   "jp": "お？　おまえさんは！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh? It's you, my friend!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:2",
   "hdr": "0004 000D",
   "jp": "あ、おじさん、七海さんは？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, sir! Where's Nanami-san?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:3",
   "hdr": "000D 0010",
   "jp": "何があったんだ？{n}七海が、どうした？",
-  "en": "",
-  "status": "todo",
+  "en": "What happened?{n}What's happened to Nanami?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:4",
   "hdr": "0004 000D",
   "jp": "七海さん、{var_EF}{slot}{slot}{slot}{slot}{slot}くんと{n}約束したんです。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-san made a promise{n}with {var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:5",
   "hdr": "0004 000D",
   "jp": "妖怪をやっつける約束です。{n}今日はここで作戦会議です！",
-  "en": "",
-  "status": "todo",
+  "en": "They promised to defeat the yokai.{n}They're meeting here to plan today!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:6",
   "hdr": "000D 0010",
   "jp": "おお、ついに立ち上がったか！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh! Finally ready to take a stand!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:7",
   "hdr": "0004 000D",
   "jp": "でも、ここへ来る途中に{n}妖怪に襲われて……",
-  "en": "",
-  "status": "todo",
+  "en": "But on the way here,{n}some yokai attacked her...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:8",
   "hdr": "000D 0010",
   "jp": "なんだって！？",
-  "en": "",
-  "status": "todo",
+  "en": "What did you say!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:9",
   "hdr": "0004 000D",
   "jp": "でも、無事に逃げました！",
-  "en": "",
-  "status": "todo",
+  "en": "But she got away safely!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:10",
   "hdr": "000D 0010",
   "jp": "良かった。{n}じゃ、じきに来るだろ。",
-  "en": "",
-  "status": "todo",
+  "en": "That's a relief.{n}She should be here soon, then.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:11",
   "hdr": "000D 0010",
   "jp": "よし、ここでヒロインを{n}待とうじゃないか。",
-  "en": "",
-  "status": "todo",
+  "en": "All right, let's wait here{n}for our heroine, shall we?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2582:12",
   "hdr": "0004 000D",
   "jp": "じっと待ってなんかいられません。",
-  "en": "",
-  "status": "todo",
+  "en": "I can't just sit here and wait.",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,392 +3,392 @@
   "id": "2546:0",
   "hdr": "0006 0014",
   "jp": "花火大会、うるさいわね。{n}早く終わらないかしら。",
-  "en": "",
-  "status": "todo",
+  "en": "Those fireworks are so loud.{n}I wish they'd hurry up and end.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:1",
   "hdr": "0003 000E",
   "jp": "にゃーす……{n}{col_FA}(そうだね、うるさいね)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Yes, they are loud.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:2",
   "hdr": "0006 0014",
   "jp": "これは、見に行かないと損ね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'd be missing out{n}if I didn't go watch.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:3",
   "hdr": "0003 000E",
   "jp": "ゴロゴロ……{n}{col_FA}(どういう理屈……)",
-  "en": "",
-  "status": "todo",
+  "en": "Purrr...{n}{col_FA}(How does that make sense...?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:4",
   "hdr": "0006 0014",
   "jp": "ねえ、わたし、行くわね。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I'm off, then.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:5",
   "hdr": "0003 000E",
   "jp": "結局、行くんだから……",
-  "en": "",
-  "status": "todo",
+  "en": "So you're going after all...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:6",
   "hdr": "0003 000E",
   "jp": "そろそろみんな帰ってくるから{n}待っていればいいんだよ……",
-  "en": "",
-  "status": "todo",
+  "en": "Everyone should be home soon.{n}You could just wait...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:7",
   "hdr": "0003 000E",
   "jp": "いや。ちょっと遅いかな……",
-  "en": "",
-  "status": "todo",
+  "en": "No. They're a bit late, actually...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:8",
   "hdr": "0006 0014",
   "jp": "あら……どうしてここへ{n}来ちゃったんだろう……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh... How did I{n}end up here...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:9",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(桜の様子を確認しとくか……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew...{n}{col_FA}(Might as well check on the tree...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:10",
   "hdr": "0003 000E",
   "jp": "ニャゴウ……{n}{col_FA}(もう散ってるはずだけど……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow...{n}{col_FA}(The blossoms should be gone...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:11",
   "hdr": "0006 0014",
   "jp": "懐かしいよね……{n}ここで出会ったんだよね……",
-  "en": "",
-  "status": "todo",
+  "en": "This brings back memories...{n}This is where we met...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:12",
   "hdr": "0003 000E",
   "jp": "にゃ？{n}{col_FA}(まだ咲いてる？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow?{n}{col_FA}(Still in bloom?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:13",
   "hdr": "0006 0014",
   "jp": "それにしても、桜はどうして{n}散らないのかしらね。",
-  "en": "",
-  "status": "todo",
+  "en": "Still, I wonder why the cherry{n}blossoms haven't fallen.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:14",
   "hdr": "0003 000E",
   "jp": "にゃにゃ？{n}{col_FA}(契約更新してないってこと？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow, meow?{n}{col_FA}(So the pact hasn't been renewed?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:15",
   "hdr": "0003 000E",
   "jp": "にゃー……{n}{col_FA}(木吉は何やってるんだよ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow...{n}{col_FA}(What's Kikichi playing at...?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:16",
   "hdr": "0009 0012",
   "jp": "そうかあ、この桜かあ。{n}さすがに古いですねえ。",
-  "en": "",
-  "status": "todo",
+  "en": "Ah, so this is the cherry tree.{n}It really is old, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:17",
   "hdr": "0006 0014",
   "jp": "えっ？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:18",
   "hdr": "0009 0012",
   "jp": "おどろかせてすみません。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry I startled you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:19",
   "hdr": "0009 0012",
   "jp": "でも、変ですよね。{n}散らずに咲き続けるなんて……",
-  "en": "",
-  "status": "todo",
+  "en": "It's strange, though, isn't it?{n}The blossoms just won't fall...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:20",
   "hdr": "0006 0014",
   "jp": "そうですね……",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, it is...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:21",
   "hdr": "0003 000E",
   "jp": "にゃーーーーご{n}{col_FA}(この男、なんだい？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooooow.{n}{col_FA}(What's with this man?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:22",
   "hdr": "0003 000E",
   "jp": "にゃにゃーー{n}{col_FA}(会ったことある？　気のせい？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow, meooow.{n}{col_FA}(Have we met? Am I imagining it?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:23",
   "hdr": "0009 0012",
   "jp": "桐谷町の桜、知ってますか？{n}日本で5番目くらいに大きい。",
-  "en": "",
-  "status": "todo",
+  "en": "Do you know Kiriya Town's cherry tree?{page}It's about the fifth-largest{n}in Japan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:24",
   "hdr": "0006 0014",
   "jp": "いえ、知りませんけど。",
-  "en": "",
-  "status": "todo",
+  "en": "No, I'm afraid I don't.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:25",
   "hdr": "0009 0012",
   "jp": "桐谷の桜は、この桜から採った枝を{n}挿し木して育てたんです。",
-  "en": "",
-  "status": "todo",
+  "en": "The Kiriya cherry tree was grown{n}from a cutting taken from this one.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:26",
   "hdr": "0006 0014",
   "jp": "へえ……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, really...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:27",
   "hdr": "0009 0012",
   "jp": "つまり、この桜はお母さん。{n}桐谷の桜は子供なんです。",
-  "en": "",
-  "status": "todo",
+  "en": "So this tree is the mother.{n}The Kiriya cherry tree is her child.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:28",
   "hdr": "0003 000E",
   "jp": "ゴロゴロゴロ……{n}{col_FA}(桐谷の桜がこの桜の子供……)",
-  "en": "",
-  "status": "todo",
+  "en": "Purr, purr...{page}{col_FA}(The Kiriya cherry tree{n}is this tree's child...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:29",
   "hdr": "0009 0012",
   "jp": "こっちの桜は、こんなに元気なのに{n}桐谷の桜は枯れそうで……",
-  "en": "",
-  "status": "todo",
+  "en": "This tree looks so healthy,{n}but the one in Kiriya is dying...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:30",
   "hdr": "0003 000E",
   "jp": "ニャッ！{n}{col_FA}(桜さん、わかったよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(Sakura-san, I've got it!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:31",
   "hdr": "0009 0012",
   "jp": "ご先祖様がいたらなあ。",
-  "en": "",
-  "status": "todo",
+  "en": "If only my ancestor were here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:32",
   "hdr": "0009 0012",
   "jp": "わたしのご先祖様は{n}植木屋だったんです。",
-  "en": "",
-  "status": "todo",
+  "en": "You see, my ancestor{n}was a gardener.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:33",
   "hdr": "0009 0012",
   "jp": "桐谷の桜を挿し木から育てたのも{n}そのご先祖様なんです。",
-  "en": "",
-  "status": "todo",
+  "en": "He was the one who grew the Kiriya{n}cherry tree from that cutting.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:34",
   "hdr": "0009 0012",
   "jp": "200年くらい前の{n}話ですけどね。",
-  "en": "",
-  "status": "todo",
+  "en": "That was about 200 years ago,{n}of course.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:35",
   "hdr": "0003 000E",
   "jp": "ニャッ！？{n}{col_FA}(木吉の話なのかい！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!?{n}{col_FA}(Are you talking about Kikichi!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:36",
   "hdr": "0003 000E",
   "jp": "ニャ、ニャーーッ！{n}{col_FA}(あんたも子孫ってわけかい！)",
-  "en": "",
-  "status": "todo",
+  "en": "M-Meooow!{n}{col_FA}(So you're his descendant, too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:37",
   "hdr": "0006 0014",
   "jp": "あの……昼間、会いましたよね。{n}高台のマンションで。",
-  "en": "",
-  "status": "todo",
+  "en": "Um... We met earlier today,{n}didn't we? At the Hilltop tower.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:38",
   "hdr": "0009 0012",
   "jp": "ええと……あっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Um... Oh!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:39",
   "hdr": "0006 0014",
   "jp": "七海さんのお知り合い？",
-  "en": "",
-  "status": "todo",
+  "en": "Do you know Nanami-san?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:40",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(なんだい、どういうこと？)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(What? What's going on?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:41",
   "hdr": "0009 0012",
   "jp": "わたし、七海の父親です。{n}佐倉タカシと言います。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm Nanami's father.{n}My name is Takashi Sakura.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:42",
   "hdr": "0006 0014",
   "jp": "あら。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:43",
   "hdr": "0009 0012",
   "jp": "あの……{n}こっちに来てることは内密に。",
-  "en": "",
-  "status": "todo",
+  "en": "Um... Please keep it a secret{n}that I'm here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:44",
   "hdr": "0006 0014",
   "jp": "はぁ……でも、どうしてですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Well... But why?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:45",
   "hdr": "0006 0014",
   "jp": "どうして逃げるんです？",
-  "en": "",
-  "status": "todo",
+  "en": "Why are you running away?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:46",
   "hdr": "0003 000E",
   "jp": "にゃー！！{n}{col_FA}(そうだよ。なぜ逃げるんだい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow!{n}{col_FA}(Exactly! Why are you running?!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:47",
   "hdr": "0003 000E",
   "jp": "ふん。逃げられたよ……",
-  "en": "",
-  "status": "todo",
+  "en": "Hmph. He got away...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2546:48",
   "hdr": "0003 000E",
   "jp": "猫は長距離ランナーじゃ{n}ないからね。",
-  "en": "",
-  "status": "todo",
+  "en": "Cats aren't built for{n}long-distance running, you know.",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,88 +3,88 @@
   "id": "2540:0",
   "hdr": "0006 0014",
   "jp": "あの子、いつまで寝るつもりかしら……",
-  "en": "",
-  "status": "todo",
+  "en": "How long is that boy going to sleep...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:1",
   "hdr": "002F 0012",
   "jp": "いいじゃない。休みなんだし。",
-  "en": "",
-  "status": "todo",
+  "en": "Let him. It's a day off.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:2",
   "hdr": "0006 0014",
   "jp": "ひとりごとよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I was talking to myself.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:3",
   "hdr": "002F 0012",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:4",
   "hdr": "0006 0014",
   "jp": "掃除したいんだけど、そこ{n}どいてくれる？",
-  "en": "",
-  "status": "todo",
+  "en": "I want to clean.{n}Could you move out of the way?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:5",
   "hdr": "002F 0012",
   "jp": "あ、はいはい。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, sure, sure.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:6",
   "hdr": "0006 0014",
   "jp": "仕事しないなら、あなたの{n}部屋からするけど。",
-  "en": "",
-  "status": "todo",
+  "en": "If you're not working,{n}I'll start with your room.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:7",
   "hdr": "002F 0012",
   "jp": "いや、仕事に戻るよ。",
-  "en": "",
-  "status": "todo",
+  "en": "No, I'll get back to work.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:8",
   "hdr": "002F 0012",
   "jp": "あんまり忙しくてさ、ちょっと{n}現実逃避してただけ。",
-  "en": "",
-  "status": "todo",
+  "en": "I've been so busy.{n}I just needed to escape reality a bit.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:9",
   "hdr": "0006 0014",
   "jp": "悪かったわね。{n}現実に引き戻して。",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry for dragging you{n}back to reality.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2540:10",
   "hdr": "0003 000E",
   "jp": "にゃ……ゴロ。{n}{col_FA}(ハルカ、それくらいにしときな)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew... Purr.{n}{col_FA}(Haruka, that's enough.)",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,216 +3,216 @@
   "id": "2593:0",
   "hdr": "000B 0011",
   "jp": "電車だ！",
-  "en": "",
-  "status": "todo",
+  "en": "The train!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:1",
   "hdr": "000A 0013",
   "jp": "ほら、行くぞ！",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, let's go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:2",
   "hdr": "0008 0014",
   "jp": "七海！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:3",
   "hdr": "0008 0014",
   "jp": "あの子たちです！",
-  "en": "",
-  "status": "todo",
+  "en": "Those are the children!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:4",
   "hdr": "0004 000D",
   "jp": "ガル……",
-  "en": "",
-  "status": "todo",
+  "en": "Grr...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:5",
   "hdr": "0004 000D",
   "jp": "ガル……{n}{col_F8}(これはマズイです……)",
-  "en": "",
-  "status": "todo",
+  "en": "Grr...{n}{col_F8}(This isn't good...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:6",
   "hdr": "000A 0013",
   "jp": "おばさん、ごめんなさい！",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry, ma'am!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:7",
   "hdr": "000A 0013",
   "jp": "わーーーっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Aaaah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:8",
   "hdr": "000B 0011",
   "jp": "とりゃーーー！",
-  "en": "",
-  "status": "todo",
+  "en": "Hii-yah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:9",
   "hdr": "0004 000D",
   "jp": "ガルルル！",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrr!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:10",
   "hdr": "0004 000D",
   "jp": "ガルルル！{n}{col_F8}(ママさん、ごめんなさい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrr!{n}{col_F8}(I'm sorry, Mama-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:11",
   "hdr": "0008 0014",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}！？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:12",
   "hdr": "000B 0011",
   "jp": "ここは俺たちにまかせて！",
-  "en": "",
-  "status": "todo",
+  "en": "Leave this to us!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:13",
   "hdr": "0007 000F",
   "jp": "キイチくん、ガンタくん{n}ありがとう！",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi-kun, Ganta-kun,{n}thank you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:14",
   "hdr": "000A 0013",
   "jp": "さっさと行け！{n}{var_EF}{slot}{slot}{slot}{slot}{slot}、GOGO！",
-  "en": "",
-  "status": "todo",
+  "en": "Get moving!{n}{var_EF}{slot}{slot}{slot}{slot}{slot}, go, go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:15",
   "hdr": "0004 000D",
   "jp": "わん！？",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:16",
   "hdr": "0004 000D",
   "jp": "わん！？{n}{col_F8}(あっ！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!?{n}{col_F8}(Oh!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:17",
   "hdr": "0004 000D",
   "jp": "わわわん！？",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:18",
   "hdr": "0004 000D",
   "jp": "わわわん！？{n}{col_F8}(あれっ！？)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof!?{n}{col_F8}(Huh!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:19",
   "hdr": "0004 000D",
   "jp": "わん、わわわん！？",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, w-w-woof!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:20",
   "hdr": "0004 000D",
   "jp": "わん、わわわん！？{n}{col_F8}(ど、どうしよう！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, w-w-woof!?{n}{col_F8}(Wh-what should I do!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:21",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(七海さん……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Nanami-san...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:22",
   "hdr": "0004 000D",
   "jp": "くぃーん……{n}{col_F8}(ママさん、さっきは……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(Mama-san, about earlier...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:23",
   "hdr": "0008 0014",
   "jp": "あなたは七海の味方だものね。",
-  "en": "",
-  "status": "todo",
+  "en": "You're on Nanami's side,{n}aren't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:24",
   "hdr": "0004 000D",
   "jp": "くぅ……{n}{col_F8}(ごめんなさい……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I'm sorry...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:25",
   "hdr": "0008 0014",
   "jp": "まるで、あの人みたいね。",
-  "en": "",
-  "status": "todo",
+  "en": "You're just like him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2593:26",
   "hdr": "0004 000D",
   "jp": "わん！{n}{col_F8}(出たな-！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!{n}{col_F8}(There you are!)",
+  "status": "done",
   "notes": ""
  }
 ]

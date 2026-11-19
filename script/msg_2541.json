@@ -3,152 +3,152 @@
   "id": "2541:0",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}ったらね……",
-  "en": "",
-  "status": "todo",
+  "en": "That {var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:1",
   "hdr": "0006 0014",
   "jp": "友だちと花火大会に{n}行っちゃったのよ……",
-  "en": "",
-  "status": "todo",
+  "en": "He's gone to the fireworks festival{n}with his friends...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:2",
   "hdr": "0006 0014",
   "jp": "はぁ……親離れか。{n}わたしも子離れしなくちゃね……",
-  "en": "",
-  "status": "todo",
+  "en": "Sigh... He's growing away from me.{n}I need to learn to let go, too...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:3",
   "hdr": "0003 000E",
   "jp": "ニャース……{n}{col_FA}(そうかもね……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Maybe you do...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:4",
   "hdr": "002F 0012",
   "jp": "ちょっといいかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Have you got a minute?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:5",
   "hdr": "0006 0014",
   "jp": "なに？",
-  "en": "",
-  "status": "todo",
+  "en": "What?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:6",
   "hdr": "002F 0012",
   "jp": "花火大会、行かない？{n}ふたりでさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Want to go to the fireworks festival?{n}Just the two of us.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:7",
   "hdr": "0006 0014",
   "jp": "だって……{n}仕事、大変なんでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "But...{n}Work's been hard, hasn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:8",
   "hdr": "002F 0012",
   "jp": "少しくらい大丈夫だよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I can spare a little time.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:9",
   "hdr": "0006 0014",
   "jp": "でも……",
-  "en": "",
-  "status": "todo",
+  "en": "But...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:10",
   "hdr": "002F 0012",
   "jp": "なんかさ、最近ぼくたち{n}ギクシャクしてるでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "Things have been a little awkward{n}between us lately, haven't they?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:11",
   "hdr": "0006 0014",
   "jp": "うん……",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:12",
   "hdr": "002F 0012",
   "jp": "だから、行こう。",
-  "en": "",
-  "status": "todo",
+  "en": "So, let's go.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:13",
   "hdr": "0006 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:14",
   "hdr": "0003 000E",
   "jp": "にゃっ、にゃー！{n}{col_FA}(ハルカ、行きなさい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew, meow!{n}{col_FA}(Haruka, go on!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:15",
   "hdr": "0006 0014",
   "jp": "わかったわ。{n}準備するから待ってて。",
-  "en": "",
-  "status": "todo",
+  "en": "All right.{n}Wait here while I get ready.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:16",
   "hdr": "002F 0012",
   "jp": "あ、電話だ。{n}じゃ、待ってるから。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, my phone.{n}I'll be here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:17",
   "hdr": "0006 0014",
   "jp": "さあ、お出かけ準備！{n}メイクメイク！",
-  "en": "",
-  "status": "todo",
+  "en": "Time to get ready to go out!{n}Makeup, makeup!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2541:18",
   "hdr": "0003 000E",
   "jp": "にゃー……{n}{col_FA}(はりきりすぎ……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Getting a bit carried away...)",
+  "status": "done",
   "notes": ""
  }
 ]

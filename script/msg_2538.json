@@ -3,312 +3,312 @@
   "id": "2538:0",
   "hdr": "003E 0013",
   "jp": "あ、ゴメンねネコちゃん。{n}当店はペットの入場禁止なの……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, sorry, kitty-chan.{n}We don't allow pets in our store...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:1",
   "hdr": "003A 0014",
   "jp": "ちょっと、どういうこと！？",
-  "en": "",
-  "status": "todo",
+  "en": "Hey! What's going on here!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:2",
   "hdr": "002A 0011",
   "jp": "すごく楽しみにしてたのに～",
-  "en": "",
-  "status": "todo",
+  "en": "I was sooo looking forward to this!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:3",
   "hdr": "0039 0012",
   "jp": "俺が並び続けた時間は{n}いったいなんだったんだ！！",
-  "en": "",
-  "status": "todo",
+  "en": "What was all that time{n}I spent waiting in line for?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:4",
   "hdr": "002B 0013",
   "jp": "行列をみかけたら、とにかく{n}ならんじゃうクセ、なおさなきゃ……",
-  "en": "",
-  "status": "todo",
+  "en": "I have to stop joining every line{n}I see without knowing what it's for...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:5",
   "hdr": "00FF 000C",
   "jp": "本日、シェフのきまぐれにより{n}お休みさせていただきます。",
-  "en": "",
-  "status": "todo",
+  "en": "We are closed today{n}at the chef's whim.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:6",
   "hdr": "003B 0012",
   "jp": "ううん、娘の誕生日プレゼントが{n}まったく決まらない……",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm... I just can't decide what{n}to get my daughter for her birthday...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:7",
   "hdr": "003B 0012",
   "jp": "うん？{n}なんだ、猫か。",
-  "en": "",
-  "status": "todo",
+  "en": "Hm?{n}Oh, it's a cat.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:8",
   "hdr": "003B 0012",
   "jp": "……そうだ、猫だ！{n}猫のぬいぐるみにしよう！",
-  "en": "",
-  "status": "todo",
+  "en": "...That's it! A cat!{n}I'll get her a stuffed cat!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:9",
   "hdr": "003C 0013",
   "jp": "うーん、いいにおい！{n}なんだか食べれそう……",
-  "en": "",
-  "status": "todo",
+  "en": "Mmm, it smells so good!{n}I feel like I could eat it...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:10",
   "hdr": "003A 0014",
   "jp": "はやく使ってみたいね。",
-  "en": "",
-  "status": "todo",
+  "en": "I can't wait to try it, can you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:11",
   "hdr": "00FF 000C",
   "jp": "せっけんやシャンプーが{n}たくさん並んでいる。",
-  "en": "",
-  "status": "todo",
+  "en": "Lots of soaps and shampoos{n}are lined up here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:12",
   "hdr": "003B 0012",
   "jp": "ううむ、ナイスチョイス。",
-  "en": "",
-  "status": "todo",
+  "en": "Mmm. Nice choice.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:13",
   "hdr": "0024 0010",
   "jp": "おお、えらいことになってるな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, this is quite a mess.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:14",
   "hdr": "0003 000E",
   "jp": "アンタが原因なんでしょ？{n}ひとごとみたいに言わないの！",
-  "en": "",
-  "status": "todo",
+  "en": "You caused it, didn't you?{n}Don't act like it's not your problem!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:15",
   "hdr": "0024 0010",
   "jp": "いや、まったくもってそのとおり。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, you're absolutely right there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:16",
   "hdr": "0024 0010",
   "jp": "早いとこ、七海をみつけて{n}契約を更新しなきゃな。",
-  "en": "",
-  "status": "todo",
+  "en": "We'd better find Nanami soon{n}and renew the pact.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:17",
   "hdr": "0003 000E",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:18",
   "hdr": "005A 0013",
   "jp": "お、お客様！{n}おちついて～！",
-  "en": "",
-  "status": "todo",
+  "en": "P-please!{n}Calm down!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:19",
   "hdr": "002B 0013",
   "jp": "ねぇ、聞いてる？",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, are you listening?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:20",
   "hdr": "002A 0011",
   "jp": "お、猫だ。{n}アイス食う？",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, a cat.{n}Want an Ice Pop?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:21",
   "hdr": "003B 0012",
   "jp": "俺のアイスが消えた！{n}消えたよ！",
-  "en": "",
-  "status": "todo",
+  "en": "My Ice Pop disappeared!{n}It's gone!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:22",
   "hdr": "0003 000E",
   "jp": "……人間には、わたしたちの言葉は{n}通じないからなぁ。あてにできないか。",
-  "en": "",
-  "status": "todo",
+  "en": "...Humans can't understand us.{n}I suppose I can't count on them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:23",
   "hdr": "0003 000E",
   "jp": "こっちはわたしのことなんか{n}眼中にないみたいだね。",
-  "en": "",
-  "status": "todo",
+  "en": "This one doesn't seem{n}to notice me at all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:24",
   "hdr": "0062 0012",
   "jp": "迷い猫……か。{n}昔を思い出すな。",
-  "en": "",
-  "status": "todo",
+  "en": "A lost cat... huh.{n}Takes me back.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:25",
   "hdr": "0062 0012",
   "jp": "あの頃の俺は、お前みたいに{n}ぎらぎらした目をしていたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Back then, I had that same{n}fierce look in my eyes.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:26",
   "hdr": "0062 0012",
   "jp": "そんなある日{n}俺はアイツと出会ったんだ……",
-  "en": "",
-  "status": "todo",
+  "en": "Then one day,{n}I met someone...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:27",
   "hdr": "0003 000E",
   "jp": "長くなりそうだ。{n}さっさと七海を探さなきゃ。",
-  "en": "",
-  "status": "todo",
+  "en": "This could take a while.{n}I'd better hurry and find Nanami.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:28",
   "hdr": "0062 0012",
   "jp": "その時、アイツはこう言ったのさ。{n}俺達は一生の友達だ……ってね。",
-  "en": "",
-  "status": "todo",
+  "en": "That's when my pal said it.{n}\"We'll be friends for life...\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:29",
   "hdr": "002A 0011",
   "jp": "ああー！{n}疲れたよー！",
-  "en": "",
-  "status": "todo",
+  "en": "Aaah!{n}I'm so tired!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:30",
   "hdr": "002B 0013",
   "jp": "はいはい、お疲れ様！{n}荷物持ちありがとね。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, yes. Good work!{n}Thanks for carrying my bags.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:31",
   "hdr": "0003 000E",
   "jp": "おおきいとかげだ。{n}あとでハルカにみせてやろう。",
-  "en": "",
-  "status": "todo",
+  "en": "That's a big lizard.{n}I'll show Haruka later.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:32",
   "hdr": "FF1A 00FF",
   "jp": "テスト29{n}テスト30",
-  "en": "",
-  "status": "todo",
+  "en": "Test 29{n}Test 30",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:33",
   "hdr": "FF1A 00FF",
   "jp": "テスト31{n}テスト32",
-  "en": "",
-  "status": "todo",
+  "en": "Test 31{n}Test 32",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:34",
   "hdr": "FF1A 00FF",
   "jp": "テスト33{n}テスト34",
-  "en": "",
-  "status": "todo",
+  "en": "Test 33{n}Test 34",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:35",
   "hdr": "FF1A 00FF",
   "jp": "テスト35{n}テスト36",
-  "en": "",
-  "status": "todo",
+  "en": "Test 35{n}Test 36",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:36",
   "hdr": "FF1A 00FF",
   "jp": "テスト37{n}テスト38",
-  "en": "",
-  "status": "todo",
+  "en": "Test 37{n}Test 38",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:37",
   "hdr": "FF1A 00FF",
   "jp": "テスト39{n}テスト40",
-  "en": "",
-  "status": "todo",
+  "en": "Test 39{n}Test 40",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2538:38",
   "hdr": "FF1A 00FF",
   "jp": "テスト41{n}テスト42",
-  "en": "",
-  "status": "todo",
+  "en": "Test 41{n}Test 42",
+  "status": "done",
   "notes": ""
  }
 ]

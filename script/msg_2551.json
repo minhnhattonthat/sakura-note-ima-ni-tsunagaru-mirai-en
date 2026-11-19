@@ -3,224 +3,224 @@
   "id": "2551:0",
   "hdr": "000E 0012",
   "jp": "やあ、{var_EE}{slot}{slot}{slot}{slot}{slot}。{n}また、ひとりで来たのか？",
-  "en": "",
-  "status": "todo",
+  "en": "Hello, {var_EE}{slot}{slot}{slot}{slot}{slot}.{n}Here on your own again?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:1",
   "hdr": "000E 0012",
   "jp": "参ったな……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, dear...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:2",
   "hdr": "000E 0012",
   "jp": "でも、一応、聞かせてもらおうか。{n}どこが悪いんだい？",
-  "en": "",
-  "status": "todo",
+  "en": "Well, let's hear you out anyway.{n}What seems to be the trouble?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:3",
   "hdr": "0003 000E",
   "jp": "にゃー……{n}{col_FA}(そこのインコにちょっとね)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow...{n}{col_FA}(Just a word with that parakeet.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:4",
   "hdr": "000E 0012",
   "jp": "え？　おなかが痛い？",
-  "en": "",
-  "status": "todo",
+  "en": "Hm? Your tummy hurts?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:5",
   "hdr": "0003 000E",
   "jp": "にゃ……{n}{col_FA}(もう、いいよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow...{n}{col_FA}(Oh, never mind.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:6",
   "hdr": "000E 0012",
   "jp": "なんだ、ひやかしか。{n}ま、ごゆっくり。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, just dropping in?{n}Well, make yourself at home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:7",
   "hdr": "000E 0012",
   "jp": "ぼくはちょっと休憩ね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm taking a little break.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:8",
   "hdr": "0020 0015",
   "jp": "鳥の宿敵、猫め。{n}自分、何か用か？",
-  "en": "",
-  "status": "todo",
+  "en": "A cat! The sworn enemy of birds.{n}What do you want?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:9",
   "hdr": "0003 000E",
   "jp": "頼みがあって来たんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I've come to ask a favor.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:10",
   "hdr": "0003 000E",
   "jp": "さっきの医者は鳥の言葉が{n}わかるんだって？",
-  "en": "",
-  "status": "todo",
+  "en": "I hear that doctor{n}understands bird language?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:11",
   "hdr": "0003 000E",
   "jp": "だったらあの医者に{n}伝えてくれないか？",
-  "en": "",
-  "status": "todo",
+  "en": "Then could you pass{n}a message on to him?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:12",
   "hdr": "0020 0015",
   "jp": "断る！",
-  "en": "",
-  "status": "todo",
+  "en": "Request denied!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:13",
   "hdr": "0020 0015",
   "jp": "200年ほど前に{n}鳥幕府のお達しがあった。",
-  "en": "",
-  "status": "todo",
+  "en": "About 200 years ago,{n}the Bird Shogunate issued an order.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:14",
   "hdr": "0020 0015",
   "jp": "人間と会話した鳥は{n}羽むしりの上釜ゆで。",
-  "en": "",
-  "status": "todo",
+  "en": "Any bird that talks to humans{n}gets plucked, then boiled in a pot.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:15",
   "hdr": "0003 000E",
   "jp": "幕府って……",
-  "en": "",
-  "status": "todo",
+  "en": "A shogunate...?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:16",
   "hdr": "0020 0015",
   "jp": "バカにするな。{n}鳥にだって幕府くらいある！",
-  "en": "",
-  "status": "todo",
+  "en": "Don't mock us!{n}Birds have a shogunate, too!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:17",
   "hdr": "0003 000E",
   "jp": "悪かったよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry about that.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:18",
   "hdr": "0020 0015",
   "jp": "いいだろう。許す。",
-  "en": "",
-  "status": "todo",
+  "en": "Very well. Apology accepted.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:19",
   "hdr": "0020 0015",
   "jp": "まあ、人間と動物は、それくらいの{n}付き合いがいいのさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Anyway, humans and animals{n}are better off keeping that distance.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:20",
   "hdr": "0003 000E",
   "jp": "でも、今は町の一大事なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "But the whole town's in danger.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:21",
   "hdr": "0003 000E",
   "jp": "このままじゃ、町は妖怪のものに{n}なってしまうよ。",
-  "en": "",
-  "status": "todo",
+  "en": "At this rate, the yokai{n}will take over the town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:22",
   "hdr": "0020 0015",
   "jp": "鳥はどこへでも飛んでいける。{n}町がどうなろうと、知ったことか。",
-  "en": "",
-  "status": "todo",
+  "en": "Birds can fly anywhere.{n}What do I care about this town?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:23",
   "hdr": "0003 000E",
   "jp": "……その足カセを{n}どうやってはずすのさ。",
-  "en": "",
-  "status": "todo",
+  "en": "...And how will you get{n}that shackle off your leg?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:24",
   "hdr": "0003 000E",
   "jp": "頼みを聞いてくれたら{n}わたしがなんとかしてやるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Do me this favor,{n}and I'll take care of it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:25",
   "hdr": "0020 0015",
   "jp": "……………………ピ！",
-  "en": "",
-  "status": "todo",
+  "en": "........................Cheep!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:26",
   "hdr": "0020 0015",
   "jp": "………………ピュウ！",
-  "en": "",
-  "status": "todo",
+  "en": "..................Chirrrp!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2551:27",
   "hdr": "0020 0015",
   "jp": "取り引き成立。{n}で、何を伝えればいんだ？",
-  "en": "",
-  "status": "todo",
+  "en": "Deal struck.{n}So, what's the message?",
+  "status": "done",
   "notes": ""
  }
 ]

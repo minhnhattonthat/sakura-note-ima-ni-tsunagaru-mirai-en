@@ -3,160 +3,160 @@
   "id": "2591:0",
   "hdr": "0031 0017",
   "jp": "うひ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:1",
   "hdr": "0004 000D",
   "jp": "がうがう！{n}{col_F8}(七海さん、ここはボクが！)",
-  "en": "",
-  "status": "todo",
+  "en": "Grr, woof!{n}{col_F8}(Nanami-san, I'll handle this!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:2",
   "hdr": "000D 0010",
   "jp": "ここはオジサンにまかせなさい！",
-  "en": "",
-  "status": "todo",
+  "en": "Leave this to your old friend!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:3",
   "hdr": "0012 0018",
   "jp": "うひひひ……{n}おまえ、消えそうだぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee hee...{n}You're about to fade away.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:4",
   "hdr": "000D 0010",
   "jp": "ちょっと鳥に突かれて……{n}って、だまらっしゃい！",
-  "en": "",
-  "status": "todo",
+  "en": "A bird pecked me a bit...{n}Hey, you be quiet!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:5",
   "hdr": "0031 0017",
   "jp": "くそう……{n}いつか猫を克服してやる！",
-  "en": "",
-  "status": "todo",
+  "en": "Darn it...{n}Someday I'll get over cats!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:6",
   "hdr": "000D 0010",
   "jp": "わーっはっはっはっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Wah ha ha ha!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:7",
   "hdr": "0007 000F",
   "jp": "ありがとう、おじさん。{n}でも……どうしたの？",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you, sir.{n}But... what happened to you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:8",
   "hdr": "0004 000D",
   "jp": "わん……？{n}{col_F8}(ホントに消えそうですよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof...?{n}{col_F8}(You really are fading away.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:9",
   "hdr": "000D 0010",
   "jp": "まいったよ。{n}鳥に見つかっちまってな。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm in a real fix.{n}The birds found me, you see.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:10",
   "hdr": "000D 0010",
   "jp": "というわけで時間がない。{n}こんなことならもっと早くに真実を……",
-  "en": "",
-  "status": "todo",
+  "en": "So I haven't got much time.{page}If I'd known, I'd have told you{n}the truth sooner...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:11",
   "hdr": "0007 000F",
   "jp": "えっ？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:12",
   "hdr": "000D 0010",
   "jp": "七海ちゃん、桐谷町へ行くんだ。{n}そしてタカシと会え。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan, go to Kiriya Town.{n}And see Takashi.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:13",
   "hdr": "0007 000F",
   "jp": "パパと会えばいいの？",
-  "en": "",
-  "status": "todo",
+  "en": "So I should go see Dad?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:14",
   "hdr": "000D 0010",
   "jp": "そう。後のことは手配しておくから。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes. I'll arrange the rest.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:15",
   "hdr": "0004 000D",
   "jp": "だいじょうぶですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Are you all right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:16",
   "hdr": "000D 0010",
   "jp": "それより、犬。頼みがある。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}の家の猫から話を聞け。",
-  "en": "",
-  "status": "todo",
+  "en": "Never mind that, dog. Do me a favor.{page}Go hear what the cat at{n}{var_EF}{slot}{slot}{slot}{slot}{slot}'s house has to say.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:17",
   "hdr": "000D 0010",
   "jp": "詳しいことはアイツに話した。{n}それをなんとかタカシと七海に伝えろ！",
-  "en": "",
-  "status": "todo",
+  "en": "I told that cat all the details.{page}Find some way to tell{n}Takashi and Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:18",
   "hdr": "000D 0010",
   "jp": "くそっ！　鳥幕府め！",
-  "en": "",
-  "status": "todo",
+  "en": "Blast that Bird Shogunate!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2591:19",
   "hdr": "0004 000D",
   "jp": "うひゃ！",
-  "en": "",
-  "status": "todo",
+  "en": "Yikes!",
+  "status": "done",
   "notes": ""
  }
 ]

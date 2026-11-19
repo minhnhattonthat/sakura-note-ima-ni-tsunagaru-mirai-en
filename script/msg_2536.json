@@ -3,104 +3,104 @@
   "id": "2536:0",
   "hdr": "000D 0010",
   "jp": "よーし、がんばれー！{n}おれたちのヒーロー、がんばれー！",
-  "en": "",
-  "status": "todo",
+  "en": "That's it! Keep going!{n}You're our hero! You can do it!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:1",
   "hdr": "0003 000E",
   "jp": "どいて！",
-  "en": "",
-  "status": "todo",
+  "en": "Move!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:2",
   "hdr": "0011 0017",
   "jp": "この娘、塔に住んでる娘だ！{n}連れてきたぞ。招待したぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "This girl lives in the tower!{n}We brought her! We invited her!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:3",
   "hdr": "0012 0018",
   "jp": "おれたちに力をくれるあの塔か！",
-  "en": "",
-  "status": "todo",
+  "en": "The tower that gives us our power!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:4",
   "hdr": "0013 0017",
   "jp": "ならばこの娘、仲間ではないか！",
-  "en": "",
-  "status": "todo",
+  "en": "Then this girl is one of us!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:5",
   "hdr": "0014 0018",
   "jp": "ずいぶん弱ってるぞ、この娘……",
-  "en": "",
-  "status": "todo",
+  "en": "This girl's getting awfully weak...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:6",
   "hdr": "0015 0017",
   "jp": "うひひひ、助けてやろう！{n}妖怪にしてやろう！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee hee! Let's help her!{n}Let's make her a yokai!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:7",
   "hdr": "0011 0017",
   "jp": "うひひひ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee hee!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:8",
   "hdr": "0012 0018",
   "jp": "あははは！",
-  "en": "",
-  "status": "todo",
+  "en": "Ahahaha!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:9",
   "hdr": "0004 000D",
   "jp": "ガルルルルルル……{n}{col_F8}(ゆるしませんよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrrrr...{n}{col_F8}(I won't stand for this!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:10",
   "hdr": "0003 000E",
   "jp": "ニャーゴウ！{n}{col_FA}(おいっ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Mee-yow!{n}{col_FA}(Hey!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:11",
   "hdr": "0016 0027",
   "jp": "見～た～な～！",
-  "en": "",
-  "status": "todo",
+  "en": "You saaaw us!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2536:12",
   "hdr": "0016 0027",
   "jp": "おまえたちも妖怪にしたろうかい！",
-  "en": "",
-  "status": "todo",
+  "en": "Want me to make you yokai too?!",
+  "status": "done",
   "notes": ""
  }
 ]

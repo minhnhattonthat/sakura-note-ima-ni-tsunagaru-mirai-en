@@ -3,384 +3,384 @@
   "id": "2525:0",
   "hdr": "0006 0014",
   "jp": "あなた！　{var_EF}{slot}{slot}{slot}{slot}{slot}！{n}どうしたらいいの！？",
-  "en": "",
-  "status": "todo",
+  "en": "Honey! {var_EF}{slot}{slot}{slot}{slot}{slot}!{n}What should we do!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:1",
   "hdr": "0008 0014",
   "jp": "こんな恐ろしいものが見えて{n}いたのね？",
-  "en": "",
-  "status": "todo",
+  "en": "You've been seeing{n}these terrifying things?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:2",
   "hdr": "0008 0014",
   "jp": "ごめんね、七海。{n}ママ、何も知らなくて……",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry, Nanami.{n}Mom had no idea...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:3",
   "hdr": "0007 000F",
   "jp": "どうしてよ！{n}もう終わったはずよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Why!?{n}This was supposed to be over!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:4",
   "hdr": "0031 0018",
   "jp": "たしかに、もう少しで終わるな。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, it'll all be over soon enough.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:5",
   "hdr": "0009 0012",
   "jp": "さあ、逃げよう！",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, let's get out of here!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:6",
   "hdr": "0009 0012",
   "jp": "みなさん！{n}ここは危険です！",
-  "en": "",
-  "status": "todo",
+  "en": "Everyone!{n}It's dangerous here!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:7",
   "hdr": "0032 0017",
   "jp": "おいおい。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, hey.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:8",
   "hdr": "0032 0017",
   "jp": "まるでおれが黙って{n}逃がしてやるみたいじゃないか。",
-  "en": "",
-  "status": "todo",
+  "en": "You make it sound like{n}I'm just gonna let you escape.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:9",
   "hdr": "0033 0018",
   "jp": "そうはいかない。{n}みんなまとめてあの世行き！",
-  "en": "",
-  "status": "todo",
+  "en": "No chance.{n}You're all off to the afterlife!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:10",
   "hdr": "0009 0012",
   "jp": "タカコ、七海、逃げろ！",
-  "en": "",
-  "status": "todo",
+  "en": "Takako! Nanami! Run!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:11",
   "hdr": "0007 000F",
   "jp": "パパ！",
-  "en": "",
-  "status": "todo",
+  "en": "Dad!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:12",
   "hdr": "0031 0018",
   "jp": "次はおまえか！！",
-  "en": "",
-  "status": "todo",
+  "en": "You're next, huh!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:13",
   "hdr": "0007 000F",
   "jp": "パパ、しっかりして！",
-  "en": "",
-  "status": "todo",
+  "en": "Dad, hang on!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:14",
   "hdr": "0008 0014",
   "jp": "あなた！",
-  "en": "",
-  "status": "todo",
+  "en": "Honey!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:15",
   "hdr": "0007 000F",
   "jp": "パパ、死んじゃダメ！",
-  "en": "",
-  "status": "todo",
+  "en": "Dad, you can't die!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:16",
   "hdr": "0009 0012",
   "jp": "……死ぬ？{n}パパ……死んじゃうのかな。",
-  "en": "",
-  "status": "todo",
+  "en": "...Die?{n}Is Dad... going to die?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:17",
   "hdr": "0008 0014",
   "jp": "……いやよ。",
-  "en": "",
-  "status": "todo",
+  "en": "...No. Please.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:18",
   "hdr": "0007 000F",
   "jp": "わたしを守ってくれても{n}パパが死んだら意味ないよ。",
-  "en": "",
-  "status": "todo",
+  "en": "What's the point of saving me{n}if you die, Dad?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:19",
   "hdr": "0009 0012",
   "jp": "でもなあ……",
-  "en": "",
-  "status": "todo",
+  "en": "But, you know...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:20",
   "hdr": "0009 0012",
   "jp": "結局のところ……父親が子供に{n}してやれるのって……",
-  "en": "",
-  "status": "todo",
+  "en": "In the end... what a father{n}can do for his child...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:21",
   "hdr": "0009 0012",
   "jp": "こういう……ことだ……",
-  "en": "",
-  "status": "todo",
+  "en": "Is something... like... this...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:22",
   "hdr": "0007 000F",
   "jp": "せっかく桜が助かったのに……",
-  "en": "",
-  "status": "todo",
+  "en": "But we finally saved the tree...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:23",
   "hdr": "0009 0012",
   "jp": "どういう……こと？",
-  "en": "",
-  "status": "todo",
+  "en": "What... do you mean?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:24",
   "hdr": "0007 000F",
   "jp": "パパの工場に妖怪がいて{n}汚いモノを地下に流していたの。",
-  "en": "",
-  "status": "todo",
+  "en": "A yokai at your factory{n}was pumping filthy stuff underground.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:25",
   "hdr": "0007 000F",
   "jp": "ほら、大きなポンプみたいな{n}機械があるところよ。",
-  "en": "",
-  "status": "todo",
+  "en": "You know, where that big{n}pump-like machine is.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:26",
   "hdr": "0007 000F",
   "jp": "でも、妖怪は{var_EF}{slot}{slot}{slot}{slot}{slot}くんが{n}退治してくれたから安心して。",
-  "en": "",
-  "status": "todo",
+  "en": "But {var_EF}{slot}{slot}{slot}{slot}{slot}-kun beat{n}the yokai, so don't worry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:27",
   "hdr": "0009 0012",
   "jp": "ちょ……待って……",
-  "en": "",
-  "status": "todo",
+  "en": "Hold... on...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:28",
   "hdr": "0009 0012",
   "jp": "パパたちには……妖怪は{n}……見えなくても……",
-  "en": "",
-  "status": "todo",
+  "en": "Even if we... couldn't see{n}the yokai...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:29",
   "hdr": "0009 0012",
   "jp": "ポンプが……変だったら{n}わかるよ……",
-  "en": "",
-  "status": "todo",
+  "en": "We'd know... if something{n}was wrong... with the pump...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:30",
   "hdr": "0009 0012",
   "jp": "ポンプは……連休の前まで……{n}ちゃんと……動いて……いたんだ",
-  "en": "",
-  "status": "todo",
+  "en": "The pump... was working... fine...{n}right up until... the holidays...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:31",
   "hdr": "0009 0012",
   "jp": "桜の元気が……無くなったのは{n}春から……だろう？",
-  "en": "",
-  "status": "todo",
+  "en": "The tree's been... getting weaker...{n}since spring... hasn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:32",
   "hdr": "0009 0012",
   "jp": "こりゃ……このまま{n}いけないな……",
-  "en": "",
-  "status": "todo",
+  "en": "Well... I can't just...{n}go like this...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:33",
   "hdr": "0007 000F",
   "jp": "パパ！",
-  "en": "",
-  "status": "todo",
+  "en": "Dad!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:34",
   "hdr": "0008 0014",
   "jp": "あなた！",
-  "en": "",
-  "status": "todo",
+  "en": "Honey!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:35",
   "hdr": "0007 000F",
   "jp": "パパーーーーッ！",
-  "en": "",
-  "status": "todo",
+  "en": "Daaaaad!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:36",
   "hdr": "0005 0012",
   "jp": "あっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Ah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:37",
   "hdr": "0005 0012",
   "jp": "七海ちゃん。タカコさん。{n}佐倉さんは大丈夫。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami-chan. Takako-san.{n}Sakura-san will be fine.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:38",
   "hdr": "0005 0012",
   "jp": "きっとここへ帰ってくるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sure he'll come back here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:39",
   "hdr": "0005 0012",
   "jp": "ええっ！？",
-  "en": "",
-  "status": "todo",
+  "en": "What!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:40",
   "hdr": "0005 0012",
   "jp": "どこか別の時間へ戻ったのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "Did he go back to some other time?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:41",
   "hdr": "0006 0014",
   "jp": "ちゃんと説明して。",
-  "en": "",
-  "status": "todo",
+  "en": "Explain it properly.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:42",
   "hdr": "0005 0012",
   "jp": "うん。",
-  "en": "",
-  "status": "todo",
+  "en": "Right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:43",
   "hdr": "0005 0012",
   "jp": "でも、その前に、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}これを桜の木に捧げて。",
-  "en": "",
-  "status": "todo",
+  "en": "But first, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}Offer this to the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:44",
   "hdr": "0005 0012",
   "jp": "これできっと桜は元気になるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "This should make the tree{n}healthy again.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:45",
   "hdr": "00FF 000C",
   "jp": "『{col_F8}かなしいナミダ{col_FC}』を手に入れた！！",
-  "en": "",
-  "status": "todo",
+  "en": "Got {col_F8}Tears of Sorrow{col_FC}!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:46",
   "hdr": "0022 0027",
   "jp": "キキキキ！　キマヨイキマヨイ！{n}気迷った契約なんぞ、もういらん！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee hee! Waverwood, Waverwood!{page}I've no use for a pact{n}made on a wavering whim anymore!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2525:47",
   "hdr": "0022 0027",
   "jp": "キキキキ！",
-  "en": "",
-  "status": "todo",
+  "en": "Hee hee hee!",
+  "status": "done",
   "notes": ""
  }
 ]

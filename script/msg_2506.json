@@ -3,1008 +3,1008 @@
   "id": "2506:0",
   "hdr": "0006 0014",
   "jp": "どうしたの、{var_EF}{slot}{slot}{slot}{slot}{slot}？{n}早く行きましょうよ！",
-  "en": "",
-  "status": "todo",
+  "en": "What's wrong, {var_EF}{slot}{slot}{slot}{slot}{slot}?{n}Come on, let's go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:1",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}、こっちこっち。{n}吉田さんの家すぐそこよ。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}, over here!{n}Yoshida-san's place is right there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:2",
   "hdr": "0004 000D",
   "jp": "わわんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "W-woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:3",
   "hdr": "0006 0014",
   "jp": "あっ、この犬……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, this dog...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:4",
   "hdr": "0004 000D",
   "jp": "くーん",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:5",
   "hdr": "0006 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:6",
   "hdr": "0006 0014",
   "jp": "………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:7",
   "hdr": "0006 0014",
   "jp": "やっぱりお母さん、待ってるわ。",
-  "en": "",
-  "status": "todo",
+  "en": "On second thought, Mom will wait here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:8",
   "hdr": "0006 0014",
   "jp": "呼ばれたのは{n}{var_EF}{slot}{slot}{slot}{slot}{slot}だものね。",
-  "en": "",
-  "status": "todo",
+  "en": "You're the one they asked to come,{n}after all, {var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:9",
   "hdr": "0006 0014",
   "jp": "ほら、行きなさい。",
-  "en": "",
-  "status": "todo",
+  "en": "Go on, now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:10",
   "hdr": "0006 0014",
   "jp": "やっぱりお母さん、待ってるわ。{n}吉田さんによろしくね。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll wait here after all.{n}Say hello to Yoshida-san for me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:11",
   "hdr": "0004 000D",
   "jp": "わん！　わんわわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof-woof-woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:12",
   "hdr": "0008 0014",
   "jp": "いらっしゃい、{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くん。",
-  "en": "",
-  "status": "todo",
+  "en": "Welcome,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:13",
   "hdr": "0008 0014",
   "jp": "来てくれてありがとう。{n}それから……",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you for coming.{n}And...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:14",
   "hdr": "0008 0014",
   "jp": "七海と仲良くしてくれて{n}どうもありがとう。",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you so much{n}for being Nanami's friend.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:15",
   "hdr": "0008 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:16",
   "hdr": "0008 0014",
   "jp": "あのね、七海は昨日の晩のことを{n}全然話してくれないの。",
-  "en": "",
-  "status": "todo",
+  "en": "You see, Nanami won't tell me{n}anything about last night.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:17",
   "hdr": "0008 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん。{n}……教えてくれる？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.{n}...Could you tell me?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:18",
   "hdr": "FFFF 00FF",
   "jp": "少年は考えた。{n}説明はとても難しい。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought.{n}It was very hard to explain.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:19",
   "hdr": "FFFF 00FF",
   "jp": "それに、七海の立場も{n}考えなくてはならない。",
-  "en": "",
-  "status": "todo",
+  "en": "Besides, he had to think{n}about Nanami's side of things.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:20",
   "hdr": "FFFF 00FF",
   "jp": "結局、黙っているしかなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "In the end, all he could do{n}was stay silent.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:21",
   "hdr": "0004 000D",
   "jp": "わんわんわんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:22",
   "hdr": "0004 000D",
   "jp": "わんわんわんわん！{n}{col_F8}(その人はヒーローなんです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof, woof!{n}{col_F8}(He's a hero!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:23",
   "hdr": "0004 000D",
   "jp": "わんわんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:24",
   "hdr": "0004 000D",
   "jp": "わんわんわん！{n}{col_F8}(もちろんボクもなんですよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof!{n}{col_F8}(Of course, I am too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:25",
   "hdr": "0004 000D",
   "jp": "わんわんわんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:26",
   "hdr": "0004 000D",
   "jp": "わんわんわんわん！{n}{col_F8}(それに、パパさんもいますよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof, woof!{n}{col_F8}(And there's Papa-san too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:27",
   "hdr": "0008 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:28",
   "hdr": "0008 0014",
   "jp": "……ウフフ。{n}そうよね。",
-  "en": "",
-  "status": "todo",
+  "en": "...Hee hee.{n}Of course.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:29",
   "hdr": "0008 0014",
   "jp": "七海が言わないことを{n}あなたが言ったりできないわよね。",
-  "en": "",
-  "status": "todo",
+  "en": "If Nanami won't tell me,{n}you can't tell me either, can you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:30",
   "hdr": "0008 0014",
   "jp": "お父さんに似てるわ、その性格。",
-  "en": "",
-  "status": "todo",
+  "en": "You're just like your father that way.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:31",
   "hdr": "0008 0014",
   "jp": "七海の部屋は、そこよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami's room is right over there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:32",
   "hdr": "0008 0014",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}、ちょっと待って。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}, wait a moment.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:33",
   "hdr": "0004 000D",
   "jp": "はう？{n}{col_F8}(はい？)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff?{n}{col_F8}(Yes?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:34",
   "hdr": "0008 0014",
   "jp": "あの子のお母さんってどんな人？{n}会ったことあるんでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "What's that boy's mother like?{n}You've met her, haven't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:35",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(どんな人って……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(What's she like? Well...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:36",
   "hdr": "0008 0014",
   "jp": "って、あなたに聞いても{n}仕方がないわね。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, there's no point{n}asking you, is there?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:37",
   "hdr": "0004 000D",
   "jp": "くぃーん……{n}{col_F8}(すいません……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whimper...{n}{col_F8}(I'm sorry...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:38",
   "hdr": "0008 0014",
   "jp": "少しでもわたしに似ていれば{n}気が済むんだけどな。",
-  "en": "",
-  "status": "todo",
+  "en": "I'd feel better if she were{n}even a little like me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:39",
   "hdr": "00FF 000C",
   "jp": "今さら帰るわけにはいかない。",
-  "en": "",
-  "status": "todo",
+  "en": "He can't just go home now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:40",
   "hdr": "0004 000D",
   "jp": "わんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:41",
   "hdr": "0007 000F",
   "jp": "あれ！？{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "Huh!?{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:42",
   "hdr": "0007 000F",
   "jp": "どうしたの？",
-  "en": "",
-  "status": "todo",
+  "en": "What brings you here?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:43",
   "hdr": "FFFF 00FF",
   "jp": "少年は話した。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy explained.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:44",
   "hdr": "FFFF 00FF",
   "jp": "自分がここにいるいきさつ……",
-  "en": "",
-  "status": "todo",
+  "en": "He told her how he'd ended up here...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:45",
   "hdr": "FFFF 00FF",
   "jp": "少し、口をとがらせて{n}ふてくされてみせた。",
-  "en": "",
-  "status": "todo",
+  "en": "He stuck his lower lip out a little{n}and made a show of sulking.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:46",
   "hdr": "0007 000F",
   "jp": "ごめんね。{n}ママったらよけいなことを……",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry.{n}Mom just had to butt in...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:47",
   "hdr": "0007 000F",
   "jp": "昨日のことを話せって{n}もう、うるさいの。",
-  "en": "",
-  "status": "todo",
+  "en": "She keeps pestering me{n}to tell her about yesterday.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:48",
   "hdr": "0007 000F",
   "jp": "でも、きっと信じてもらえないから{n}黙ってるしかないよね。",
-  "en": "",
-  "status": "todo",
+  "en": "But she'd never believe me,{n}so I have to keep quiet, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:49",
   "hdr": "0007 000F",
   "jp": "ねえ、こっち来て？",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, come over here?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:50",
   "hdr": "0008 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん。{n}七海どうだった？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.{n}How was Nanami?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:51",
   "hdr": "0004 000D",
   "jp": "わうん？",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:52",
   "hdr": "00FF 000C",
   "jp": "七海との話はまだ終わっていない。",
-  "en": "",
-  "status": "todo",
+  "en": "He hasn't finished talking to Nanami.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:53",
   "hdr": "0007 000F",
   "jp": "ね？　ここから{n}神社の桜が見えるんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "See? You can see the shrine's{n}cherry tree from here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:54",
   "hdr": "0007 000F",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:55",
   "hdr": "0007 000F",
   "jp": "…………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:56",
   "hdr": "0007 000F",
   "jp": "わたしが生まれた町……",
-  "en": "",
-  "status": "todo",
+  "en": "The town where I was born...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:57",
   "hdr": "0007 000F",
   "jp": "この間まで住んでいた{n}桐谷(きりや)町。",
-  "en": "",
-  "status": "todo",
+  "en": "Kiriya Town.{n}I lived there until just recently.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:58",
   "hdr": "0007 000F",
   "jp": "そこにも大きな桜があるの。{n}わたし、その桜が大好きだった。",
-  "en": "",
-  "status": "todo",
+  "en": "There's a big cherry tree there too.{n}I loved that tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:59",
   "hdr": "0007 000F",
   "jp": "日本で5番目くらいに{n}大きな桜なんだって。",
-  "en": "",
-  "status": "todo",
+  "en": "They say it's about the fifth{n}biggest cherry tree in Japan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:60",
   "hdr": "0007 000F",
   "jp": "あの神社の桜より{n}ずっとずっと大きいのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's much, much bigger{n}than the one at that shrine.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:61",
   "hdr": "0007 000F",
   "jp": "でもね……{n}今年の春は満開にならなかったの。",
-  "en": "",
-  "status": "todo",
+  "en": "But... this spring,{n}it didn't bloom all the way.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:62",
   "hdr": "0007 000F",
   "jp": "寒かったわけでもないのに{n}五分咲きくらい。",
-  "en": "",
-  "status": "todo",
+  "en": "It wasn't even cold,{n}but only half the blossoms opened.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:63",
   "hdr": "0007 000F",
   "jp": "あっ！！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:64",
   "hdr": "0007 000F",
   "jp": "それも妖怪のしわざってこと？",
-  "en": "",
-  "status": "todo",
+  "en": "Does that mean yokai did that too?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:65",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん。{n}ふたりで妖怪をやっつけようよ！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!{n}Let's beat the yokai together!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:66",
   "hdr": "0007 000F",
   "jp": "そして桜を元に戻すの。{n}わたしたちなら……",
-  "en": "",
-  "status": "todo",
+  "en": "Then we'll make the tree better.{n}The two of us can...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:67",
   "hdr": "0007 000F",
   "jp": "ううん、{var_EF}{slot}{slot}{slot}{slot}{slot}くんなら{n}できる！",
-  "en": "",
-  "status": "todo",
+  "en": "No, you can do it,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:68",
   "hdr": "0007 000F",
   "jp": "だって{var_EF}{slot}{slot}{slot}{slot}{slot}くんには{n}特別な力があるんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Because you have a special power,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:69",
   "hdr": "FFFF 00FF",
   "jp": "少年は考えた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:70",
   "hdr": "FFFF 00FF",
   "jp": "ぼくにどんな力があると{n}いうのだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "What kind of power{n}did she think he had?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:71",
   "hdr": "0007 000F",
   "jp": "わたしに助けが必要な時に{n}来てくれた。2回も。",
-  "en": "",
-  "status": "todo",
+  "en": "You came when I needed help.{n}Twice.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:72",
   "hdr": "0007 000F",
   "jp": "ううん、今を入れたら3回！",
-  "en": "",
-  "status": "todo",
+  "en": "No, three times, counting now!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:73",
   "hdr": "0007 000F",
   "jp": "ね？　ね？{n}すごいことだよね！？",
-  "en": "",
-  "status": "todo",
+  "en": "Right? Right?{n}That's amazing, isn't it!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:74",
   "hdr": "0007 000F",
   "jp": "わたしたちが出会ったのは{n}偶然じゃないと思わない？",
-  "en": "",
-  "status": "todo",
+  "en": "Don't you think we met{n}for a reason?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:75",
   "hdr": "0007 000F",
   "jp": "この世界を守るために{n}我々は出会ったのだ！",
-  "en": "",
-  "status": "todo",
+  "en": "We met to protect this world!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:76",
   "hdr": "FFFF 00FF",
   "jp": "少年は軽く引いた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy was a little put off.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:77",
   "hdr": "FFFF 00FF",
   "jp": "それは古代戦士ナスカイザーの{n}台詞だった。",
-  "en": "",
-  "status": "todo",
+  "en": "That was a line from{n}Nazkaiser, Ancient Warrior.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:78",
   "hdr": "0007 000F",
   "jp": "妖怪と戦って桜を助けよう！",
-  "en": "",
-  "status": "todo",
+  "en": "Let's fight the yokai{n}and save the cherry tree!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:79",
   "hdr": "0004 000D",
   "jp": "わん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:80",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}もやる気満々だって！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot} says he's ready to go too!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:81",
   "hdr": "0004 000D",
   "jp": "くーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:82",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(え……話はもう終わりですか？)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Huh... Are we done talking already?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:83",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん、夕方に{n}神社に集合ね。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun, let's meet{n}at the shrine this evening.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:84",
   "hdr": "0007 000F",
   "jp": "妖怪たちの様子を探って{n}二人で作戦を練るの。",
-  "en": "",
-  "status": "todo",
+  "en": "We'll see what the yokai are up to,{n}then make a plan together.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:85",
   "hdr": "0004 000D",
   "jp": "わん！　わぉーん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Awoooo!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:86",
   "hdr": "0004 000D",
   "jp": "わん！　わぉーん！{n}{col_F8}(もちろん、ボクも行きます！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Awoooo!{n}{col_F8}(Of course, I'm coming too!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:87",
   "hdr": "0007 000F",
   "jp": "わたし……{n}この町に来てから、変なんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "I... I've felt strange{n}ever since I came to this town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:88",
   "hdr": "0007 000F",
   "jp": "時々、頭がボーッとして……",
-  "en": "",
-  "status": "todo",
+  "en": "Sometimes my head feels all foggy...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:89",
   "hdr": "0007 000F",
   "jp": "夢なのか本当なのか{n}わからないことが起こって……",
-  "en": "",
-  "status": "todo",
+  "en": "Things happen, and I can't tell{n}if they're dreams or real...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:90",
   "hdr": "0007 000F",
   "jp": "ねえ、{var_EF}{slot}{slot}{slot}{slot}{slot}くん。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, {var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:91",
   "hdr": "0007 000F",
   "jp": "わたしと同じ体験してるんだよね？{n}これはゲンジツだよね？",
-  "en": "",
-  "status": "todo",
+  "en": "You're going through this too, right?{n}This is real, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:92",
   "hdr": "0007 000F",
   "jp": "わたし……{n}わたし、ひとりじゃ怖いよ……",
-  "en": "",
-  "status": "todo",
+  "en": "I...{n}I'm scared to face this alone...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:93",
   "hdr": "0004 000D",
   "jp": "わん！　わんわん！",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:94",
   "hdr": "0004 000D",
   "jp": "わん！　わんわん！{n}{col_F8}(ボクが守ります！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof!{n}{col_F8}(I'll protect you!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:95",
   "hdr": "00FF 000C",
   "jp": "「七海の涙を手に入れた！」",
-  "en": "",
-  "status": "todo",
+  "en": "\"Got Nanami's Tears!\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:96",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。{n}七海はあの変なおじさん以上に{n}ぼくを巻き込もうとする。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought.{n}Nanami was dragging him into this{n}even more than that strange man.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:97",
   "hdr": "FFFF 00FF",
   "jp": "断らないと大変なことになりそうだ。{n}でも、断るのも大変そうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "If he didn't say no, he'd be in trouble.{n}But saying no seemed hard too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:98",
   "hdr": "FFFF 00FF",
   "jp": "少年は時間稼ぎのつもりで{n}ほほえんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy smiled,{n}hoping to buy some time.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:99",
   "hdr": "0007 000F",
   "jp": "ありがとう、{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:100",
   "hdr": "0008 0014",
   "jp": "七海、コジマくんから電話よ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami, Kojima-kun's on the phone.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:101",
   "hdr": "0004 000D",
   "jp": "わん！　わわんわん！{n}{col_F8}(コジマくんですよ、七海さん！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof!{n}{col_F8}(It's Kojima-kun, Nanami-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:102",
   "hdr": "0004 000D",
   "jp": "わんわん！{n}{col_F8}(きっと力になってくれます！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof!{n}{col_F8}(I'm sure he can help!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:103",
   "hdr": "0007 000F",
   "jp": "うーん、いないって言って。",
-  "en": "",
-  "status": "todo",
+  "en": "Mmm... Tell him I'm not here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:104",
   "hdr": "0008 0014",
   "jp": "あら……そう。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh... I see.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:105",
   "hdr": "0007 000F",
   "jp": "会いに来るとか言い出すに{n}決まってるもん。",
-  "en": "",
-  "status": "todo",
+  "en": "He's sure to say he wants{n}to come visit or something.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:106",
   "hdr": "0008 0014",
   "jp": "いいじゃない、それくらい。",
-  "en": "",
-  "status": "todo",
+  "en": "What's wrong with a little visit?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:107",
   "hdr": "0007 000F",
   "jp": "わたしはいそがしいの！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm busy!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:108",
   "hdr": "0008 0014",
   "jp": "はいはい。",
-  "en": "",
-  "status": "todo",
+  "en": "All right, all right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:109",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(コジマくん、残念です……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I'm sorry, Kojima-kun...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:110",
   "hdr": "0007 000F",
   "jp": "夕方に神社に集合！{n}約束だよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Meet at the shrine this evening!{n}It's a promise.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:111",
   "hdr": "0008 0014",
   "jp": "また遊びに来てね、{var_EF}{slot}{slot}{slot}{slot}{slot}くん。",
-  "en": "",
-  "status": "todo",
+  "en": "Come visit again,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:112",
   "hdr": "00FF 000C",
   "jp": "ハルカが待っているハズだ。{n}エントランスへ戻ろう。",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka should be waiting.{n}Head back to the entrance.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:113",
   "hdr": "0006 0014",
   "jp": "吉田さん、どうだった？",
-  "en": "",
-  "status": "todo",
+  "en": "How was Yoshida-san?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:114",
   "hdr": "FFFF 00FF",
   "jp": "少年はいつものように答えた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy gave his usual answer.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:115",
   "hdr": "0006 0014",
   "jp": "そう。普通だったの。{n}呼び出したりして、おおげさね。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh. She was fine.{n}What a fuss, calling you over.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:116",
   "hdr": "0006 0014",
   "jp": "……ねえ。",
-  "en": "",
-  "status": "todo",
+  "en": "...Say.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:117",
   "hdr": "0006 0014",
   "jp": "七海さんのお母さんて{n}どんな人？",
-  "en": "",
-  "status": "todo",
+  "en": "What's Nanami-san's{n}mother like?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:118",
   "hdr": "0006 0014",
   "jp": "美人？　かわいい？",
-  "en": "",
-  "status": "todo",
+  "en": "Is she beautiful? Cute?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:119",
   "hdr": "FFFF 00FF",
   "jp": "少年はまたいつものように答えた。",
-  "en": "",
-  "status": "todo",
+  "en": "Again, the boy gave his usual answer.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:120",
   "hdr": "0006 0014",
   "jp": "普通か……",
-  "en": "",
-  "status": "todo",
+  "en": "Ordinary, huh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:121",
   "hdr": "0006 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:122",
   "hdr": "0006 0014",
   "jp": "じゃあ、帰ろうか。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, shall we go home?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:123",
   "hdr": "0006 0014",
   "jp": "どうしたの、{var_EF}{slot}{slot}{slot}{slot}{slot}？{n}さっ、帰りましょ。",
-  "en": "",
-  "status": "todo",
+  "en": "What's wrong, {var_EF}{slot}{slot}{slot}{slot}{slot}?{n}Come on, let's go home.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:124",
   "hdr": "0006 0014",
   "jp": "ねえ、すっかり忘れてた。{n}今夜は花火大会よね。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, I completely forgot.{n}The fireworks festival is tonight.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2506:125",
   "hdr": "0006 0014",
   "jp": "二人で見に行かない？{n}お父さんはどうせ仕事だろうし。",
-  "en": "",
-  "status": "todo",
+  "en": "Shall we go, just the two of us?{n}Dad will probably be working anyway.",
+  "status": "done",
   "notes": ""
  }
 ]

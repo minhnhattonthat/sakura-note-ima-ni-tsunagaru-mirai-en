@@ -3,104 +3,104 @@
   "id": "2550:0",
   "hdr": "0003 000E",
   "jp": "……というわけ。",
-  "en": "",
-  "status": "todo",
+  "en": "...And that's the story.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:1",
   "hdr": "0003 000E",
   "jp": "でも、桐谷町の桜を元気に{n}するなんて猫の手には余るよね。",
-  "en": "",
-  "status": "todo",
+  "en": "But nursing the Kiriya cherry tree{n}back to health? Our paws are full.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:2",
   "hdr": "0003 000E",
   "jp": "人間にどうにかさせたいけど{n}どうやって伝えようか。",
-  "en": "",
-  "status": "todo",
+  "en": "I want the humans to handle it,{n}but how do we tell them?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:3",
   "hdr": "0003 000E",
   "jp": "佐倉木吉って変なおっさんが{n}契約がどうこう言ってたけど……",
-  "en": "",
-  "status": "todo",
+  "en": "That odd man, Kikichi, said{n}something about a pact...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:4",
   "hdr": "0003 000E",
   "jp": "まったく、肝心な時には{n}どこにもいない。",
-  "en": "",
-  "status": "todo",
+  "en": "And now that we need him,{n}he's nowhere to be found.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:5",
   "hdr": "001E 0015",
   "jp": "人間はなあ……{n}言葉がわからないからな……",
-  "en": "",
-  "status": "todo",
+  "en": "Humans, huh...{n}They don't speak our language...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:6",
   "hdr": "001D 0016",
   "jp": "妖怪は猫が嫌いだろ？{n}だからこのままでいいじゃん。",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai hate cats, right?{n}So we're fine as we are.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:7",
   "hdr": "001F 0015",
   "jp": "でも、人間がいなくなったら{n}誰がカンヅメのフタをあける？",
-  "en": "",
-  "status": "todo",
+  "en": "But if the humans disappear,{n}who's going to open our cans?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:8",
   "hdr": "001D 0016",
   "jp": "そ、そうだ！{n}そりゃ困る！",
-  "en": "",
-  "status": "todo",
+  "en": "O-Oh, right!{n}That would be a problem!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:9",
   "hdr": "001E 0015",
   "jp": "鳥の言葉がわかる奴なら{n}知ってるけどね、おれ。",
-  "en": "",
-  "status": "todo",
+  "en": "I do know someone{n}who understands birds, though.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:10",
   "hdr": "0003 000E",
   "jp": "それだ！{n}で、それは誰？",
-  "en": "",
-  "status": "todo",
+  "en": "That's it!{n}So, who is it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:11",
   "hdr": "001E 0015",
   "jp": "ほら、ドクター上州だよ。{n}知ってるだろ？",
-  "en": "",
-  "status": "todo",
+  "en": "Dr. Joshu, of course.{n}You know him, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2550:12",
   "hdr": "0003 000E",
   "jp": "あの医者が！？",
-  "en": "",
-  "status": "todo",
+  "en": "That doctor!?",
+  "status": "done",
   "notes": ""
  }
 ]

@@ -3,248 +3,248 @@
   "id": "2509:0",
   "hdr": "000D 0010",
   "jp": "大変だ！　一般人がこっちへ来る。{n}穴に落ちたら大変だ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, no! Ordinary folks are coming!{n}Can't have them falling in the hole.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:1",
   "hdr": "000D 0010",
   "jp": "よし、あれでふさいでおこう。",
-  "en": "",
-  "status": "todo",
+  "en": "Right, I'll cover it with that.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:2",
   "hdr": "000D 0010",
   "jp": "なーに、おまえさんなら{n}大丈夫！",
-  "en": "",
-  "status": "todo",
+  "en": "Aw, you'll be fine,{n}my friend!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:3",
   "hdr": "000D 0010",
   "jp": "知恵と勇気がわいてくるのを{n}感じるだろ！",
-  "en": "",
-  "status": "todo",
+  "en": "Feel all that wisdom and courage{n}welling up inside you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:4",
   "hdr": "FFFF 00FF",
   "jp": "少年が感じていたのは{n}混乱と恐怖だった。",
-  "en": "",
-  "status": "todo",
+  "en": "What the boy felt{n}was confusion and fear.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:5",
   "hdr": "FFFF 00FF",
   "jp": "少年は自分が{n}叫んでいることに気づいた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy realized{n}he was screaming.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:6",
   "hdr": "FFFF 00FF",
   "jp": "助けを呼ぶ情けない声だった。",
-  "en": "",
-  "status": "todo",
+  "en": "It was a pitiful cry for help.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:7",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。{n}助かった……のか？",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought,{n}I'm saved... aren't I?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:8",
   "hdr": "0013 0017",
   "jp": "げっひっひっ……",
-  "en": "",
-  "status": "todo",
+  "en": "Geh heh heh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:9",
   "hdr": "0031 0018",
   "jp": "キテンソ様、こいつが{n}例のお邪魔少年でさあ。",
-  "en": "",
-  "status": "todo",
+  "en": "Kitenso-sama, this is{n}that meddlin' kid.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:10",
   "hdr": "0012 0018",
   "jp": "おお、可哀想になあ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, you poor little thing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:11",
   "hdr": "0013 0017",
   "jp": "もう二度と青い空は{n}見られないなあ、少年。",
-  "en": "",
-  "status": "todo",
+  "en": "You'll never see{n}the blue sky again, boy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:12",
   "hdr": "0003 000E",
   "jp": "にや……",
-  "en": "",
-  "status": "todo",
+  "en": "Mew...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:13",
   "hdr": "0003 000E",
   "jp": "にや……{n}{col_FA}(おやおや……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew...{n}{col_FA}(Well, well...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:14",
   "hdr": "001B 0027",
   "jp": "ケッ……猫かよ。{n}おれは猫なんて怖くねえぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Tch... A cat?{n}I ain't scared of cats.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:15",
   "hdr": "0003 000E",
   "jp": "にゃーぅ？",
-  "en": "",
-  "status": "todo",
+  "en": "Meow?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:16",
   "hdr": "0003 000E",
   "jp": "にゃーぅ？{n}{col_FA}(ネズミのなれの果てか……)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow?{n}{col_FA}(What's left of a rat, eh...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:17",
   "hdr": "0003 000E",
   "jp": "にゃ……なーご？",
-  "en": "",
-  "status": "todo",
+  "en": "Mew... Meow?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:18",
   "hdr": "0003 000E",
   "jp": "にゃ……なーご？{n}{col_FA}(それとも落ちた鳥だったかな……)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew... Meow?{n}{col_FA}(Or was it a fallen bird...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:19",
   "hdr": "001B 0027",
   "jp": "おれは妖怪キテンソだ。{n}なめるんじゃねえ！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm Kitenso the yokai!{n}Don't think you can lick me!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:20",
   "hdr": "0003 000E",
   "jp": "にゃ？",
-  "en": "",
-  "status": "todo",
+  "en": "Mew?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:21",
   "hdr": "0003 000E",
   "jp": "にゃ？{n}{col_FA}(なめる？)",
-  "en": "",
-  "status": "todo",
+  "en": "Mew?{n}{col_FA}(Lick you?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:22",
   "hdr": "0003 000E",
   "jp": "にゃっ！　にゃにゃっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Mew-mew!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:23",
   "hdr": "0003 000E",
   "jp": "にゃっ！　にゃにゃっ！{n}{col_FA}(ネズミも鳥も食べるんだよ！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow! Mew-mew!{n}{col_FA}(I eat both rats and birds!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:24",
   "hdr": "001B 0027",
   "jp": "くぅ～、お、おぼえてろ！",
-  "en": "",
-  "status": "todo",
+  "en": "Grrr... Y-you'll pay for this!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:25",
   "hdr": "001B 0027",
   "jp": "桜の《気》を吸って、もっと{n}強くなってやるからな！",
-  "en": "",
-  "status": "todo",
+  "en": "I'll absorb the tree's spiritual energy{n}and get even stronger!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:26",
   "hdr": "FFFF 00FF",
   "jp": "少年は助けてくれたのが{n}自分の家の猫だったことに驚いた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy was surprised to find{n}his rescuer was his own family's cat.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:27",
   "hdr": "0003 000E",
   "jp": "ニャッ！",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:28",
   "hdr": "0003 000E",
   "jp": "ニャッ！{n}{col_FA}(こっちだよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Meow!{n}{col_FA}(This way.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:29",
   "hdr": "0003 000E",
   "jp": "ニャーーーッ！",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2509:30",
   "hdr": "0003 000E",
   "jp": "ニャーーーッ！{n}{col_FA}(逃げろーーー！)",
-  "en": "",
-  "status": "todo",
+  "en": "Meooow!{n}{col_FA}(Ruuun!)",
+  "status": "done",
   "notes": ""
  }
 ]

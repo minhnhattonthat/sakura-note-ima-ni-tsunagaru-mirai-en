@@ -3,408 +3,408 @@
   "id": "2519:0",
   "hdr": "00FF 000C",
   "jp": "まずは、そこの券売機で切符を買おう。",
-  "en": "",
-  "status": "todo",
+  "en": "First, buy a Train Ticket{n}from that machine.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:1",
   "hdr": "0008 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:2",
   "hdr": "0008 0014",
   "jp": "七海は？　七海はどこ？{n}一緒なのよね？",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami? Where's Nanami?{n}She's with you, isn't she?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:3",
   "hdr": "FFFF 00FF",
   "jp": "少年は気づいた。{n}ぼくたちの作戦はバレている！",
-  "en": "",
-  "status": "todo",
+  "en": "The boy realized something.{n}They knew about the plan!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:4",
   "hdr": "FFFF 00FF",
   "jp": "逃げなくちゃ！{n}なんとか七海と合流しなくては！",
-  "en": "",
-  "status": "todo",
+  "en": "He had to get away!{n}He had to find a way to meet up with Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:5",
   "hdr": "0008 0014",
   "jp": "誰かお願い！　駅員さん！{n}その子を捕まえて！",
-  "en": "",
-  "status": "todo",
+  "en": "Someone, please! Station staff!{n}Catch that boy!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:6",
   "hdr": "FFFF 00FF",
   "jp": "桜を助ける！？{n}{n}大人たちに理由を話しても{n}信じてもらえるとは思えなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "Save a cherry tree!?{n}{n}Even if he explained why,{n}he doubted the adults would believe him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:7",
   "hdr": "FFFF 00FF",
   "jp": "少年は必死に走った。{n}{n}気が付くと、少年の後ろに{n}大人たちの姿は見えなくなっていた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy ran as hard as he could.{n}{n}Before he knew it, the adults{n}were nowhere to be seen behind him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:8",
   "hdr": "000A 0013",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！　こっちこっち！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}! Over here! Here!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:9",
   "hdr": "FFFF 00FF",
   "jp": "少年は七海の母親が{n}自分たちを探していることを告げた。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy told them Nanami's mother{n}was looking for them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:10",
   "hdr": "0007 000F",
   "jp": "ごめんね……",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:11",
   "hdr": "FF29 00FF",
   "jp": "桐谷行き電車の到着です。",
-  "en": "",
-  "status": "todo",
+  "en": "The train for Kiriya is arriving.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:12",
   "hdr": "FF29 00FF",
   "jp": "白線の内側まで下がって{n}お待ちください。",
-  "en": "",
-  "status": "todo",
+  "en": "Please wait behind the white line.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:13",
   "hdr": "000B 0011",
   "jp": "電車だ！",
-  "en": "",
-  "status": "todo",
+  "en": "The train!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:14",
   "hdr": "000A 0013",
   "jp": "ほら、行くぞ！",
-  "en": "",
-  "status": "todo",
+  "en": "Come on, let's go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:15",
   "hdr": "0008 0014",
   "jp": "七海！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:16",
   "hdr": "0008 0014",
   "jp": "あの子たちです！",
-  "en": "",
-  "status": "todo",
+  "en": "Those are the children!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:17",
   "hdr": "0004 000D",
   "jp": "ガル……",
-  "en": "",
-  "status": "todo",
+  "en": "Grr...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:18",
   "hdr": "0004 000D",
   "jp": "ガル……{n}{col_F8}(これはマズイです……)",
-  "en": "",
-  "status": "todo",
+  "en": "Grr...{n}{col_F8}(This is not good...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:19",
   "hdr": "000A 0013",
   "jp": "おばさん、ごめんなさい！",
-  "en": "",
-  "status": "todo",
+  "en": "Sorry, ma'am!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:20",
   "hdr": "000A 0013",
   "jp": "わーーーっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Aaaah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:21",
   "hdr": "000B 0011",
   "jp": "とりゃーーー！",
-  "en": "",
-  "status": "todo",
+  "en": "Hiyaaa!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:22",
   "hdr": "0004 000D",
   "jp": "ガルルル！",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrr!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:23",
   "hdr": "0004 000D",
   "jp": "ガルルル！{n}{col_F8}(ママさん、ごめんなさい！)",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrr!{n}{col_F8}(I'm sorry, Mama-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:24",
   "hdr": "0008 0014",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}、あなたまで！？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}, you too!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:25",
   "hdr": "000B 0011",
   "jp": "ここはおれたちにまかせて！",
-  "en": "",
-  "status": "todo",
+  "en": "Leave this to us!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:26",
   "hdr": "0007 000F",
   "jp": "キイチくん、ガンタくん{n}ありがとう！",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi-kun, Ganta-kun,{n}thank you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:27",
   "hdr": "000A 0013",
   "jp": "さっさと行け！{n}{var_EF}{slot}{slot}{slot}{slot}{slot}、GOGO！",
-  "en": "",
-  "status": "todo",
+  "en": "Get going already!{n}{var_EF}{slot}{slot}{slot}{slot}{slot}, go, go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:28",
   "hdr": "0004 000D",
   "jp": "わん！？",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:29",
   "hdr": "0004 000D",
   "jp": "わん！？{n}{col_F8}(あっ！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!?{n}{col_F8}(Ah!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:30",
   "hdr": "0004 000D",
   "jp": "わわん？",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:31",
   "hdr": "0004 000D",
   "jp": "わわん？{n}{col_F8}(あれ？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof?{n}{col_F8}(Huh?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:32",
   "hdr": "0004 000D",
   "jp": "わん、わわわん！？",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:33",
   "hdr": "0004 000D",
   "jp": "わん、わわわん！？{n}{col_F8}(ど、どうしよう！？)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof-woof!?{n}{col_F8}(W-what should I do!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:34",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:35",
   "hdr": "FFFF 00FF",
   "jp": "生まれて初めてのこの状況。{n}いったい何を話せばいいのだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "He'd never been in this situation before.{n}What on earth should he say?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:36",
   "hdr": "0007 000F",
   "jp": "夜、電車に乗るとね……",
-  "en": "",
-  "status": "todo",
+  "en": "When you ride a train at night...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:37",
   "hdr": "0007 000F",
   "jp": "月がどこまでもついてくるみたいで{n}怖いよね？",
-  "en": "",
-  "status": "todo",
+  "en": "The moon seems to follow you forever.{n}It's scary, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:38",
   "hdr": "0007 000F",
   "jp": "今はまだ月が見えないから{n}安心……",
-  "en": "",
-  "status": "todo",
+  "en": "We can't see the moon yet,{n}so we're safe...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:39",
   "hdr": "0007 000F",
   "jp": "いやっ！{n}変なのがついてきてる！",
-  "en": "",
-  "status": "todo",
+  "en": "Eek!{n}Something weird is following us!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:40",
   "hdr": "0007 000F",
   "jp": "どうしよう！？",
-  "en": "",
-  "status": "todo",
+  "en": "What do we do!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:41",
   "hdr": "FFFF 00FF",
   "jp": "少年は思った。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy thought.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:42",
   "hdr": "FFFF 00FF",
   "jp": "どうしようもこうしようも……{n}ヒーローに選択肢無し！",
-  "en": "",
-  "status": "todo",
+  "en": "What could they do? Well...{n}A hero had no choice!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:43",
   "hdr": "001C 0027",
   "jp": "桐谷へ行かれちゃ困るんだヨ。{n}おまえらここで降りやガレ！",
-  "en": "",
-  "status": "todo",
+  "en": "I can't have you going to Kiriya.{n}Get OFF this train!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:44",
   "hdr": "001C 0027",
   "jp": "桐谷へ行ってどうする？{n}なーんにも知らんだろうガ……",
-  "en": "",
-  "status": "todo",
+  "en": "What'll you do in Kiriya?{n}You don't know a THING...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:45",
   "hdr": "0007 000F",
   "jp": "そっち行こっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Let's go over there!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:46",
   "hdr": "FFFF 00FF",
   "jp": "少年はドキドキした。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy's heart pounded.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:47",
   "hdr": "0007 000F",
   "jp": "もうすぐ、着いちゃうね。",
-  "en": "",
-  "status": "todo",
+  "en": "We'll be there before we know it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:48",
   "hdr": "FFFF 00FF",
   "jp": "どういう意味？{n}……と少年は思った。",
-  "en": "",
-  "status": "todo",
+  "en": "What did she mean?{n}...the boy thought.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:49",
   "hdr": "0007 000F",
   "jp": "……怖い。",
-  "en": "",
-  "status": "todo",
+  "en": "...I'm scared.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2519:50",
   "hdr": "FFFF 00FF",
   "jp": "どういう意味？{n}……と、やっぱり、少年は思った。",
-  "en": "",
-  "status": "todo",
+  "en": "What did she mean?{n}...the boy thought yet again.",
+  "status": "done",
   "notes": ""
  }
 ]

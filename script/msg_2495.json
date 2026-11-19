@@ -3,104 +3,104 @@
   "id": "2495:0",
   "hdr": "0016 0027",
   "jp": "ここは俺の土俵(ブタイ)だ！",
-  "en": "",
-  "status": "todo",
+  "en": "This ring is MY stage!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:1",
   "hdr": "FF16 00FF",
   "jp": "ブヒッ、この弱虫ブタ小僧めが",
-  "en": "",
-  "status": "todo",
+  "en": "Oink! You spineless little piglet!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:2",
   "hdr": "FF16 00FF",
   "jp": "逃げちゃダメだ、逃げちゃ",
-  "en": "",
-  "status": "todo",
+  "en": "I mustn't run away. I mustn't!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:3",
   "hdr": "FF16 00FF",
   "jp": "妖術:歩奥直火焼き",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai Art: Flame-Grilled Pork",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:4",
   "hdr": "FF16 00FF",
   "jp": "妖術:体内ビタミン放出",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai Art: Vitamin Release",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:5",
   "hdr": "FF16 00FF",
   "jp": "完敗だ…　ウワーーーーーン！！",
-  "en": "",
-  "status": "todo",
+  "en": "I got utterly beaten... WAAAAH!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:6",
   "hdr": "FF16 00FF",
   "jp": "負けた…　若干悔しい…",
-  "en": "",
-  "status": "todo",
+  "en": "I lost... That stings a little...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:7",
   "hdr": "FF16 00FF",
   "jp": "グオッ、スズの音はヤメレ！！",
-  "en": "",
-  "status": "todo",
+  "en": "Graaah! Quit ringing that bell!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:8",
   "hdr": "0016 0027",
   "jp": "俺たち妖怪との戦い方を教える！",
-  "en": "",
-  "status": "todo",
+  "en": "I'll teach you how to fight us yokai!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:9",
   "hdr": "0016 0027",
   "jp": "俺はAボタンの攻撃にめっぽう弱い！{n}だがしかし、弱い奴には強い。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm really weak against A Button{n}attacks! But I'm strong against wimps.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:10",
   "hdr": "0016 0027",
   "jp": "特にBボタンを使うヤツ！{n}なさけなくて涙も出ないわ！",
-  "en": "",
-  "status": "todo",
+  "en": "Especially B Button users!{n}Too pathetic to even cry over!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:11",
   "hdr": "0016 0027",
   "jp": "俺たち妖怪をどれだけ泣かせるかは{n}おまえのウデ次第だ……いくぞ！",
-  "en": "",
-  "status": "todo",
+  "en": "How much you make us yokai cry{n}depends on your skill... Here I come!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2495:12",
   "hdr": "FF16 00FF",
   "jp": "妖術:ショウガ汁放出",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai Art: Ginger Juice Spray",
+  "status": "done",
   "notes": ""
  }
 ]

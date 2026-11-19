@@ -3,192 +3,192 @@
   "id": "2592:0",
   "hdr": "0007 000F",
   "jp": "ガンタくん！",
-  "en": "",
-  "status": "todo",
+  "en": "Ganta-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:1",
   "hdr": "000A 0013",
   "jp": "おう……",
-  "en": "",
-  "status": "todo",
+  "en": "Hey...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:2",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くんは？",
-  "en": "",
-  "status": "todo",
+  "en": "Where's {var_EF}{slot}{slot}{slot}{slot}{slot}-kun?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:3",
   "hdr": "000A 0013",
   "jp": "まだだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Not here yet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:4",
   "hdr": "000A 0013",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:5",
   "hdr": "0007 000F",
   "jp": "わたし、電車賃ないの……",
-  "en": "",
-  "status": "todo",
+  "en": "I don't have the train fare...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:6",
   "hdr": "000A 0013",
   "jp": "貸してやる。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll lend it to ya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:7",
   "hdr": "0007 000F",
   "jp": "ありがとう！",
-  "en": "",
-  "status": "todo",
+  "en": "Thank you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:8",
   "hdr": "0007 000F",
   "jp": "ねえ、ガンタくん……怒ってるの？",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, Ganta-kun... Are you mad?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:9",
   "hdr": "000A 0013",
   "jp": "……別に。",
-  "en": "",
-  "status": "todo",
+  "en": "...Not really.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:10",
   "hdr": "0007 000F",
   "jp": "うそ。",
-  "en": "",
-  "status": "todo",
+  "en": "That's a lie.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:11",
   "hdr": "000A 0013",
   "jp": "怒ってるのは……{n}{var_EF}{slot}{slot}{slot}{slot}{slot}のことだ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's {var_EF}{slot}{slot}{slot}{slot}{slot}...{n}I'm mad at him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:12",
   "hdr": "000A 0013",
   "jp": "どうしておれたちに{n}相談しなかったんだって。",
-  "en": "",
-  "status": "todo",
+  "en": "Why didn't he{n}talk to us about it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:13",
   "hdr": "000A 0013",
   "jp": "なんか……腹立つ。",
-  "en": "",
-  "status": "todo",
+  "en": "It just... ticks me off.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:14",
   "hdr": "000B 0011",
   "jp": "お待たせ！",
-  "en": "",
-  "status": "todo",
+  "en": "Thanks for waiting!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:15",
   "hdr": "000B 0011",
   "jp": "後は……{var_EF}{slot}{slot}{slot}{slot}{slot}？",
-  "en": "",
-  "status": "todo",
+  "en": "So we're just waiting for...{n}{var_EF}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:16",
   "hdr": "000A 0013",
   "jp": "うん。{n}戦闘員、ビビって逃げたかも。",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah. Maybe our henchman{n}chickened out and ran.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:17",
   "hdr": "0007 000F",
   "jp": "戦闘員って？",
-  "en": "",
-  "status": "todo",
+  "en": "Henchman?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:18",
   "hdr": "000B 0011",
   "jp": "あいつはヒーローじゃなくて{n}戦闘員タイプなんだ。",
-  "en": "",
-  "status": "todo",
+  "en": "He's not hero material.{n}He's henchman material.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:19",
   "hdr": "0007 000F",
   "jp": "それはきっと{n}世を忍ぶ仮の姿だよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sure that's just his{n}secret identity.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:20",
   "hdr": "000B 0011",
   "jp": "おれたちみんな戦闘員タイプ。",
-  "en": "",
-  "status": "todo",
+  "en": "We're all henchman material.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:21",
   "hdr": "000A 0013",
   "jp": "それなのに、ひとりだけ{n}カッコつけてよ！",
-  "en": "",
-  "status": "todo",
+  "en": "But he's the only one{n}trying to act all cool!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:22",
   "hdr": "0007 000F",
   "jp": "そうかな……{n}きっと、みんなヒーローだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "You think so...?{n}I'm sure you're all heroes.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2592:23",
   "hdr": "0004 000D",
   "jp": "わん！{n}{col_F8}(ボクもですよね！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof!{n}{col_F8}(And so am I, right!)",
+  "status": "done",
   "notes": ""
  }
 ]

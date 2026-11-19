@@ -3,432 +3,432 @@
   "id": "2507:0",
   "hdr": "002F 0012",
   "jp": "おう、おかえり。{n}ガンタとキイチが来てるぞ。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey, welcome back.{n}Ganta and Kiichi are here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:1",
   "hdr": "002F 0012",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}の部屋で{n}待ってるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "They're waiting in your room,{n}{var_EF}{slot}{slot}{slot}{slot}{slot}.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:2",
   "hdr": "002F 0012",
   "jp": "二人なら{var_EF}{slot}{slot}{slot}{slot}{slot}の部屋だよ。{n}待ちくたびれてるぞ？",
-  "en": "",
-  "status": "todo",
+  "en": "They're in your room, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}They're tired of waiting, you know?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:3",
   "hdr": "002F 0012",
   "jp": "七海ちゃん、元気になった？",
-  "en": "",
-  "status": "todo",
+  "en": "Is Nanami-chan feeling better?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:4",
   "hdr": "0006 0014",
   "jp": "今日の夕ご飯は、{n}花火の帰りに外で食べよっか。",
-  "en": "",
-  "status": "todo",
+  "en": "Let's eat out tonight,{n}on the way back from the fireworks.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:5",
   "hdr": "0003 000E",
   "jp": "んーニャ",
-  "en": "",
-  "status": "todo",
+  "en": "Mmm-meow.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:6",
   "hdr": "000B 0011",
   "jp": "おまえのお父さんから{n}聞いたんだけど……",
-  "en": "",
-  "status": "todo",
+  "en": "We heard from your dad...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:7",
   "hdr": "000A 0013",
   "jp": "吉田七海って女子の家に{n}行ってたんだって？",
-  "en": "",
-  "status": "todo",
+  "en": "You went over to{n}that girl Nanami's place?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:8",
   "hdr": "000B 0011",
   "jp": "吉田って、昨日の子だよね？{n}ナスカイザーハンカチのさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Yoshida's that girl from yesterday?{n}With the Nazkaiser handkerchief?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:9",
   "hdr": "000B 0011",
   "jp": "ひゅ～",
-  "en": "",
-  "status": "todo",
+  "en": "Ooooh!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:10",
   "hdr": "000A 0013",
   "jp": "ひゅ～　ひゅ～",
-  "en": "",
-  "status": "todo",
+  "en": "Ooooh! Ooooh!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:11",
   "hdr": "000B 0011",
   "jp": "ひゅ～　ひゅ～　ひゅ～",
-  "en": "",
-  "status": "todo",
+  "en": "Ooooh! Ooooh! Ooooh!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:12",
   "hdr": "000A 0013",
   "jp": "ひゅ～{n}いや、ひゅ～じゃないって！",
-  "en": "",
-  "status": "todo",
+  "en": "Ooooh!{n}Wait, this isn't funny!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:13",
   "hdr": "000A 0013",
   "jp": "おれはショックだよ。{n}おまえが女子と遊ぶなんてさ。",
-  "en": "",
-  "status": "todo",
+  "en": "I can't believe you.{n}Playing with a girl!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:14",
   "hdr": "000A 0013",
   "jp": "しかも、今日はおれたちと遊ぶって{n}約束してたのに！",
-  "en": "",
-  "status": "todo",
+  "en": "You promised you'd{n}hang out with us today, too!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:15",
   "hdr": "FFFF 00FF",
   "jp": "少年は七海の家へ{n}行くことになったいきさつを{n}ガンタとキイチに話した。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy told Ganta and Kiichi{n}how he'd ended up{n}going to Nanami's house.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:16",
   "hdr": "FFFF 00FF",
   "jp": "お父さんと七海のお母さんが{n}知り合いで、七海の元気が{n}ないからお母さんが心配して……",
-  "en": "",
-  "status": "todo",
+  "en": "His dad knew Nanami's mom,{n}and Nanami had been feeling down,{n}so her mom was worried...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:17",
   "hdr": "FFFF 00FF",
   "jp": "それで……{n}それで……{n}それで……",
-  "en": "",
-  "status": "todo",
+  "en": "And then...{n}And then...{n}And then...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:18",
   "hdr": "FFFF 00FF",
   "jp": "なるべく、不満そうに{n}聞こえるように話した。",
-  "en": "",
-  "status": "todo",
+  "en": "He tried to sound as unhappy{n}about it as he could.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:19",
   "hdr": "000B 0011",
   "jp": "ふーん。",
-  "en": "",
-  "status": "todo",
+  "en": "Huh.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:20",
   "hdr": "000A 0013",
   "jp": "そういうのって腹立つよな。",
-  "en": "",
-  "status": "todo",
+  "en": "That kinda thing ticks me off.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:21",
   "hdr": "000A 0013",
   "jp": "親同士が知り合いだから{n}仲良くしろって言われてもさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Like we gotta be friends{n}just 'cause our parents are.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:22",
   "hdr": "000B 0011",
   "jp": "その通り！{n}今夜さ、花火大会でしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "Exactly!{n}The fireworks festival is tonight, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:23",
   "hdr": "000B 0011",
   "jp": "うちのオヤジが、組合の理事の{n}孫と行けって言うんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "My dad says I have to go with{n}the association director's grandkid.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:24",
   "hdr": "000A 0013",
   "jp": "組合の理事の孫って3組の女な。{n}フナみたい顔してんの。",
-  "en": "",
-  "status": "todo",
+  "en": "That's the girl in Class 3.{n}She's got a face like a carp.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:25",
   "hdr": "000B 0011",
   "jp": "おれ、やだったから、ガンタと{n}{var_EF}{slot}{slot}{slot}{slot}{slot}と行くって……",
-  "en": "",
-  "status": "todo",
+  "en": "I didn't want to, so I said I'd go{n}with Ganta and {var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:26",
   "hdr": "000B 0011",
   "jp": "そう言って、家を出てきたんだ。{n}だから、一緒に花火大会行こう！",
-  "en": "",
-  "status": "todo",
+  "en": "That's what I told him, then I left.{n}So let's go to the fireworks together!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:27",
   "hdr": "000B 0011",
   "jp": "んで、ついでだから神社の桜も{n}見に行かない？",
-  "en": "",
-  "status": "todo",
+  "en": "And while we're at it,{n}wanna see the shrine cherry tree?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:28",
   "hdr": "000A 0013",
   "jp": "ちょっとここで遊んでから{n}夕方くらいに神社行って……",
-  "en": "",
-  "status": "todo",
+  "en": "Let's play here a bit,{n}then go to the shrine this evening...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:29",
   "hdr": "000A 0013",
   "jp": "それから高台行って{n}花火見るか！",
-  "en": "",
-  "status": "todo",
+  "en": "Then head to Hilltop{n}and watch the fireworks!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:30",
   "hdr": "000B 0011",
   "jp": "決まり！",
-  "en": "",
-  "status": "todo",
+  "en": "It's settled!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:31",
   "hdr": "FFFF 00FF",
   "jp": "少年の頭は{n}めまぐるしく回転した。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy's mind raced.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:32",
   "hdr": "FFFF 00FF",
   "jp": "夕方、神社で七海と待ち合わせ。{n}花火はお母さんと見る。{n}ガンタとキイチにどうやって{n}説明すればいいのだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "Meet Nanami at the shrine this evening.{n}Watch the fireworks with Mom.{n}How could he explain all that{n}to Ganta and Kiichi?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:33",
   "hdr": "FFFF 00FF",
   "jp": "少年の頭は{n}めまぐるしく空転した。",
-  "en": "",
-  "status": "todo",
+  "en": "The boy's mind raced{n}in circles.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:34",
   "hdr": "000B 0011",
   "jp": "もうすぐ夕方になるよ。{n}神社へ行こうよ。",
-  "en": "",
-  "status": "todo",
+  "en": "It's almost evening.{n}Let's go to the shrine.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:35",
   "hdr": "000A 0013",
   "jp": "おう、出発！{n}神社までレースな、レース。",
-  "en": "",
-  "status": "todo",
+  "en": "Yeah, let's go!{n}Race you to the shrine! A race!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:36",
   "hdr": "000A 0013",
   "jp": "おばさん、おれたち{n}神社行ってから花火見てきまーす！",
-  "en": "",
-  "status": "todo",
+  "en": "Ma'am, we're off to the shrine,{n}then we're gonna watch the fireworks!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:37",
   "hdr": "0006 0014",
   "jp": "え？　そ、そうなの？{n}おうちの人は知ってるの？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh? Y-you are?{n}Do your families know?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:38",
   "hdr": "000A 0013",
   "jp": "うん、言ってきました。",
-  "en": "",
-  "status": "todo",
+  "en": "Yep, I told mine.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:39",
   "hdr": "000A 0013",
   "jp": "キイチ、{var_EF}{slot}{slot}{slot}{slot}{slot}！{n}神社までレースな、レース。",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi! {var_EF}{slot}{slot}{slot}{slot}{slot}!{n}Race you to the shrine! A race!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:40",
   "hdr": "0006 0014",
   "jp": "ねえ、{var_EF}{slot}{slot}{slot}{slot}{slot}。{n}わかってると思うけど……",
-  "en": "",
-  "status": "todo",
+  "en": "Listen, {var_EF}{slot}{slot}{slot}{slot}{slot}.{n}I'm sure you understand, but...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:41",
   "hdr": "0006 0014",
   "jp": "子供だけで夜まで外出するのは{n}お母さん、やっぱり心配よ。",
-  "en": "",
-  "status": "todo",
+  "en": "I do worry about you kids{n}staying out after dark on your own.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:42",
   "hdr": "0006 0014",
   "jp": "でも、お母さんが一緒に行くと{n}{var_EF}{slot}{slot}{slot}{slot}{slot}は恥ずかしいでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "But you'd be embarrassed if{n}Mom came along, right, {var_EF}{slot}{slot}{slot}{slot}{slot}?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:43",
   "hdr": "0006 0014",
   "jp": "だから、約束だけは守って。",
-  "en": "",
-  "status": "todo",
+  "en": "So just promise me a few things.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:44",
   "hdr": "0006 0014",
   "jp": "知らない人について行かないこと。{n}いつも3人一緒にいること。",
-  "en": "",
-  "status": "todo",
+  "en": "Don't go anywhere with strangers.{n}The three of you must stay together.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:45",
   "hdr": "0006 0014",
   "jp": "なるべく早く帰ってくること。",
-  "en": "",
-  "status": "todo",
+  "en": "Come home as early as you can.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:46",
   "hdr": "0006 0014",
   "jp": "花火大会は8時には終わるけど{n}最後まで見ちゃダメよ。",
-  "en": "",
-  "status": "todo",
+  "en": "The fireworks end at eight,{n}but don't stay till the end.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:47",
   "hdr": "0006 0014",
   "jp": "わかった？",
-  "en": "",
-  "status": "todo",
+  "en": "Understood?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:48",
   "hdr": "002F 0012",
   "jp": "今日は花火大会なんだよなぁ……{n}あ、楽しんできてな。",
-  "en": "",
-  "status": "todo",
+  "en": "The fireworks festival's today...{n}Oh, have fun out there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:49",
   "hdr": "0006 0014",
   "jp": "一緒に花火に行く約束？　いいのよ。{n}でもなるべく早く帰るのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Our promise to go together? It's fine.{n}Just come home as early as you can.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:50",
   "hdr": "0003 000E",
   "jp": "にゃーす",
-  "en": "",
-  "status": "todo",
+  "en": "Meow.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:51",
   "hdr": "002F 0012",
   "jp": "おお！　忘れ物か{var_EF}{slot}{slot}{slot}{slot}{slot}？{n}いやー、いいよねー花火大会！！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh! Forget something, {var_EF}{slot}{slot}{slot}{slot}{slot}?{n}Boy, fireworks festivals are great!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:52",
   "hdr": "0006 0014",
   "jp": "もう……はしゃいじゃって。{n}ううん、何でもないのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Goodness... So excited.{n}No, no, it's nothing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2507:53",
   "hdr": "0003 000E",
   "jp": "にゃーん",
-  "en": "",
-  "status": "todo",
+  "en": "Meowww.",
+  "status": "done",
   "notes": ""
  }
 ]

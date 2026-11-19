@@ -3,104 +3,104 @@
   "id": "2518:0",
   "hdr": "00FF 000C",
   "jp": "学校には今も妖怪がいるかもしれない。{n}中に入るのはやめておこう。",
-  "en": "",
-  "status": "todo",
+  "en": "There might still be yokai at school.{n}Better stay out.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:1",
   "hdr": "00FF 000C",
   "jp": "お年玉がないと電車に乗れない。{n}たしか、机の引き出しに……",
-  "en": "",
-  "status": "todo",
+  "en": "No New Year's Gift Money, no train ride.{n}It should be in the desk drawer...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:2",
   "hdr": "0006 0014",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:3",
   "hdr": "0006 0014",
   "jp": "お父さんが{n}行っちゃったの……",
-  "en": "",
-  "status": "todo",
+  "en": "Dad's gone...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:4",
   "hdr": "0006 0014",
   "jp": "行ってもいいって言ったけど{n}本当は……",
-  "en": "",
-  "status": "todo",
+  "en": "I told him he could go,{n}but really...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:5",
   "hdr": "0006 0014",
   "jp": "あなたはどこへも{n}行かないでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "You're not going anywhere,{n}are you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:6",
   "hdr": "0006 0014",
   "jp": "一緒にいてくれるでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "You'll stay with me, won't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:7",
   "hdr": "0006 0014",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:8",
   "hdr": "0006 0014",
   "jp": "……ごめん。{n}お母さん、変よね。",
-  "en": "",
-  "status": "todo",
+  "en": "...Sorry.{n}Mom's acting strange, isn't she?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:9",
   "hdr": "0006 0014",
   "jp": "もう、変。みんなヘン！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, it's all strange! Everyone is!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:10",
   "hdr": "00FF 000C",
   "jp": "……今はそっとしておこう。",
-  "en": "",
-  "status": "todo",
+  "en": "...Better leave her alone for now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:11",
   "hdr": "00FF 000C",
   "jp": "お年玉を探そう。{n}たしか、机の引き出しに……",
-  "en": "",
-  "status": "todo",
+  "en": "Let's find the New Year's Gift Money.{n}It should be in the desk drawer...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2518:12",
   "hdr": "00FF 00FF",
   "jp": "『{col_F8}お年玉{col_FC}』を手に入れた！！{n}さあ、駅へ行こう。",
-  "en": "",
-  "status": "todo",
+  "en": "Got {col_F8}New Year's Gift Money{col_FC}!!{n}Time to go to the station.",
+  "status": "done",
   "notes": ""
  }
 ]

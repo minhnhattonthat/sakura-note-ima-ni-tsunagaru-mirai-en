@@ -3,7 +3,9 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 9. Release done (2026-11-20): `release/Sakura_Note_Ima_ni_Tsunagaru_Mirai_EN_v1.0.zip` built and
-  verified by `tools/release.py` (every gate ok, log `work/release_v1.0.log`); not published (owner's call).
+  verified by `tools/release.py` (every gate ok, log `work/release_v1.0.log`). Published 2026-11-20 at the owner's
+  request (D14): repo public, GitHub release v1.0 (tag on babc2bd) with the zip, sha256 42a4ee1b...dadc5e0.
+  Next: player bug reports (`gh issue list --label bug`).
   Build: `build/sakuranote_en.nds` sha1 4c19bf46780c9bda5254a2e0e74ef78c8beb8844, patched CRC32 DB61296F; patch
   `Sakura_Note_Ima_ni_Tsunagaru_Mirai_EN_v1.0.xdelta` 199,649 bytes, re-applied to the clean dump = build.
   Gates on this build: visual tour 57/57 (re-toured, 6 changed sheets re-verdicted ok), story pass 13/13, textcover

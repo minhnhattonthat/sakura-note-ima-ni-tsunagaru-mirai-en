@@ -1,2 +1,2 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too).
+911782fa06c3006cd66818914c7684d6422d200c  rom/Sakura Note - Ima ni Tsunagaru Mirai (Japan).nds

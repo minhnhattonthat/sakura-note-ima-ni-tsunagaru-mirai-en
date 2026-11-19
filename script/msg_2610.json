@@ -3,904 +3,904 @@
   "id": "2610:0",
   "hdr": "FF01 00FF",
   "jp": "入力した姓名",
-  "en": "",
-  "status": "todo",
+  "en": "Full Name",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:1",
   "hdr": "FF01 00FF",
   "jp": "入力した苗字",
-  "en": "",
-  "status": "todo",
+  "en": "Surname",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:2",
   "hdr": "FF01 00FF",
   "jp": "入力した名前",
-  "en": "",
-  "status": "todo",
+  "en": "Given Name",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:3",
   "hdr": "FF03 00FF",
   "jp": "入力した名前(猫)",
-  "en": "",
-  "status": "todo",
+  "en": "Cat's Name",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:4",
   "hdr": "FF02 00FF",
   "jp": "入力した名前(犬)",
-  "en": "",
-  "status": "todo",
+  "en": "Dog's Name",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:5",
   "hdr": "FF08 00FF",
   "jp": "カナメ",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:6",
   "hdr": "FF09 00FF",
   "jp": "ハルカ",
-  "en": "",
-  "status": "todo",
+  "en": "Haruka",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:7",
   "hdr": "FF05 00FF",
   "jp": "ナナミ",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:8",
   "hdr": "FF0A 00FF",
   "jp": "タカコ",
-  "en": "",
-  "status": "todo",
+  "en": "Takako",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:9",
   "hdr": "FF0B 00FF",
   "jp": "タカシ",
-  "en": "",
-  "status": "todo",
+  "en": "Takashi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:10",
   "hdr": "FF0C 00FF",
   "jp": "ガンタ",
-  "en": "",
-  "status": "todo",
+  "en": "Ganta",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:11",
   "hdr": "FF0D 00FF",
   "jp": "キイチ",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:12",
   "hdr": "FFFF 00FF",
   "jp": "キイチパパ",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Dad",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:13",
   "hdr": "FF06 00FF",
   "jp": "ヘンなおじさん",
-  "en": "",
-  "status": "todo",
+  "en": "Strange Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:14",
   "hdr": "FF17 00FF",
   "jp": "Dr．ジョウシュウ",
-  "en": "",
-  "status": "todo",
+  "en": "Dr. Joshu",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:15",
   "hdr": "FFFF 00FF",
   "jp": "キイチママ",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Mom",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:16",
   "hdr": "FF0F 00FF",
   "jp": "ヨウカイ",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:17",
   "hdr": "FF0F 00FF",
   "jp": "ヨウカイA",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai A",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:18",
   "hdr": "FF0F 00FF",
   "jp": "ヨウカイB",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai B",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:19",
   "hdr": "FF0F 00FF",
   "jp": "ヨウカイC",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai C",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:20",
   "hdr": "FF0F 00FF",
   "jp": "ヨウカイD",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai D",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:21",
   "hdr": "FF0F 00FF",
   "jp": "ヨウカイE",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai E",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:22",
   "hdr": "FF11 00FF",
   "jp": "ポークジンジャー",
-  "en": "",
-  "status": "todo",
+  "en": "Ginger Pork",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:23",
   "hdr": "FF02 00FF",
   "jp": "ミシラヌイヌ",
-  "en": "",
-  "status": "todo",
+  "en": "Strange Dog",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:24",
   "hdr": "FFFF 00FF",
   "jp": "キイチママ",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Mom",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:25",
   "hdr": "FFFF 00FF",
   "jp": "サクラさん",
-  "en": "",
-  "status": "todo",
+  "en": "Sakura-san",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:26",
   "hdr": "FFFF 00FF",
   "jp": "？？？",
-  "en": "",
-  "status": "todo",
+  "en": "???",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:27",
   "hdr": "FF12 00FF",
   "jp": "キテンソ",
-  "en": "",
-  "status": "todo",
+  "en": "Kitenso",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:28",
   "hdr": "FF13 00FF",
   "jp": "ガランリュウ",
-  "en": "",
-  "status": "todo",
+  "en": "Garanryu",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:29",
   "hdr": "FF1A 00FF",
   "jp": "シロスケ",
-  "en": "",
-  "status": "todo",
+  "en": "Shirosuke",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:30",
   "hdr": "FF1B 00FF",
   "jp": "クロ",
-  "en": "",
-  "status": "todo",
+  "en": "Kuro",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:31",
   "hdr": "FF1C 00FF",
   "jp": "ガッツ",
-  "en": "",
-  "status": "todo",
+  "en": "Guts",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:32",
   "hdr": "FF1D 00FF",
   "jp": "ギャース",
-  "en": "",
-  "status": "todo",
+  "en": "Squawks",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:33",
   "hdr": "FF14 00FF",
   "jp": "ゲーロン",
-  "en": "",
-  "status": "todo",
+  "en": "Croakmire",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:34",
   "hdr": "FF15 00FF",
   "jp": "キマヨイ",
-  "en": "",
-  "status": "todo",
+  "en": "Waverwood",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:35",
   "hdr": "FF0E 00FF",
   "jp": "コジマ",
-  "en": "",
-  "status": "todo",
+  "en": "Kojima",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:36",
   "hdr": "FF06 00FF",
   "jp": "キキチ",
-  "en": "",
-  "status": "todo",
+  "en": "Kikichi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:37",
   "hdr": "FF18 00FF",
   "jp": "トリぶぎょう",
-  "en": "",
-  "status": "todo",
+  "en": "Bird Magistrate",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:38",
   "hdr": "FF18 00FF",
   "jp": "ホッホロー",
-  "en": "",
-  "status": "todo",
+  "en": "Coojudge",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:39",
   "hdr": "FF18 00FF",
   "jp": "ハト",
-  "en": "",
-  "status": "todo",
+  "en": "Pigeon",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:40",
   "hdr": "FF19 00FF",
   "jp": "よりき",
-  "en": "",
-  "status": "todo",
+  "en": "Deputy",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:41",
   "hdr": "FFFF 00FF",
   "jp": "アナウンス",
-  "en": "",
-  "status": "todo",
+  "en": "Announcement",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:42",
   "hdr": "FFFF 00FF",
   "jp": "おにいさん",
-  "en": "",
-  "status": "todo",
+  "en": "Young Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:43",
   "hdr": "FFFF 00FF",
   "jp": "おねえさん",
-  "en": "",
-  "status": "todo",
+  "en": "Young Woman",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:44",
   "hdr": "FF1F 00FF",
   "jp": "メメミ",
-  "en": "",
-  "status": "todo",
+  "en": "Mememi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:45",
   "hdr": "FF1E 00FF",
   "jp": "ノビヨせんせい",
-  "en": "",
-  "status": "todo",
+  "en": "Nobiyo-sensei",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:46",
   "hdr": "FF04 00FF",
   "jp": "ナナミ",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:47",
   "hdr": "FF07 00FF",
   "jp": "カナメ",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:48",
   "hdr": "FF10 00FF",
   "jp": "ヨウカイ",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:49",
   "hdr": "FF10 00FF",
   "jp": "ヨウカイA",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai A",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:50",
   "hdr": "FF10 00FF",
   "jp": "ヨウカイB",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai B",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:51",
   "hdr": "FF10 00FF",
   "jp": "ヨウカイC",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai C",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:52",
   "hdr": "FF10 00FF",
   "jp": "ヨウカイD",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai D",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:53",
   "hdr": "FF10 00FF",
   "jp": "ヨウカイE",
-  "en": "",
-  "status": "todo",
+  "en": "Yokai E",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:54",
   "hdr": "FFFF 00FF",
   "jp": "コウモリA",
-  "en": "",
-  "status": "todo",
+  "en": "Bat A",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:55",
   "hdr": "FFFF 00FF",
   "jp": "コウモリB",
-  "en": "",
-  "status": "todo",
+  "en": "Bat B",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:56",
   "hdr": "FFFF 00FF",
   "jp": "おばあさん",
-  "en": "",
-  "status": "todo",
+  "en": "Old Woman",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:57",
   "hdr": "FFFF 00FF",
   "jp": "おじいさん",
-  "en": "",
-  "status": "todo",
+  "en": "Old Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:58",
   "hdr": "FFFF 00FF",
   "jp": "おばさん",
-  "en": "",
-  "status": "todo",
+  "en": "Woman",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:59",
   "hdr": "FFFF 00FF",
   "jp": "おじさん",
-  "en": "",
-  "status": "todo",
+  "en": "Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:60",
   "hdr": "FFFF 00FF",
   "jp": "おんなのこ",
-  "en": "",
-  "status": "todo",
+  "en": "Girl",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:61",
   "hdr": "FFFF 00FF",
   "jp": "おとこのこ",
-  "en": "",
-  "status": "todo",
+  "en": "Boy",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:62",
   "hdr": "FFFF 00FF",
   "jp": "てんいん",
-  "en": "",
-  "status": "todo",
+  "en": "Clerk",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:63",
   "hdr": "FFFF 00FF",
   "jp": "ふりょう",
-  "en": "",
-  "status": "todo",
+  "en": "Delinquent",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:64",
   "hdr": "FFFF 00FF",
   "jp": "ネコ",
-  "en": "",
-  "status": "todo",
+  "en": "Cat",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:65",
   "hdr": "FFFF 00FF",
   "jp": "えきいん",
-  "en": "",
-  "status": "todo",
+  "en": "Station Worker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:66",
   "hdr": "FFFF 00FF",
   "jp": "ゆうびんやさん",
-  "en": "",
-  "status": "todo",
+  "en": "Mail Carrier",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:67",
   "hdr": "FFFF 00FF",
   "jp": "イヌ",
-  "en": "",
-  "status": "todo",
+  "en": "Dog",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:68",
   "hdr": "FFFF 00FF",
   "jp": "イネムリさん",
-  "en": "",
-  "status": "todo",
+  "en": "Sleepyhead-san",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:69",
   "hdr": "FFFF 00FF",
   "jp": "NSKマニア",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Buff",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:70",
   "hdr": "FFFF 00FF",
   "jp": "こくはくじょし",
-  "en": "",
-  "status": "todo",
+  "en": "Girl with a Crush",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:71",
   "hdr": "FFFF 00FF",
   "jp": "となりのおばさん",
-  "en": "",
-  "status": "todo",
+  "en": "Neighbor Lady",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:72",
   "hdr": "FFFF 00FF",
   "jp": "ラブラブだんし",
-  "en": "",
-  "status": "todo",
+  "en": "Lovestruck Boy",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:73",
   "hdr": "FFFF 00FF",
   "jp": "ダイエットマニア",
-  "en": "",
-  "status": "todo",
+  "en": "Diet Fanatic",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:74",
   "hdr": "FFFF 00FF",
   "jp": "うっかりおじさん",
-  "en": "",
-  "status": "todo",
+  "en": "Forgetful Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:75",
   "hdr": "FFFF 00FF",
   "jp": "うっかりむすめ",
-  "en": "",
-  "status": "todo",
+  "en": "Forgetful Girl",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:76",
   "hdr": "FFFF 00FF",
   "jp": "こどくなろうじん",
-  "en": "",
-  "status": "todo",
+  "en": "Lonely Old Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:77",
   "hdr": "FFFF 00FF",
   "jp": "ふりょうのおかん",
-  "en": "",
-  "status": "todo",
+  "en": "Delinquent's Mom",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:78",
   "hdr": "FFFF 00FF",
   "jp": "ぼんやりがくせい",
-  "en": "",
-  "status": "todo",
+  "en": "Daydreamer",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:79",
   "hdr": "FFFF 00FF",
   "jp": "NSKファン",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Fan",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:80",
   "hdr": "FFFF 00FF",
   "jp": "まごおもいのじじ",
-  "en": "",
-  "status": "todo",
+  "en": "Doting Grandpa",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:81",
   "hdr": "FFFF 00FF",
   "jp": "NSKフリーク",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Superfan",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:82",
   "hdr": "FFFF 00FF",
   "jp": "まちあわせむすめ",
-  "en": "",
-  "status": "todo",
+  "en": "Waiting Girl",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:83",
   "hdr": "FFFF 00FF",
   "jp": "まちあわせママ",
-  "en": "",
-  "status": "todo",
+  "en": "Waiting Mom",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:84",
   "hdr": "FFFF 00FF",
   "jp": "つかれたせいねん",
-  "en": "",
-  "status": "todo",
+  "en": "Tired Young Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:85",
   "hdr": "FFFF 00FF",
   "jp": "かいものかのじょ",
-  "en": "",
-  "status": "todo",
+  "en": "Shopping Girl",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:86",
   "hdr": "FFFF 00FF",
   "jp": "まようおじさん",
-  "en": "",
-  "status": "todo",
+  "en": "Indecisive Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:87",
   "hdr": "FFFF 00FF",
   "jp": "しんし",
-  "en": "",
-  "status": "todo",
+  "en": "Gentleman",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:88",
   "hdr": "FFFF 00FF",
   "jp": "おしゃれせいねん",
-  "en": "",
-  "status": "todo",
+  "en": "Stylish Young Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:89",
   "hdr": "FFFF 00FF",
   "jp": "アイスや",
-  "en": "",
-  "status": "todo",
+  "en": "Ice Cream Seller",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:90",
   "hdr": "FFFF 00FF",
   "jp": "ジェラートや",
-  "en": "",
-  "status": "todo",
+  "en": "Gelato Seller",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:91",
   "hdr": "FFFF 00FF",
   "jp": "うっかりおじさん",
-  "en": "",
-  "status": "todo",
+  "en": "Forgetful Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:92",
   "hdr": "FFFF 00FF",
   "jp": "たそがれせいねん",
-  "en": "",
-  "status": "todo",
+  "en": "Pensive Young Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:93",
   "hdr": "FFFF 00FF",
   "jp": "つりびと",
-  "en": "",
-  "status": "todo",
+  "en": "Angler",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:94",
   "hdr": "FFFF 00FF",
   "jp": "わがしやさん",
-  "en": "",
-  "status": "todo",
+  "en": "Sweets Seller",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:95",
   "hdr": "FFFF 00FF",
   "jp": "イヌずきだんし",
-  "en": "",
-  "status": "todo",
+  "en": "Dog Lover",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:96",
   "hdr": "FFFF 00FF",
   "jp": "いやがるイヌ",
-  "en": "",
-  "status": "todo",
+  "en": "Reluctant Dog",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:97",
   "hdr": "FFFF 00FF",
   "jp": "かんぬしさん",
-  "en": "",
-  "status": "todo",
+  "en": "Shrine Priest",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:98",
   "hdr": "FFFF 00FF",
   "jp": "バーテンダー",
-  "en": "",
-  "status": "todo",
+  "en": "Bartender",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:99",
   "hdr": "FFFF 00FF",
   "jp": "NSKフリーク",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Superfan",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:100",
   "hdr": "FFFF 00FF",
   "jp": "こまったろうば",
-  "en": "",
-  "status": "todo",
+  "en": "Troubled Granny",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:101",
   "hdr": "FFFF 00FF",
   "jp": "だいくさん",
-  "en": "",
-  "status": "todo",
+  "en": "Carpenter",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:102",
   "hdr": "FFFF 00FF",
   "jp": "うっかりおばさん",
-  "en": "",
-  "status": "todo",
+  "en": "Forgetful Woman",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:103",
   "hdr": "FFFF 00FF",
   "jp": "おとなりおねえさん",
-  "en": "",
-  "status": "todo",
+  "en": "Neighbor's Girl",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:104",
   "hdr": "FFFF 00FF",
   "jp": "おとなりおばあさん",
-  "en": "",
-  "status": "todo",
+  "en": "Elderly Neighbor",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:105",
   "hdr": "FFFF 00FF",
   "jp": "せんせい",
-  "en": "",
-  "status": "todo",
+  "en": "Teacher",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:106",
   "hdr": "FF00 00FF",
   "jp": "おやっさん",
-  "en": "",
-  "status": "todo",
+  "en": "Foreman",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:107",
   "hdr": "FF01 00FF",
   "jp": "しんじんこういん",
-  "en": "",
-  "status": "todo",
+  "en": "New Worker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:108",
   "hdr": "FF02 00FF",
   "jp": "エリートこういん",
-  "en": "",
-  "status": "todo",
+  "en": "Ace Engineer",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:109",
   "hdr": "FF03 00FF",
   "jp": "ミーハーこういん",
-  "en": "",
-  "status": "todo",
+  "en": "Starstruck Worker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:110",
   "hdr": "FF04 00FF",
   "jp": "こうぐコレクター",
-  "en": "",
-  "status": "todo",
+  "en": "Tool Collector",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:111",
   "hdr": "FF05 00FF",
   "jp": "ネコすきこういん",
-  "en": "",
-  "status": "todo",
+  "en": "Cat-Loving Worker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2610:112",
   "hdr": "FF06 00FF",
   "jp": "こういん",
-  "en": "",
-  "status": "todo",
+  "en": "Factory Worker",
+  "status": "done",
   "notes": ""
  }
 ]

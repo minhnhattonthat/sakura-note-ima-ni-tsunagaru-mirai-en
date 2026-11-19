@@ -12,4 +12,12 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| `filesystem.md` | NitroFS, FILEDATA.BIN "LF 2" archive, id map, free space | verified (identity repack pending) |
+| `text.md` | u16 encoding, message files, header words, control codes, arm9 strings, text ranges | encoding verified; code meanings partly guessed |
+| `font.md` | dialogue font (FILEDATA 860), kanji map | verified layout; kanji map read by eye + context |
+| `graphics.md` | graphics-text survey | in progress |
+| `debug.md` | leftover debug scripts (DebugScenario, EpisodeSelect_Test) | to do (phase 2) |
+
+Prior work (one web search, 2026-11-19): no released English patch or tools found. A NeoGAF thread on unlocalized
+DS RPGs (https://www.neogaf.com/threads/unlocalized-ds-rpgs-from-nintendo.933358/page-2) mentions a fan
+translation that was abandoned halfway; no files or notes from it were found. Publisher: Marvelous Entertainment.

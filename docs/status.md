@@ -2,9 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: ready to start (phase 5 done: VWF booted, marker tour, width gate in `docs/re/boxes.md`).
-  Last build: 2026-11-19 marker build `build/sakuranote_marker.nds` (`build.py --marker`), smoke ok, 40/40 warps ok
-  (shots `work/qa/marker/`); width-gate builds `build/qa_gate1-4.nds` from `tools/qa/gate1-4.tsv`.
+- **Phase:** 7. Insert, fit, check: ready to start (phase 6 done: 5,155/5,155 lines translated, batch check 0
+  problems, reviewer pass 0 Critical, every Important applied or rejected in `docs/review-log.md`).
+  Last build: 2026-11-19 `build/sakuranote_en.nds` (default en build), sha1 5cedc1df89cb4ea72b876971eaa3524254bb9b03,
+  smoke ok. Not yet toured in the emulator.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -55,17 +56,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     scenes: intro_narration, status_menu, newexp_menu, item_desc (fixture `all_items`: state +0x120..0x12F = item
     bits, found with `tools/debug/poke.lua`). Marker sheets: the only Japanese left is graphics (name-entry
     prompts, status/NEWEXP panels: all in `docs/re/graphics.md`), save data names, and debug-only labels (2612).
+  - Phase 6 translate: 37 batches (`tools/batches.py split|check|merge`), translated by `codex exec`
+    (`tools/tl_run.py`, brief `docs/translator-brief.md` + style reference + synopsis + per-batch glossary rows) and
+    reviewed by `codex exec` read-only (`tools/review_run.py`, `docs/reviewer-brief.md`). Dispositions:
+    `docs/review-log.md`. Checker fixes: chapter cards treat full-width-space JP lines as blank, and cards/credits
+    take the JP line count as the cap (2613:45-60 have 4 lines with END); `tests/test_batches.py`.
 - **Next:**
-  1. Phase 6: translate in batches (translator agents, `references/translation.md`) with the budgets from
-     `docs/re/boxes.md` per file; speaker name from 2610 as context for each line. Keep blank layout lines blank.
-  2. Width rows still **guess** (not reached by any warp): 2609 track names (player-facing list, probably an
+  1. Phase 7: insert/fit/check: overflow lint over the built script, control codes, `romdiff.py` ranges. Credits:
+     find who sets the pen x for 2604 and re-centre (cap 240), then restore "Marvelous Entertainment" in 2604:78
+     (now the flagged "Marvelous Ent."). arm9:0941C0 default name "Toru K." (9-code slot): restore "Toru Kurosawa"
+     if the pointer can move. Chapter cards 2613:25-44 keep the blank line 2 as ASCII spaces (JP: 6 full-width).
+  2. The glossary lint skips `## Guidance` rows, so variant spellings slipped through there (Okashita, Pitchy...;
+     swept by hand, see review-log). A phase 8 story pass should grep EN against Guidance rows too.
+  3. Width rows still **guess** (not reached by any warp): 2609 track names (player-facing list, probably an
      extras/special episode), 2615:0 touch prompt, 2616 tutorial (Nobiyo; presumed dialogue box without tag),
      2607:0/5 save/load prompts (same panel as the measured save messages), 2613:67-81 (same board panel, need
      unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
-  3. Phase 7 engine work: credits line x (fixed per line, pre-centred for the Japanese; not plain data in FILEDATA:
+  4. Phase 7 engine work (detail): credits line x (fixed per line, pre-centred for the Japanese; not plain data in FILEDATA:
      trace who sets the pen x for 2604) so English lines can be re-centred; arm9:092798 empty-slot label has 5
      codes ("Empty" fits) unless its pointer moves.
-  4. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
+  5. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
 - **Open bugs:** none.
 - **Notes for later phases:**
   - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610

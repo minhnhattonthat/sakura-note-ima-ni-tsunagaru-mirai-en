@@ -74,7 +74,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ローマ動物病院 | Roma Veterinary Clinic |  | Dr. Joshu's clinic; retains supplied name and Rome association. |  |
 | 元祖ヒルズアイスクリーム | Original Hills Ice Cream |  | Vendor claims to be the originator; distinct from rival's claim. |  |
 | 本家ヒルズジェラート | Authentic Hills Gelato |  | Rival claims authenticity; do not also call it Original. |  |
-| 冥界大学付属妖怪学園 / 妖怪学園 | Yokai Academy, Underworld University |  | Full affiliation; short form Yokai Academy. |  |
+| 冥界大学付属妖怪学園 | Yokai Academy, Underworld University |  | Full affiliation. |  |
+| 妖怪学園 | Yokai Academy |  | Short form; use when the JP has only 妖怪学園. |  |
 | スカイスクレーパーレコード / スカレ | Skyscraper Records |  | Imported-record retailer; abbreviated JP refers to same shop. |  |
 | 川村レコード | Kawamura Records |  | Local record shop. |  |
 
@@ -115,6 +116,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 崖っぷちおはぎ | Last-Ditch Ohagi |  | Seller's desperation and dark-bean jokes support this over neutral Last-Chance. |  |
 | ナスカイザー録画DVD | Nazkaiser Recording DVD |  | Recorded TV episode, not necessarily a commercial release. |  |
 | ナスカイザーの秘密カード / ナスカイザーひみつカード | Nazkaiser Secret Cards |  | Trading/battle-card line; singular Secret Card for an individual card. |  |
+| 涙のオルゴール | Music Box of Tears |  | Sound-test track 27 (2609:26). |  |
+| コタツ | kotatsu |  | Heated table; lower case, untranslated (2566:27). |  |
 | ナスカイザーカード | Nazkaiser Card |  | Sausage-pack premium; distinct from Secret Cards. |  |
 | ナスカイザー大百科 | Nazkaiser Encyclopedia |  | Named book. |  |
 | ナスカイザーフィギア / ナスカイザーフィギュア / フィギュア | Nazkaiser Action Figure |  | Movable original-hero figure; spelling variants refer to same item in this context. |  |
@@ -148,7 +151,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 管理室のカギ | Management Office Key |  | Dimpled security key. |  |
 | 真空管 / 963A真空管 | Vacuum Tube / 963A Vacuum Tube |  | Specific item is rare Soviet prototype; retain model when present. |  |
 | きみと走るとぼくは泣く | Running with You Makes Me Cry |  | Suggested English theme-song title. |  |
-| マーベラスエンターテイメント | Marvelous Entertainment |  | Historical publisher credit; duplicated final entry appears malformed. |  |
+| マーベラスエンターテイメント | Marvelous Entertainment / Marvelous Ent. |  | Historical publisher credit; duplicated final entry appears malformed. "Marvelous Ent." is a FLAGGED last resort for credits 2604:78 only (125 px > the 120 px credits cap); restore the full name when phase 7 re-centres the credits (cap 240). |  |
 
 ## Guidance (context-dependent: use where it fits; the lint does not enforce these)
 

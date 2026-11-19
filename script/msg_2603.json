@@ -3,192 +3,192 @@
   "id": "2603:0",
   "hdr": "0005 0012",
   "jp": "さて、行かなくちゃ。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I'd better get going.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:1",
   "hdr": "0004 000D",
   "jp": "えっ！？　行っちゃう！？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?! You're leaving?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:2",
   "hdr": "0008 0014",
   "jp": "きゃっ！",
-  "en": "",
-  "status": "todo",
+  "en": "Aah!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:3",
   "hdr": "0009 0012",
   "jp": "おお、起きたか！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, you're awake!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:4",
   "hdr": "0004 000D",
   "jp": "わおおおおおおおおん！{n}{col_F8}(みんないるー！　わらってる！)",
-  "en": "",
-  "status": "todo",
+  "en": "Awooooooooo!{n}{col_F8}(Everyone's here! They're smiling!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:5",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}ったら！",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, {var_ED}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:6",
   "hdr": "0006 0014",
   "jp": "じゃあ、行きましょうか。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, shall we go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:7",
   "hdr": "0008 0014",
   "jp": "あの……",
-  "en": "",
-  "status": "todo",
+  "en": "Um...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:8",
   "hdr": "0008 0014",
   "jp": "わたしと七海は残ろうと{n}思うんです。",
-  "en": "",
-  "status": "todo",
+  "en": "I think Nanami and I{n}are going to stay.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:9",
   "hdr": "0006 0014",
   "jp": "あら……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:10",
   "hdr": "0009 0012",
   "jp": "……まあ、ちょっと話し合って{n}みようかと……",
-  "en": "",
-  "status": "todo",
+  "en": "...Well, we thought we'd{n}try talking things over...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:11",
   "hdr": "0005 0012",
   "jp": "よかったねえ、タカコさん！",
-  "en": "",
-  "status": "todo",
+  "en": "I'm so glad, Takako-san!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:12",
   "hdr": "0023 0011",
   "jp": "七海！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:13",
   "hdr": "0023 0011",
   "jp": "七海からうけた言葉の暴力！{n}絶対忘れないからな！",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami! Those nasty things you said!{n}I'll never forget them!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:14",
   "hdr": "0007 000F",
   "jp": "そんなこと言っていいの？",
-  "en": "",
-  "status": "todo",
+  "en": "Are you sure you want to say that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:15",
   "hdr": "0007 000F",
   "jp": "わたし、この町に{n}帰って来るかもよ？",
-  "en": "",
-  "status": "todo",
+  "en": "I might move back{n}to this town, you know?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:16",
   "hdr": "0023 0011",
   "jp": "え？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:17",
   "hdr": "0007 000F",
   "jp": "わたし……家族で暮らせるように{n}頑張ってみるね。",
-  "en": "",
-  "status": "todo",
+  "en": "I... I'll try to find a way{n}for us to live together as a family.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:18",
   "hdr": "0007 000F",
   "jp": "……",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:19",
   "hdr": "0007 000F",
   "jp": "会いたくなったら、電車で{n}すぐだもんね。",
-  "en": "",
-  "status": "todo",
+  "en": "If we want to see each other,{n}it's just a short train ride, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:20",
   "hdr": "0007 000F",
   "jp": "ガンタくんとキイチくんにも{n}よろしく言ってね。",
-  "en": "",
-  "status": "todo",
+  "en": "Say hi to Ganta-kun{n}and Kiichi-kun for me, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:21",
   "hdr": "0007 000F",
   "jp": "それから……あのね。",
-  "en": "",
-  "status": "todo",
+  "en": "And... um, you know...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:22",
   "hdr": "0004 000D",
   "jp": "わぅわわん。{n}{col_F8}({var_EF}{slot}{slot}{slot}{slot}{slot}さん)",
-  "en": "",
-  "status": "todo",
+  "en": "Ruff, w-woof.{n}{col_F8}({var_EF}{slot}{slot}{slot}{slot}{slot}-san.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2603:23",
   "hdr": "0004 000D",
   "jp": "くぅいーん。{n}{col_F8}(大好きですよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine.{n}{col_F8}(I love you.)",
+  "status": "done",
   "notes": ""
  }
 ]

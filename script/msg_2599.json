@@ -3,224 +3,224 @@
   "id": "2599:0",
   "hdr": "0005 0012",
   "jp": "キマヨイには{n}気をつけてくださいよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Please be careful of Waverwood.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:1",
   "hdr": "0005 0012",
   "jp": "取りつかれると大変です。{n}気の迷いが生じます。",
-  "en": "",
-  "status": "todo",
+  "en": "If it possesses you, you're in trouble.{n}It fills you with wavering impulses.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:2",
   "hdr": "0005 0012",
   "jp": "さあ、佐倉さん。{n}子供たちの行きそうな場所は？",
-  "en": "",
-  "status": "todo",
+  "en": "Now, Sakura-san.{n}Where might the children go?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:3",
   "hdr": "0006 0014",
   "jp": "話の流れからして{n}桜のところじゃないの？",
-  "en": "",
-  "status": "todo",
+  "en": "After all that, wouldn't they{n}be at the cherry tree?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:4",
   "hdr": "0009 0012",
   "jp": "もしかしたら、わたしが{n}働いている工場かも……",
-  "en": "",
-  "status": "todo",
+  "en": "Perhaps they're at{n}the factory where I work...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:5",
   "hdr": "0005 0012",
   "jp": "考えられますね。",
-  "en": "",
-  "status": "todo",
+  "en": "That's possible.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:6",
   "hdr": "0005 0012",
   "jp": "それでは二手に{n}分かれましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "Then let's split into two groups.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:7",
   "hdr": "0005 0012",
   "jp": "佐倉さんは桜の木のところへ。",
-  "en": "",
-  "status": "todo",
+  "en": "Sakura-san, go to the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:8",
   "hdr": "0005 0012",
   "jp": "七海ちゃんがいたら、涙を{n}手に入れる方法を……",
-  "en": "",
-  "status": "todo",
+  "en": "If Nanami-chan is there,{n}find a way to get her tears...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:9",
   "hdr": "0009 0012",
   "jp": "ああ、イヤな役目だなあ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, what an awful job to have.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:10",
   "hdr": "0005 0012",
   "jp": "鬼になってください！{n}それで、工場は？",
-  "en": "",
-  "status": "todo",
+  "en": "You'll have to be heartless!{n}Now, where's the factory?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:11",
   "hdr": "0009 0012",
   "jp": "町の外れです。{n}ここから東へまっすぐ。",
-  "en": "",
-  "status": "todo",
+  "en": "On the edge of town.{n}Straight east from here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:12",
   "hdr": "0005 0012",
   "jp": "じゃあ、行きましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "All right, let's go.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:13",
   "hdr": "0005 0012",
   "jp": "ああ、佐倉さん、タカコさん。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, Sakura-san, Takako-san.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:14",
   "hdr": "0005 0012",
   "jp": "ウチの息子、七海ちゃんと{n}一緒にいるはずです。",
-  "en": "",
-  "status": "todo",
+  "en": "My son should be{n}with Nanami-chan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:15",
   "hdr": "0005 0012",
   "jp": "よろしくお願いしますね。",
-  "en": "",
-  "status": "todo",
+  "en": "Please look after him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:16",
   "hdr": "0009 0012",
   "jp": "それは、もちろん。",
-  "en": "",
-  "status": "todo",
+  "en": "Of course we will.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:17",
   "hdr": "0005 0012",
   "jp": "それから……",
-  "en": "",
-  "status": "todo",
+  "en": "And one more thing...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:18",
   "hdr": "0005 0012",
   "jp": "もしもの時のために{n}覚えておいてください。",
-  "en": "",
-  "status": "todo",
+  "en": "Please remember this,{n}just in case.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:19",
   "hdr": "0005 0012",
   "jp": "ピッチイ様だったら{n}情に訴える。",
-  "en": "",
-  "status": "todo",
+  "en": "If it's Chirpy,{n}appeal to his feelings.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:20",
   "hdr": "0005 0012",
   "jp": "ホッホロー様だったら{n}ハトに有利な交換条件、です。",
-  "en": "",
-  "status": "todo",
+  "en": "If it's Coojudge, offer him a deal{n}that benefits pigeons.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:21",
   "hdr": "0009 0012",
   "jp": "……じゃあ、後ほど。",
-  "en": "",
-  "status": "todo",
+  "en": "...Well, see you later.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:22",
   "hdr": "001A 0011",
   "jp": "あれ！？{n}{var_ED}{slot}{slot}{slot}{slot}{slot}！？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh!?{n}{var_ED}{slot}{slot}{slot}{slot}{slot}!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:23",
   "hdr": "0023 0011",
   "jp": "もしかして、七海も一緒！？",
-  "en": "",
-  "status": "todo",
+  "en": "Is Nanami with you, too!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:24",
   "hdr": "0004 000D",
   "jp": "わわわわん！？{n}{col_F8}(コジマくん！？)",
-  "en": "",
-  "status": "todo",
+  "en": "W-w-woof!?{n}{col_F8}(Kojima-kun!?)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:25",
   "hdr": "0004 000D",
   "jp": "わわわわん、くーん……{n}{col_F8}(コジマくん、ボクいそいでます)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, whine...{n}{col_F8}(Kojima-kun, I'm in a hurry.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:26",
   "hdr": "0023 0011",
   "jp": "七海も一緒なんだろ？{n}連れて行ってくれよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami's with you, right?{n}Take me to her.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2599:27",
   "hdr": "0023 0011",
   "jp": "おまえが一緒なら{n}口実ができるからな。",
-  "en": "",
-  "status": "todo",
+  "en": "If you're with me,{n}I'll have an excuse.",
+  "status": "done",
   "notes": ""
  }
 ]

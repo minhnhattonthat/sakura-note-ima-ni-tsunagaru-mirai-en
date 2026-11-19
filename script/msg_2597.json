@@ -387,112 +387,112 @@
   "id": "2597:48",
   "hdr": "0008 0014",
   "jp": "ど、どうも、こんにちは。",
-  "en": "",
-  "status": "todo",
+  "en": "H-hello there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:49",
   "hdr": "0008 0014",
   "jp": "ごめんなさい。",
-  "en": "",
-  "status": "todo",
+  "en": "I'm sorry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:50",
   "hdr": "0008 0014",
   "jp": "離婚したばかりで心細くて{n}他に頼る人がいなくて……",
-  "en": "",
-  "status": "todo",
+  "en": "I'd just gotten divorced and felt{n}so alone. I had no one to turn to...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:51",
   "hdr": "0008 0014",
   "jp": "カナメさんにはすっかり{n}お世話になってしまって……",
-  "en": "",
-  "status": "todo",
+  "en": "I've ended up relying on{n}Kaname-san for everything...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:52",
   "hdr": "0006 0014",
   "jp": "そんなことは{n}もうどうでもいいの。",
-  "en": "",
-  "status": "todo",
+  "en": "None of that matters now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:53",
   "hdr": "0006 0014",
   "jp": "今は子供たちのことを{n}考えるのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Right now, we need to think{n}about the children.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:54",
   "hdr": "0009 0012",
   "jp": "行こう。",
-  "en": "",
-  "status": "todo",
+  "en": "Let's go.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:55",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(二人そろってる…)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(They're both here...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:56",
   "hdr": "0004 000D",
   "jp": "くいーん……{n}{col_F8}(七海さんに見せたいよ…)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(I wish Nanami-san could see...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:57",
   "hdr": "0008 0014",
   "jp": "ここで何をしているの？{n}七海は桐谷町へ行ったのよ。",
-  "en": "",
-  "status": "todo",
+  "en": "What are you doing here?{n}Nanami went to Kiriya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:58",
   "hdr": "0008 0014",
   "jp": "あなたが連絡して{n}呼び出したんでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "You contacted her and asked her{n}to come, didn't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:59",
   "hdr": "0009 0012",
   "jp": "ぼくはこの何日か、ずっと{n}こっちにいたよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I've been here the whole time{n}these past few days.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:60",
   "hdr": "0009 0012",
   "jp": "七海とは……会っていないよ。{n}もちろん連絡もしてないし。",
-  "en": "",
-  "status": "todo",
+  "en": "I haven't... seen Nanami.{n}And I haven't contacted her, either.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2597:61",
   "hdr": "0006 0014",
   "jp": "だから、そういう話はあとで！",
-  "en": "",
-  "status": "todo",
+  "en": "I said we can talk about that later!",
+  "status": "done",
   "notes": ""
  }
 ]

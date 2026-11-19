@@ -3,464 +3,464 @@
   "id": "2598:0",
   "hdr": "0009 0012",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}さん。{n}説明してくれますか？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}-san.{n}Could you explain?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:1",
   "hdr": "0009 0012",
   "jp": "七海の涙がどうこうって話の。",
-  "en": "",
-  "status": "todo",
+  "en": "That business about Nanami's Tears.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:2",
   "hdr": "0005 0012",
   "jp": "もちろんします。{n}でも、約束してください。",
-  "en": "",
-  "status": "todo",
+  "en": "Of course.{n}But promise me something.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:3",
   "hdr": "0005 0012",
   "jp": "どんなにバカバカしいと{n}思っても、信じてください。",
-  "en": "",
-  "status": "todo",
+  "en": "No matter how silly it sounds,{n}please believe me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:4",
   "hdr": "0005 0012",
   "jp": "子供たちが巻き込まれているのは{n}そういう話なんです。",
-  "en": "",
-  "status": "todo",
+  "en": "That's the sort of thing{n}the children are caught up in.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:5",
   "hdr": "0009 0012",
   "jp": "わかりました。",
-  "en": "",
-  "status": "todo",
+  "en": "All right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:6",
   "hdr": "0005 0012",
   "jp": "佐倉さん、あなたの先祖に{n}木吉という人がいますね。",
-  "en": "",
-  "status": "todo",
+  "en": "Sakura-san, you have an ancestor{n}named Kikichi, don't you?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:7",
   "hdr": "0009 0012",
   "jp": "はい。200年ほど前の人で{n}名前は佐倉木吉(ききち)。",
-  "en": "",
-  "status": "todo",
+  "en": "Yes. Kikichi Sakura.{n}He lived about 200 years ago.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:8",
   "hdr": "0009 0012",
   "jp": "立派な植木職人だったとか。",
-  "en": "",
-  "status": "todo",
+  "en": "They say he was a fine gardener.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:9",
   "hdr": "0005 0012",
   "jp": "本当は樹医です。{n}旅から旅への木のお医者さん。",
-  "en": "",
-  "status": "todo",
+  "en": "Actually, he was a tree doctor.{n}He traveled from place to place.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:10",
   "hdr": "0009 0012",
   "jp": "へぇ……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:11",
   "hdr": "0005 0012",
   "jp": "そして……木吉さんには{n}おたねという娘さんがいた。",
-  "en": "",
-  "status": "todo",
+  "en": "And... Kikichi-san had{n}a daughter named Otane.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:12",
   "hdr": "0009 0012",
   "jp": "いや、知らないなぁ……",
-  "en": "",
-  "status": "todo",
+  "en": "Oh? I hadn't heard of her...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:13",
   "hdr": "0005 0012",
   "jp": "いたんです！",
-  "en": "",
-  "status": "todo",
+  "en": "He did!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:14",
   "hdr": "0009 0012",
   "jp": "はい。",
-  "en": "",
-  "status": "todo",
+  "en": "All right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:15",
   "hdr": "0005 0012",
   "jp": "200年前、木吉さんは{n}桐谷に桜を植えました。",
-  "en": "",
-  "status": "todo",
+  "en": "Two hundred years ago, Kikichi-san{n}planted a cherry tree in Kiriya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:16",
   "hdr": "0005 0012",
   "jp": "咲谷町の歩奥(ぽおく)神社の桜から{n}枝をもらい受けたのです。",
-  "en": "",
-  "status": "todo",
+  "en": "He'd been given a branch from{n}the cherry tree at Pork Shrine{page}in Sakuya Town.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:17",
   "hdr": "0005 0012",
   "jp": "しかし、桜は全然育ちません。{n}今にも枯れてしまいそうです。",
-  "en": "",
-  "status": "todo",
+  "en": "But the cherry tree wouldn't grow.{n}It looked ready to wither and die.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:18",
   "hdr": "0009 0012",
   "jp": "ああ、知ってます。",
-  "en": "",
-  "status": "todo",
+  "en": "Ah, I know this part.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:19",
   "hdr": "0009 0012",
   "jp": "特別な方法で桜を元気に{n}したんですよね？",
-  "en": "",
-  "status": "todo",
+  "en": "He used a special method to make{n}the cherry tree healthy, right?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:20",
   "hdr": "0005 0012",
   "jp": "その通り！{n}そしてその特別な方法とは……",
-  "en": "",
-  "status": "todo",
+  "en": "Exactly!{n}And that special method was...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:21",
   "hdr": "0005 0012",
   "jp": "娘のおたねちゃんの涙を{n}桜に注ぐことだったのです！",
-  "en": "",
-  "status": "todo",
+  "en": "Pouring the tears of his daughter,{n}Otane-chan, onto the cherry tree!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:22",
   "hdr": "0009 0012",
   "jp": "はぁ？",
-  "en": "",
-  "status": "todo",
+  "en": "Huh?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:23",
   "hdr": "0005 0012",
   "jp": "桐谷町の桜にはキマヨイという{n}妖怪が取りついていました。",
-  "en": "",
-  "status": "todo",
+  "en": "A yokai called Waverwood had{n}possessed the Kiriya cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:24",
   "hdr": "0005 0012",
   "jp": "そのせいで、木が迷って{n}なかなか育たなかったのです。",
-  "en": "",
-  "status": "todo",
+  "en": "It made the wood waver, you see.{n}The tree could hardly grow.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:25",
   "hdr": "0009 0012",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}さん、ダジャレですか？",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}-san, is that a pun?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:26",
   "hdr": "0005 0012",
   "jp": "妖怪の名前なんて、たいていが{n}ダジャレじゃないですか。",
-  "en": "",
-  "status": "todo",
+  "en": "Aren't most yokai names{n}puns, anyway?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:27",
   "hdr": "0005 0012",
   "jp": "まあ、それはともかく。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, putting that aside...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:28",
   "hdr": "0005 0012",
   "jp": "それを知った木吉さんは{n}キマヨイに頼みました。",
-  "en": "",
-  "status": "todo",
+  "en": "When Kikichi-san found out,{n}he made a request of Waverwood.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:29",
   "hdr": "0005 0012",
   "jp": "どうか、おとなしく静かに{n}していてくれ、と。",
-  "en": "",
-  "status": "todo",
+  "en": "He asked it to please{n}settle down and stay quiet.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:30",
   "hdr": "0005 0012",
   "jp": "するとキマヨイは条件を{n}出したのです。",
-  "en": "",
-  "status": "todo",
+  "en": "Then Waverwood set a condition.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:31",
   "hdr": "0005 0012",
   "jp": "最愛の人を泣かせて{n}その涙を桜に注げば……",
-  "en": "",
-  "status": "todo",
+  "en": "\"Make the person you love most cry,{n}and pour their tears onto the tree...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:32",
   "hdr": "0005 0012",
   "jp": "自分は200年の間だけ{n}眠ってやる、と。",
-  "en": "",
-  "status": "todo",
+  "en": "\"Then I'll sleep for you,{n}but only for 200 years.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:33",
   "hdr": "0005 0012",
   "jp": "200年後、おまえの子孫が{n}同じことをすれば……",
-  "en": "",
-  "status": "todo",
+  "en": "\"If your descendant does the same{n}thing 200 years from now...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:34",
   "hdr": "0005 0012",
   "jp": "次の200年も眠ってやる。{n}そういう、いわば、契約です。",
-  "en": "",
-  "status": "todo",
+  "en": "\"I'll sleep another 200 years.\"{n}A pact, you might call it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:35",
   "hdr": "0009 0012",
   "jp": "どうしてキマヨイは{n}そんな約束を？　メリットは？",
-  "en": "",
-  "status": "todo",
+  "en": "Why would Waverwood agree to that?{n}What did it get out of it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:36",
   "hdr": "0006 0014",
   "jp": "キノマヨイ……",
-  "en": "",
-  "status": "todo",
+  "en": "A wavering impulse...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:37",
   "hdr": "0005 0012",
   "jp": "その通り！{n}さすがハルカさん！",
-  "en": "",
-  "status": "todo",
+  "en": "Exactly!{n}That's my Haruka-san!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:38",
   "hdr": "0006 0014",
   "jp": "ありがと。",
-  "en": "",
-  "status": "todo",
+  "en": "Thanks.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:39",
   "hdr": "0005 0012",
   "jp": "いいですか、佐倉さん。{n}今がその最初の200年目です。",
-  "en": "",
-  "status": "todo",
+  "en": "Now, Sakura-san. Those first{n}200 years are up this year.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:40",
   "hdr": "0005 0012",
   "jp": "しかも契約は春に切れていて{n}キマヨイはさまよっています。",
-  "en": "",
-  "status": "todo",
+  "en": "In fact, the pact ended in spring.{n}Waverwood is wandering free.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:41",
   "hdr": "0005 0012",
   "jp": "桜からたっぷりと{n}精気を吸い取ったのでしょう。",
-  "en": "",
-  "status": "todo",
+  "en": "It must have drained a great deal{n}of vitality from the cherry tree.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:42",
   "hdr": "0005 0012",
   "jp": "だから桐谷の桜は枯れそうに{n}なっているんです。",
-  "en": "",
-  "status": "todo",
+  "en": "That's why the Kiriya cherry tree{n}is close to dying.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:43",
   "hdr": "0005 0012",
   "jp": "そしてそれが原因で歩奥神社の{n}桜も《気》を吐きだして……",
-  "en": "",
-  "status": "todo",
+  "en": "That, in turn, made the Pork Shrine{n}cherry tree release spiritual energy...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:44",
   "hdr": "0005 0012",
   "jp": "さらには眠っていた他の{n}精霊たちも妖怪となって……",
-  "en": "",
-  "status": "todo",
+  "en": "And other sleeping spirits{n}became yokai, too...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:45",
   "hdr": "FFFF 00FF",
   "jp": "……………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:46",
   "hdr": "0006 0014",
   "jp": "……………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:47",
   "hdr": "0009 0012",
   "jp": "……………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:48",
   "hdr": "0008 0014",
   "jp": "……………",
-  "en": "",
-  "status": "todo",
+  "en": "...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:49",
   "hdr": "0005 0012",
   "jp": "子供たちが巻き込まれているのは{n}そういう事件なのです。",
-  "en": "",
-  "status": "todo",
+  "en": "That's what the children{n}are caught up in.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:50",
   "hdr": "0009 0012",
   "jp": "解決のためには、わたしが{n}七海を泣かせる？",
-  "en": "",
-  "status": "todo",
+  "en": "So, to put things right,{n}I have to make Nanami cry?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:51",
   "hdr": "0009 0012",
   "jp": "いくら七海が泣き虫でも{n}そりゃできないな。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami may cry easily,{n}but I can't do that to her.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:52",
   "hdr": "0008 0014",
   "jp": "あの子、もう泣かないわよ。",
-  "en": "",
-  "status": "todo",
+  "en": "She doesn't cry anymore.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:53",
   "hdr": "0008 0014",
   "jp": "わたしたちの離婚が決まった時に{n}何日も泣き続けて……",
-  "en": "",
-  "status": "todo",
+  "en": "When we decided to divorce,{n}she cried for days and days...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:54",
   "hdr": "0008 0014",
   "jp": "それ以来、わたしが知ってる限り{n}泣いていないもの。",
-  "en": "",
-  "status": "todo",
+  "en": "As far as I know,{n}she hasn't cried since.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:55",
   "hdr": "0005 0012",
   "jp": "うーん……",
-  "en": "",
-  "status": "todo",
+  "en": "Hmm...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:56",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(忘れてた……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I forgot...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2598:57",
   "hdr": "0004 000D",
   "jp": "くぅ……{n}{col_F8}(猫に話を聞くの、忘れてた……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I forgot to ask the cat...)",
+  "status": "done",
   "notes": ""
  }
 ]

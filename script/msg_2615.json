@@ -3,1176 +3,1176 @@
   "id": "2615:0",
   "hdr": "FFFF 00FF",
   "jp": "画面をタッチしてください",
-  "en": "",
-  "status": "todo",
+  "en": "Please touch the screen",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:1",
   "hdr": "FFFF 00FF",
   "jp": "はじめから",
-  "en": "",
-  "status": "todo",
+  "en": "New Game",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:2",
   "hdr": "FFFF 00FF",
   "jp": "つづきから",
-  "en": "",
-  "status": "todo",
+  "en": "Continue",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:3",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:4",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:5",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:6",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}スペシャル",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: Special",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:7",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:8",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:9",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:10",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}スペシャル",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: Special",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:11",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:12",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:13",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:14",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}スペシャル",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: Special",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:15",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:16",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:17",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:18",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}スペシャル",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4 Special",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:19",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}いつもと同じ日常",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}An Ordinary Day",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:20",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}おつかい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}An Errand",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:21",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}咲谷町の枯れない桜",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Sakuya's Unfading Cherry Tree",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:22",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ヒーロー{sp}<{sp}ミリン",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Hero < Mirin",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:23",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}とまどいと不可思議な夜",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Puzzling, Mysterious Night",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:24",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}妖怪バトル",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Yokai Battle",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:25",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}1話少年予備7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 1 Boy Spare 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:26",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}1話少年予備8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 1 Boy Spare 8",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:27",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}お迎え",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Picking Her Up",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:28",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}変なおじさん",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Strange Man",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:29",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ボーイ{sp}ミーツ{sp}ガール",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Boy Meets Girl",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:30",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}一難去ってまた一難",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}One Trouble After Another",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:31",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ヒーローを探せ！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Find the Hero!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:32",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}{var_EF}{slot}{slot}{slot}{slot}{slot}、結界を解く",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}{var_EF}{slot}{slot}{slot}{slot}{slot} Breaks the Barrier",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:33",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}マンションへの帰り道",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}On the Way Back to the Tower",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:34",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}1話犬予備",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 1 Dog Spare",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:35",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ハルカのグチ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Haruka's Complaints",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:36",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ビバークの常連さん",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Regular at Bivouac",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:37",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}{var_EE}{slot}{slot}{slot}{slot}{slot}と桜の思い出",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}{var_EE}{slot}{slot}{slot}{slot}{slot} and Cherry Tree Memories",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:38",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}なんだかんだで下水道",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Somehow, Into the Sewers",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:39",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}カナメ{sp}vs{sp}ハルカ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kaname vs Haruka",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:40",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}物音",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Noise",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:41",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}急げ！{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}の元へ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Hurry! Get to {var_EF}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:42",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}自宅への帰り道",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}On the Way Home",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:43",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}キャラクター大辞典{sp}その1",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Character Encyclopedia Part 1",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:44",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}カナメの日常{sp}その1",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kaname's Everyday Life Part 1",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:45",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}『イラストギャラリー』",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Illustration Gallery",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:46",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその4",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:47",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその5",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 5",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:48",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその6",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 6",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:49",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:50",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 8",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:51",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}妖怪の夜が明けて",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Dawn After the Yokai's Night",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:52",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}高台のマンションへ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}To the Hilltop Tower",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:53",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}七海{sp}使命に燃える！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Nanami's Fired Up for Her Mission!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:54",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ハルカ{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}に甘える",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Haruka Seeks Comfort from {var_EF}{slot}{slot}{slot}{slot}{slot}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:55",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}約束だらけ、ガンジガラメ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}All Tied Up in Promises",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:56",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}わけも分からず下水道",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Into the Sewers, Who Knows Why",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:57",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ヒーローになってやる",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}I'll Be a Hero!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:58",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}真相にせまる！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Closing In on the Truth!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:59",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}{var_ED}{slot}{slot}{slot}{slot}{slot}と佐倉タカシ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}{var_ED}{slot}{slot}{slot}{slot}{slot} and Takashi Sakura",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:60",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}{var_EF}{slot}{slot}{slot}{slot}{slot}くんがやって来た",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun Has Arrived",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:61",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}マンション脱出",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Escape from the Tower",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:62",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}はなればなれ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Separated",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:63",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}神社に到着したけれど",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}At the Shrine, but...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:64",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}みんなで探す！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Everyone, Let's Search!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:65",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}落ちてきたおじさん",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Man Who Fell from Above",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:66",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}夢の話",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Talking About a Dream",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:67",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}イライラモーニング",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Frustrating Morning",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:68",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}思い出の花火大会",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Memories of the Fireworks Festival",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:69",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ドタキャン",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Last-Minute Cancellation",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:70",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}七海を探して",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Searching for Nanami",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:71",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ピンチにさっそうと？",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Dashing to the Rescue?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:72",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}おじさんの正体",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Man's True Identity",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:73",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}夜のお散歩",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Nighttime Stroll",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:74",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}2話猫予備",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 2 Cat Spare",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:75",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}キャラクター大辞典{sp}その2",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Character Encyclopedia Part 2",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:76",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}カナメの日常{sp}その2",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kaname's Everyday Life Part 2",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:77",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}『妖怪15パズル』",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Yokai Sliding Puzzle",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:78",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその4",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:79",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその5",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 5",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:80",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその6",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 6",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:81",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:82",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 8",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:83",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}憂うつな朝",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Gloomy Morning",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:84",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}不思議体験をキミに",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Strange Experience for You",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:85",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}幻惑の学校ダンジョン",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}School Dungeon of Illusions",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:86",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}咲谷駅で待ち合わせ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Meeting at Sakuya Station",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:87",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}子供の事情と大人の事情",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kids' Concerns, Adults' Concerns",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:88",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}2話少年予備6",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 2 Boy Spare 6",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:89",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}2話少年予備7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 2 Boy Spare 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:90",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}2話少年予備8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 2 Boy Spare 8",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:91",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ひらめいた七海",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Nanami Has an Idea",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:92",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}母のいぬ間に少年んち",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}To the Boy's House While Mom's Out",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:93",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ママのお財布",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Mom's Wallet",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:94",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ハト",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Pigeon",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:95",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}みんなヒーロー",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Everyone's a Hero",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:96",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}置いてけぼり",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Left Behind",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:97",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}3話犬予備",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 3 Dog Spare",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:98",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}3話犬予備",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 3 Dog Spare",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:99",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}桜さんをなぐさめる",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Comforting Sakura-san",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:100",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}猫会議{sp}in{sp}神社",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Cat Meeting at the Shrine",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:101",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}インコのギャース",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Squawks the Parakeet",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:102",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}猫会議{sp}in{sp}自宅前",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Cat Meeting Outside the House",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:103",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ギクシャク夫婦",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Couple at Odds",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:104",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}おかしな会合",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}An Odd Gathering",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:105",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ヒロイン説得！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Convince the Heroine!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:106",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}道すがら",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Along the Way",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:107",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}キャラクター大辞典{sp}その3",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Character Encyclopedia Part 3",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:108",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}カナメの日常{sp}その3",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kaname's Everyday Life Part 3",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:109",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}『古代戦士{sp}ナスカイザー』",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Nazkaiser, Ancient Warrior",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:110",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその4",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:111",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその5",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 5",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:112",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその6",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 6",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:113",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:114",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 8",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:115",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}空っぽの町",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}An Empty Town",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:116",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}もう一つの桜",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Other Cherry Tree",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:117",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}パパに会いたい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}I Want to See Dad",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:118",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}元凶現る！？",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Culprit Appears!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:119",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}イザコザでキマヨイ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Quarrels Bring Waverwood",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:120",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}いまにつながるみらい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Future That Connects to Now",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:121",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}4話少年予備7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 4 Boy Spare 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:122",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}4話少年予備8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chapter 4 Boy Spare 8",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:123",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}キマヨイ活動中",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Waverwood at Work",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:124",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}再会",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Reunion",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:125",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}大人たち桐谷町へ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Adults Head to Kiriya",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:126",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}捜索開始",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Search Begins",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:127",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}残念！{sp}コジマくん",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Too Bad, Kojima-kun!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:128",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}キマヨイを追いかけて",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Chasing Waverwood",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:129",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}ボクだってヒーロー",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}I'm a Hero, Too",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:130",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}大団円",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Happy Ending",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:131",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}突然の出来事",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}A Sudden Event",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:132",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}鳥幕府",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Bird Shogunate",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:133",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}木吉{sp}真相を語る1",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kikichi Tells the Truth 1",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:134",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}木吉{sp}真相を語る2",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kikichi Tells the Truth 2",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:135",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}木吉{sp}真相を語る3",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kikichi Tells the Truth 3",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:136",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}お奉行様の裁き",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Magistrate's Judgment",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:137",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}木吉とタカシ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kikichi and Takashi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:138",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}9回目の命",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}The Ninth Life",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:139",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}キャラクター大辞典{sp}その4",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Character Encyclopedia Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:140",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}カナメの日常{sp}その4",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Kaname's Everyday Life Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:141",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}『SOUND{sp}TEST』",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}SOUND TEST",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:142",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその4",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:143",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその5",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 5",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:144",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその6",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 6",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:145",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその7",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2615:146",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}NPCその8",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}NPC Part 8",
+  "status": "done",
   "notes": ""
  },
  {

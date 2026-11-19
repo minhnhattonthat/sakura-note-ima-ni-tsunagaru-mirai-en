@@ -30,6 +30,15 @@ def test_tag_chars():
     assert batches.width_problems(tag, "Dr. Joshu (old)")
 
 
+def test_chapter_card_layout():
+    card = {"id": "2613:25", "hdr": "FFFF", "jp": "第一章{n}　　　　　　{n}{num_F6}"}  # full-width-space line = blank
+    assert batches.width_problems(card, "Chapter 1{n}{n}{num_F6}") == []
+    assert batches.width_problems(card, "Chapter 1{n}x{n}{num_F6}")            # blank line filled
+    end = {"id": "2613:57", "hdr": "FFFF", "jp": "第一章{sp}スペシャル{n}{n}{num_F6}{n}END"}  # 4-line JP card
+    assert batches.width_problems(end, "Chapter 1: Special{n}{n}{num_F6}{n}END") == []
+    assert batches.width_problems(end, "Chapter 1: Special{n}{num_F6}{n}{n}END")  # blank moved
+
+
 def test_honorific_after_katakana_only():
     e = {"id": "2500:1", "hdr": "000D 0010", "jp": "ナナミちゃんがおじさんと{n}ちゃんと話す"}  # ちゃんと = properly
     assert any("-chan" in p for p in batches.problems(e, "Nanami and the man", []))

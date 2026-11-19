@@ -11,856 +11,856 @@
   "id": "2611:1",
   "hdr": "FFFF 00FF",
   "jp": "・お調子者の一言で片付けても良いが…{n}・意外と内省的。{n}・相手によって態度が変わる。{n}・雑学豊富。(父親の影響){n}・同世代を上から見てしまう傾向アリ。{n}・世界の不可思議な出来事が好き。{n}　(父親の影響){n}・しかし、すべてを信じているわけでは{n}　ない。{n}・知識に体験が追いついていない。",
-  "en": "",
-  "status": "todo",
+  "en": "- You could just call him a goof, but...{n}- Surprisingly thoughtful.{n}- Acts differently with different people.{n}- Knows lots of trivia, thanks to Dad.{n}- Tends to look down on kids his age.{n}- Loves the world's strange mysteries{n}  (another influence from Dad).{n}- Doesn't believe all of them, though.{n}- His knowledge outstrips his experience.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:2",
   "hdr": "FFFF 00FF",
   "jp": "・幼い頃から読み書き、計算ができた。{n}・小学生になってからは、特に頑張ら{n}　なくても他の子たちよりもできた。{n}・その結果、勉学などで頑張るという{n}　習慣がない。{n}・遠からず、並の成績に陥ることが{n}　予想される。",
-  "en": "",
-  "status": "todo",
+  "en": "- Could read, write and do math early.{n}- Once in grade school, he did better{n}  than other kids without much effort.{n}- As a result, he never learned to work{n}  hard at school or similar things.{n}- His grades will probably slip to{n}  average before too long.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:3",
   "hdr": "FFFF 00FF",
   "jp": "・運動能力は並。{n}・サッカーの上手なパスの仕方は{n}　知っているが実際に練習したことは{n}　ほとんど無いので実践できない。{n}・同様に、釣りや木登り、鉄棒などに{n}　ついても詳しい。しかし、上手では{n}　ない。{n}・経験、訓練を要することには弱い。",
-  "en": "",
-  "status": "todo",
+  "en": "- Average athletic ability.{n}- Knows how to pass a soccer ball well,{n}  but has barely practiced, so he can't{n}  actually do it.{n}- Also knows a lot about fishing,{n}  climbing trees and the horizontal bar.{n}  He's not good at those, either.{n}- Weak at things that take experience{n}  and training.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:4",
   "hdr": "FFFF 00FF",
   "jp": "・雑種{n}・子猫の時に神社に捨てられていた。{n}・信義に厚いが猫なのでムラがある。{n}・基本的に加虐的な性格。{n}・ものの考え方がおばちゃん。{n}　時におばあちゃん。{n}　自分ではおねえさんだと思っている。{n}・猫にしてはせっかち。",
-  "en": "",
-  "status": "todo",
+  "en": "- Mixed breed.{n}- Abandoned at a shrine as a kitten.{n}- Loyal, but fickle, as cats tend to be.{n}- Basically enjoys being cruel.{n}- Thinks like a middle-aged woman.{n}  Sometimes like a grandma.{n}  Thinks of herself as a young woman.{n}- Impatient for a cat.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:5",
   "hdr": "FFFF 00FF",
   "jp": "・犬はなれなれしいので好きではない。{n}・動植物と何となく話せる。{n}・犬語だけは「なんとかわかる」という{n}　レベル。{n}・興味を持ったこと以外は{n}　どうでもいい。{n}・{var_F0}{slot}{slot}{slot}{slot}{slot}家は、家屋も含めて気に{n}　入っている。{n}・家族だと思っている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Dislikes dogs. They're too familiar.{n}- Can more or less talk to animals{n}  and plants.{n}- Dog language is the one she can only{n}  \"just about understand.\"{n}- Cares only about what interests her.{n}- Likes the {var_F0}{slot}{slot}{slot}{slot}{slot} family,{n}  including their house.{n}- Thinks of them as her own family.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:6",
   "hdr": "FFFF 00FF",
   "jp": "・自分より後に生まれた{var_EF}{slot}{slot}{slot}{slot}{slot}は{n}　格下扱い。{n}・カナメの収入で暮らしているという{n}　意味でハルカとは同格だと思っている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Treats {var_EF}{slot}{slot}{slot}{slot}{slot}, born after her,{n}  as her inferior.{n}- Thinks she's Haruka's equal, since{n}  both live on Kaname's earnings.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:7",
   "hdr": "FFFF 00FF",
   "jp": "・神秘系雑学オタク{n}・戦隊ものオタク。特にナスカイザー。{n}・息子の教育に関してはハルカと学校に{n}　まかせきり。{n}・自分は学校で教えないことの担当だと{n}　思っている。{n}・息子にはキャッチボールより先に{n}　「くじごしんぼう」を教えた。{n}　(ハルカに叱られた)",
-  "en": "",
-  "status": "todo",
+  "en": "- Obsessed with supernatural trivia.{n}- Loves superhero team shows,{n}  especially Nazkaiser.{n}- Leaves his son's education entirely{n}  to Haruka and the school.{n}- Thinks his job is to teach the things{n}  schools don't cover.{n}- Taught his son the Nine-Syllable{n}  Protection Rite before playing catch.{n}  (Haruka scolded him.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:8",
   "hdr": "FFFF 00FF",
   "jp": "・基本的にインドア人間。{n}　しかし、サバイバル術には詳しい。{n}　もちろん経験はない。{n}・家事はまったくしない。{n}　ヘタに手を出すと叱られるから。{n}・本来は争いを好まない温厚な性格だが{n}　時々ヒーロー気分になってしまう。{n}・かなりのロマンティスト。",
-  "en": "",
-  "status": "todo",
+  "en": "- Mostly an indoor person, but knows{n}  lots of survival skills.{n}  No actual experience, of course.{n}- Does no housework at all. He gets{n}  scolded if he tries and messes up.{n}- Normally gentle and avoids conflict,{n}  but sometimes gets carried away{n}  playing the hero.{n}- Quite a romantic.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:9",
   "hdr": "FFFF 00FF",
   "jp": "・空気を読む能力に長けている。{n}　これは霊感の一種だと思っているが{n}　ハルカの気分だけは読めないことが{n}　多い。{n}・ウソはなるべく言いたくないので{n}　隠し事が多い。",
-  "en": "",
-  "status": "todo",
+  "en": "- Very good at reading the room.{n}  Thinks it's a kind of sixth sense,{n}  but often can't read Haruka's moods.{n}- Would rather not tell lies,{n}  so he keeps lots of secrets.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:10",
   "hdr": "FFFF 00FF",
   "jp": "・家庭にパソコン(マイコン)が入り{n}　始めた時代から常にパソコンと歩む。{n}・古き良き…野蛮だった時代のゲーム{n}　開発者の生き残り。{n}　企画、プログラム、グラフィック、そ{n}　して音楽まで小器用にこなすが、いず{n}　れも現在は手伝い程度。{n}　あくまでメインは制作の仕事。{n}・最近のハードの進歩には正直、ついて{n}　いけていない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Has lived with computers since they{n}  first started appearing in homes.{n}- A surviving game developer from the{n}  good old... wild days.{n}- Handy at design, programming,{n}  graphics and even music, but now{n}  only helps out with those.{n}  His main job is producing.{n}- Honestly can't keep up with recent{n}  advances in hardware.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:11",
   "hdr": "FFFF 00FF",
   "jp": "・企画を立案し、デベロッパーと{n}　パブリッシャーを見つけてゲームを{n}　作ることが主な仕事。{n}・自宅の一室を事務所にして仕事をして{n}　いる。{n}・現場仕事が好きなので頼み込んでやら{n}　せてもらったスクリプト作成でバグを{n}　出す。{n}　その結果、よく呼び出される。{n}・サブルーチンやマクロが好き。",
-  "en": "",
-  "status": "todo",
+  "en": "- Mainly creates game ideas and finds{n}  developers and publishers to make them.{n}- Uses a room at home as his office.{n}- Loves hands-on work, so he begs to{n}  write scripts, then creates bugs.{n}  As a result, he often gets called in.{n}- Likes subroutines and macros.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:12",
   "hdr": "FFFF 00FF",
   "jp": "・ファイル名にはとても凝る。{n}・パスワードにもとても凝る。{n}・取らねば、なんとかせねばと思いつつ{n}　バックアップを忘れる。{n}・お金に余裕ができると「若い頃買えな{n}　かったモノ」を買い込む習性がある。{n}　車、シンセサイザー、輸入カメラ、{n}　オーディオなど。{n}・一番欲しいのは「カッパの手のミイラ」",
-  "en": "",
-  "status": "todo",
+  "en": "- Puts lots of thought into file names.{n}- Does the same with passwords.{n}- Keeps thinking he must make backups,{n}  but forgets to actually do it.{n}- When he has spare cash, buys things{n}  he couldn't afford when younger:{n}  cars, synthesizers, imported cameras,{n}  audio equipment and so on.{n}- Most wants a Mummified Kappa Hand.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:13",
   "hdr": "FFFF 00FF",
   "jp": "・髪の毛が伸びる人形があると聞いて{n}　遠くの寺まで旅をしたことがある。{n}・結局見せてもらえなかった。{n}・趣味と仕事の境界があいまいである。",
-  "en": "",
-  "status": "todo",
+  "en": "- Once traveled to a distant temple{n}  after hearing it had a doll whose{n}  hair grew.{n}- In the end, they wouldn't show him.{n}- The line between his hobbies and{n}  his work is blurry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:14",
   "hdr": "FFFF 00FF",
   "jp": "・意外にも病弱な10代を過ごす。{n}・フランス文学、フランス映画が好き。{n}・ファッションへの感心は人並みだが{n}　物欲がほとんどない。{n}・20代。年に一度、パリに行きたいと{n}　思い、数年に一度、パリに住みたいと{n}　思う。しかし、実際に渡航したのは{n}　カナメとの結婚前に一度だけ。",
-  "en": "",
-  "status": "todo",
+  "en": "- Surprisingly, was sickly as a teen.{n}- Loves French literature and films.{n}- Has an average interest in fashion,{n}  but hardly wants material things.{n}- In her twenties, wanted to visit Paris{n}  every year, and live there every{n}  few years. But she only went once,{n}  before marrying Kaname.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:15",
   "hdr": "FFFF 00FF",
   "jp": "・現実のパリには良い印象を{n}　持たなかった。{n}　10日の滞在で犬のフンを20回踏んだ{n}　のが持ちネタ。{n}・パリ留学を夢見て貯金を続けたので{n}　独身時代に結構貯め込んでいる。{n}　残高はカナメには内緒にしている。{n}・実はかなりフランス語がいける。{n}・咲谷町丘下に家を買ってからは{n}　パリ留学のことは考えなくなった。",
-  "en": "",
-  "status": "todo",
+  "en": "- The real Paris left a bad impression.{n}  Her favorite story: stepping in dog{n}  poop 20 times in a ten-day stay.{n}- Dreamed of studying in Paris and{n}  saved a lot while she was single.{n}  Keeps the balance secret from Kaname.{n}- Actually speaks French quite well.{n}- Stopped thinking of studying in Paris{n}  after buying a house in Lower Hill,{n}  Sakuya.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:16",
   "hdr": "FFFF 00FF",
   "jp": "・カナメとは花火大会で知り合った。{n}　会場の売店でアルバイトをしていた時{n}　ちょっと怖いお兄さんにからまれた。{n}　そこにヒーロー気分のカナメが登場。{n}・ちなみに、その時、カナメはボコボコ{n}　にされた。{n}・カナメの趣味やマニアックな情熱は{n}　理解しているが、興味はない。{n}・カナメの、楽しそうによく働く{n}　ところが好き。",
-  "en": "",
-  "status": "todo",
+  "en": "- Met Kaname at a fireworks festival.{n}  She was working at a stall when a{n}  scary guy started hassling her.{n}  In came Kaname, feeling heroic.{n}- Incidentally, he got beaten to a pulp.{n}- Understands his hobbies and fanatical{n}  passion, but has no interest herself.{n}- Loves how happily he works hard.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:17",
   "hdr": "FFFF 00FF",
   "jp": "・結婚後、子供が生まれてからの{n}　生活は順風満帆。{n}　それが失われることが一番の{n}　不安になっている。{n}・そそっかしい。",
-  "en": "",
-  "status": "todo",
+  "en": "- Married life has been smooth sailing{n}  since their child was born.{n}  Losing that is her greatest fear.{n}- Careless and hasty.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:18",
   "hdr": "FFFF 00FF",
   "jp": "・25年前に角山プロが社運をかけて{n}　企画した低予算特撮ヒーロードラマの{n}　主人公。{n}・大昔にナスカの荒野に封印された{n}　悪の化身ブーマが現代によみがえり、{n}　日本人測量士のヤドリギ・ジョーに{n}　取りつくところから始まる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Star of a low-budget superhero{n}  effects show Kadoyama Productions{n}  staked its future on 25 years ago.{n}- Buma, evil incarnate, was sealed in{n}  the wilds of Nazca long ago.{n}  The story begins as Buma revives in{n}  modern times and possesses Japanese{n}  surveyor Joe Yadorigi.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:19",
   "hdr": "FFFF 00FF",
   "jp": "・やがてブーマは、かつての自分以上の{n}　邪悪が現代にも存在することを知り、{n}　ジョーの精神を支配して、邪悪と戦う{n}　ことを決意。{n}・毎話、ラスト2分でナスカイザーに{n}　変身するが、条件はジョーの肉体が{n}　危機にさらされること。{n}・敵は妖怪をモチーフにした怪人。",
-  "en": "",
-  "status": "todo",
+  "en": "- Buma soon learns that evil worse{n}  than his former self exists today.{n}  He takes control of Joe's mind and{n}  resolves to fight that evil.{n}- Turns into Nazkaiser in each episode's{n}  last two minutes, but only when{n}  Joe's body is in danger.{n}- His enemies are yokai-based monsters.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:20",
   "hdr": "FFFF 00FF",
   "jp": "・怪人が人間にとりついて{n}　なんらかの悪事を働くが、最後は{n}　ナスカイザーに倒されるというのが{n}　基本的な構成。{n}・初代ジョー役の高田欣吾は交通事故の{n}　ためわずか三話で降板。四話目からは{n}　高田の後輩、藤本翔太が演じる。{n}・ヒロインとして数々の女優が登場。{n}・ヒロイン役に抜擢された女優のうちの{n}　何人かは今でもテレビの人気者。",
-  "en": "",
-  "status": "todo",
+  "en": "- Usually, a monster possesses someone,{n}  does evil, then loses to Nazkaiser.{n}- Kingo Takada, the first Joe, left{n}  after just three episodes due to a{n}  traffic accident. His junior colleague,{n}  Shota Fujimoto, took over in episode 4.{n}- Many actresses appeared as heroines.{n}- Some chosen for these heroine roles{n}  are still popular TV stars today.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:21",
   "hdr": "FFFF 00FF",
   "jp": "・ベテラン女優の若き日の映像として{n}　ナスカイザーの一場面がテレビで流さ{n}　れる機会も多い。{n}・当時のアイドル山崎推子がジョーの{n}　働く測量事務所の助手として登場した{n}　1クールが高視聴率を維持、黄金期と{n}　言われている。{n}・技、怪人などのアイディアは{n}　一般公募していた。",
-  "en": "",
-  "status": "todo",
+  "en": "- Nazkaiser clips often appear on TV{n}  to show veteran actresses in their{n}  younger days.{n}- Pop idol Suiko Yamazaki played an{n}  assistant at Joe's surveying office.{n}  Her three-month run kept ratings high{n}  and is called the golden age.{n}- Ideas for moves, monsters and more{n}  were submitted by the public.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:22",
   "hdr": "FFFF 00FF",
   "jp": "・ナスカイザーの放送は約2年続いた。{n}　後にエジプターやヤマタイザー、メソ{n}　ポタミアンなどが制作されるがナスカ{n}　イザーほどの人気を得ることはできな{n}　かった。{n}・人気お笑い芸人がナスカイザーの事を{n}　熱く語ったのがキッカケとなり、まず{n}　深夜帯で再放送が始まった。{n}・子供にも見せたいという意見が局に{n}　寄せられ、夕方枠で再放送が始まる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Nazkaiser ran for about two years.{n}  Egyptor, Yamataizer, Mesopotamian{n}  and others followed, but none became{n}  as popular as Nazkaiser.{n}- A popular comedian's passionate{n}  praise sparked late-night reruns.{n}- Viewers asked the station to let kids{n}  watch too, so reruns began airing{n}  in the early evening.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:23",
   "hdr": "FFFF 00FF",
   "jp": "・ツッコミどころ満載のチープな作りと{n}　シンプルな価値観が小学生にも受けて{n}　人気再燃中。",
-  "en": "",
-  "status": "todo",
+  "en": "- Its cheap production, full of things{n}  to poke fun at, and simple values{n}  appeal to grade-school kids too.{n}  Its popularity is growing again.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:24",
   "hdr": "FFFF 00FF",
   "jp": "・長い間、実態を持たず《気》として{n}　漂っていた、人、動物、植物などの{n}　《思い》が、歩奥神社の桜が放出する{n}　《気》を吸い取って具現化したもの{n}・さらに桜の《気》を吸収することで{n}　当人が思い描く姿になれる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Feelings of people, animals, plants{n}  and more drifted as spiritual energy{n}  for ages, without physical form.{n}  They took form by absorbing spiritual{n}  energy from the shrine cherry tree{n}  at Pork Shrine.{n}- Absorbing more of the cherry tree's{n}  spiritual energy lets them take on{n}  whatever form they picture.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:25",
   "hdr": "FFFF 00FF",
   "jp": "・とりつくことで、ある程度、人間を{n}　コントロールすることができる。{n}・カンの鋭い人間、霊感が強い者は、{n}　幼怪の存在を感じることができる。{n}・猫はたたるものだと信じている。{n}　その理由は、単なる思い込みである。",
-  "en": "",
-  "status": "todo",
+  "en": "- Can control humans to some extent{n}  by possessing them.{n}- People with keen intuition or strong{n}  spiritual senses can detect{n}  Fledgling Yokai.{n}- Believe cats bring curses.{n}  This is just an assumption.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:26",
   "hdr": "FFFF 00FF",
   "jp": "・おたねという少女のペットのブタが{n}　おたねの父親によって歩奥神社に{n}　寄贈された。{n}・ブタは食糧不足で苦しんでいた住民に{n}　分配され、消費された。{n}・肉体は消え去ったがブタの思いだけは{n}　神社に残り、おたねを待ち続けた。{n}・しかし、おたねはいつまでも現れず{n}　やがて愛する飼い主までも憎むことで{n}　ブタの思いは悪に染まる。",
-  "en": "",
-  "status": "todo",
+  "en": "- A girl named Otane had a pet pig.{n}  Her father donated it to Pork Shrine.{n}- The pig was shared out and eaten by{n}  locals suffering from food shortages.{n}- Its body was gone, but its feelings{n}  stayed at the shrine, awaiting Otane.{n}- She never came. Eventually it hated{n}  even its beloved owner, and its{n}  feelings turned evil.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:27",
   "hdr": "FFFF 00FF",
   "jp": "・序ノ口力士「咲ノ花」は神社に勝利を{n}　祈願していたが、叶うことはかった。{n}　やがて自分が弱いのは神社のせいだと{n}　恨むようになった。{n}・咲ノ花の恨みとブタの思いが{n}　結びついたこと、さらに桜の《気》が{n}　吹き荒れたことなどの条件が重なって{n}　いち早く具現化した。",
-  "en": "",
-  "status": "todo",
+  "en": "- Sakinohana, a bottom-division sumo{n}  wrestler, prayed at the shrine for{n}  victory, but his wish never came true.{n}  He grew bitter, blaming the shrine{n}  for his weakness.{n}- His grudge joined the pig's feelings.{n}  This, along with the cherry tree's{n}  raging spiritual energy and other{n}  factors, let it take form early.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:28",
   "hdr": "FFFF 00FF",
   "jp": "・基本、甘やかされて育った女の子。{n}・ムラのある性格。血液型占いで自分は{n}　B型だと信じているが、実はA型。{n}・両親はちゃんとA型だと教えているが{n}　自分の性格はBじゃないと説明が{n}　つかないと思っている。{n}・母親が父親に隠れてこっそり{n}　ナスカイザーを見ているのを目撃。{n}・自分はかわいいと思っているが{n}　もちろん口には出さない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Basically grew up spoiled.{n}- Moody. Blood-type fortune-telling{n}  made her think she's type B.{n}  She's actually type A.{n}- Her parents told her she's A, but{n}  she thinks only B fits her personality.{n}- Saw Mom watching Nazkaiser in secret{n}  without Dad knowing.{n}- Thinks she's cute, but of course{n}  never says it aloud.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:29",
   "hdr": "FFFF 00FF",
   "jp": "・雰囲気に流されやすい。{n}・これまでに好きになった男性芸能人は{n}　30人強。タイプはその時々で変化。{n}・うるさいことを言わない両親は好き。{n}・自分に甘い父親は特に好き。{n}・私立小学校を選んだ理由は制服を着た{n}　かったから。しかし七海が入学した{n}　年から制服が変わってがっかり。",
-  "en": "",
-  "status": "todo",
+  "en": "- Easily swept up in the mood.{n}- Has had over 30 male celebrity crushes.{n}  Her type changes each time.{n}- Loves that her parents don't nag.{n}- Especially loves Dad, who spoils her.{n}- Chose a private grade school because{n}  she wanted to wear its uniform.{n}  Sadly, it changed the year Nanami{n}  started there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:30",
   "hdr": "FFFF 00FF",
   "jp": "・両親の離婚自体よりも、自分の意見は{n}　求められずに母親と出て行くことに{n}　決まったことがショックだった。{n}・{var_ED}{slot}{slot}{slot}{slot}{slot}が大好きだが、あまり{n}　感情を読み取ることができない。{n}・それでも良き理解者を自認している。",
-  "en": "",
-  "status": "todo",
+  "en": "- More than her parents' divorce,{n}  what shocked her was being sent off{n}  with Mom without anyone asking her.{n}- Loves {var_ED}{slot}{slot}{slot}{slot}{slot}, but has trouble{n}  reading his feelings.{n}- Still thinks she understands him well.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:31",
   "hdr": "FFFF 00FF",
   "jp": "・小学生向けファッション雑誌を愛読。{n}・読者モデルはもちろん狙っている。{n}・実は音痴。最大の秘密。",
-  "en": "",
-  "status": "todo",
+  "en": "- Loves fashion magazines for kids.{n}- Of course, she hopes to model in one.{n}- Actually tone-deaf. Her biggest secret.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:32",
   "hdr": "FFFF 00FF",
   "jp": "・両親共に血統書付き。狩猟犬系。{n}・母犬は妊娠中にノラ化していた。{n}・飼い主が事業に失敗して、夜逃げ。{n}　その時においていかれてしまった。{n}・見かねた桐谷精巧の社員が保護したが{n}　社宅では飼えず、会社に匿った。{n}・他の社員も食事を与え始めた。",
-  "en": "",
-  "status": "todo",
+  "en": "- Both parents are pedigreed hunting dogs.{n}- His mother was a stray while pregnant.{n}- Her owner's business failed. The owner{n}  fled overnight, leaving her behind.{n}- A Kiriya Precision worker took pity{n}  on her and rescued her. Pets weren't{n}  allowed in company housing, so the{n}  worker hid her at the company.{n}- Other workers began feeding her too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:33",
   "hdr": "FFFF 00FF",
   "jp": "・犬は安産という周囲の思い込みに反し、{n}　相当な難産で、集まった従業員たちや{n}　その家族の応援でなんとか出産。{n}・見た目が良く、元気な子から飼い主が{n}　決まっていった。{n}・最後まで残ったのを佐倉タカシが{n}　不憫に思い、家へ連れ帰った。{n}・桐谷精巧の工場移転で兄弟たちは世界{n}　中に、飼い主とともに散っていった。",
-  "en": "",
-  "status": "todo",
+  "en": "- Everyone thought dogs gave birth easily.{n}  Hers was hard. Workers and their families{n}  gathered to cheer her through it.{n}- The cute, lively pups found homes first.{n}- Takashi Sakura felt sorry for the last{n}  pup left and took him home.{n}- When Kiriya Precision moved its factory,{n}  his siblings went with their owners{n}  to places all around the world.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:34",
   "hdr": "FFFF 00FF",
   "jp": "・裏表のない性格。{n}・タカコ、タカシ、七海が大好き。{n}　特に七海が大好き。{n}・七海に気持ちがあまり通じないことが{n}　悩み。{n}・狩猟犬ではあるが本能には欠ける。",
-  "en": "",
-  "status": "todo",
+  "en": "- Honest, with no hidden side.{n}- Loves Takako, Takashi and Nanami.{n}  Especially Nanami.{n}- Worries that Nanami seldom understands{n}  how he feels.{n}- A hunting dog with little hunting instinct.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:35",
   "hdr": "FFFF 00FF",
   "jp": "・七海の父親。{n}・軟式テニスをダラダラと続けていた{n}　中学時代。{n}　本気ではなかったので弱かった。{n}・周囲が高校へ行くから進学し、周囲が{n}　大学へ行くから受験した。将来は{n}　公務員になりたいと考えていた。{n}　しかし強い希望でもなかった。{n}・小器用で、たいていのことをそつなく{n}　こなすが抜きんでたものはない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Nanami's father.{n}- Drifted through soft tennis in junior{n}  high. Never serious, never any good.{n}- Went to high school because others did,{n}  then took college exams for that reason.{n}  Thought he'd like a government job,{n}  but didn't feel strongly about it.{n}- Fairly handy, he handles most things{n}  well enough, but excels at nothing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:36",
   "hdr": "FFFF 00FF",
   "jp": "・基本、右にならえライフ。{n}・桐谷精巧に就職し、仕事熱心な先輩の{n}　影響で仕事に燃える男となる。{n}　先輩おすすめの自己啓発本の影響を{n}　大いに受ける。{n}・結婚はまったく意識していなかったが{n}　周囲からそろそろ結婚はしないのか？{n}　と聞かれて考え始めた。{n}　お見合い数回。",
-  "en": "",
-  "status": "todo",
+  "en": "- Mostly goes along with everyone else.{n}- Joined Kiriya Precision. A dedicated{n}  senior coworker inspired him to become{n}  passionate about work. Self-help books{n}  that coworker suggested had a big impact.{n}- Hadn't thought of marriage at all until{n}  people asked, \"Isn't it time you married?\"{n}  That got him thinking.{n}  Went on several arranged marriage dates.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:37",
   "hdr": "FFFF 00FF",
   "jp": "・取り引き先でタカコに一目惚れ。{n}　自分でも驚くほどの大胆なアタックで{n}　思いをアピール。{n}・婚約指輪はきっちり給料三ヶ月分。{n}・結婚。七海誕生で人生観がまた変わる。{n}・七海をシアワセにするためには自分は{n}　これまで以上に働かなくては…と{n}　そっち方向へシフト。",
-  "en": "",
-  "status": "todo",
+  "en": "- Fell for Takako at first sight while{n}  visiting a business partner. Courted her{n}  so boldly he surprised even himself.{n}- Spent exactly three months' pay on{n}  her engagement ring.{n}- Married. Nanami's birth changed his{n}  outlook on life again.{n}- Shifted toward working even harder,{n}  thinking that was how to make her happy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:38",
   "hdr": "FFFF 00FF",
   "jp": "・工場の閉鎖が決まった時に、{n}　同僚たちと酒の席で盛り上がって{n}　桐谷精巧製造部門の存続のために{n}　出資し合っての新会社設立を決意。{n}・本来の彼の性格に反することだったが{n}　職人たちの工場再生ドキュメンタリを{n}　テレビで見てその気になってしまった。{n}・タカコに離婚を言い渡された夜、{n}　居酒屋で酔いつぶれて、女には{n}　わからないよと愚痴ったのは内緒だ。",
-  "en": "",
-  "status": "todo",
+  "en": "- When the factory was set to close, drinks{n}  with coworkers fired them up. They chose{n}  to pool funds to start a company, saving{n}  Kiriya Precision's manufacturing side.{n}- Unlike him, but a TV documentary about{n}  craftsmen reviving a factory inspired him.{n}- The night Takako told him she'd divorce{n}  him, he got dead drunk at a tavern,{n}  grumbling, \"Women don't understand.\"{n}  That's a secret.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:39",
   "hdr": "FFFF 00FF",
   "jp": "・カナメとは3才から大学生まで一緒の{n}　幼なじみ。{n}・ハマりやすい性格。{n}・幼少時の人形遊び、小学生の頃の歌、{n}　中学の硬式テニス、高校のバスケ。{n}　すべてに熱心に取り組んだが{n}　実は流行を追っていただけかも。{n}　",
-  "en": "",
-  "status": "todo",
+  "en": "- Kaname's childhood friend. Together{n}  from age three through his college years.{n}- Easily gets swept up in things.{n}- Dolls as a little girl, singing in grade{n}  school, tennis in junior high and{n}  basketball in high school.{n}  Threw herself into each, but perhaps{n}  she was just following the latest trends.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:40",
   "hdr": "FFFF 00FF",
   "jp": "・中学時代にこっくりさん亜種が流行。{n}　やはりハマる。その結果、自己暗示で{n}　手が勝手に動くようになってしまい、{n}　オカルトに詳しい幼なじみのカナメに{n}　相談する。{n}・カナメはこっくりさんは脳内現象だと{n}　信じていたが、一緒に神社にお祓いに{n}　行ってタカコをすっきりさせる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Got hooked on a spirit-board game that{n}  was popular in junior high. Suggestion{n}  made her hand move on its own, so she{n}  asked her childhood friend Kaname,{n}  who knew about the occult, for help.{n}- Kaname believed spirit-board effects{n}  came from the brain, but went with her{n}  to a shrine for a cleansing ritual.{n}  Takako felt much better.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:41",
   "hdr": "FFFF 00FF",
   "jp": "・カナメの対応に感心し、好意を抱く。{n}・やがてカナメのナスカイザーへの熱い{n}　思いを知る。話を聞いているうちに{n}　そのシンプルな世界観にハマル。{n}・なんとなく交際状態になる。{n}・ドラマティックな恋愛を望んでいたが{n}　カナメは淡々とタカコと接していた。{n}　カナメは戸惑っていただけなのだが{n}　タカコは時々不安になる。",
-  "en": "",
-  "status": "todo",
+  "en": "- How Kaname handled it impressed her,{n}  and she grew fond of him.{n}- Learned of his passion for Nazkaiser.{n}  His tales hooked her on its simple world.{n}- They drifted into dating.{n}- She wanted dramatic romance, but{n}  Kaname was matter-of-fact with her.{n}  He just didn't know how to act, but{n}  it sometimes made Takako anxious.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:42",
   "hdr": "FFFF 00FF",
   "jp": "・短大卒業後の勤務先に出入りしていた{n}　佐倉と知り合い、交際を申し込まれる。{n}・その頃、カナメが花火大会で{n}　ボコボコにされた。{n}　それは見ず知らずの女のためだったと{n}　知り、腹を立てて佐倉との交際を決意。{n}・交際を報告した時、タカコの予想に{n}　反してカナメが落ち込んだので{n}　タカコは少しばかり後悔する。",
-  "en": "",
-  "status": "todo",
+  "en": "- After junior college, met Sakura on his{n}  visits to her workplace. He asked her out.{n}- Around then, Kaname got beaten up{n}  at a fireworks festival.{n}  Learning it was for a woman he didn't{n}  know, she angrily chose to date Sakura.{n}- When Takako told Kaname, his sadness{n}  surprised her. She regretted her choice{n}  a little.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:43",
   "hdr": "FFFF 00FF",
   "jp": "・佐倉の仕事熱心な生き方に好感を持つ。{n}　基本的に何かに燃えている男が好きな{n}　タカコ。{n}・やがて結婚。{n}・佐倉が本社勤務(栄転)になるので{n}　楽しみにしていたが佐倉は桐谷に{n}　残ることを選ぶ。{n}・しかも仲間たちとの会社設立のために{n}　借金を抱えることになる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Liked Sakura's dedication to work.{n}  Takako likes men with a passion.{n}- In time, they married.{n}- Looked forward to his promotion and{n}  transfer to headquarters, but Sakura{n}  chose to stay in Kiriya.{n}- Worse, starting a company with his{n}  coworkers meant taking on debt.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:44",
   "hdr": "FFFF 00FF",
   "jp": "・家族よりも仕事と仲間を取った佐倉に{n}　愛想が尽き、離婚。{n}・離婚を切り出せば諦めると思ったのに{n}　そうではなかったので、引っ込みが{n}　つかなくなって離婚したという側面も{n}　否定はできない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Lost patience with Sakura for choosing{n}  work and coworkers over his family,{n}  and divorced him.{n}- She thought mentioning divorce would{n}  make him give up. It didn't, leaving her{n}  unable to back down. There's no denying{n}  that was part of why they divorced.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:45",
   "hdr": "FFFF 00FF",
   "jp": "・{var_EF}{slot}{slot}{slot}{slot}{slot}の同級生。親友。{n}・逆上がりができなかったガンタに{n}　{var_EF}{slot}{slot}{slot}{slot}{slot}がコツを教えたのが{n}　始まり。{n}・{var_EF}{slot}{slot}{slot}{slot}{slot}自身も逆上がりが{n}　できなかったので、そのチグハグさに{n}　興味を持つ。{n}・{var_EF}{slot}{slot}{slot}{slot}{slot}の知識豊富な頭脳を{n}　尊敬している。",
-  "en": "",
-  "status": "todo",
+  "en": "- {var_EF}{slot}{slot}{slot}{slot}{slot}'s classmate and close friend.{n}- It began when {var_EF}{slot}{slot}{slot}{slot}{slot} gave Ganta tips{n}  on doing a backward pullover on a bar.{n}  Ganta couldn't do one.{n}- Neither could {var_EF}{slot}{slot}{slot}{slot}{slot}. That odd mismatch{n}  caught his interest.{n}- Admires {var_EF}{slot}{slot}{slot}{slot}{slot}'s wealth of knowledge.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:46",
   "hdr": "FFFF 00FF",
   "jp": "・同時に、知識ほどには、実際に何も{n}　できない側面に安心する。{n}・マンガは好きだが、アニメは見ない。{n}　テレビの時間が制限されているので{n}　ついついお笑い番組優先。{n}・ゲーム機はあるが、やはり時間制限が{n}　きびしく、ゲームで遊びたくなると{n}　{var_EF}{slot}{slot}{slot}{slot}{slot}の家へ行く。",
-  "en": "",
-  "status": "todo",
+  "en": "- Also finds it reassuring that all that{n}  knowledge doesn't help him do much.{n}- Likes manga, but doesn't watch anime.{n}  His TV time is limited, so he always{n}  ends up choosing comedy shows.{n}- Has a game console, but strict limits{n}  on playtime too. When he wants to play,{n}  he goes to {var_EF}{slot}{slot}{slot}{slot}{slot}'s house.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:47",
   "hdr": "FFFF 00FF",
   "jp": "・小学1年の時、教室でおもらしをして{n}　しまった。{n}　頭の中が真っ白になった時、となりの{n}　席の女子が大声で教室中に報告。以来、{n}　女子が苦手。{n}・恥ずかしさで固まっていたガンタに{n}　救いの手を差し伸べたのが後ろの席に{n}　座っていたキイチ。{n}　以来、友情を感じている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Wet himself in class in first grade.{n}  His mind went blank, and the girl beside{n}  him loudly told the whole class.{n}  Girls have made him uneasy ever since.{n}- As Ganta froze in shame, Kiichi,{n}  who sat behind him, came to his rescue.{n}  He's felt a bond with Kiichi ever since.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:48",
   "hdr": "FFFF 00FF",
   "jp": "・マルケンスーパーの息子。{n}・幼い頃から家業の手伝いをしている。{n}・倉庫にいると心が安らぐ。{n}・倉庫にある古いテレビでナスカイザー{n}　の再放送を見るのが楽しみ。{n}・将来は家業を継ぐ気満々。{n}・となりのコンビニが大キライ。{n}・大人に囲まれていることが多い。{n}　パートのおばさんたちのグチと{n}　ウワサ話は聞き飽きている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Son of the Maruken Supermarket owner.{n}- Has helped out since he was little.{n}- Feels at peace in the storeroom.{n}- Loves watching Nazkaiser reruns on{n}  the old TV in there.{n}- Eager to take over the family business.{n}- Hates the convenience store next door.{n}- Often surrounded by adults. He's sick{n}  of the older women who work part-time{n}  gossiping and complaining.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:49",
   "hdr": "FFFF 00FF",
   "jp": "・クラスの女子も将来こうなるのかと{n}　思うと、なんとなく好きになれない。{n}　小学生にして女性不信。{n}・幼少の頃から、町内の集まりに、父に{n}　連れられて参加していた。大人たちの{n}　間ではかなりの知名度を誇る。{n}・面倒な話と自慢話、説教が多いので{n}　大人は好きではない。しかし同世代は{n}　どうにも幼すぎると思っている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Finds it hard to like the girls in class:{n}  will they grow up like those women?{n}  Distrusts women already, in grade school.{n}- Dad has taken him to neighborhood{n}  gatherings since he was little. He's{n}  quite well known among the adults.{n}- Dislikes adults: too many dull stories,{n}  boasts and lectures. Yet kids his age{n}  seem far too childish.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:50",
   "hdr": "FFFF 00FF",
   "jp": "・近所の郵便受けに虫を入れて回るのが{n}　密かなヨロコビ。{n}・その行為を{var_EF}{slot}{slot}{slot}{slot}{slot}に目撃されて{n}　身のはめつを恐れたが、やがて{n}　{var_EF}{slot}{slot}{slot}{slot}{slot}が口外していないことを{n}　知る。{n}・{var_EF}{slot}{slot}{slot}{slot}{slot}に男気と友情を感じる。{n}・{var_EF}{slot}{slot}{slot}{slot}{slot}と親しかったガンタを{n}　共犯にして虫の配達を楽しんでいる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Secretly enjoys putting bugs in{n}  mailboxes around the neighborhood.{n}- When {var_EF}{slot}{slot}{slot}{slot}{slot} caught him, he feared{n}  his life was ruined. Later, he learned{n}  {var_EF}{slot}{slot}{slot}{slot}{slot} hadn't told anyone.{n}- Sees {var_EF}{slot}{slot}{slot}{slot}{slot} as a true, loyal friend.{n}- Recruited Ganta, who was close to{n}  {var_EF}{slot}{slot}{slot}{slot}{slot}, as his partner in crime.{n}  They enjoy delivering bugs together.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:51",
   "hdr": "FFFF 00FF",
   "jp": "・そもそもはコウモリが抱いていた{n}　コンプレックスが実体化したもの。{n}・動物からも鳥からも仲間はずれに{n}　され、世間を恨んで死んだコウモリの{n}　残された思いが集まって幼怪化。{n}・その幼怪が桜の《気》を吸って{n}　実体化した。",
-  "en": "",
-  "status": "todo",
+  "en": "- Began as bats' feelings of inferiority{n}  taking physical form.{n}- Rejected by both animals and birds,{n}  the bats died resenting the world.{n}  Their lingering feelings gathered{n}  into a Fledgling Yokai.{n}- It absorbed the cherry tree's{n}  spiritual energy and took solid form.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:52",
   "hdr": "FFFF 00FF",
   "jp": "・飼い猫だが、あちらこちらでエサを{n}　もらっている。{n}・飼い主はシロ助と呼んでいる。{n}・グレイ、ヨゴレ、ダスティ、ゾウキン{n}　など白猫としてはどうかと思われる{n}　名前で、あちこちで呼ばれる。",
-  "en": "",
-  "status": "todo",
+  "en": "- A pet cat, but gets fed all over town.{n}- His owner calls him Shirosuke.{n}- Elsewhere, he's called Gray, Grubby,{n}  Dusty, Dust Rag and other names that{n}  hardly seem right for a white cat.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:53",
   "hdr": "FFFF 00FF",
   "jp": "・上品そうに見えて結構庶民派。{n}・人間とはほどほどに距離を置くことで{n}　猫ライフを楽しもうとしている。{n}・黒猫の自分をクロと呼ぶ人間がとても{n}　多いことから、人間の想像力を{n}　見限っている。{n}・学校の塀の上で、食べ物をくれる{n}　小学生が通るのを待っている。{n}・どこかで飼われていたが{n}　もう思い出せない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Looks refined, but is quite down-to-earth.{n}- Keeps humans at a distance to enjoy{n}  life as a cat on his own terms.{n}- So many humans call this black cat{n}  Kuro, or \"Black,\" that he's given up{n}  on human imagination.{n}- Waits on the school wall for children{n}  who will give him food.{n}- Used to have a home somewhere,{n}  but can't remember it anymore.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:54",
   "hdr": "FFFF 00FF",
   "jp": "・食べること以外はほとんど興味無し。{n}・ゆっくり、ゆったりが好き。{n}・{var_EE}{slot}{slot}{slot}{slot}{slot}のペースは若干苦手。{n}・行動範囲は意外と広い。{n}・食べ物情報を得ようと思って猫会議に{n}　参加している。しかし欲しい情報は{n}　滅多に得られない。{n}・最近、狩りをマスターして{n}　野生化しようと夢見ている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Cares about little besides eating.{n}- Likes life slow and relaxed.{n}- Finds {var_EE}{slot}{slot}{slot}{slot}{slot}'s pace a little hard to take.{n}- Roams surprisingly far.{n}- Attends the Cat Meeting for news{n}  about food, but rarely hears any{n}  of the information he wants.{n}- Lately dreams of mastering hunting{n}  and going wild.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:55",
   "hdr": "FFFF 00FF",
   "jp": "・古都ローマと鳥を愛する獣医。{n}・バード・ウォッチング愛好家の集まり{n}　「鳥愛会」を主催している。{n}・実は鳥の言葉がわかるが変なウワサが{n}　立つのを恐れて隠している。{n}　(鳥も、人間と話すことは幕府が{n}　　禁止している){n}・人がいない時は積極的に鳥と話そうと{n}　するので、それを目撃した動物は少数{n}　ながら存在する。",
-  "en": "",
-  "status": "todo",
+  "en": "- A vet who loves birds and ancient Rome.{n}- Runs the Bird Lovers' Society,{n}  a group of bird-watching fans.{n}- Can actually understand birds, but{n}  hides it for fear of strange rumors.{n}  (The Bird Shogunate also forbids{n}  birds from speaking with humans.){n}- Tries eagerly to talk to birds when{n}  no people are around, so a few animals{n}  have witnessed it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:56",
   "hdr": "FFFF 00FF",
   "jp": "・鳥の言葉を理解する能力は、先祖から{n}　引き継がれた。{n}・先祖は山奥に住む猟師だった。時折、{n}　鳥から得た情報を里の人間に売って{n}　金銭を得ていた。{n}・そもそも、なぜそんな力を持つように{n}　なったのかまったくわかっていない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Inherited the ability to understand{n}  birds from his ancestors.{n}- An ancestor was a hunter who lived{n}  deep in the mountains. Sometimes{n}  he earned money by selling news{n}  from birds to the villagers below.{n}- No one knows how that power{n}  first came about.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:57",
   "hdr": "FFFF 00FF",
   "jp": "・元々はペットだったが、あまりにも{n}　大きくなりすぎ、声もデカイので飼い{n}　主から疎まれていた。{n}・便秘で獣医のもとに連れ込まれたが{n}　飼い主は治療中に姿を消していた。{n}　連絡先もウソだった。{n}・残酷な事実は上州から聞いている。{n}　なんとか逃げ出そうと考えている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Once a pet, but grew so big and loud{n}  that his owner came to resent him.{n}- Taken to the vet for constipation.{n}  His owner vanished during treatment.{n}  The contact details were fake too.{n}- Joshu told him the cruel truth.{n}  He's trying to find a way to escape.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:58",
   "hdr": "FFFF 00FF",
   "jp": "・デジタルに駆逐されそうになっている{n}　アナログを愛する気持ちが桜の{n}　《気》を吸って具現化した妖怪。{n}・町に漂う、失われつつある物を惜しむ{n}　人々の思いも吸収して、どんどん現実{n}　の存在に近づきつつある。{n}・小学校に取りついているので{n}　先生のように振る舞っているが{n}　妖怪である。",
-  "en": "",
-  "status": "todo",
+  "en": "- A yokai born when love for analog things,{n}  threatened by digital replacements,{n}  absorbed the cherry tree's spiritual{n}  energy and took physical form.{n}- Grows more real as it absorbs feelings{n}  drifting through town: people's sorrow{n}  over things that are disappearing.{n}- Haunts the grade school, so it acts{n}  like a teacher, but it's a yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:59",
   "hdr": "FFFF 00FF",
   "jp": "・数多いバリエーションが存在する{n}　学校にまつわる怪談。{n}　その怪談を怖がる子供たちの思いが{n}　妖怪化したもの。{n}・こんなのがいたら怖いなと思う{n}　子供たちの気持ちが具現化した。{n}・子供たちと接するうちに、怖がら{n}　せるよりも、仲良くしたいと思う{n}　気持ちも芽生えている。{n}　妖怪的には異端。",
-  "en": "",
-  "status": "todo",
+  "en": "- School ghost stories come in many{n}forms. Children's fear of these tales{n}took shape as a yokai.{n}- It embodies children's feelings:{n}\"What if that were real? How scary!\"{n}- Spending time with children has{n}made it want to befriend them,{n}rather than scare them.{n}An oddball among yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:60",
   "hdr": "FFFF 00FF",
   "jp": "・咲谷町直下を流れる地下水流に染み{n}　こんだ過去未来の人々の思いが{n}　具現化したもの。{n}・水に染みこんだヨロコビやカナシミが{n}　主な構成要素。様々な思いが入り乱れ{n}　感情的にはカオス状態。{n}・桜の《気》をもっと吸えば、安定した{n}　心持ちでいられると考えている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Feelings of people past and future{n}seeped into the groundwater beneath{n}Sakuya Town and took physical form.{n}- Mostly made of joy and sorrow{n}that soaked into the water. All these{n}mixed feelings leave it in chaos.{n}- It thinks absorbing more spiritual{n}energy from the cherry tree will{n}help it feel calm and steady.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:61",
   "hdr": "FFFF 00FF",
   "jp": "・木こりの息子。山へ入った時に{n}　木の悲鳴を聞いたような気がして{n}　植物に興味を持つ。{n}・ほとんど資料がない中、現場と自己の{n}　体験をまとめた木の生態に関する書物{n}　「木々養生」を書き上げるが、興味を{n}　持つ者は誰もいなかった。{n}・木は育て、愛でるものであるという{n}　主張のせいで父から勘当される。{n}・持論を活かして、木の医者となる。",
-  "en": "",
-  "status": "todo",
+  "en": "- A woodcutter's son. His interest in{n}plants began when he thought he heard{n}a tree scream up in the mountains.{n}- With few sources, he wrote 'Caring{n}for Trees' from his fieldwork and{n}experience. No one cared to read it.{n}- His father disowned him for saying{n}trees should be nurtured and loved.{n}- He put his ideas to work and{n}became a tree doctor.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:62",
   "hdr": "FFFF 00FF",
   "jp": "・各地の金持ち邸にある木々が主な患木{n}　だったので経済的には成功した。{n}・母のために、立派な家を建てたことが{n}　きっかけになり、なしくずし的に父と{n}　和解する。{n}・人間には興味はなかったが、仕事先の{n}　娘だったお松という女が、ほぼ半日、{n}　正座で縫い物をしているのを見て、{n}　まるで植物のようだと気に入る。{n}　お松を嫁にもらった。",
-  "en": "",
-  "status": "todo",
+  "en": "- Treating ailing trees on wealthy{n}people's estates made him prosperous.{n}- Building a fine house for his mom{n}led him and his father to gradually{n}make peace without really planning to.{n}- People didn't interest him, but{n}Omatsu, a client's daughter, knelt{n}sewing for nearly half a day. She{n}seemed like a plant. He liked that,{n}and married her.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:63",
   "hdr": "FFFF 00FF",
   "jp": "・やがて娘、おたねをもうけるが、{n}　旅から旅へ仕事優先の日々。{n}・各地の珍しい木々に感動する日々。{n}・咲谷で出会った見事な桜を、故郷にも{n}　咲かせたいと考え、枝をもらい受ける{n}　ことを願い出る。{n}・渋る神主の気持ちを動かそうとして{n}　食料不足で困っていた人たちに{n}　様々な贈り物をする。",
-  "en": "",
-  "status": "todo",
+  "en": "- His daughter Otane was born, but{n}work came first as he traveled{n}from place to place.{n}- Rare trees everywhere amazed him.{n}- He wanted a cherry tree as grand{n}as Sakuya's to bloom back home,{n}so he asked for a branch.{n}- Hoping to sway the reluctant{n}priest, he gave all sorts of gifts{n}to people facing a food shortage.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:64",
   "hdr": "FFFF 00FF",
   "jp": "・贈り物の中にはおたねが飼っていた{n}　ブタの姿もあった。{n}・最終目的は善行でも、過程と家庭には{n}　問題をたくさん抱えてしまう。{n}・人の気持ちがわからない奴！と{n}　指摘されると「はいそうです」と{n}　素直に答えることができる。",
-  "en": "",
-  "status": "todo",
+  "en": "- Among his gifts was the pig{n}Otane had kept as a pet.{n}- His goal was to do good, but{n}his methods caused many problems,{n}including trouble for his family.{n}- When told, \"You don't understand{n}people's feelings!\" he can honestly{n}reply, \"Yes, that's right.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:65",
   "hdr": "FFFF 00FF",
   "jp": "・七海の幼稚園時代からの友人。{n}・桐谷の工場用地買収ブームで金持ちに{n}　なった土地成金の孫。{n}・父親は祖父の遺産で様々な商売に{n}　乗り出して成功と失敗を繰り返す。{n}・密かにバカ旦那と呼ばれている。{n}・そんな男の息子として育ったせいか{n}　根拠なく上から目線で周囲に接する。{n}・その態度が、堂々としてたのもしい{n}　という印象を周囲に与えることも。",
-  "en": "",
-  "status": "todo",
+  "en": "- Nanami's friend since kindergarten.{n}- His grandpa got rich selling land{n}in Kiriya's factory land-buying boom.{n}- His dad used the inheritance to{n}start businesses, with ups and downs.{n}- People call his dad a fool behind{n}his back. Raised by such a man, he{n}looks down on others for no reason.{n}Some see it as confidence and{n}reliability.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:66",
   "hdr": "FFFF 00FF",
   "jp": "・女子には人気があったりもする。{n}・得ることばかりで失う経験に乏しい。{n}・実は素直な少年だが、常に注がれる{n}　周囲からの偏見で、若干性格が歪み{n}　つつある、ある意味犠牲者。",
-  "en": "",
-  "status": "todo",
+  "en": "- Sometimes popular with girls.{n}- Used to gaining things, with{n}little experience of losing them.{n}- He's an honest boy at heart.{n}But people's constant prejudice{n}is starting to twist his character.{n}In a way, he's a victim.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:67",
   "hdr": "FFFF 00FF",
   "jp": "・ピッチィと交替でお裁きを担当する{n}　奉行。{n}・世界に広がるハトのネットワークを{n}　駆使して鳥だからとなめてかかる{n}　人間のウソを見破る。{n}・エサをまいてハトを集め、増やし、{n}　あげく増えすぎだと駆除する人間の{n}　所業には大変怒りを覚えている。",
-  "en": "",
-  "status": "todo",
+  "en": "- A magistrate who takes turns{n}hearing cases with Chirpy.{n}- Uses a worldwide pigeon network{n}to see through the lies of humans{n}who think a bird is easy to fool.{n}- Furious at humans who feed pigeons{n}until they breed and multiply,{n}then kill them for being too many.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:68",
   "hdr": "FFFF 00FF",
   "jp": "・人間から得た不正のためのノウハウを{n}　駆使して自らも不正に手を染めている。{n}　しかし私腹を肥やすわけではなく、{n}　鳥の利益になることを考えている。{n}・「怖いのはエンマ様だけ」と{n}　なじみの店のカナリヤに{n}　うそぶいたことは有名な話。",
-  "en": "",
-  "status": "todo",
+  "en": "- Uses tricks learned from humans{n}to engage in shady dealings himself.{n}But he does it to benefit birds,{n}not to line his own pockets.{n}- Famously boasted to a canary{n}at his usual haunt, \"Lord Enma{n}is the only one I fear.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:69",
   "hdr": "FFFF 00FF",
   "jp": "・死者が始めて出会う鳥幕府の使い{n}　なので事を穏便に進めるための訓練を{n}　受けた、優秀な鳥だけが就ける仕事。{n}・将来、奉行を目指す鳥は、まず与力に{n}　なることが当面の目標になる。{n}・裁きによっては地獄行きになるかも{n}　しれない死者に、最後に素敵な風景{n}　を見せてやることが慣例。{n}　その風景を選ぶのは担当与力の仕事。",
-  "en": "",
-  "status": "todo",
+  "en": "- The first Bird Shogunate envoy{n}the dead meet. Only top birds trained{n}to keep things calm can do this job.{n}- Birds hoping to become magistrates{n}must first aim to become deputies.{n}- By custom, the dead are shown{n}one last lovely view, in case their{n}judgment sends them to hell.{n}The deputy in charge picks the view.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:70",
   "hdr": "FFFF 00FF",
   "jp": "・妖怪になる直前の幼怪。{n}・少しでも多くの《気》を得ようと{n}　積極的に{var_EF}{slot}{slot}{slot}{slot}{slot}たちを邪魔する。{n}・最終的にどんな妖怪になるのか、まだ{n}　決めきれていない。{n}・格好いい妖怪にあこがれている。{n}　たとえばガランリュウ。",
-  "en": "",
-  "status": "todo",
+  "en": "- A Fledgling Yokai almost ready{n}to become a full yokai.{n}- Eagerly gets in the way of{n}{var_EF}{slot}{slot}{slot}{slot}{slot} and the others to gain{n}all the spiritual energy it can.{n}- Still can't decide what kind{n}of yokai it will become.{n}- Admires cool yokai,{n}like Garanryu.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:71",
   "hdr": "FFFF 00FF",
   "jp": "・ガランリュウと由来は似ているが{n}　ゲーロンの場合は沼や池に集まった{n}　「思い」が主な構成要素。{n}・地下水流に比べ、よどみやすいので{n}　ドロドロ、ベトベト系。{n}・沈殿した汚れ成分に混ざっている、{n}　それを捨てた人間たちの汚れた思いが{n}　行動の方向性を決めている。{n}・ガランリュウにはちょっとした{n}　ライバル意識を持っている。",
-  "en": "",
-  "status": "todo",
+  "en": "- Like Garanryu in origin, Croakmire{n}is mostly made of feelings gathered{n}in swamps and ponds.{n}- They stagnate more easily than{n}groundwater, so he's thick and gooey.{n}- The filthy feelings of people who{n}dumped waste there mix with the muck{n}on the bottom and guide his actions.{n}- Sees Garanryu as a bit of a rival.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:72",
   "hdr": "FFFF 00FF",
   "jp": "・数多い人生の選択肢のうち、選ばな{n}　かった選択肢に対する人間の未練が{n}　具現化した妖怪。{n}・その生涯の大部分を選択することに{n}　あてているが、あまりにも多くの{n}　選択肢が体内でうごめいているので{n}　選びきれず、しかも、やっと選んだ{n}　と思ったら、それはどうでもいい{n}　選択肢だったりする。",
-  "en": "",
-  "status": "todo",
+  "en": "- A yokai born of people's regrets{n}over paths they never took among{n}the many choices life offers.{n}- Spends most of its life choosing,{n}but so many choices churn inside{n}it that it can never make up{n}its mind. Even when it finally{n}does choose, the choice often{n}doesn't matter at all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:73",
   "hdr": "FFFF 00FF",
   "jp": "・常に考えているが、何も考えていない{n}　ように思われるので苛立っている。{n}・その苛立ちが、攻撃的な性向として{n}　現れている。{n}・取りつかれた人間は、苛立ちと迷いで{n}　普段はしない言動をとってしまう。{n}・抱え込んでいる要素の多さから、{n}　特定の外観を持つことができない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Always thinking, but gets annoyed{n}because others think its mind{n}is empty.{n}- That annoyance comes out{n}as aggressive behavior.{n}- People it possesses act and speak{n}unlike themselves out of irritation{n}and doubt.{n}- With so much inside it, it can't{n}hold any one outward form.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:74",
   "hdr": "FFFF 00FF",
   "jp": "・ナスカイザーのライバルとして映画に{n}　登場した。{n}・映画冒頭で突如現れ、簡単に{n}　ナスカイザーを倒してしまった。{n}・設定的に詰められていなかった{n}　ためにコアなナスカイザーマニアは{n}　ライバルとして認めていない。",
-  "en": "",
-  "status": "todo",
+  "en": "- Appeared in a movie as{n}Nazkaiser's rival.{n}- Showed up out of nowhere at{n}the start and easily beat Nazkaiser.{n}- His background was poorly developed,{n}so die-hard Nazkaiser fans refuse{n}to accept him as a true rival.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:75",
   "hdr": "FFFF 00FF",
   "jp": "　カナメとタカコはふたりで映画を{n}　観に行き、口を揃えて批判する{n}　ことで互いの感性を確認しあった。{n}・キマヨイがアスカイザーを知って{n}　いたとは思えないので、カナメか{n}　タカコの思いからイメージを抽出して{n}　具現化したと思われる。",
-  "en": "",
-  "status": "todo",
+  "en": "Kaname and Takako saw the movie{n}together. Their shared complaints{n}showed how closely their tastes{n}matched.{n}- Waverwood likely didn't know{n}Askaiser. It probably drew his image{n}from Kaname's or Takako's feelings{n}and gave it physical form.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:76",
   "hdr": "FFFF 00FF",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}{var_EF}{slot}{slot}{slot}{slot}{slot}{n}10歳{n}小学5年生",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}{var_EF}{slot}{slot}{slot}{slot}{slot}{n}Age 10{n}Fifth grader",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:77",
   "hdr": "FFFF 00FF",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}{var_EE}{slot}{slot}{slot}{slot}{slot}{n}11歳",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}{var_EE}{slot}{slot}{slot}{slot}{slot}{n}Age 11",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:78",
   "hdr": "FFFF 00FF",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}カナメ{n}39歳{n}ゲーム業界の人",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}Kaname{n}Age 39{n}Game industry worker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:79",
   "hdr": "FFFF 00FF",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}カナメ{n}39歳{n}ゲーム業界の人",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}Kaname{n}Age 39{n}Game industry worker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:80",
   "hdr": "FFFF 00FF",
   "jp": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}ハルカ{n}37歳{n}主婦",
-  "en": "",
-  "status": "todo",
+  "en": "{var_F0}{slot}{slot}{slot}{slot}{slot}{n}Haruka{n}Age 37{n}Homemaker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:81",
   "hdr": "FFFF 00FF",
   "jp": "古代戦士{n}ナスカイザー{n}年齢不詳{n}ヒーロー",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser,{n}Ancient Warrior{n}Age unknown{n}Hero",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:82",
   "hdr": "FFFF 00FF",
   "jp": "さまよう{n}幼怪{n}---{n}妖怪まであと少し",
-  "en": "",
-  "status": "todo",
+  "en": "Wandering{n}Fledgling Yokai{n}---{n}Almost a yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:83",
   "hdr": "FFFF 00FF",
   "jp": "ポーク{n}ジンジャー{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Ginger{n}Pork{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:84",
   "hdr": "FFFF 00FF",
   "jp": "吉田{n}七海{n}10歳{n}小学5年生",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami{n}Yoshida{n}Age 10{n}Fifth grader",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:85",
   "hdr": "FFFF 00FF",
   "jp": "吉田{n}七海{n}10歳{n}小学5年生",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami{n}Yoshida{n}Age 10{n}Fifth grader",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:86",
   "hdr": "FFFF 00FF",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}{n}---{n}5歳{n}---{n}佐倉(吉田)家の{n}飼い犬",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}{n}Age 5{n}Sakura (Yoshida){n}family dog",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:87",
   "hdr": "FFFF 00FF",
   "jp": "佐倉{n}タカシ{n}40歳{n}会社役員",
-  "en": "",
-  "status": "todo",
+  "en": "Takashi{n}Sakura{n}Age 40{n}Company executive",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:88",
   "hdr": "FFFF 00FF",
   "jp": "吉田{n}タカコ{n}39歳{n}主婦",
-  "en": "",
-  "status": "todo",
+  "en": "Takako{n}Yoshida{n}Age 39{n}Homemaker",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:89",
   "hdr": "FFFF 00FF",
   "jp": "岩田{n}ショウマ{n}10歳{n}小学5年生",
-  "en": "",
-  "status": "todo",
+  "en": "Shoma{n}Iwata{n}Age 10{n}Fifth grader",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:90",
   "hdr": "FFFF 00FF",
   "jp": "笹木{n}キイチ{n}10歳{n}小学5年生",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi{n}Sasaki{n}Age 10{n}Fifth grader",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:91",
   "hdr": "FFFF 00FF",
   "jp": "キテンソ{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Kitenso{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:92",
   "hdr": "FFFF 00FF",
   "jp": "シロ助{n}5歳",
-  "en": "",
-  "status": "todo",
+  "en": "Shirosuke{n}Age 5",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:93",
   "hdr": "FFFF 00FF",
   "jp": "クロ{n}7歳",
-  "en": "",
-  "status": "todo",
+  "en": "Kuro{n}Age 7",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:94",
   "hdr": "FFFF 00FF",
   "jp": "ガッツ{n}4歳",
-  "en": "",
-  "status": "todo",
+  "en": "Guts{n}Age 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:95",
   "hdr": "FFFF 00FF",
   "jp": "上州{n}ケンサク{n}42歳{n}獣医",
-  "en": "",
-  "status": "todo",
+  "en": "Kensaku{n}Joshu{n}Age 42{n}Veterinarian",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:96",
   "hdr": "FFFF 00FF",
   "jp": "ギャース{n}---{n}---{n}インコ",
-  "en": "",
-  "status": "todo",
+  "en": "Squawks{n}---{n}---{n}Parakeet",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:97",
   "hdr": "FFFF 00FF",
   "jp": "ノビヨ{n}先生{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Nobiyo-{n}sensei{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:98",
   "hdr": "FFFF 00FF",
   "jp": "ヨツダ{n}メメミ{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Mememi{n}Yotsuda{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:99",
   "hdr": "FFFF 00FF",
   "jp": "ガランリュウ{n}---{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Garanryu{n}---{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:100",
   "hdr": "FFFF 00FF",
   "jp": "佐倉{n}木吉{n}---{n}元樹医、罪人",
-  "en": "",
-  "status": "todo",
+  "en": "Kikichi{n}Sakura{n}---{n}Ex-tree doctor, convict",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:101",
   "hdr": "FFFF 00FF",
   "jp": "小島{n}タカヒロ{n}10歳{n}小学5年生",
-  "en": "",
-  "status": "todo",
+  "en": "Takahiro{n}Kojima{n}Age 10{n}Fifth grader",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:102",
   "hdr": "FFFF 00FF",
   "jp": "ホッホロー{n}---{n}---{n}奉行",
-  "en": "",
-  "status": "todo",
+  "en": "Coojudge{n}---{n}---{n}Magistrate",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:103",
   "hdr": "FFFF 00FF",
   "jp": "---{n}---{n}---{n}与力",
-  "en": "",
-  "status": "todo",
+  "en": "---{n}---{n}---{n}Deputy",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:104",
   "hdr": "FFFF 00FF",
   "jp": "赤ダマ{n}---{n}---{n}もうすぐ妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Red Orb{n}---{n}---{n}Almost a yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:105",
   "hdr": "FFFF 00FF",
   "jp": "ゲーロン{n}---{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Croakmire{n}---{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:106",
   "hdr": "FFFF 00FF",
   "jp": "キマヨイ{n}---{n}---{n}妖怪",
-  "en": "",
-  "status": "todo",
+  "en": "Waverwood{n}---{n}---{n}Yokai",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2611:107",
   "hdr": "FFFF 00FF",
   "jp": "時空戦士{n}アスカイザー{n}年齢不詳{n}ヒーローのライバル",
-  "en": "",
-  "status": "todo",
+  "en": "Askaiser, Warrior{n}of Time and Space{n}Age unknown{n}Hero's rival",
+  "status": "done",
   "notes": ""
  },
  {

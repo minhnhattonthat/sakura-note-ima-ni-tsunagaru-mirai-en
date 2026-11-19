@@ -3,1048 +3,1048 @@
   "id": "2605:0",
   "hdr": "FFFF 00FF",
   "jp": "てすと",
-  "en": "",
-  "status": "todo",
+  "en": "Test",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:1",
   "hdr": "FFFF 00FF",
   "jp": "涙",
-  "en": "",
-  "status": "todo",
+  "en": "Tears",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:2",
   "hdr": "FFFF 00FF",
   "jp": "ハート",
-  "en": "",
-  "status": "todo",
+  "en": "Hearts",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:3",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ナスカイザーのハンカチ{n}{n}{col_FC}キイチから押しつけられた{n}転校生の女子の落し物。{n}ワンポイントのナスカイザー{n}のシルエットがカッコいい。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Nazkaiser Handkerchief{n}{n}{col_FC}The new girl's lost handkerchief,{n}which Kiichi foisted on the boy.{n}The little Nazkaiser silhouette{n}on it looks cool.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:4",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}七海のナミダ{n}{n}{col_FC}正確には『七海が涙をふいた{n}ナスカイザーのハンカチ』。{n}返そうと思っていたのに{n}プレゼントされてしまった。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Nanami's Tears{n}{n}{col_FC}Actually, a Nazkaiser Handkerchief{n}Nanami used to wipe her tears.{n}The boy meant to return it,{n}but she gave it to him instead.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:5",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ミリン風調味料{n}{n}{col_FC}ハルカのおつかいで受け取り{n}に行った。スーパーマルケン{n}はキイチの家だったりする。{n}倉庫は少年たちの秘密基地。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Mirin-Style Seasoning{n}{n}{col_FC}Picked up on an errand for Haruka.{n}Maruken Supermarket also happens{n}to be Kiichi's home. Its storeroom{n}is the boys' secret base.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:6",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}大桜餅{n}{n}{col_FC}カナメのお土産。となり町の{n}桐谷町の名物で、一箱に一個{n}大きなおもちが入っている。{n}材料に桜は使われていない。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Great Sakura Mochi{n}{n}{col_FC}A gift from Kaname. A specialty of{n}nearby Kiriya, with one huge rice{n}cake in each box. No part of a{n}cherry tree is used to make it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:7",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ナスカイザー録画DVD{n}{n}{col_FC}『超ナスカイザー参上！』{n}第一話、怒りの雨乞い儀式！{n}と書いてある。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Nazkaiser Recording DVD{n}{n}{col_FC}The label reads:{n}'Super Nazkaiser Arrives!'{n}Episode 1:{n}The Furious Rainmaking Ritual!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:8",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ナスカイザーひみつカード{n}{n}{col_FC}クラスでいちばん流行って{n}いるカードゲーム。{n}バトルと交換が楽しい。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Nazkaiser Secret Cards{n}{n}{col_FC}The most popular card game{n}in class. Battling and trading{n}are lots of fun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:9",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}落し物のカギ{n}{n}{col_FC}特徴のないカギ。{n}キーホルダーをつければ失く{n}しても見つけやすいだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Lost Key{n}{n}{col_FC}An ordinary key. A key chain{n}would make it easier to find{n}if it got lost.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:10",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ジュース{n}{n}{col_FC}いつもは飲ませてもらえない{n}炭酸入りのジュース。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Soda{n}{n}{col_FC}A fizzy drink the boy usually{n}isn't allowed to have.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:11",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ほねサク{n}{n}{col_FC}かみごたえのあるスナック。{n}確かな満足で犬まっしぐらの{n}ロングセラー商品。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Bone Crunch{n}{n}{col_FC}A chewy snack. Dogs come running{n}for its guaranteed satisfaction.{n}A longtime best seller.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:12",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}にぼし{n}{n}{col_FC}たまにもらえるおやつ。{n}生きているほうがおいしいが{n}この歯ごたえもクセになる。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Dried Sardines{n}{n}{col_FC}An occasional treat. They taste{n}better alive, but this crunch{n}is hard to resist, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:13",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}虫の死骸{n}{n}{col_FC}動かなくなった虫。{n}居間に置いておくとハルカが{n}大騒ぎするので、見つけたら{n}かならず持って帰る。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Dead Bug{n}{n}{col_FC}A bug that stopped moving.{n}Haruka makes such a fuss if it's{n}left in the living room. Always{n}bring one home when you find it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:14",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}アイス{n}{n}{col_FC}高級なアイスクリームよりも{n}こっちのほうがおいしい。{n}当たりが出たらもう一本！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Ice Pop{n}{n}{col_FC}Tastier than fancy ice cream.{n}Find a winning stick and{n}get another one free!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:15",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}パンフレット{n}{n}{col_FC}『参拝のしおり』{n}大鈴を鳴らすことで、邪気を{n}追い払います。お賽銭箱を{n}けっとばすなんてダメ絶対！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Pamphlet{n}{n}{col_FC}'Shrine Visit Guide'{n}Ring the large bell to drive{n}away evil. Kicking the offering{n}box is strictly forbidden!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:16",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}回覧板{n}{n}{col_FC}『空き巣に注意！』{n}被害者宅の表札に謎の記号。{n}標的にされた目印です。{n}見つけたらすぐに消して！",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Neighborhood Circular{n}{n}{col_FC}'Beware of burglars!'{n}Odd symbols on victims' nameplates{n}mark their homes as targets.{n}Erase any you find right away!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:17",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}フライングディスク{n}{n}{col_FC}子犬の頃からずっと家にある{n}おきにいりのおもちゃ。{n}パパさんがいなくなってから{n}使っていません……",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Flying Disc{n}{n}{col_FC}My favorite toy. We've had it{n}at home since I was a puppy.{n}I haven't used it since{n}Papa-san went away...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:18",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}牛乳{n}{n}{col_FC}びんに入った牛乳。{n}宅配されたものは、ちょっと{n}特別な感じがする。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Milk{n}{n}{col_FC}Milk in a glass bottle.{n}Milk delivered to your door{n}feels a little special.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:19",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}コンタクト{n}{n}{col_FC}薄いブルーのレンズ。{n}カラーコンタクトではない。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Contact Lens{n}{n}{col_FC}A pale blue lens.{n}It's not a colored contact lens.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:20",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ナスカイザー限定切手{n}{n}{col_FC}発売と同時に完売になった{n}なかなか手に入らない切手。{n}大人達が買い占めたようだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Limited-Edition Nazkaiser Stamp{n}{n}{col_FC}A hard-to-find stamp that sold{n}out as soon as it was released.{n}Seems the adults bought them all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:21",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}落し物の手紙{n}{n}{col_FC}あて名が外国語で書いてある{n}ためメモがはってある。{n}『この手紙のお届け先は{n}赤い郵便受けの家です。』",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Lost Letter{n}{n}{col_FC}The address is in another language,{n}so a note is attached:{n}'Deliver this letter to the house{n}with the red mailbox.'",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:22",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}崖っぷちおはぎ{n}{n}{col_FC}ひと口サイズのかわいらしい{n}姿は女性に人気が出そうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Last-Ditch Ohagi{n}{n}{col_FC}Its cute, bite-sized shape looks{n}like it would be a hit with women.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:23",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}サンダル{n}{n}{col_FC}どうして釣りをすると長ぐつ{n}やらサンダルやらが手に入る{n}のだろうか。{n}これもまた世の中の不思議。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Sandal{n}{n}{col_FC}Why do you catch boots and sandals{n}when you go fishing?{n}One of life's great mysteries.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:24",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}建設中のビルのカギ{n}{n}{col_FC}特徴のないカギだが、大きな{n}赤いリボンがむすんである。{n}どこかで使えそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Construction-Site Key{n}{n}{col_FC}An ordinary key with a big{n}red ribbon tied to it.{n}It might open something somewhere.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:25",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}雨に濡れた雑誌{n}{n}{col_FC}ぶよぶよで開きづらいうえに{n}不思議なにおいがする雑誌。{n}大人の秘密がのっているよう{n}なので大切に保管したい。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Rain-Soaked Magazine{n}{n}{col_FC}A soggy magazine that's hard to{n}open and smells strange. It seems{n}to hold grown-up secrets, so{n}it should be kept somewhere safe.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:26",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}野球のボール{n}{n}{col_FC}使い古されたボール。{n}皮がボロボロにはがれて中の{n}糸が見えている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Baseball{n}{n}{col_FC}A worn-out ball. The leather{n}is peeling off, showing{n}the thread underneath.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:27",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}とかげ{n}{n}{col_FC}つやつやした小さい生き物。{n}居間に置いておくとハルカが{n}大騒ぎするので、見つけたら{n}かならず持って帰る。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Lizard{n}{n}{col_FC}A little shiny creature.{n}Haruka makes such a fuss if it's{n}left in the living room. Always{n}bring one home when you find it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:28",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}洗濯物{n}{n}{col_FC}生乾きのシャツ。{n}泥で汚れてしまっている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Laundry{n}{n}{col_FC}A half-dry shirt.{n}It's gotten muddy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:29",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}試供品のキャットフード{n}{n}{col_FC}選びぬかれた良質な素材のみ{n}使用しています。{n}猫ちゃんの健康のために。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Cat Food Sample{n}{n}{col_FC}Made with only carefully chosen,{n}high-quality ingredients.{n}For your kitty's health.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:30",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}子猫の頃の写真{n}{n}{col_FC}ベッドの上で赤ん坊と子猫が{n}あおむけでよりそっている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Kitten Photo{n}{n}{col_FC}A baby and a kitten lie on their{n}backs, nestled together on a bed.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:31",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}きれいなメダル{n}{n}{col_FC}星のマークとアルファベット{n}が刻印されている。{n}外国のお金だろうか？",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Shiny Medal{n}{n}{col_FC}Stamped with a star and letters{n}of the alphabet.{n}Could it be foreign money?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:32",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ボールペン{n}{n}{col_FC}アイスクリームのアンケート{n}に答えるともらえる景品。{n}お店のロゴが入っている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Ballpoint Pen{n}{n}{col_FC}A gift for answering an ice cream{n}survey. It has the shop's logo{n}printed on it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:33",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}コースター{n}{n}{col_FC}厚紙にクローバーのマークが{n}デザインされている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Coaster{n}{n}{col_FC}Made of thick paper with{n}a clover design.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:34",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}老眼鏡{n}{n}{col_FC}フレームがこわれた老眼鏡。{n}レンズは無傷のままなので{n}細かい字も読めそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Reading Glasses{n}{n}{col_FC}Reading glasses with a broken{n}frame. The lenses are undamaged,{n}so they should still help{n}with reading small print.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:35",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}キイチの服{n}{n}{col_FC}飲料メーカーの販促品。{n}キイチの家のスーパーに来る{n}営業の人にもらったらしい。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Kiichi's Shirt{n}{n}{col_FC}A drink company's giveaway.{n}Apparently a sales rep who visits{n}Kiichi's family supermarket{n}gave it to him.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:36",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}キイチの靴{n}{n}{col_FC}速く走れるようになるという{n}評判のスニーカー。{n}この靴が無くても、キイチは{n}クラスで一番足が速い。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Kiichi's Shoes{n}{n}{col_FC}Sneakers said to make you run{n}faster. Even without them,{n}Kiichi is the fastest runner{n}in class.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:37",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}キイチのズボン{n}{n}{col_FC}お兄さんのお下がり。{n}ウエストがゆるいためベルト{n}で調節している。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Kiichi's Trousers{n}{n}{col_FC}Hand-me-downs from his big brother.{n}The waist is loose, so he uses{n}a belt to make them fit.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:38",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}キイチのパンツ{n}{n}{col_FC}緑がワンポイントのちょっと{n}おしゃれなトランクス。{n}スースーして気持ちがいいと{n}いう話をきいたことがある。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Kiichi's Boxers{n}{n}{col_FC}Fairly stylish boxers with{n}a little green accent.{n}The boy has heard they're{n}nice and breezy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:39",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ガンタのメガネ{n}{n}{col_FC}レンズの部分がプラスチック{n}で作られている。{n}乱暴にあつかっても安心だ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Ganta's Glasses{n}{n}{col_FC}The lenses are made of plastic.{n}No need to worry if they{n}get knocked around.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:40",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ガンタのサイフ{n}{n}{col_FC}赤いナイロン地にドラゴンの{n}ワンポイントが入っている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Ganta's Wallet{n}{n}{col_FC}Red nylon with a little{n}dragon design.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:41",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ナスカイザーフィギュア{n}{n}{col_FC}初代ナスカイザーの人形。{n}関節が動くので好きなポーズ{n}をとらせることができる。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Nazkaiser Action Figure{n}{n}{col_FC}A figure of the first Nazkaiser.{n}Its joints move, so you can{n}put it in any pose you like.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:42",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ガンタのパンツ{n}{n}{col_FC}油性ペンでしっかり名前が書{n}かれているので、間違いなく{n}ガンタのものだろう。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Ganta's Underpants{n}{n}{col_FC}His name is clearly written{n}in permanent marker, so these{n}must belong to Ganta.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:43",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}メメミのパンツ{n}{n}{col_FC}派手なピンク色のパンツ。{n}スケスケの布に悪趣味な柄の{n}リボンがぬいつけてある。{n}しかもビッグサイズだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Mememi's Underpants{n}{n}{col_FC}Flashy pink underpants.{n}A ribbon with a tacky pattern{n}is sewn onto the see-through fabric.{n}They're extra large, too.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:44",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}5種のフルーツ{n}{n}{col_FC}お金持ちの家に遊びに行くと{n}よく置いてある。{n}インテリアなんだろうか。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Five Kinds of Fruit{n}{n}{col_FC}You often see these when you{n}visit rich people's houses.{n}Are they for decoration?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:45",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}トンカチ{n}{n}{col_FC}使いこまれたプロの道具。{n}適度な重量感が手にしっくり{n}なじむ。すべりどめ付き。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Hammer{n}{n}{col_FC}A well-used professional tool.{n}Its weight feels just right{n}in your hand. Has a nonslip grip.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:46",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}いたきれ{n}{n}{col_FC}ビートバンくらいの大きさで{n}厚みもしっかりある。{n}何かに使えそうだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Wooden Board{n}{n}{col_FC}About as big as a kickboard,{n}and good and thick.{n}It could come in handy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:47",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}お年玉{n}{n}{col_FC}ハルカの貯金しなさい攻撃を{n}逃れて隠していたへそくり。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}New Year's Gift Money{n}{n}{col_FC}Secret savings hidden away{n}after dodging Haruka's{n}\"Put it in the bank!\" attack.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:48",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}切符{n}{n}{col_FC}桐谷町への電車の切符。{n}小学生だからこども料金だ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Train Ticket{n}{n}{col_FC}A train ticket to Kiriya.{n}Elementary school kids{n}pay the children's fare.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:49",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ナスカイザーカード{n}{n}{col_FC}ソーセージのおまけに付いて{n}くるプレミアムカード。{n}カードだけ売ってほしい。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Nazkaiser Card{n}{n}{col_FC}A special card that comes free{n}with sausages. If only they'd{n}sell just the cards.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:50",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}曲がったスプーン{n}{n}{col_FC}念力で曲げたらしいが{n}本当かどうかはあやしい。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Bent Spoon{n}{n}{col_FC}Supposedly bent with mind power.{n}Whether that's true is doubtful.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:51",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}定期入れ{n}{n}{col_FC}表面にブランドのロゴマーク{n}が入った皮製のケース。{n}電車の定期券が入っている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Commuter Pass Holder{n}{n}{col_FC}A leather case with a brand logo{n}on the outside. There's a train{n}Commuter Pass inside.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:52",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ピッチィの羽{n}{n}{col_FC}鳥幕府の仏の奉行と呼ばれる{n}ピッチィ様のありがたい羽。{n}もちろん少年にとっては{n}何のありがたみもなかった。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Chirpy's Feather{n}{n}{col_FC}A blessed feather from Chirpy-sama,{n}the Bird Shogunate's{n}Merciful Magistrate. Of course,{n}the boy felt no gratitude at all.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:53",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}プラスドライバー{n}{n}{col_FC}プラス溝のあるネジを回すた{n}めに使われる工具。{n}緑色のグリップがさわやかな{n}印象をあたえる。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Phillips Screwdriver{n}{n}{col_FC}A tool for turning screws{n}with cross-shaped slots.{n}The green grip gives it{n}a refreshing look.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:54",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}マイナスドライバー{n}{n}{col_FC}マイナス溝のあるネジを回す{n}ために使われる工具。{n}がんじょうなグリップは燃え{n}るような赤色だ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Flathead Screwdriver{n}{n}{col_FC}A tool for turning screws{n}with straight slots.{n}Its sturdy grip is fiery red.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:55",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}タイムカプセル{n}{n}{col_FC}耐久性のある金属で作られた{n}カプセル状の容器。{n}がんじょうにできているから{n}土の中にうめても安心だ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Time Capsule{n}{n}{col_FC}A capsule-shaped container{n}made of durable metal.{n}It's sturdy enough to bury{n}without worrying.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:56",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}トルクレンチ{n}{n}{col_FC}所定のトルクでねじをしめ付{n}けるための工具。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Torque Wrench{n}{n}{col_FC}A tool for tightening screws{n}with a set amount of turning force.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:57",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}銀の鈴{n}{n}{col_FC}金属製のシンプルな鈴。{n}猫の首輪につけるとぴったり{n}のサイズだ。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Silver Bell{n}{n}{col_FC}A simple metal bell.{n}Just the right size{n}for a cat's collar.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:58",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}管理室のカギ{n}{n}{col_FC}防犯性に優れたカギ。{n}表面に深さや大きさの異なる{n}くぼみがついている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Management Office Key{n}{n}{col_FC}A high-security key.{n}Its surface has dents of{n}different sizes and depths.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:59",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ねこじゃらし{n}{n}{col_FC}その名の通り猫の前でこれを{n}動かすとじゃれついてくる。{n}エノコログサとも言う。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Foxtail Grass{n}{n}{col_FC}Also called cat-teasing grass.{n}Just as that name suggests,{n}wave it before a cat and{n}the cat will play with it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:60",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}携帯電話{n}{n}{col_FC}折りたたみ型の携帯電話。{n}ゴミ箱に捨てられていたせい{n}か表面がベタベタしている。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Cell Phone{n}{n}{col_FC}A flip phone. The surface{n}is sticky, maybe because{n}it was thrown in a trash can.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:61",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}豆電球{n}{n}{col_FC}真空管のように温かく灯る{n}小さめの電球。{n}何かに使えるのかな？",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Miniature Light Bulb{n}{n}{col_FC}A small bulb with a warm glow,{n}like a vacuum tube.{n}Could it be useful somehow?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:62",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}どんぐり{n}{n}{col_FC}季節はずれのどんぐり。{n}誰かが落としたのだろうか。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Acorn{n}{n}{col_FC}An acorn out of season.{n}Did somebody drop it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:63",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}真空管{n}{n}{col_FC}旧ソ連製の963A真空管。{n}しかも幻の試作品である。{n}どんな音が出るのだろう？",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Vacuum Tube{n}{n}{col_FC}A Soviet-made 963A Vacuum Tube.{n}It's even a fabled prototype.{n}What could it sound like?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:64",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}軍手{n}{n}{col_FC}どうして雨がふった次の日に{n}は必ず軍手が片方だけ落ちて{n}いるのだろうか。{n}これもまた世の中の不思議。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Work Glove{n}{n}{col_FC}Why is there always just one{n}work glove lying on the ground{n}the day after it rains?{n}One of life's great mysteries.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:65",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}かなしいナミダ{n}{n}{col_FC}タカシが家族を守って倒れた{n}時に七海が流したかなしみの{n}涙。彼の父親としての立場は{n}これで当分の間安泰だろう。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Tears of Sorrow{n}{n}{col_FC}Nanami's sad tears when Takashi{n}fell protecting his family.{n}His standing as a father{n}should be secure for a while now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:66",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}うれしいナミダ{n}{n}{col_FC}{var_ED}{slot}{slot}{slot}{slot}{slot}が生まれた時に{n}七海が流したうれし涙。{n}タカシがホッホローの能力で{n}過去に戻って手に入れた。",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Tears of Joy{n}{n}{col_FC}Nanami's joyful tears from when{n}{var_ED}{slot}{slot}{slot}{slot}{slot} was born. Takashi{n}used Coojudge's power to return{n}to the past and collect them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:67",
   "hdr": "FFFF 00FF",
   "jp": "ナスカイザーのハンカチ",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Handkerchief",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:68",
   "hdr": "FFFF 00FF",
   "jp": "七海のナミダ",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami's Tears",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:69",
   "hdr": "FFFF 00FF",
   "jp": "ミリン風調味料",
-  "en": "",
-  "status": "todo",
+  "en": "Mirin-Style Seasoning",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:70",
   "hdr": "FFFF 00FF",
   "jp": "大桜餅",
-  "en": "",
-  "status": "todo",
+  "en": "Great Sakura Mochi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:71",
   "hdr": "FFFF 00FF",
   "jp": "ナスカイザー録画DVD",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Recording DVD",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:72",
   "hdr": "FFFF 00FF",
   "jp": "ナスカイザーひみつカード",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Secret Cards",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:73",
   "hdr": "FFFF 00FF",
   "jp": "落し物のカギ",
-  "en": "",
-  "status": "todo",
+  "en": "Lost Key",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:74",
   "hdr": "FFFF 00FF",
   "jp": "ジュース",
-  "en": "",
-  "status": "todo",
+  "en": "Soda",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:75",
   "hdr": "FFFF 00FF",
   "jp": "ほねサク",
-  "en": "",
-  "status": "todo",
+  "en": "Bone Crunch",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:76",
   "hdr": "FFFF 00FF",
   "jp": "にぼし",
-  "en": "",
-  "status": "todo",
+  "en": "Dried Sardines",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:77",
   "hdr": "FFFF 00FF",
   "jp": "虫の死骸",
-  "en": "",
-  "status": "todo",
+  "en": "Dead Bug",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:78",
   "hdr": "FFFF 00FF",
   "jp": "アイス",
-  "en": "",
-  "status": "todo",
+  "en": "Ice Pop",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:79",
   "hdr": "FFFF 00FF",
   "jp": "パンフレット",
-  "en": "",
-  "status": "todo",
+  "en": "Pamphlet",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:80",
   "hdr": "FFFF 00FF",
   "jp": "回覧板",
-  "en": "",
-  "status": "todo",
+  "en": "Neighborhood Circular",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:81",
   "hdr": "FFFF 00FF",
   "jp": "フライングディスク",
-  "en": "",
-  "status": "todo",
+  "en": "Flying Disc",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:82",
   "hdr": "FFFF 00FF",
   "jp": "牛乳",
-  "en": "",
-  "status": "todo",
+  "en": "Milk",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:83",
   "hdr": "FFFF 00FF",
   "jp": "コンタクト",
-  "en": "",
-  "status": "todo",
+  "en": "Contact Lens",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:84",
   "hdr": "FFFF 00FF",
   "jp": "ナスカイザー限定切手",
-  "en": "",
-  "status": "todo",
+  "en": "Limited-Edition Nazkaiser Stamp",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:85",
   "hdr": "FFFF 00FF",
   "jp": "落し物の手紙",
-  "en": "",
-  "status": "todo",
+  "en": "Lost Letter",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:86",
   "hdr": "FFFF 00FF",
   "jp": "崖っぷちおはぎ",
-  "en": "",
-  "status": "todo",
+  "en": "Last-Ditch Ohagi",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:87",
   "hdr": "FFFF 00FF",
   "jp": "サンダル",
-  "en": "",
-  "status": "todo",
+  "en": "Sandal",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:88",
   "hdr": "FFFF 00FF",
   "jp": "建設中のビルのカギ",
-  "en": "",
-  "status": "todo",
+  "en": "Construction-Site Key",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:89",
   "hdr": "FFFF 00FF",
   "jp": "雨に濡れた雑誌",
-  "en": "",
-  "status": "todo",
+  "en": "Rain-Soaked Magazine",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:90",
   "hdr": "FFFF 00FF",
   "jp": "野球のボール",
-  "en": "",
-  "status": "todo",
+  "en": "Baseball",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:91",
   "hdr": "FFFF 00FF",
   "jp": "とかげ",
-  "en": "",
-  "status": "todo",
+  "en": "Lizard",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:92",
   "hdr": "FFFF 00FF",
   "jp": "洗濯物",
-  "en": "",
-  "status": "todo",
+  "en": "Laundry",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:93",
   "hdr": "FFFF 00FF",
   "jp": "試供品のキャットフード",
-  "en": "",
-  "status": "todo",
+  "en": "Cat Food Sample",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:94",
   "hdr": "FFFF 00FF",
   "jp": "子猫の頃の写真",
-  "en": "",
-  "status": "todo",
+  "en": "Kitten Photo",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:95",
   "hdr": "FFFF 00FF",
   "jp": "きれいなメダル",
-  "en": "",
-  "status": "todo",
+  "en": "Shiny Medal",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:96",
   "hdr": "FFFF 00FF",
   "jp": "ボールペン",
-  "en": "",
-  "status": "todo",
+  "en": "Ballpoint Pen",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:97",
   "hdr": "FFFF 00FF",
   "jp": "コースター",
-  "en": "",
-  "status": "todo",
+  "en": "Coaster",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:98",
   "hdr": "FFFF 00FF",
   "jp": "老眼鏡",
-  "en": "",
-  "status": "todo",
+  "en": "Reading Glasses",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:99",
   "hdr": "FFFF 00FF",
   "jp": "キイチの服",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Shirt",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:100",
   "hdr": "FFFF 00FF",
   "jp": "キイチの靴",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Shoes",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:101",
   "hdr": "FFFF 00FF",
   "jp": "キイチのズボン",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Trousers",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:102",
   "hdr": "FFFF 00FF",
   "jp": "キイチのパンツ",
-  "en": "",
-  "status": "todo",
+  "en": "Kiichi's Boxers",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:103",
   "hdr": "FFFF 00FF",
   "jp": "ガンタのメガネ",
-  "en": "",
-  "status": "todo",
+  "en": "Ganta's Glasses",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:104",
   "hdr": "FFFF 00FF",
   "jp": "ガンタのサイフ",
-  "en": "",
-  "status": "todo",
+  "en": "Ganta's Wallet",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:105",
   "hdr": "FFFF 00FF",
   "jp": "ナスカイザーフィギュア",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Action Figure",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:106",
   "hdr": "FFFF 00FF",
   "jp": "ガンタのパンツ",
-  "en": "",
-  "status": "todo",
+  "en": "Ganta's Underpants",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:107",
   "hdr": "FFFF 00FF",
   "jp": "メメミのパンツ",
-  "en": "",
-  "status": "todo",
+  "en": "Mememi's Underpants",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:108",
   "hdr": "FFFF 00FF",
   "jp": "5種のフルーツ",
-  "en": "",
-  "status": "todo",
+  "en": "Five Kinds of Fruit",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:109",
   "hdr": "FFFF 00FF",
   "jp": "トンカチ",
-  "en": "",
-  "status": "todo",
+  "en": "Hammer",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:110",
   "hdr": "FFFF 00FF",
   "jp": "いたきれ",
-  "en": "",
-  "status": "todo",
+  "en": "Wooden Board",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:111",
   "hdr": "FFFF 00FF",
   "jp": "お年玉",
-  "en": "",
-  "status": "todo",
+  "en": "New Year's Gift Money",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:112",
   "hdr": "FFFF 00FF",
   "jp": "切符",
-  "en": "",
-  "status": "todo",
+  "en": "Train Ticket",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:113",
   "hdr": "FFFF 00FF",
   "jp": "ナスカイザーカード",
-  "en": "",
-  "status": "todo",
+  "en": "Nazkaiser Card",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:114",
   "hdr": "FFFF 00FF",
   "jp": "曲がったスプーン",
-  "en": "",
-  "status": "todo",
+  "en": "Bent Spoon",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:115",
   "hdr": "FFFF 00FF",
   "jp": "定期入れ",
-  "en": "",
-  "status": "todo",
+  "en": "Commuter Pass Holder",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:116",
   "hdr": "FFFF 00FF",
   "jp": "ピッチィの羽根",
-  "en": "",
-  "status": "todo",
+  "en": "Chirpy's Feather",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:117",
   "hdr": "FFFF 00FF",
   "jp": "プラスドライバー",
-  "en": "",
-  "status": "todo",
+  "en": "Phillips Screwdriver",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:118",
   "hdr": "FFFF 00FF",
   "jp": "マイナスドライバー",
-  "en": "",
-  "status": "todo",
+  "en": "Flathead Screwdriver",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:119",
   "hdr": "FFFF 00FF",
   "jp": "タイムカプセル",
-  "en": "",
-  "status": "todo",
+  "en": "Time Capsule",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:120",
   "hdr": "FFFF 00FF",
   "jp": "トルクレンチ",
-  "en": "",
-  "status": "todo",
+  "en": "Torque Wrench",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:121",
   "hdr": "FFFF 00FF",
   "jp": "銀の鈴",
-  "en": "",
-  "status": "todo",
+  "en": "Silver Bell",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:122",
   "hdr": "FFFF 00FF",
   "jp": "管理室のカギ",
-  "en": "",
-  "status": "todo",
+  "en": "Management Office Key",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:123",
   "hdr": "FFFF 00FF",
   "jp": "ねこじゃらし",
-  "en": "",
-  "status": "todo",
+  "en": "Foxtail Grass",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:124",
   "hdr": "FFFF 00FF",
   "jp": "携帯電話",
-  "en": "",
-  "status": "todo",
+  "en": "Cell Phone",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:125",
   "hdr": "FFFF 00FF",
   "jp": "豆電球",
-  "en": "",
-  "status": "todo",
+  "en": "Miniature Light Bulb",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:126",
   "hdr": "FFFF 00FF",
   "jp": "どんぐり",
-  "en": "",
-  "status": "todo",
+  "en": "Acorn",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:127",
   "hdr": "FFFF 00FF",
   "jp": "真空管",
-  "en": "",
-  "status": "todo",
+  "en": "Vacuum Tube",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:128",
   "hdr": "FFFF 00FF",
   "jp": "軍手",
-  "en": "",
-  "status": "todo",
+  "en": "Work Glove",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:129",
   "hdr": "FFFF 00FF",
   "jp": "かなしいナミダ",
-  "en": "",
-  "status": "todo",
+  "en": "Tears of Sorrow",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2605:130",
   "hdr": "FFFF 00FF",
   "jp": "うれしいナミダ",
-  "en": "",
-  "status": "todo",
+  "en": "Tears of Joy",
+  "status": "done",
   "notes": ""
  }
 ]

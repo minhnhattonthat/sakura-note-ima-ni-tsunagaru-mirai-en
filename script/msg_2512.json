@@ -203,7 +203,7 @@
   "id": "2512:25",
   "hdr": "00FF 000C",
   "jp": "日記のようだ。{n}『吉田七海』と書いてある……",
-  "en": "It looks like a diary.{n}'Nanami' is written on it...",
+  "en": "It looks like a diary.{n}'Nanami Yoshida' is written on it...",
   "status": "done",
   "notes": ""
  },
@@ -411,7 +411,7 @@
   "id": "2512:51",
   "hdr": "00FF 000C",
   "jp": "吉田七海さん(母:吉田タカコ様){n}12:45　面談。{page}家庭の事情により引越して来られた。{n}お父さんとは一緒に住んでいない。{page}お母様から聞くところでは、吉田さんは{n}男子ともよくケンカしていたとの事。{page}おそらく、気の弱そうな男の子と{n}一緒のクラスの方がうまく行きそう。{page}例えば、2組の{var_F0}{slot}{slot}{slot}{slot}{slot}くん。{n}彼とはウマが合うかも。{page}でも大丈夫だろうか。{n}どうしたものか……",
-  "en": "Nanami-san (Mother: Takako-sama){n}12:45 Meeting.{page}Moved here due to family circumstances.{n}Does not live with her father.{page}According to her mother,{n}Yoshida-san often fought with boys.{page}She would probably do better in a{n}class with a timid-looking boy.{page}For example, {var_F0}{slot}{slot}{slot}{slot}{slot}-kun{n}in Class 2. They might get along.{page}But would it really be all right?{n}What should I do...?",
+  "en": "Nanami Yoshida-san{n}(Mother: Takako Yoshida-sama){page}12:45 Meeting.{page}Moved here due to family circumstances.{n}Does not live with her father.{page}According to her mother,{n}Yoshida-san often fought with boys.{page}She would probably do better in a{n}class with a timid-looking boy.{page}For example, {var_F0}{slot}{slot}{slot}{slot}{slot}-kun{n}in Class 2. They might get along.{page}But would it really be all right?{n}What should I do...?",
   "status": "done",
   "notes": ""
  },
@@ -1203,7 +1203,7 @@
   "id": "2512:150",
   "hdr": "0030 0017",
   "jp": "ヨー・ホー・ホー。{n}妖怪学園は楽しいぜ。",
-  "en": "Yo-ho-ho!{page}Yokai Academy, Underworld University{n}is a blast!",
+  "en": "Yo-ho-ho!{page}Yokai Academy{n}is a blast!",
   "status": "done",
   "notes": ""
  },
@@ -1523,7 +1523,7 @@
   "id": "2512:190",
   "hdr": "002D 001E",
   "jp": "えー、では今日の授業を始めます。{n}教科書開いてください。{page}こら、吉村、教科書に{n}パラパラ漫画書くのはやめなさい！{page}えー、きみらにはおなじみの輸入CD屋{n}スカイスクレーパーレコード。{page}略してスカレですな。{page}あれは先生が中高生の頃はまだ日本に{n}はなかったんだぞ？{page}……山崎、弁当食うな。{page}えー、当時はまだ{n}アメリカにしかなかったんだな。{page}本店はロスだったかな？{n}サンフランシスコだったかな？{page}ん？シカゴだったか？{n}いや、やっぱロスだったかな？{page}おっとこんなことやってちゃ{n}時間のロスだ、なんつってな。",
-  "en": "Ahem. Let us begin today's lesson.{n}Open your textbooks, please.{page}Yoshimura! Stop drawing{n}flip-book cartoons in your textbook!{page}Now, you all know Skyscraper Records,{n}the shop that sells imported CDs.{page}Skyscraper Records for short, yes.{page}When I was in junior high and{n}high school, it wasn't in Japan yet!{page}...Yamazaki, put that lunch away.{page}Now, back then, they only{n}had shops in America.{page}Was the main shop in Los Angeles?{n}Or was it San Francisco?{page}Hmm? Chicago, perhaps?{n}No, I think it was Los Angeles.{page}Oh dear, now I'm Los-ing track{n}of time! Get it?",
+  "en": "Ahem. Let us begin today's lesson.{n}Open your textbooks, please.{page}Yoshimura! Stop drawing{n}flip-book cartoons in your textbook!{page}Now, you all know Skyscraper Records,{n}the shop that sells imported CDs.{page}\"Skyscraper\" to its friends, yes.{page}When I was in junior high and{n}high school, it wasn't in Japan yet!{page}...Yamazaki, put that lunch away.{page}Now, back then, they only{n}had shops in America.{page}Was the main shop in Los Angeles?{n}Or was it San Francisco?{page}Hmm? Chicago, perhaps?{n}No, I think it was Los Angeles.{page}Oh dear, now I'm Los-ing track{n}of time! Get it?",
   "status": "done",
   "notes": ""
  },

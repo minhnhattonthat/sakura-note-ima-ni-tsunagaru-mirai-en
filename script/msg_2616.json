@@ -3,720 +3,720 @@
   "id": "2616:0",
   "hdr": "FFFF 00FF",
   "jp": "操作説明　その1",
-  "en": "",
-  "status": "todo",
+  "en": "How to Play Part 1",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:1",
   "hdr": "FFFF 00FF",
   "jp": "操作説明　その2",
-  "en": "",
-  "status": "todo",
+  "en": "How to Play Part 2",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:2",
   "hdr": "FFFF 00FF",
   "jp": "操作説明　その3",
-  "en": "",
-  "status": "todo",
+  "en": "How to Play Part 3",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:3",
   "hdr": "FFFF 00FF",
   "jp": "操作説明　その4",
-  "en": "",
-  "status": "todo",
+  "en": "How to Play Part 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:4",
   "hdr": "FFFF 00FF",
   "jp": "操作説明　その5",
-  "en": "",
-  "status": "todo",
+  "en": "How to Play Part 5",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:5",
   "hdr": "FFFF 00FF",
   "jp": "ハイハイどうもこんにちは～！",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, yes, hellooo there!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:6",
   "hdr": "FFFF 00FF",
   "jp": "ノビヨ先生のチュートリアル講座！{n}まずは聞けっつーの！",
-  "en": "",
-  "status": "todo",
+  "en": "Nobiyo-sensei's tutorial lecture!{n}First, listen up, will ya?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:7",
   "hdr": "FFFF 00FF",
   "jp": "上画面を見てみなさいよ、ホレ。",
-  "en": "",
-  "status": "todo",
+  "en": "Look at the top screen, dear. Go on.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:8",
   "hdr": "FFFF 00FF",
   "jp": "マップが出ているではないですか。{n}僕も今初めて見たんですけど。",
-  "en": "",
-  "status": "todo",
+  "en": "Why, there's a map, isn't there?{n}First time I've seen it myself.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:9",
   "hdr": "FFFF 00FF",
   "jp": "これは少年が今いるエリアを{n}表しておるのであるのである。",
-  "en": "",
-  "status": "todo",
+  "en": "It shows the area the boy is in,{n}indeed it does, indeed it does.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:10",
   "hdr": "FFFF 00FF",
   "jp": "エリアは全部で5種類ありますぜ。{n}ほんとだっつーの。",
-  "en": "",
-  "status": "todo",
+  "en": "There are five areas in all, ya know.{n}I'm telling you, it's true!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:11",
   "hdr": "FFFF 00FF",
   "jp": "で、行く場所によって変わるワケ。{n}これもほんとだっつーの。",
-  "en": "",
-  "status": "todo",
+  "en": "And it changes depending where you go.{n}That's true too, I'm telling you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:12",
   "hdr": "FFFF 00FF",
   "jp": "で、さて、そこのチミ、{n}再び視線を上げて上画面に注目～！",
-  "en": "",
-  "status": "todo",
+  "en": "Now then, you, my dear shudent!{n}Eyes up at the top screen again!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:13",
   "hdr": "FFFF 00FF",
   "jp": "少年の顔があるのが今いる所です。{n}分かりましたね？",
-  "en": "",
-  "status": "todo",
+  "en": "The boy's face marks where he is.{n}Understood, yes?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:14",
   "hdr": "FFFF 00FF",
   "jp": "じゃあ帰るわ……ん？{n}まだ続きがあるらしいわよ奥さん。",
-  "en": "",
-  "status": "todo",
+  "en": "I'll be off, then... Hmm?{n}Seems there's more, madam.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:15",
   "hdr": "FFFF 00FF",
   "jp": "次はこれ、まるい印であ～る！{n}ちゅーかこれこそが目的地なのだ。",
-  "en": "",
-  "status": "todo",
+  "en": "Next, behold this round mark!{n}I mean, that's your destination.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:16",
   "hdr": "FFFF 00FF",
   "jp": "目的地がエリア外の時もあ～る。{n}とにかく印の方に行くのであ～る。",
-  "en": "",
-  "status": "todo",
+  "en": "It may be outside your current area!{n}Just head toward the mark, I say!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:17",
   "hdr": "FFFF 00FF",
   "jp": "さてさて、突然ですが{n}ここで僕の新曲聴いてください。",
-  "en": "",
-  "status": "todo",
+  "en": "Now, a sudden change of subject!{n}Please listen to my new song.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:18",
   "hdr": "FFFF 00FF",
   "jp": "まず一曲目のナンバーです。{n}「ロコモコ丼」の歌。",
-  "en": "",
-  "status": "todo",
+  "en": "Here's my first number.{n}The \"Loco Moco Rice Bowl\" song.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:19",
   "hdr": "FFFF 00FF",
   "jp": "え？　さっさとゲーム本編を{n}プレイさせやがりまくれって？",
-  "en": "",
-  "status": "todo",
+  "en": "Eh? You want me to hurry up and{n}let you play the darn actual game?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:20",
   "hdr": "FFFF 00FF",
   "jp": "そいつはすんずれいしました。{n}せんきゅ！",
-  "en": "",
-  "status": "todo",
+  "en": "Well, ex-squeeze me for that.{n}Sank you!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:21",
   "hdr": "FFFF 00FF",
   "jp": "ノビヨのプチ講座！！",
-  "en": "",
-  "status": "todo",
+  "en": "Nobiyo's Mini-Lessons!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:22",
   "hdr": "FFFF 00FF",
   "jp": "だったっけ？　僕のタイトル。{n}お～い、誰か～。",
-  "en": "",
-  "status": "todo",
+  "en": "Was that my title?{n}Hellooo? Anybody?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:23",
   "hdr": "FFFF 00FF",
   "jp": "えー、さっきとちがう気が{n}しないでもないですが続けます。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I do have a feeling it was{n}different before, but let's go on.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:24",
   "hdr": "FFFF 00FF",
   "jp": "たま～に画面右下に現れる{n}アイコンの説明です。",
-  "en": "",
-  "status": "todo",
+  "en": "Let's discuss the icon that sometimes{n}appears at the bottom right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:25",
   "hdr": "FFFF 00FF",
   "jp": "ほんとは意外としょっちゅう{n}出るんですけどね。",
-  "en": "",
-  "status": "todo",
+  "en": "Actually, it pops up surprisingly{n}often, you know.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:26",
   "hdr": "FFFF 00FF",
   "jp": "これは新しいエピソードが{n}出現した時に表示されます。",
-  "en": "",
-  "status": "todo",
+  "en": "This appears when a new Episode{n}becomes available.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:27",
   "hdr": "FFFF 00FF",
   "jp": "ニャンコちゃんとかワンコちゃんの{n}ちょっといい話とかウラ話とかね。",
-  "en": "",
-  "status": "todo",
+  "en": "Sweet little tales and secret stories{n}about Kitty-chan and Doggy-chan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:28",
   "hdr": "FFFF 00FF",
   "jp": "何が追加されたかはYボタンで{n}エピソード選択画面を見てみて。",
-  "en": "",
-  "status": "todo",
+  "en": "Press the Y Button to open{n}Episode Select and see what's new.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:29",
   "hdr": "FFFF 00FF",
   "jp": "ただし、エピソードは{n}出現しただけじゃ見られません。",
-  "en": "",
-  "status": "todo",
+  "en": "But just because an Episode appears{n}doesn't mean you can view it.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:30",
   "hdr": "FFFF 00FF",
   "jp": "「ナミダ」に関係するんだけど{n}この話はまた今度ね。",
-  "en": "",
-  "status": "todo",
+  "en": "It has to do with \"Tears,\"{n}but we'll discuss that another time.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:31",
   "hdr": "FFFF 00FF",
   "jp": "じゃあ作曲の仕事に戻りますよ。{n}しーゆーあげいん。",
-  "en": "",
-  "status": "todo",
+  "en": "Now, back to composing music.{n}See yoo agenn!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:32",
   "hdr": "FFFF 00FF",
   "jp": "やってまいりました！",
-  "en": "",
-  "status": "todo",
+  "en": "The time has come!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:33",
   "hdr": "FFFF 00FF",
   "jp": "チュートリアル講座、ノビヨ編！{n}の、補習コーナー！！",
-  "en": "",
-  "status": "todo",
+  "en": "Tutorial Lessons: Nobiyo Special!{n}The remedial class!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:34",
   "hdr": "FFFF 00FF",
   "jp": "もう近ごろすっかりアレでね。{n}これを説明するの忘れてました。",
-  "en": "",
-  "status": "todo",
+  "en": "Lately I've been so... you know.{n}I forgot to explain this.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:35",
   "hdr": "FFFF 00FF",
   "jp": "たまにこの画面の右下に現れる……{n}コレコレ。",
-  "en": "",
-  "status": "todo",
+  "en": "It sometimes appears at the bottom{n}right of this screen... This thing!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:36",
   "hdr": "FFFF 00FF",
   "jp": "これはね、「新しい経験」をすると{n}表示されるアイコンなのですよ。",
-  "en": "",
-  "status": "todo",
+  "en": "This icon appears when you have{n}\"New Experiences,\" you see.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:37",
   "hdr": "FFFF 00FF",
   "jp": "メニュー画面の一番右にある{n}「新しい経験」画面で確認してね。",
-  "en": "",
-  "status": "todo",
+  "en": "Check the \"New Experiences\" screen{n}at the far right of the menu.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:38",
   "hdr": "FFFF 00FF",
   "jp": "あ、ちなみに、Rボタンでも直接{n}新しい経験画面を呼び出せるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, you can also press the R Button{n}to open New Experiences directly.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:39",
   "hdr": "FFFF 00FF",
   "jp": "新しい経験を1ページ分そろえると{n}ごほうびでパワーアップ！",
-  "en": "",
-  "status": "todo",
+  "en": "Fill a page of New Experiences,{n}and your reward is a power-up!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:40",
   "hdr": "FFFF 00FF",
   "jp": "要するにですね、{n}妖怪をやっつけるのに役立ちます。",
-  "en": "",
-  "status": "todo",
+  "en": "To put it simply,{n}it helps you defeat yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:41",
   "hdr": "FFFF 00FF",
   "jp": "経験を積んで強くなるのだ！",
-  "en": "",
-  "status": "todo",
+  "en": "Gain experience and grow stronger!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:42",
   "hdr": "FFFF 00FF",
   "jp": "って、まるでどこかの{n}ロールプレイングみたいですね。",
-  "en": "",
-  "status": "todo",
+  "en": "Why, that sounds just like{n}a certain role-playing game.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:43",
   "hdr": "FFFF 00FF",
   "jp": "いろんな場所でいろんな経験が{n}待ってるから、まあ頑張ってね。",
-  "en": "",
-  "status": "todo",
+  "en": "All sorts of experiences await{n}in all sorts of places. Do your best!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:44",
   "hdr": "FFFF 00FF",
   "jp": "ところで、今日の僕の晩ご飯は{n}何かなっと……",
-  "en": "",
-  "status": "todo",
+  "en": "Now then, I wonder what's{n}for dinner tonight...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:45",
   "hdr": "FFFF 00FF",
   "jp": "いやいやちょっと待って！{n}アレですわ。",
-  "en": "",
-  "status": "todo",
+  "en": "No, no, wait a moment!{n}There's that other thing, my dear.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:46",
   "hdr": "FFFF 00FF",
   "jp": "ハートの事を教えてしんぜよう。{n}画面左上に出ているヤツね。",
-  "en": "",
-  "status": "todo",
+  "en": "This old fellow shall teach you{n}about Hearts! Those at the top left.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:47",
   "hdr": "FFFF 00FF",
   "jp": "「新しい経験」で増えるんだけど{n}これ、ハートなくなるとアレよ？",
-  "en": "",
-  "status": "todo",
+  "en": "\"New Experiences\" give you more,{n}but what if you run out of Hearts?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:48",
   "hdr": "FFFF 00FF",
   "jp": "ゲームオーバーなんだって。{n}シビアでしょ？",
-  "en": "",
-  "status": "todo",
+  "en": "It's game over, I'm told.{n}Harsh, isn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:49",
   "hdr": "FFFF 00FF",
   "jp": "回復ポイントもあるから探してね。{n}特に戦いには満タンで挑むのだ！",
-  "en": "",
-  "status": "todo",
+  "en": "Look for healing spots, too.{n}Always enter battle with full health!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:50",
   "hdr": "FFFF 00FF",
   "jp": "よし、じゃあおじさんから{n}ひとつプレゼントしてあげよう。",
-  "en": "",
-  "status": "todo",
+  "en": "All right, then. This old fellow{n}will give you a little present.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:51",
   "hdr": "FFFF 00FF",
   "jp": "僕って太っ腹でしょ？{n}こんな序盤からあげちゃうから。",
-  "en": "",
-  "status": "todo",
+  "en": "Generous of me, isn't it?{n}Giving you this so early on!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:52",
   "hdr": "FFFF 00FF",
   "jp": "それだけ妖怪が強いって事よ……",
-  "en": "",
-  "status": "todo",
+  "en": "That's how strong the yokai are...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:53",
   "hdr": "FFFF 00FF",
   "jp": "なんてな！　ウソだって。{n}バトルなんてちょ～簡単だから。",
-  "en": "",
-  "status": "todo",
+  "en": "Just kidding! That was a lie.{n}Battles are suuuper easy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:54",
   "hdr": "FFFF 00FF",
   "jp": "さて僕も帰ってテレビ見よっと。{n}ナスカイザーの時間だもん。",
-  "en": "",
-  "status": "todo",
+  "en": "Time to go home and watch TV.{n}Nazkaiser's about to start.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:55",
   "hdr": "FFFF 00FF",
   "jp": "ではまた「どこか」で！{n}フヒヒ……",
-  "en": "",
-  "status": "todo",
+  "en": "See you \"somewhere\" again!{n}Heh heh heh...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:56",
   "hdr": "FFFF 00FF",
   "jp": "ノビヨのプチ講座最終回！{n}上から失礼～。",
-  "en": "",
-  "status": "todo",
+  "en": "Nobiyo's Mini-Lessons: The Finale!{n}Pardon me, up here!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:57",
   "hdr": "FFFF 00FF",
   "jp": "今、ちらばったよね？{n}何かがいっぱい。",
-  "en": "",
-  "status": "todo",
+  "en": "A whole lot of something{n}just scattered about, didn't it?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:58",
   "hdr": "FFFF 00FF",
   "jp": "それについて説明しようではないか。",
-  "en": "",
-  "status": "todo",
+  "en": "Allow me to explain what that was!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:59",
   "hdr": "FFFF 00FF",
   "jp": "まるで涙のような美しい液体。{n}その名を「ナミダ」という……",
-  "en": "",
-  "status": "todo",
+  "en": "A lovely liquid, much like Tears.{n}Its name... is \"Tears\"...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:60",
   "hdr": "FFFF 00FF",
   "jp": "いくらエピソードが出現しても{n}ナミダが足りないと見られないよ。",
-  "en": "",
-  "status": "todo",
+  "en": "No matter how many Episodes appear,{n}you need enough Tears to view them.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:61",
   "hdr": "FFFF 00FF",
   "jp": "ナミダを集めていけば、新たな{n}エピソードもどんどん見られるよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Keep collecting Tears to view{n}more and more new Episodes.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:62",
   "hdr": "FFFF 00FF",
   "jp": "ニャンコちゃんとかワンコちゃんの{n}ちょっといい話とかウラ話がね。",
-  "en": "",
-  "status": "todo",
+  "en": "Sweet little tales and secret stories{n}about Kitty-chan and Doggy-chan.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:63",
   "hdr": "FFFF 00FF",
   "jp": "もっとすごいウラ話とか{n}おまけ話とか？？",
-  "en": "",
-  "status": "todo",
+  "en": "Even bigger secrets?{n}Bonus stories, perhaps??",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:64",
   "hdr": "FFFF 00FF",
   "jp": "それは僕も知りませんねぇ。{n}僕ってホラ、作曲家じゃないすか。",
-  "en": "",
-  "status": "todo",
+  "en": "Well, I wouldn't know about that.{n}I'm a composer, remember?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:65",
   "hdr": "FFFF 00FF",
   "jp": "ま、ナミダを集めまくれって事で、{n}いっぱい仕込んであるから探してよ。",
-  "en": "",
-  "status": "todo",
+  "en": "Anyway, collect all the Tears you can.{n}Lots are hidden, so hunt them down!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:66",
   "hdr": "FFFF 00FF",
   "jp": "仕込んだの僕じゃないですけどね。{n}たぶん妖怪のしわざですよ。",
-  "en": "",
-  "status": "todo",
+  "en": "I didn't put them there, though.{n}Probably the work of yokai.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:67",
   "hdr": "FFFF 00FF",
   "jp": "あれ？　今もチミの後ろに{n}誰か見えたけど？　その人誰？",
-  "en": "",
-  "status": "todo",
+  "en": "Hm? I just saw someone behind you,{n}my dear shudent. Who's that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:68",
   "hdr": "FFFF 00FF",
   "jp": "なんつって、無責任にさようなら～！",
-  "en": "",
-  "status": "todo",
+  "en": "Just kidding! Byeee!{n}I take no responsibility!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:69",
   "hdr": "FFFF 00FF",
   "jp": "ハイそこの白服の少年。{n}左に寄せてゆっくり止まりなさい。",
-  "en": "",
-  "status": "todo",
+  "en": "You there! Boy in white!{n}Pull over to the left and stop slowly.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:70",
   "hdr": "FFFF 00FF",
   "jp": "ビックリした？{n}ノビヨ先生の外国語講座です。",
-  "en": "",
-  "status": "todo",
+  "en": "Startled you? Welcome to{n}Nobiyo-sensei's Language Lessons.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:71",
   "hdr": "FFFF 00FF",
   "jp": "大事な説明を忘れていました。{n}大切なボタン操作を教えましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "I forgot an important explanation.{n}Let's learn some vital button controls.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:72",
   "hdr": "FFFF 00FF",
   "jp": "Aと思えばAボタンを、{n}Bと思えばBボタンを押すのです。",
-  "en": "",
-  "status": "todo",
+  "en": "If you think A, press the A Button.{n}If you think B, press the B Button.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:73",
   "hdr": "FFFF 00FF",
   "jp": "どうです？　カンタンでしょう？{n}さらにシンプルに説明しましょう。",
-  "en": "",
-  "status": "todo",
+  "en": "Well? Easy, isn't it?{n}Let me make it even simpler.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:74",
   "hdr": "FFFF 00FF",
   "jp": "次のシーンに注目して下さい。{n}今あるモノを念力で呼び寄せます。",
-  "en": "",
-  "status": "todo",
+  "en": "Watch this next scene closely.{n}I'll summon something with my mind.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:75",
   "hdr": "FFFF 00FF",
   "jp": "さあ、来てます来てます。{n}見てなさいよ……",
-  "en": "",
-  "status": "todo",
+  "en": "Here it comes, here it comes.{n}Keep your eyes on this...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:76",
   "hdr": "FFFF 00FF",
   "jp": "ジャーン！{n}まさしくこれです。",
-  "en": "",
-  "status": "todo",
+  "en": "Ta-daaa!{n}This is the very thing.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:77",
   "hdr": "FFFF 00FF",
   "jp": "これはですね、人や物に近づくと{n}こうして画面の右上に現れます。",
-  "en": "",
-  "status": "todo",
+  "en": "Approach a person or an object,{n}and this appears at the top right.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:78",
   "hdr": "FFFF 00FF",
   "jp": "夜な夜な現れますからね。{n}ごめんなさいマジメに話します。",
-  "en": "",
-  "status": "todo",
+  "en": "It haunts you night after night.{n}Sorry. I'll be serious now.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:79",
   "hdr": "FFFF 00FF",
   "jp": "このABアイコンには、これから{n}行うことが書かれているのじゃ。",
-  "en": "",
-  "status": "todo",
+  "en": "These A and B icons tell you{n}what you'll do, young whippersnapper.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:80",
   "hdr": "FFFF 00FF",
   "jp": "少年の心の中には常に迷いがある。{n}そんな心の内を描いた作品じゃ。",
-  "en": "",
-  "status": "todo",
+  "en": "A boy's heart is ever torn by doubt.{n}This work of art depicts his heart.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:81",
   "hdr": "FFFF 00FF",
   "jp": "なんか口調が変わってるよね？{n}作品ってのも大げさでした。",
-  "en": "",
-  "status": "todo",
+  "en": "Why am I talking differently now?{n}And \"work of art\" was a bit much.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:82",
   "hdr": "FFFF 00FF",
   "jp": "チミの選択によって、起こる事や{n}反応も変わるのでよく考えてね。",
-  "en": "",
-  "status": "todo",
+  "en": "Your choices change what happens{n}and how others react.{page}So think carefully, my dear shudent.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:83",
   "hdr": "FFFF 00FF",
   "jp": "ノビヨ講座AB編でした～！",
-  "en": "",
-  "status": "todo",
+  "en": "That was Nobiyo's A and B Lesson!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:84",
   "hdr": "FFFF 00FF",
   "jp": "あ、ゴメン、実践編があったわ。",
-  "en": "",
-  "status": "todo",
+  "en": "Oh, sorry. There's a practical lesson.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:85",
   "hdr": "FFFF 00FF",
   "jp": "これから動いて実践してみて。{n}今僕が話したありがたい教えを。",
-  "en": "",
-  "status": "todo",
+  "en": "Now move around and put my{n}precious teachings into practice.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:86",
   "hdr": "FFFF 00FF",
   "jp": "左の方にしょーもな……あ、いや{n}ハンサムボーイがいるんだよ。",
-  "en": "",
-  "status": "todo",
+  "en": "To the left is a worthle...{n}Er, a handsome young boy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:87",
   "hdr": "FFFF 00FF",
   "jp": "ここからはちょっと見えないかぁ？{n}すぐ先にいるからさ、ホントに。",
-  "en": "",
-  "status": "todo",
+  "en": "Can't quite see him from here?{n}He's just up ahead. Really!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:88",
   "hdr": "FFFF 00FF",
   "jp": "で、さっきのアイコンが出たら{n}AボタンかBボタンを押すのだ。",
-  "en": "",
-  "status": "todo",
+  "en": "When that icon from before appears,{n}press either the A or B Button.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2616:89",
   "hdr": "FFFF 00FF",
   "jp": "じゃ、お先～っす。",
-  "en": "",
-  "status": "todo",
+  "en": "Right, I'm outta here!",
+  "status": "done",
   "notes": ""
  }
 ]

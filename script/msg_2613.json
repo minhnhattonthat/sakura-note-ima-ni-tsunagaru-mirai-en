@@ -187,8 +187,8 @@
   "id": "2613:23",
   "hdr": "00FF 00FF",
   "jp": "『{col_F8}{num_F6}{col_FC}』{n}を手に入れた！！",
-  "en": "",
-  "status": "todo",
+  "en": "Got '{col_F8}{num_F6}{col_FC}'!",
+  "status": "done",
   "notes": ""
  },
  {
@@ -203,456 +203,456 @@
   "id": "2613:25",
   "hdr": "FFFF 00FF",
   "jp": "第一章{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:26",
   "hdr": "FFFF 00FF",
   "jp": "第二章{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:27",
   "hdr": "FFFF 00FF",
   "jp": "第三章{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:28",
   "hdr": "FFFF 00FF",
   "jp": "第四章{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:29",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:30",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:31",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:32",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:33",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:34",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:35",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:36",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:37",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:38",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:39",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:40",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:41",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: Special{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:42",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: Special{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:43",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: Special{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:44",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: Special{n}      {n}{num_F6}",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:45",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:46",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:47",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:48",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:49",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:50",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:51",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:52",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:53",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:54",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:55",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:56",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:57",
   "hdr": "FFFF 00FF",
   "jp": "第一章{sp}スペシャル{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 1: Special{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:58",
   "hdr": "FFFF 00FF",
   "jp": "第二章{sp}スペシャル{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 2: Special{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:59",
   "hdr": "FFFF 00FF",
   "jp": "第三章{sp}スペシャル{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 3: Special{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:60",
   "hdr": "FFFF 00FF",
   "jp": "第四章{sp}スペシャル{n}{n}{num_F6}{n}END",
-  "en": "",
-  "status": "todo",
+  "en": "Chapter 4: Special{n}{n}{num_F6}{n}END",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:61",
   "hdr": "FFFF 00FF",
   "jp": "丘下地区{sp}住宅街",
-  "en": "",
-  "status": "todo",
+  "en": "Lower Hill: Residential Area",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:62",
   "hdr": "FFFF 00FF",
   "jp": "丘下地区{sp}神社街",
-  "en": "",
-  "status": "todo",
+  "en": "Lower Hill: Shrine Area",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:63",
   "hdr": "FFFF 00FF",
   "jp": "高台地区",
-  "en": "",
-  "status": "todo",
+  "en": "Hilltop District",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:64",
   "hdr": "FFFF 00FF",
   "jp": "工場地帯",
-  "en": "",
-  "status": "todo",
+  "en": "Industrial District",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:65",
   "hdr": "FFFF 00FF",
   "jp": "丘下地区{sp}駅前",
-  "en": "",
-  "status": "todo",
+  "en": "Lower Hill: Station Front",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:66",
   "hdr": "FFFF 00FF",
   "jp": "このエピソードを始めますか？{n}{col_FB}はじめる{n}{col_F7}もどる",
-  "en": "",
-  "status": "todo",
+  "en": "Start this Episode?{n}{col_FB}Start{n}{col_F7}Back",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:67",
   "hdr": "FFFF 00FF",
   "jp": "このエピソードを始めますか？{n}{col_FB}はじめる{n}{col_F7}もどる{n}{col_FA}章のはじめからやり直す",
-  "en": "",
-  "status": "todo",
+  "en": "Start this Episode?{n}{col_FB}Start{n}{col_F7}Back{n}{col_FA}Restart chapter",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:68",
   "hdr": "FFFF 00FF",
   "jp": "このエピソードを続けますか？{n}{col_FB}つづける{n}{col_F7}もどる{n}{col_FA}章のはじめからやり直す",
-  "en": "",
-  "status": "todo",
+  "en": "Continue this Episode?{n}{col_FB}Continue{n}{col_F7}Back{n}{col_FA}Restart chapter",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:69",
   "hdr": "FFFF 00FF",
   "jp": "このエピソードを始めるには{n}{col_FB}{num_F5}{col_FC}のナミダが必要です",
-  "en": "",
-  "status": "todo",
+  "en": "You need {col_FB}{num_F5}{col_FC} Tears{n}to start this Episode.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:70",
   "hdr": "FFFF 00FF",
   "jp": "持っているナミダは{col_F7}{num_F5}{n}{col_FA}散らばったナミダを探しましょう",
-  "en": "",
-  "status": "todo",
+  "en": "You have {col_F7}{num_F5} Tears.{n}{col_FA}Look for scattered Tears.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:71",
   "hdr": "FFFF 00FF",
   "jp": "今までの進行をセーブしますか？{n}　{n}これは仮画面です{n}　{n}Aボタン　はい{n}Bボタン　いいえ",
-  "en": "",
-  "status": "todo",
+  "en": "Save your progress so far?{n}This is a temporary screen.{n}A Button: Yes{n}B Button: No",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:72",
   "hdr": "FFFF 00FF",
   "jp": "これまでの進行をセーブします。{n}この場所から再開します。",
-  "en": "",
-  "status": "todo",
+  "en": "Your progress will be saved.{n}You'll resume from here.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:73",
   "hdr": "FFFF 00FF",
   "jp": "このエピソードを開始すると、{n}{num_F5}章の再開地点は{n}{col_FA}セーブポイント{col_FC}からとなります。{n}よろしいですか？",
-  "en": "",
-  "status": "todo",
+  "en": "If you start this Episode,{n}Chapter {num_F5} will resume{n}from a {col_FA}Save Point{col_FC}.{n}Is that OK?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:74",
   "hdr": "FFFF 00FF",
   "jp": "{num_F5}章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編の{col_FB}中断データ{col_FC}を{n}再開してよろしいですか？{n}{col_FB}中断データ{col_FC}は削除されますので{n}電源を切る前に必ず{col_FA}セーブポイント{col_FC}で{n}セーブを行なってください。",
-  "en": "",
-  "status": "todo",
+  "en": "Resume Chapter {num_F5},{n}{var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}from {col_FB}Suspend Data{col_FC}?{page}{col_FB}Suspend Data{col_FC} will be deleted.{n}Save at a {col_FA}Save Point{col_FC} before{n}turning off the power.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:75",
   "hdr": "FFFF 00FF",
   "jp": "開始すると他の章の{col_FB}中断データ{col_FC}が{n}消去され、その章で最後にセーブした{n}{col_FA}セーブポイント{col_FC}から再開となります。{n}よろしいですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Starting erases the other chapter's{n}{col_FB}Suspend Data{col_FC}. It resumes at{n}its last saved {col_FA}Save Point{col_FC}.{n}Is that OK?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:76",
   "hdr": "FFFF 00FF",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}編のここまでの進行を{n}{col_FB}中断データ{col_FC}としてセーブします。{n}よろしいですか？",
-  "en": "",
-  "status": "todo",
+  "en": "Save progress in {var_EF}{slot}{slot}{slot}{slot}{slot}'s Story{n}as {col_FB}Suspend Data{col_FC}?{n}Is that OK?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:77",
   "hdr": "FFFF 00FF",
   "jp": "現在、{col_FB}{num_F5}章の中断データ{col_FC}があるため{n}他の章を選べません。",
-  "en": "",
-  "status": "todo",
+  "en": "You have {col_FB}Chapter {num_F5} Suspend Data{col_FC},{n}so other chapters are locked.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:78",
   "hdr": "FFFF 00FF",
   "jp": "{num_F5}章の{col_FB}中断データ{col_FC}に戻り{n}{col_FA}セーブポイント{col_FC}でセーブすると、{n}他の章がプレイ出来るようになります。",
-  "en": "",
-  "status": "todo",
+  "en": "Resume Chapter {num_F5}'s {col_FB}Suspend Data{col_FC}{n}and save at a {col_FA}Save Point{col_FC}{n}to play other chapters.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:79",
   "hdr": "FFFF 00FF",
   "jp": "{col_FB}はい{n}{col_F7}いいえ",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FB}Yes{n}{col_F7}No",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:80",
   "hdr": "FFFF 00FF",
   "jp": "{col_FB}はい{n}{col_F7}いいえ{n}{col_FA}章のはじめからやり直す",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FB}Yes{n}{col_F7}No{n}{col_FA}Restart chapter",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2613:81",
   "hdr": "FFFF 00FF",
   "jp": "{col_F7}もどる",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F7}Back",
+  "status": "done",
   "notes": ""
  },
  {

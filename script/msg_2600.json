@@ -3,352 +3,352 @@
   "id": "2600:0",
   "hdr": "0023 0011",
   "jp": "待てよ、{var_ED}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "Wait up, {var_ED}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:1",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(もうカンベンです……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(Please, give me a break...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:2",
   "hdr": "0023 0011",
   "jp": "だいたいひどいよな、七海。{n}一言も言わないでさ。",
-  "en": "",
-  "status": "todo",
+  "en": "Nanami's so mean, anyway.{n}She didn't even say a word.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:3",
   "hdr": "0023 0011",
   "jp": "おれは言いたいことが{n}山ほどあるんだ！",
-  "en": "",
-  "status": "todo",
+  "en": "I've got a ton of things{n}I want to say to her!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:4",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(気持ちはわかりますけど……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I understand how you feel, but...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:5",
   "hdr": "0023 0011",
   "jp": "結婚の約束までしたってのに！",
-  "en": "",
-  "status": "todo",
+  "en": "We even promised to get married!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:6",
   "hdr": "0004 000D",
   "jp": "くーん……{n}{col_F8}(幼稚園の頃だって聞いてます……)",
-  "en": "",
-  "status": "todo",
+  "en": "Whine...{n}{col_F8}(I heard that was in kindergarten...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:7",
   "hdr": "0004 000D",
   "jp": "ワン！　わわわわん！{n}{col_F8}(あっ！　七海さん！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, woof, woof!{n}{col_F8}(Oh! Nanami-san!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:8",
   "hdr": "0023 0011",
   "jp": "待て！",
-  "en": "",
-  "status": "todo",
+  "en": "Wait!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:9",
   "hdr": "0007 000F",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}！！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_ED}{slot}{slot}{slot}{slot}{slot}!!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:10",
   "hdr": "0004 000D",
   "jp": "わわわわん！{n}{col_F8}(七海さん、すごいです！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof, woof, woof!{n}{col_F8}(Nanami-san, it's wonderful!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:11",
   "hdr": "0004 000D",
   "jp": "わわん！　わわわわわぉーん！{n}{col_F8}(パパさんママさん一緒です！)",
-  "en": "",
-  "status": "todo",
+  "en": "Woof! Woof, awoooo!{n}{col_F8}(Papa-san and Mama-san are together!)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:12",
   "hdr": "0023 0011",
   "jp": "やあ……七海。",
-  "en": "",
-  "status": "todo",
+  "en": "Hey... Nanami.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:13",
   "hdr": "0007 000F",
   "jp": "コジマ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Kojima!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:14",
   "hdr": "0023 0011",
   "jp": "それ、誰？",
-  "en": "",
-  "status": "todo",
+  "en": "Who's that?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:15",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}くん。",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}-kun.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:16",
   "hdr": "0007 000F",
   "jp": "おじさん、おばさん……",
-  "en": "",
-  "status": "todo",
+  "en": "Sir, ma'am...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:17",
   "hdr": "0007 000F",
   "jp": "先に行っててください。{n}わたしも、すぐに行きますから。",
-  "en": "",
-  "status": "todo",
+  "en": "Please go on ahead.{n}I'll be right there.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:18",
   "hdr": "0004 000D",
   "jp": "ぐるるる……{n}{col_F8}(コジマくん……)",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrr...{n}{col_F8}(Kojima-kun...)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:19",
   "hdr": "0004 000D",
   "jp": "ぐるるるる……{n}{col_F8}(どうしようもないことですよ)",
-  "en": "",
-  "status": "todo",
+  "en": "Grrrrr...{n}{col_F8}(There's nothing you can do about it.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:20",
   "hdr": "0004 000D",
   "jp": "くぃーん……{n}{col_F8}(犬なんて、そんなのばっかり)",
-  "en": "",
-  "status": "todo",
+  "en": "Whiiine...{n}{col_F8}(It's always like that for us dogs.)",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:21",
   "hdr": "0023 0011",
   "jp": "どうして相談しないんだよ！",
-  "en": "",
-  "status": "todo",
+  "en": "Why didn't you talk to me about it?!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:22",
   "hdr": "0007 000F",
   "jp": "相談しようと思ったら{n}コジマはこう言ったの。",
-  "en": "",
-  "status": "todo",
+  "en": "I was going to talk to you.{n}But then you said this, Kojima.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:23",
   "hdr": "0007 000F",
   "jp": "七海、おまえちょっと太ったぞ。{n}悩みなんてないんだろう、って。",
-  "en": "",
-  "status": "todo",
+  "en": "\"Nanami, you've gotten a bit fat.{n}You must not have a care in the world.\"",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:24",
   "hdr": "0023 0011",
   "jp": "……悪かった。{n}もう1回相談してくれ。",
-  "en": "",
-  "status": "todo",
+  "en": "...I'm sorry.{n}Give me another chance. Talk to me.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:25",
   "hdr": "0007 000F",
   "jp": "コジマに相談しても{n}どうしようもない。",
-  "en": "",
-  "status": "todo",
+  "en": "Talking to you won't{n}change anything, Kojima.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:26",
   "hdr": "0007 000F",
   "jp": "子供は親について行くしか{n}ないじゃない！",
-  "en": "",
-  "status": "todo",
+  "en": "Kids have no choice but to go{n}where their parents go!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:27",
   "hdr": "0023 0011",
   "jp": "そんなことない！{n}ふたりで作戦を考えよう！",
-  "en": "",
-  "status": "todo",
+  "en": "That's not true!{n}Let's come up with a plan together!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:28",
   "hdr": "0007 000F",
   "jp": "だから！　今は忙しいの！",
-  "en": "",
-  "status": "todo",
+  "en": "I told you! I'm busy right now!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:29",
   "hdr": "0023 0011",
   "jp": "3分後は？",
-  "en": "",
-  "status": "todo",
+  "en": "How about in three minutes?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:30",
   "hdr": "0007 000F",
   "jp": "同じ。",
-  "en": "",
-  "status": "todo",
+  "en": "Still busy.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:31",
   "hdr": "0023 0011",
   "jp": "じゃあ、30分後！",
-  "en": "",
-  "status": "todo",
+  "en": "Then in thirty minutes!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:32",
   "hdr": "0007 000F",
   "jp": "そういうところがキライなの。",
-  "en": "",
-  "status": "todo",
+  "en": "That's what I hate about you.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:33",
   "hdr": "0023 0011",
   "jp": "キ、キライ……",
-  "en": "",
-  "status": "todo",
+  "en": "H-hate...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:34",
   "hdr": "0007 000F",
   "jp": "好きじゃなくなったと思ってた。{n}でも、今、わかった。",
-  "en": "",
-  "status": "todo",
+  "en": "I thought I'd just stopped liking you.{n}But now I know.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:35",
   "hdr": "0023 0011",
   "jp": "それ以上、言うな-！",
-  "en": "",
-  "status": "todo",
+  "en": "Don't say another word!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:36",
   "hdr": "0007 000F",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:37",
   "hdr": "0023 0011",
   "jp": "グスン……{n}わ、わかったよ、七海……",
-  "en": "",
-  "status": "todo",
+  "en": "Sniff...{n}I-I get it, Nanami...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:38",
   "hdr": "0007 000F",
   "jp": "泣かなくてもいいじゃない。",
-  "en": "",
-  "status": "todo",
+  "en": "You don't have to cry.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:39",
   "hdr": "0023 0011",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}……{n}七海を……七海を……グズン……",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}...{n}Nanami... Nanami... Sniff...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:40",
   "hdr": "0007 000F",
   "jp": "コ、コジマ、だいじょうぶ！？",
-  "en": "",
-  "status": "todo",
+  "en": "K-Kojima, are you okay!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:41",
   "hdr": "0023 0011",
   "jp": "グズン……ぐえ！？",
-  "en": "",
-  "status": "todo",
+  "en": "Sniff... Gack!?",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:42",
   "hdr": "0023 0027",
   "jp": "キマヨイキマヨイ……",
-  "en": "",
-  "status": "todo",
+  "en": "Waverwood, Waverwood...",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2600:43",
   "hdr": "0023 0027",
   "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}！{n}お邪魔少年！　消え失せろい！",
-  "en": "",
-  "status": "todo",
+  "en": "{var_EF}{slot}{slot}{slot}{slot}{slot}!{n}You meddling boy! Get lost!",
+  "status": "done",
   "notes": ""
  }
 ]

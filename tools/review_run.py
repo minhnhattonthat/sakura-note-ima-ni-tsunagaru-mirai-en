@@ -31,7 +31,9 @@ def review(name):
     parts = []
     for doc in ("docs/reviewer-brief.md", "docs/style-reference.md", "docs/synopsis.md"):
         parts.append(f"=== {doc} ===\n" + (ROOT / doc).read_text(encoding="utf-8"))
-    parts.append(f"=== glossary rows ===\n" + (ROOT / f"build/terms_{name}.txt").read_text(encoding="utf-8"))
+    terms = ROOT / f"build/terms_{name}.txt"
+    parts.append("=== glossary rows ===\n" + (terms.read_text(encoding="utf-8") if terms.exists()
+                                                else (ROOT / "glossary.md").read_text(encoding="utf-8")))
     parts.append(f"=== pairs {name} ===\n" + pairs(name))
     pf = REV / f"{name}.prompt.txt"
     pf.write_text("\n\n".join(parts), encoding="utf-8", newline="\n")

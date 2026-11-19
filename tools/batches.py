@@ -143,8 +143,13 @@ def width_problems(entry, en):
     out = []
     if form in ("card", "credits", "button") and jp.count("{n}") != en.count("{n}"):
         out.append(f"{form}: keep the JP line count ({jp.count('{n}') + 1} lines)")
-    if form == "card" and [r == "" for r in jp.split("{n}")] != [TOKEN.sub("", r).strip() == "" for r in en.split("{n}")]:
+    def blank(row):  # a layout line: empty or spaces only (JP uses full-width spaces; str.strip drops U+3000)
+        return row.strip() == ""
+
+    if form == "card" and [blank(r) for r in jp.split("{n}")] != [blank(r) for r in en.split("{n}")]:
         out.append("card: blank lines must stay where the JP has them")
+    if form in ("card", "credits"):  # these keep the JP line count, so the JP's count is the cap
+        lines = max(lines or 0, jp.count("{n}") + 1)
     if form == "item" and "{n}{n}" in jp and "{n}{n}" not in en:
         out.append("item: keep name{n}{n}body")
     for p, page in enumerate(en.split("{page}")):

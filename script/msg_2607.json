@@ -3,168 +3,168 @@
   "id": "2607:0",
   "hdr": "FFFF 00FF",
   "jp": "セーブするファイルを{n}選んでください",
-  "en": "",
-  "status": "todo",
+  "en": "Choose a file{n}to save to.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:1",
   "hdr": "FFFF 00FF",
   "jp": "データを上書きする",
-  "en": "",
-  "status": "todo",
+  "en": "Overwrite Data",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:2",
   "hdr": "FFFF 00FF",
   "jp": "セーブする",
-  "en": "",
-  "status": "todo",
+  "en": "Save",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:3",
   "hdr": "FFFF 00FF",
   "jp": "クリアデータに上書きする",
-  "en": "",
-  "status": "todo",
+  "en": "Overwrite Clear Data",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:4",
   "hdr": "FFFF 00FF",
   "jp": "やっぱりやめる",
-  "en": "",
-  "status": "todo",
+  "en": "Cancel",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:5",
   "hdr": "FFFF 00FF",
   "jp": "ロードするファイルを{n}選んでください",
-  "en": "",
-  "status": "todo",
+  "en": "Choose a file{n}to load.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:6",
   "hdr": "FFFF 00FF",
   "jp": "このファイルで再開する",
-  "en": "",
-  "status": "todo",
+  "en": "Resume This File",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:7",
   "hdr": "FFFF 00FF",
   "jp": "やっぱりやめる",
-  "en": "",
-  "status": "todo",
+  "en": "Cancel",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:8",
   "hdr": "FFFF 00FF",
   "jp": "はじめから",
-  "en": "",
-  "status": "todo",
+  "en": "New Game",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:9",
   "hdr": "FFFF 00FF",
   "jp": "このファイルを消す",
-  "en": "",
-  "status": "todo",
+  "en": "Delete This File",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:10",
   "hdr": "FFFF 00FF",
   "jp": "やっぱりやめる",
-  "en": "",
-  "status": "todo",
+  "en": "Cancel",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:11",
   "hdr": "FFFF 00FF",
   "jp": "いいから消しちゃって",
-  "en": "",
-  "status": "todo",
+  "en": "Yes, Delete It",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:12",
   "hdr": "FFFF 00FF",
   "jp": "やっぱりやめる",
-  "en": "",
-  "status": "todo",
+  "en": "Cancel",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:13",
   "hdr": "FFFF 00FF",
   "jp": "セーブしています……{n}{n}{col_F9}電源を切ったり{n}カードの抜き差しをしないで下さい",
-  "en": "",
-  "status": "todo",
+  "en": "Saving...{n}{n}{col_F9}Do not turn off the power{n}or insert or remove the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:14",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}セーブしています……{n}{n}{col_FB}電源を切ったり{n}カードの抜き差しをしないで下さい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Saving...{n}{n}{col_FB}Do not turn off the power{n}or insert or remove the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:15",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ファイルを削除しています……{n}{n}{col_FB}電源を切ったり{n}カードの抜き差しをしないで下さい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Deleting file...{n}{n}{col_FB}Do not turn off the power{n}or insert or remove the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:16",
   "hdr": "FFFF 00FF",
   "jp": "セーブが終わりました",
-  "en": "",
-  "status": "todo",
+  "en": "Save complete.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:17",
   "hdr": "FFFF 00FF",
   "jp": "{col_FB}セーブに失敗しました{n}電源を切り{n}カードを差し直して下さい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FB}Save failed.{n}Turn off the power{n}and reinsert the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:18",
   "hdr": "FFFF 00FF",
   "jp": "{col_FB}セーブデータを読めませんでした{n}電源を切り{n}カードを差し直して下さい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FB}Could not read save data.{n}Turn off the power{n}and reinsert the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:19",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}フォーマットしています{n}電源を切ったり{n}カードの抜き差しをしないで下さい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F9}Formatting...{n}Do not turn off the power{n}or insert or remove the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:20",
   "hdr": "FFFF 00FF",
   "jp": "{col_FB}フォーマットに失敗しました{n}電源を切り{n}カードを差し直して下さい",
-  "en": "",
-  "status": "todo",
+  "en": "{col_FB}Formatting failed.{n}Turn off the power{n}and reinsert the Game Card.",
+  "status": "done",
   "notes": ""
  },
  {
@@ -179,48 +179,48 @@
   "id": "2607:22",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}セーブが終了しました",
-  "en": "",
-  "status": "todo",
+  "en": "{col_F8}Save complete.",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:23",
   "hdr": "FFFF 00FF",
   "jp": "第1話",
-  "en": "",
-  "status": "todo",
+  "en": "Episode 1",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:24",
   "hdr": "FFFF 00FF",
   "jp": "第2話",
-  "en": "",
-  "status": "todo",
+  "en": "Episode 2",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:25",
   "hdr": "FFFF 00FF",
   "jp": "第3話",
-  "en": "",
-  "status": "todo",
+  "en": "Episode 3",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:26",
   "hdr": "FFFF 00FF",
   "jp": "第4話",
-  "en": "",
-  "status": "todo",
+  "en": "Episode 4",
+  "status": "done",
   "notes": ""
  },
  {
   "id": "2607:27",
   "hdr": "FFFF 00FF",
   "jp": "最終話",
-  "en": "",
-  "status": "todo",
+  "en": "Final Episode",
+  "status": "done",
   "notes": ""
  },
  {

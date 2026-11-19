@@ -739,7 +739,7 @@
   "id": "2520:92",
   "hdr": "00FF 000C",
   "jp": "《急に怖くなって、彼の携帯を{n}　ゴミ箱に捨ててしまった。》",
-  "en": "\"I suddenly got scared{n}and threw his Cell Phone away.\"",
+  "en": "\"I suddenly got scared{n}and put his Cell Phone in the trash can.\"",
   "status": "done",
   "notes": ""
  },
@@ -1563,7 +1563,7 @@
   "id": "2520:195",
   "hdr": "0020 0015",
   "jp": "プレゼント{sp}フォー{sp}ピュー！",
-  "en": "A present for cheep!",
+  "en": "A present for pyou!",
   "status": "done",
   "notes": ""
  },

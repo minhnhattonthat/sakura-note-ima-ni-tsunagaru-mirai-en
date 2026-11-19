@@ -14,8 +14,12 @@ of a paragraph ending on a stub line under 6 characters (a drawn name counts 5).
 NitroFS moves every file), so it compares leaf by leaf:
 - header: only the offset/size words ndspy relays out and a valid header CRC differ;
 - arm7, overlay tables, overlay 0, banner, file names, every other NitroFS file: identical;
-- overlay 1: only the credits-x writes, each at a credits call's `mov r2` (`docs/re/credits.md`);
-- arm9: same autoload sections + the VWF block (= `vwf.hook_block()`); section 0 passes `romdiff.check` with the
+- overlay 1: only the credits-x writes, each exactly 4 bytes at a credits call's `mov r2`, replaced by a
+  `mov r2, #x` whose x is the centred x of the script English; no entry that needs a new x is left unwritten
+  (`docs/re/credits.md`). The build centres on the text it inserts (QA overrides and marker included);
+- arm9: same autoload sections + the VWF block (= `vwf.hook_block()`); every logged section-0 write fits one
+  interval of `romcheck.arm9_allowed()` (the 7 string slots, the two 8-byte hook sites, the arena-lo literal:
+  fixed from `script.ARM9_SLOTS` and `vwf` constants, not from the log); section 0 passes `romdiff.check` with the
   write log (original bytes as logged, no overlap, nothing overwritten, no unlogged change) apart from the
   module-params autoload words ndspy rewrites; no branch lands strictly inside a hook span;
 - FILEDATA: same entry count, only fonts 860/872 and message files 2495-2616 change; font bytes only inside the
@@ -27,4 +31,6 @@ NitroFS moves every file), so it compares leaf by leaf:
 
 Every write into a fixed binary goes through `tools/writelog.put()` (`TARGET OFFSET ORIG NEW writer` lines).
 Tampering tests in `tests/test_romcheck.py`: a stray arm9 byte, a wrong logged original, an unlogged hook or
-credits write, a changed NitroFS file, a script/ROM text mismatch.
+credits write, a changed NitroFS file, a script/ROM text mismatch, an accurately logged arm9 write outside the
+allowed intervals or spilling past a slot, a credits write that is not a `mov r2`, has the wrong x or runs past
+one instruction; and a QA override's credits x centred on the override text.

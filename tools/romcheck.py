@@ -6,9 +6,12 @@ A raw byte diff is useless here (arm9 grows, so NitroFS shifts every file), so t
 may change, piece by piece, and fails on anything else:
 - header: only the offset/size fields ndspy relays out and the header CRC (which must be valid) differ;
 - arm7, both overlay tables, overlay 0, the banner, the file names and every other NitroFS file: identical;
-- overlay 1 (ending): only the logged credits-x writes, each at a credits call's `mov r2, #x` (tools/credits.py);
-- arm9: the same autoload sections plus one new block at vwf.HOOK equal to vwf.hook_block(); section 0 passes
-  romdiff.check with the build's write log (original bytes as logged, no overlap, nothing overwritten, no changed
+- overlay 1 (ending): only the logged credits-x writes, each exactly one instruction at a credits call's
+  `mov r2, #x` (tools/credits.py), replaced by `mov r2, #x` with x the centred x of the script English; every
+  entry whose x must move has its write;
+- arm9: the same autoload sections plus one new block at vwf.HOOK equal to vwf.hook_block(); every logged
+  section-0 write lies inside one interval of arm9_allowed() (string slots, hook sites, arena literal, fixed
+  independently of the log); section 0 passes romdiff.check with the build's write log (original bytes as logged, no overlap, nothing overwritten, no changed
   byte without a write) apart from the module-params words ndspy rewrites; no branch in section 0 lands strictly
   inside a hook span;
 - FILEDATA: same entry count, only the two fonts and the message files differ; font bytes change only inside the
@@ -115,8 +118,28 @@ def branch_targets(code, base):
     return out
 
 
+def arm9_allowed():
+    """Section-0 intervals (arm9.bin offsets, [lo, hi)) a build may write, fixed independently of the write log:
+    the string slots, the two 8-byte hook sites (ldr pc + literal) and the arena-lo literal."""
+    out = [(off, off + slot, f"string slot arm9:{off:06X}") for off, slot, _ in script.ARM9_SLOTS]
+    out += [(vwf.ADV_FUNC - vwf.ARM9_BASE, vwf.ADV_FUNC - vwf.ARM9_BASE + 8, "advance hook site"),
+            (vwf.TAG_LOOP - vwf.ARM9_BASE, vwf.TAG_LOOP - vwf.ARM9_BASE + 8, "tag hook site"),
+            (vwf.ARENA_LIT - vwf.ARM9_BASE, vwf.ARENA_LIT - vwf.ARM9_BASE + 4, "arena lo literal")]
+    return out
+
+
+def check_arm9_regions(writes, errs):
+    """Every logged write lies entirely inside one allowed interval."""
+    allowed = arm9_allowed()
+    for off, old, new, by in writes:
+        end = off + max(len(old), len(new))
+        if len(old) != len(new) or not any(lo <= off and end <= hi for lo, hi, _ in allowed):
+            errs.append(f"arm9 write {off:#x}-{end:#x} ({by}) is not inside a string slot or hook site")
+
+
 def check_arm9(o9, n9, writes, errs):
-    a, b = ndspy.code.MainCodeFile(o9, vwf.ARM9_BASE), ndspy.code.MainCodeFile(n9, vwf.ARM9_BASE)
+    check_arm9_regions(writes, errs)
+    a, b =ndspy.code.MainCodeFile(o9, vwf.ARM9_BASE), ndspy.code.MainCodeFile(n9, vwf.ARM9_BASE)
     sa, sb = a.sections, b.sections
     old = [(s.ramAddress, s.data, s.bssSize) for s in sa[1:]]
     new = [(s.ramAddress, s.data, s.bssSize) for s in sb[1:] if s.ramAddress != vwf.HOOK]
@@ -245,9 +268,28 @@ def check_overlay(ro, rn, writes, errs):
         return 0
     e, ok = romdiff.check(a, b, [], writes)
     errs += [f"overlay {credits.OVERLAY} {x}" for x in e]
-    sites = {xoff for _, _, xoff, _, _ in credits.calls(a)}
-    errs += [f"overlay {credits.OVERLAY} write at {off:#x} ({by}) is not a credits x immediate"
-             for off, _, _, by in writes if off not in sites]
+    rows = {r["id"]: r for r in script.load(f"msg_{credits.MSG}.json")}
+    sites = {xoff: idx for _, idx, xoff, _, _ in credits.calls(a)}
+    for off, old, new, by in writes:
+        where = f"overlay {credits.OVERLAY} write at {off:#x} ({by})"
+        if off not in sites:
+            errs.append(f"{where} is not a credits x immediate")
+            continue
+        if len(old) != 4 or len(new) != 4:
+            errs.append(f"{where}: {len(old)}/{len(new)} bytes, a credits x write is exactly one instruction")
+            continue
+        x = credits.mov_imm(struct.unpack("<I", new)[0], 2)
+        r = rows.get(f"{credits.MSG}:{sites[off]}")
+        want = credits.centred_x(r[insert.LANG]) if r and r.get(insert.LANG) else None
+        if x is None:
+            errs.append(f"{where}: new instruction {new.hex()} is not `mov r2, #imm`")
+        elif x != want:
+            errs.append(f"{where}: x {x}, the centred x for the script English is {want}")
+    written = {off for off, _, _, _ in writes}
+    for _, idx, xoff, x, _ in credits.calls(a):
+        r = rows.get(f"{credits.MSG}:{idx}")
+        if r and r.get(insert.LANG) and credits.centred_x(r[insert.LANG]) != x and xoff not in written:
+            errs.append(f"overlay {credits.OVERLAY}: credits {credits.MSG}:{idx} at {xoff:#x} not re-centred")
     return ok
 
 

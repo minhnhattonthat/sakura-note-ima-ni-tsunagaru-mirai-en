@@ -65,10 +65,16 @@ def edit_overlays(rom, mode, writes):
     if mode == "identity":
         return
     import credits
+    import insert
     import script
     log = writes.setdefault("overlay1", []) if writes is not None else None
+    ctx = insert.Ctx()
+
+    def text_of(r):  # the same text message insertion writes for this entry (QA overrides, marker)
+        text, table = insert.entry_text(r, mode == "marker", ctx)
+        return None if table is ctx.jp else text
     rom.files[credits.OVERLAY] = credits.patch_overlay(bytes(rom.files[credits.OVERLAY]),
-                                                       script.load(f"msg_{credits.MSG}.json"), log)
+                                                       script.load(f"msg_{credits.MSG}.json"), log, text_of)
 
 
 def build(orig_bytes=None, mode="identity", writes=None):

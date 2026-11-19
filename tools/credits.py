@@ -95,16 +95,19 @@ def centred_x(text):
     return CENTRE - (w + 1) // 2
 
 
-def patch_overlay(ov, rows, log=None):
-    """Overlay bytes with every translated line's x re-centred (writelog entries in log, overlay offsets)."""
+def patch_overlay(ov, rows, log=None, text_of=None):
+    """Overlay bytes with every translated line's x re-centred (writelog entries in log, overlay offsets).
+    text_of(row): the text the build inserts for that entry (QA overrides, marker), None = left in Japanese;
+    default: the row's English."""
     from writelog import put
+    text_of = text_of or (lambda r: r.get("en"))
     out = bytearray(ov)
     byid = {r["id"]: r for r in rows}
     for p, idx, xoff, x, y in calls(ov):
-        r = byid[f"{MSG}:{idx}"]
-        if not r.get("en"):
+        text = text_of(byid[f"{MSG}:{idx}"])
+        if not text:
             continue
-        new = centred_x(r["en"])
+        new = centred_x(text)
         if new != x:
             put(out, xoff, struct.pack("<I", encode_mov(2, new)), f"credits x {MSG}:{idx}", log,
                 struct.pack("<I", encode_mov(2, x)))

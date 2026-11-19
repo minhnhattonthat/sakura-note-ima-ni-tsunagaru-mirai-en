@@ -56,6 +56,78 @@ def test_unlogged_write_fails(built):
     assert any("overlay 1" in e and "outside writes" in e for e in run(orig, rom, w))
 
 
+def test_logged_arm9_write_outside_allowed_regions_fails(built):
+    """A write the log records accurately still fails when it is not in a string slot or hook site."""
+    orig, rom, writes = built
+    off = 0x50000
+    bad = bytearray(rom)
+    a9 = arm9_rom_offset(rom)
+    old = bytes(bad[a9 + off:a9 + off + 1])
+    bad[a9 + off] ^= 0xFF
+    w = {**writes, "arm9": writes["arm9"] + [(off, old, bytes(bad[a9 + off:a9 + off + 1]), "stray")]}
+    assert any("not inside a string slot or hook site" in e for e in run(orig, bytes(bad), w))
+
+
+def test_arm9_write_spilling_past_its_slot_fails():
+    import romcheck
+    import script
+    off, slot, _ = script.ARM9_SLOTS[0]
+    errs = []
+    romcheck.check_arm9_regions([(off, bytes(slot + 2), bytes(slot + 2), "too long")], errs)
+    assert errs and "not inside" in errs[0]
+    errs = []
+    romcheck.check_arm9_regions([(off, bytes(slot), bytes(slot), "fits")], errs)
+    assert errs == []
+
+
+def overlay_tamper(built, new_bytes):
+    """Replace the first credits-x write's new bytes in the overlay and its log entry; returns the errors."""
+    import ndspy.rom
+    import credits
+    orig, rom, writes = built
+    r = ndspy.rom.NintendoDSRom(rom)
+    ov = bytearray(r.files[credits.OVERLAY])
+    off, old, _, by = writes["overlay1"][0]
+    old = bytes(ndspy.rom.NintendoDSRom(orig).files[credits.OVERLAY][off:off + len(new_bytes)])
+    ov[off:off + len(new_bytes)] = new_bytes
+    r.files[credits.OVERLAY] = bytes(ov)
+    import build
+    out = build.fix_ndspy(orig, r.save())
+    w = {**writes, "overlay1": [(off, old, new_bytes, by)] + writes["overlay1"][1:]}
+    return run(orig, out, w)
+
+
+def test_credits_write_not_a_mov_fails(built):
+    assert any("not `mov r2, #imm`" in e for e in overlay_tamper(built, bytes(4)))
+
+
+def test_credits_write_wrong_x_fails(built):
+    import credits
+    assert any("centred x" in e for e in overlay_tamper(built, struct.pack("<I", credits.encode_mov(2, 3))))
+
+
+def test_credits_write_longer_than_one_instruction_fails(built):
+    import ndspy.rom
+    import credits
+    orig, rom, writes = built
+    off = writes["overlay1"][0][0]
+    cur = bytes(ndspy.rom.NintendoDSRom(rom).files[credits.OVERLAY][off:off + 8])
+    assert any("exactly one instruction" in e for e in overlay_tamper(built, cur[:4] + bytes(4)))
+
+
+def test_credits_centring_follows_qa_override(monkeypatch):
+    """A --qa override's text is what the credits x is centred on (2604:1 at 224 px -> x 16)."""
+    import build
+    import credits
+    import insert
+    import ndspy.rom
+    monkeypatch.setitem(insert.QA, "2604:1", "@224")
+    rom = ndspy.rom.NintendoDSRom(romfs.ROM.read_bytes())
+    build.edit_overlays(rom, "en", {})
+    xs = {idx: x for _, idx, _, x, _ in credits.calls(bytes(rom.files[credits.OVERLAY]))}
+    assert xs[1] == 128 - 112
+
+
 def test_credits_calls_and_centring():
     import credits
     ov = bytes(romfs.load().files[credits.OVERLAY])

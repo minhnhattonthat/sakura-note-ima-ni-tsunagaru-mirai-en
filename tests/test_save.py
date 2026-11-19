@@ -9,6 +9,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 sys.path.insert(0, str(ROOT / "tools" / "debug"))
+import make_save  # noqa: E402
 import save  # noqa: E402
 from tbl import Table  # noqa: E402
 
@@ -70,4 +71,4 @@ def test_scenes_tsv_shape():
     for r in rows[1:]:
         assert len(r) == 6, r
         assert r[1] in ("title", "debug"), r
-        assert r[4] in ("", "s1_living", "all_chapters", "all_items"), r
+        assert r[4] == "" or r[4] in make_save.FIXTURES, r

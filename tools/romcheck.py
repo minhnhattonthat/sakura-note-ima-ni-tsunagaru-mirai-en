@@ -36,6 +36,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import batches  # noqa: E402
 import credits  # noqa: E402
 import filedata  # noqa: E402
+import namefield  # noqa: E402
 import gfx  # noqa: E402
 import insert  # noqa: E402
 import msg  # noqa: E402
@@ -121,11 +122,13 @@ def branch_targets(code, base):
 
 def arm9_allowed():
     """Section-0 intervals (arm9.bin offsets, [lo, hi)) a build may write, fixed independently of the write log:
-    the string slots, the two 8-byte hook sites (ldr pc + literal) and the arena-lo literal."""
+    the string slots, the two 8-byte hook sites (ldr pc + literal), the arena-lo literal and the name-field words
+    (tools/namefield.py)."""
     out = [(off, off + slot, f"string slot arm9:{off:06X}") for off, slot, _ in script.ARM9_SLOTS]
     out += [(vwf.ADV_FUNC - vwf.ARM9_BASE, vwf.ADV_FUNC - vwf.ARM9_BASE + 8, "advance hook site"),
             (vwf.TAG_LOOP - vwf.ARM9_BASE, vwf.TAG_LOOP - vwf.ARM9_BASE + 8, "tag hook site"),
             (vwf.ARENA_LIT - vwf.ARM9_BASE, vwf.ARENA_LIT - vwf.ARM9_BASE + 4, "arena lo literal")]
+    out += namefield.allowed()
     return out
 
 

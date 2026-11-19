@@ -46,3 +46,13 @@ item_desc	title	f1139 w240 start f1126 w200 a w200 a f2615 w200 a w150 a f2630 w
 puzzle_info	debug	f2612 w30 up*2 a w150 down*5 a w600	73		debug extras ch2 extra 3: Yokai Sliding Puzzle, instructions panel (73+75, bottom)
 puzzle	debug	f2612 w30 up*2 a w150 down*5 a w600 a w400	70		Yokai Sliding Puzzle running: frame with B: Back (70+72, bottom)
 nazkaiser_info	debug	f2612 w30 up*2 a w150 right w100 down*2 a w600	106		debug extras ch3 extra 3: Nazkaiser title logo (109, top, D5) and controls panel (106+108, bottom)
+stress_name_entry	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w300 t20,160*9 r w100 r w100 t124,83*11 w60	984		stress: name entry, surname cleared and 9 x W typed on the abc tab (11 presses; the field stops at 9)
+stress_file_select	title	f1139 w240 start f1126 w200	1126	stress_names	stress: file select, slot 1 names 9 x W (longest names)
+stress_load_popup	title	f1139 w240 start f1126 w200 a w200	1126	stress_names	stress: used-slot popup over slot 1 with 9 x W names
+stress_episode	title	f1139 w240 start f1126 w200 a w200 a f2615 w200	2615	stress_names	stress: episode board from slot 1, names 9 x W in the chapter header
+stress_status	title	f1139 w240 start f1126 w200 a w200 a f2615 w200 a w150 a f2630 w600 t128,100 w2000 x w200	1040	stress_names	stress: STATUS tab with every item (full grid) and 9 x W names
+stress_item_desc	title	f1139 w240 start f1126 w200 a w200 a f2615 w200 a w150 a f2630 w600 t128,100 w2000 x w200 a w200	2605	stress_names	stress: item description panel, full grid, 9 x W names
+stress_newexp	title	f1139 w240 start f1126 w200 a w200 a f2615 w200 a w150 a f2630 w600 t128,100 w2000 r w200	1017	stress_names	stress: NEWEXP tab (panel + 2608 list), 9 x W names
+stress_save_slots	debug	f2612 w30 a w120 a w100 a w100 down a w600 a*22 hleft:50 hdown:80 w6 hright:8 a w150 a w150	1232	stress_names	stress: field save screen slot list, slot 1 holds 9 x W names
+stress_dialogue	debug	names:C6:9 f2612 w30 a w120 a w100 a w100 a w300 w30			stress: scenario 1 opening dialogue, Haruka "Welcome home, <9 x W>." (names forced in RAM)
+stress_profile	debug	names:C6:9 f2612 w30 up*2 a w150 a w300			stress: character profile page with the name variable, names forced to 9 x W

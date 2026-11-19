@@ -363,7 +363,7 @@
   "id": "2611:45",
   "hdr": "FFFF 00FF",
   "jp": "・{var_EF}{slot}{slot}{slot}{slot}{slot}の同級生。親友。{n}・逆上がりができなかったガンタに{n}　{var_EF}{slot}{slot}{slot}{slot}{slot}がコツを教えたのが{n}　始まり。{n}・{var_EF}{slot}{slot}{slot}{slot}{slot}自身も逆上がりが{n}　できなかったので、そのチグハグさに{n}　興味を持つ。{n}・{var_EF}{slot}{slot}{slot}{slot}{slot}の知識豊富な頭脳を{n}　尊敬している。",
-  "en": "- {var_EF}{slot}{slot}{slot}{slot}{slot}'s classmate and close friend.{n}- It began when {var_EF}{slot}{slot}{slot}{slot}{slot} gave Ganta tips{n}  on doing a backward pullover on a bar.{n}  Ganta couldn't do one.{n}- Neither could {var_EF}{slot}{slot}{slot}{slot}{slot}. That odd mismatch{n}  caught his interest.{n}- Admires {var_EF}{slot}{slot}{slot}{slot}{slot}'s wealth of knowledge.",
+  "en": "- {var_EF}{slot}{slot}{slot}{slot}{slot}'s classmate and close friend.{n}- It began when {var_EF}{slot}{slot}{slot}{slot}{slot} gave Ganta{n}  tips on doing a backward pullover{n}  on a bar. Ganta couldn't do one.{n}- Neither could {var_EF}{slot}{slot}{slot}{slot}{slot}. That odd{n}  mismatch caught his interest.{n}- Admires {var_EF}{slot}{slot}{slot}{slot}{slot}'s wealth of{n}  knowledge.",
   "status": "done",
   "notes": ""
  },
@@ -435,7 +435,7 @@
   "id": "2611:54",
   "hdr": "FFFF 00FF",
   "jp": "・食べること以外はほとんど興味無し。{n}・ゆっくり、ゆったりが好き。{n}・{var_EE}{slot}{slot}{slot}{slot}{slot}のペースは若干苦手。{n}・行動範囲は意外と広い。{n}・食べ物情報を得ようと思って猫会議に{n}　参加している。しかし欲しい情報は{n}　滅多に得られない。{n}・最近、狩りをマスターして{n}　野生化しようと夢見ている。",
-  "en": "- Cares about little besides eating.{n}- Likes life slow and relaxed.{n}- Finds {var_EE}{slot}{slot}{slot}{slot}{slot}'s pace a little hard to take.{n}- Roams surprisingly far.{n}- Attends the Cat Meeting for news{n}  about food, but rarely hears any{n}  of the information he wants.{n}- Lately dreams of mastering hunting{n}  and going wild.",
+  "en": "- Cares about little besides eating.{n}- Likes life slow and relaxed.{n}- Finds {var_EE}{slot}{slot}{slot}{slot}{slot}'s pace a little{n}  hard to take.{n}- Roams surprisingly far.{n}- Attends the Cat Meeting for news{n}  about food, but rarely hears any{n}  of the information he wants.{n}- Lately dreams of mastering hunting{n}  and going wild.",
   "status": "done",
   "notes": ""
  },

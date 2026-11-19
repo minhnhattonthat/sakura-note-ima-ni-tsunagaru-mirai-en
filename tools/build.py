@@ -47,8 +47,14 @@ def edit_arm9(arm9, mode, log=None):
     import insert
     import script
     import vwf
+    import ndspy.code
+    import namefield
     a9 = insert.patch_arm9_strings(arm9, script.load("arm9.json"), marker_build=mode == "marker", log=log)
-    return vwf.patch_arm9(a9, log=log)
+    a9 = ndspy.code.MainCodeFile(vwf.patch_arm9(a9, log=log), vwf.ARM9_BASE)
+    s0 = bytearray(a9.sections[0].data)
+    namefield.patch(s0, log)  # name entry: 9 characters at a 12 px pitch (English default names)
+    a9.sections[0].data = bytes(s0)
+    return a9.save(compress=False)
 
 
 def fix_ndspy(orig, built):

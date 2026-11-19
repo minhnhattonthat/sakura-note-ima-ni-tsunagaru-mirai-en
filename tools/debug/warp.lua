@@ -14,6 +14,7 @@
 --               so "a f984" also passes when the load happened during a wait between them (timeout 3000 -> WARP_FAIL)
 --   down*N      repeat a press N times
 --   hKEY:N      hold KEY for N frames, no release gap (walking: hleft:50 hdown:80)
+--   names:C6:9  force all four player names to 9 x code C6 (W) every frame from here on (stress scenes)
 -- When the program ends the log gets "WARP_OK <scene> frame <n>"; the scene's `expect` file id (if any) must have
 -- loaded by then or the run exits 3 with WARP_FAIL. Opt-in: STOP_AFTER=N ends the run N frames later (final.png,
 -- --state-out); tools/debug/warp_all.py runs every scene that way. FILELOG=1 logs every file open.
@@ -65,6 +66,17 @@ for tok in sc.keys:gmatch("%S+") do
 end
 
 local pc, wait_until, wait_file, wait_since, wait_start, last_press, done, done_at = 1, 0, nil, 0, 0, 0, false, 0
+-- names:CODE:LEN token: from then on, every frame, the four player names in the live name record 0x021BC4CA
+-- (0x14 bytes each) are LEN x font code CODE + FFFD (stress: longest names in dialogue; docs/re/nameentry.md)
+local force_names
+L.on_frame(function()
+  if not force_names then return end
+  for fld = 0, 3 do
+    local a = 0x021BC4CA + fld * 0x14
+    for i = 0, force_names.len - 1 do memory.writeword(a + 2 * i, force_names.code) end
+    memory.writeword(a + 2 * force_names.len, 0xFFFD)
+  end
+end)
 local function step()
   while pc <= #prog do
     local tok = prog[pc]
@@ -73,11 +85,16 @@ local function step()
     if n then wait_until = L.frame + tonumber(n); return end
     local f = tok:match("^f(%d+)$")
     if f then wait_file = tonumber(f); wait_since = last_press; wait_start = L.frame; return end
-    last_press = L.frame
-    local hk, hn = tok:match("^h(%a+):(%d+)$")
-    if hk then L.press(hk, tonumber(hn)); wait_until = L.frame + tonumber(hn); return end
-    L.press(tok, 6); L.press("-", 40); wait_until = L.frame + 46
-    return
+    local nc, nl = tok:match("^names:(%x+):(%d+)$")
+    if nc then
+      force_names = { code = tonumber(nc, 16), len = tonumber(nl) } -- no press: go on to the next token
+    else
+      last_press = L.frame
+      local hk, hn = tok:match("^h(%a+):(%d+)$")
+      if hk then L.press(hk, tonumber(hn)); wait_until = L.frame + tonumber(hn); return end
+      L.press(tok, 6); L.press("-", 40); wait_until = L.frame + 46
+      return
+    end
   end
   done = true
   if sc.expect and not opened[sc.expect] then

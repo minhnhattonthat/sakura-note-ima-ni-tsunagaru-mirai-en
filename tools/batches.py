@@ -27,7 +27,9 @@ TOKEN = re.compile(r"\{[^}]*\}")  # control codes; must survive translation
 FREE = {"{n}", "{page}", "{sp}"}  # layout codes the English may place freely (line count is checked per form)
 VARIABLE = r"\{slot\}"  # a name the game draws: no suffix glued on
 NAME = re.compile(r"\{var_[0-9A-F]{2}\}(?:\{slot\})*")
-NAME_PX = 40  # a drawn name: 5 slots; English names are short (phase 8 stress saves re-measure)
+# A drawn name at its worst: 9 x W (the name entry takes 9 characters, tools/namefield.py; the defaults run to
+# 50 px, "Traumerei"). Measured in game: a forced 9 x W name is substituted in full (warp.lua token names:C6:9, scene stress_dialogue).
+NAME_PX = 72
 HONORIFICS = {"ちゃん": "-chan", "くん": "-kun", "さん": "-san", "先生": "-sensei", "せんせい": "-sensei"}
 GLYPHS = vwf.load_glyphs()
 EN_CHARS = set(vwf.code_map(GLYPHS))

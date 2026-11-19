@@ -251,7 +251,7 @@
   "id": "2608:31",
   "hdr": "FFFF 00FF",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -259,7 +259,7 @@
   "id": "2608:32",
   "hdr": "FFFF 00FF",
   "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -379,7 +379,7 @@
   "id": "2608:47",
   "hdr": "FFFF 00FF",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -387,7 +387,7 @@
   "id": "2608:48",
   "hdr": "FFFF 00FF",
   "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -507,7 +507,7 @@
   "id": "2608:63",
   "hdr": "FFFF 00FF",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -515,7 +515,7 @@
   "id": "2608:64",
   "hdr": "FFFF 00FF",
   "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -611,7 +611,7 @@
   "id": "2608:76",
   "hdr": "FFFF 00FF",
   "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_ED}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },
@@ -619,7 +619,7 @@
   "id": "2608:77",
   "hdr": "FFFF 00FF",
   "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
-  "en": "Saw All of {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
+  "en": "Finished {var_EE}{slot}{slot}{slot}{slot}{slot}'s Story",
   "status": "done",
   "notes": ""
  },

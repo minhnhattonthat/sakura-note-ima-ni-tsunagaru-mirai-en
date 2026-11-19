@@ -8,6 +8,8 @@ Fixtures (FIXTURES below):
                 A through the save screen into slot 1. The game writes both copies and the checksum itself;
                 then the names are set to the English defaults (en_names), as an English new game has them.
   all_chapters  s1_living edited by tools/debug/save.py: chapters 1-4 unlocked on the episode board (0x16C = 0xF).
+  all_items     s1_living with every item-ownership bit set.
+  stress_names  all_items + chapters 1-4 + all four names 9 x W (phase 8 stress save: longest names, full grid).
 Each fixture is checked: slot 1 valid (checksum, used flag). Scenes in tools/debug/scenes.tsv name the fixture in
 their `save` column; tools/debug/warp_all.py calls fixture() so a fresh clone gets them on first run.
 The walk is tuned to scenario 1's spawn point only (scenario 2/3 living rooms spawn elsewhere): edit saves instead.
@@ -89,7 +91,20 @@ def make_all_items(rom, out):
     sv.write(out)
 
 
-FIXTURES = {"s1_living": make_s1_living, "all_chapters": make_all_chapters, "all_items": make_all_items}
+def make_stress_names(rom, out):
+    """Stress save: every item, chapters 1-4 unlocked, and all four names at the longest the name entry takes
+    (9 x W, the widest Latin glyph: tools/namefield.py) in slot 1."""
+    from tbl import Table
+    sv = save.Save.read(fixture("all_items", rom))
+    sv.put(0, *save.FIELDS["chapters"], 0xF)
+    tbl = Table.load(ROOT / "tbl" / "jp.tbl")
+    for key in save.NAMES:
+        sv.set_name(0, key, "W" * 9, tbl)
+    sv.write(out)
+
+
+FIXTURES = {"s1_living": make_s1_living, "all_chapters": make_all_chapters, "all_items": make_all_items,
+            "stress_names": make_stress_names}
 
 
 def fixture(name, rom=ORIG, force=False):

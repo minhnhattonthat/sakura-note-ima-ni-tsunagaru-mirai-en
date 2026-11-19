@@ -26,7 +26,7 @@ import romfs  # noqa: E402
 
 LABELS = ROOT / "gfx" / "labels.tsv"
 COLS = ["id", "recn", "cell", "rect", "fill", "ink", "shadow", "align", "dy", "style", "en", "note"]
-STYLES = ("shadow", "outline")
+STYLES = ("shadow", "outline", "bold")
 SPACE = 1  # px between glyphs (the advance is width + 1, as in tools/vwf.py)
 
 
@@ -189,7 +189,8 @@ def letter(px, rect, text, fill, ink, shadow, align="c", dy=0, gl=None, style="s
                 else:
                     out[(xx, yy)] = fill
     rim =1 if style == "outline" else 0
-    tw = text_width(text, gl) + 2 * rim
+    bold = 1 if style == "bold" else 0  # "bold": every ink pixel doubled to the right, glyphs 1 px wider
+    tw = text_width(text, gl) + 2 * rim + bold * len(text)
     if tw > w:
         raise ValueError(f"{text!r}: {tw} px > rect width {w}")
     cx = x + rim + {"l": 0, "c": (w - tw) // 2, "r": w - tw}[align]
@@ -201,7 +202,9 @@ def letter(px, rect, text, fill, ink, shadow, align="c", dy=0, gl=None, style="s
             for rx, ch in enumerate(row):
                 if ch == "#":
                     ink_px.add((cx + rx, cy + ry))
-        cx += len(rows[0]) + SPACE
+                    if bold:
+                        ink_px.add((cx + rx + 1, cy + ry))
+        cx += len(rows[0]) + SPACE + bold
     for p in ink_px:
         if p not in out or not (x <= p[0] < x + w and y <= p[1] < y + h):
             raise ValueError(f"{text!r}: ink at {p} falls outside the rect or the cell")
@@ -354,11 +357,28 @@ def main():
     c.add_argument("--pal", type=int)
     c.add_argument("--zoom", type=int, default=3)
     c.add_argument("--out", required=True)
+    d = sub.add_parser("dump", help="index grid of a cell (or a BG region) as hex, to read rects and indices off")
+    d.add_argument("rgcn", type=int)
+    d.add_argument("recn", type=int)
+    d.add_argument("cell", type=int, nargs="?", default=0)
+    d.add_argument("--region", help="x,y,w,h (BG screens)")
     v = sub.add_parser("preview")
     v.add_argument("--out", default=str(ROOT / "work" / "gfx" / "preview"))
     v.add_argument("--zoom", type=int, default=3)
     a = ap.parse_args()
     fs = files()
+    if a.cmd == "dump":
+        g = G.rgcn(unpack(fs[a.rgcn])[0])
+        px = map_grid(g, row_map(g, unpack(fs[a.recn])[0], a.cell))
+        xs, ys = [k[0] for k in px], [k[1] for k in px]
+        x0, y0, w, h = (tuple(int(v) for v in a.region.split(",")) if a.region else
+                        (min(xs), min(ys), max(xs) - min(xs) + 1, max(ys) - min(ys) + 1))
+        fmt = "%02x" if g["bpp"] == 8 else "%x"
+        blank = "  " if g["bpp"] == 8 else " "
+        print(f"x {x0}..{x0 + w - 1}, y {y0}..{y0 + h - 1}")
+        for y in range(y0, y0 + h):
+            print(f"{y:3d} " + "".join(fmt % px[(x, y)] if (x, y) in px else blank for x in range(x0, x0 + w)))
+        return
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     if a.cmd == "cells":

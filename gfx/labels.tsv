@@ -57,3 +57,116 @@ id	recn	cell	rect	fill	ink	shadow	align	dy	style	en	note
 988	990	0	8,166,244,24	~170/4	255	1	c	0	outline	Choose the boy's surname and given name	少年の「苗字」と「名前」を決めましょう
 991	993	0	28,166,186,24	~170/4	255	1	c	0	outline	Choose the cat's name	猫の「名前」を決めましょう
 994	996	0	43,166,172,24	~170/4	255	1	c	0	outline	Choose the dog's name	犬の「名前」を決めましょう
+4052	4051	0	25,6,94,14	6	15	2	c	0	shadow	New Episode!	banner エピソード出現！
+4052	4051	1	25,6,94,14	6	15	2	c	0	shadow	New Episode!	banner エピソード出現！
+4056	4055	0	25,6,94,14	5	15	2	c	0	shadow	New Episode!	banner エピソード出現！
+4056	4055	1	25,6,94,14	5	15	2	c	0	shadow	New Episode!	banner エピソード出現！
+4060	4059	0	42,6,78,14	5	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4060	4059	1	42,6,78,14	5	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4060	4059	2	42,6,78,14	5	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4064	4063	0	42,6,78,14	5	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4064	4063	1	42,6,78,14	5	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4064	4063	2	42,6,78,14	5	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4068	4067	0	42,6,78,14	4	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4068	4067	1	42,6,78,14	4	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4068	4067	2	42,6,78,14	4	15	2	c	0	shadow	New Experience	banner 新しい経験!! (78 px: no room for !!)
+4044	4043	0	18,10,74,12	8	15	1	c	0	shadow	Interesting!	choice A おもしろい！
+4044	4043	0	4,34,74,12	6	15	1	c	0	shadow	Boring...	choice B タイクツだ…
+4044	4043	1	18,10,74,12	8	15	1	c	0	shadow	Interesting!	choice A おもしろい！
+4044	4043	1	4,34,74,12	6	15	1	c	0	shadow	Boring...	choice B タイクツだ…
+4044	4043	2	18,10,74,12	8	15	1	c	0	shadow	Interesting!	choice A おもしろい！
+4044	4043	2	4,34,74,12	6	15	1	c	0	shadow	Boring...	choice B タイクツだ…
+4044	4043	3	18,10,74,12	8	15	1	c	0	shadow	Interesting!	choice A おもしろい！
+4044	4043	3	4,34,74,12	6	15	1	c	0	shadow	Boring...	choice B タイクツだ…
+4028	4029	0	4,9,152,14	7	13	1	c	0	bold	No more Tears, it seems...	もうナミダは出ないようだ… (fade frame 0)
+4028	4029	1	4,9,152,14	7	5	1	c	0	bold	No more Tears, it seems...	もうナミダは出ないようだ… (fade frame 1)
+4028	4029	2	4,9,152,14	7	4	1	c	0	bold	No more Tears, it seems...	もうナミダは出ないようだ… (fade frame 2)
+4028	4029	3	4,9,152,14	7	3	1	c	0	bold	No more Tears, it seems...	もうナミダは出ないようだ… (fade frame 3)
+4028	4029	4	4,9,152,14	7	2	1	c	0	bold	No more Tears, it seems...	もうナミダは出ないようだ… (fade frame 4)
+1046	1048	0	2,92,46,12	45	76	13	c	0	bold	Sakuya	map label 咲谷町 (town name alone fits the pill)
+1046	1048	0	208,103,46,11	45	120	13	c	0	bold	Kiriya	map label 桐谷町
+4033	4032	1	0,0,56,16	0	15	1	c	0	shadow	No worries	choice 心配ないさ
+4033	4032	2	0,0,72,16	0	15	1	c	0	shadow	Hmm, no...	choice う～んダメかも
+4033	4032	3	0,0,72,16	0	15	1	c	0	shadow	Pick it up	choice ひろってみよう
+4033	4032	4	0,0,56,16	0	15	1	c	0	shadow	Kick it!	choice けっちゃえ!
+4033	4032	5	0,0,72,16	0	15	1	c	0	shadow	Try jumping...	choice とんでみるか…
+4033	4032	6	0,0,72,16	0	15	1	c	0	shadow	Buy a juice	choice ジュース買おっと
+4033	4032	7	0,0,72,16	0	15	1	c	0	shadow	Sure, I saw!	choice もちろん見たよ!
+4033	4032	8	0,0,72,16	0	15	1	c	0	shadow	Oops, forgot...	choice あ～忘れてた…
+4033	4032	9	0,0,56,16	0	15	1	c	0	shadow	Open it	choice あけてみよう
+4033	4032	10	0,0,56,16	0	15	1	c	0	shadow	Close it	choice しめてみよう
+4033	4032	11	0,0,72,16	0	15	1	c	0	shadow	If I push this...	choice これを押せば…
+4033	4032	12	0,0,72,16	0	15	1	c	0	shadow	Try pulling...	choice 引いてみるか…
+4033	4032	13	0,0,72,16	0	15	1	c	0	shadow	Scare them	choice おどかしてみよう
+4033	4032	14	0,0,56,16	0	15	1	c	0	shadow	What is it?	choice なんだこれ?
+4033	4032	15	0,0,72,16	0	15	1	c	0	shadow	Search here	choice ここ調べてみよう
+4033	4032	16	0,0,56,16	0	15	1	c	0	shadow	That thing!	choice アレだよアレ
+4033	4032	17	0,0,64,16	0	15	1	c	0	shadow	Wake them	choice おこしてみよう
+4033	4032	18	0,0,72,16	0	15	1	c	0	shadow	Play dumb	choice しらんぷりしよう
+4033	4032	19	0,0,72,16	0	15	1	c	0	shadow	Sakura Mochi	choice ダイサクラモチ
+4033	4032	20	0,0,72,16	0	15	1	c	0	shadow	Hilltop flats	choice タカダイマンション
+4033	4032	21	0,0,24,16	0	15	1	c	0	shadow	5-1	choice 5-1
+4033	4032	22	0,0,24,16	0	15	1	c	0	shadow	5-2	choice 5-2
+4033	4032	23	0,0,72,16	0	15	1	c	0	shadow	Pork Ginger	choice ジンジャーポーク
+4033	4032	24	0,0,40,16	0	15	1	c	0	shadow	Kitenso	choice キテンソ
+4033	4032	25	0,0,56,16	0	15	1	c	0	shadow	Suck up!	choice こびてやる!
+4033	4032	26	0,0,56,16	0	15	1	c	0	shadow	Bark at it!	choice ほえてやる!
+4033	4032	27	0,0,48,16	0	15	1	c	0	shadow	Save	choice セーブする
+4033	4032	28	0,0,56,16	0	15	1	c	0	shadow	Never mind	choice やっぱやめる
+4033	4032	29	0,0,40,16	0	15	1	c	0	shadow	Yes!	choice そうだよ
+4033	4032	30	0,0,72,16	0	15	1	c	0	shadow	No, that way!	choice ちがうよ、あっち!
+4033	4032	31	0,0,72,16	0	15	1	c	0	shadow	Be nice	choice いいことしちゃお
+4033	4032	32	0,0,64,16	0	15	1	c	0	shadow	Long shot!	choice ロングシュート!
+4033	4032	33	0,0,64,16	0	15	1	c	0	shadow	Give it back	choice 返してあげよう
+4033	4032	34	0,0,72,16	0	15	1	c	0	shadow	Step on it...	choice ふんでみたい…
+4033	4032	35	0,0,72,16	0	15	1	c	0	shadow	Not helping~	choice 助けないよ～だ
+4033	4032	36	0,0,56,16	0	15	1	c	0	shadow	Pick on it!	choice いじめちゃえ!
+4033	4032	37	0,0,72,16	0	15	1	c	0	shadow	It's Nazkaiser!	choice ナスカイザーだ!
+4033	4032	38	0,0,72,16	0	15	1	c	0	shadow	That's wrong!	choice それちがうって!
+4033	4032	39	0,0,56,16	0	15	1	c	0	shadow	Hello~	choice こんにちは～
+4033	4032	40	0,0,72,16	0	15	1	c	0	shadow	Look at me~!	choice こっち見てよ～!
+4033	4032	41	0,0,72,16	0	15	1	c	0	shadow	All together	choice みんないっしょに
+4033	4032	42	0,0,72,16	0	15	1	c	0	shadow	On my own	choice おれだけの力で
+4033	4032	43	0,0,64,16	0	15	1	c	0	shadow	Take it	choice もらっちゃおう
+4033	4032	44	0,0,72,16	0	15	1	c	0	shadow	Don't take it	choice とるのはよくない
+4033	4032	45	0,0,56,16	0	15	1	c	0	shadow	Get it	choice とってあげる
+4033	4032	46	0,0,64,16	0	15	1	c	0	shadow	Lend it	choice ちょっとかして
+4033	4032	47	0,0,64,16	0	15	1	c	0	shadow	Carefully...	choice しんちょうに…
+4033	4032	48	0,0,40,16	0	15	1	c	0	shadow	All in!	choice いっきに!
+4033	4032	49	0,0,56,16	0	15	1	c	0	shadow	Take fish	choice にぼし とる
+4033	4032	50	0,0,72,16	0	15	1	c	0	shadow	Skip the fish	choice にぼしあきらめる
+4033	4032	51	0,0,72,16	0	15	1	c	0	shadow	Onions, right?	choice たまねぎでしょ?
+4033	4032	52	0,0,56,16	0	15	1	c	0	shadow	It's natto!	choice なっとうだよ!
+4033	4032	53	0,0,72,16	0	15	1	c	0	shadow	My promise...	choice そうだ、約束が…
+4033	4032	54	0,0,72,16	0	15	1	c	0	shadow	Found money!	choice お金がおちてる!
+4033	4032	55	0,0,40,16	0	15	1	c	0	shadow	Chirpy	choice ピッチィ
+4033	4032	56	0,0,48,16	0	15	1	c	0	shadow	Coojudge	choice ホッホロー
+4033	4032	57	0,0,56,16	0	15	1	c	0	shadow	What now...	choice どうしよう…
+4033	4032	58	0,0,64,16	0	15	1	c	0	shadow	Spin, spin!	choice まわれまわれ
+4033	4032	59	0,0,56,16	0	15	1	c	0	shadow	Switch on!	choice スイッチオン!
+4033	4032	60	0,0,72,16	0	15	1	c	0	shadow	Don't push it	choice 押すのやめよう
+4033	4032	61	0,0,40,16	0	15	1	c	0	shadow	Hiya	choice こんちわ
+4033	4032	62	0,0,64,16	0	15	1	c	0	shadow	Dummy!	choice ばーかばーか!
+4033	4032	63	0,0,40,16	0	15	1	c	0	shadow	Yes!	choice そうだよ
+4033	4032	64	0,0,40,16	0	15	1	c	0	shadow	Nope	choice ちがうよ
+4033	4032	65	0,0,32,16	0	15	1	c	0	shadow	Ganta	choice ガンタ
+4033	4032	66	0,0,32,16	0	15	1	c	0	shadow	Kiichi	choice キイチ
+4033	4032	67	0,0,48,16	0	15	1	c	0	shadow	Nice tale	choice いい話だな
+4033	4032	68	0,0,72,16	0	15	1	c	0	shadow	Make a racket	choice さわいでみるか
+4033	4032	69	0,0,64,16	0	15	1	c	0	shadow	Tell me more	choice もっとききたい
+4033	4032	70	0,0,64,16	0	15	1	c	0	shadow	Too long...	choice 話がながい…
+4033	4032	71	0,0,72,16	0	15	1	c	0	shadow	I'll be brave	choice カクゴしてあげる
+4033	4032	72	0,0,64,16	0	15	1	c	0	shadow	Just open it	choice ふつうにあける
+4033	4032	73	0,0,40,16	0	15	1	c	0	shadow	Tell me	choice きかせて
+4033	4032	74	0,0,56,16	0	15	1	c	0	shadow	Odd face...	choice 変なかお…
+4033	4032	75	0,0,48,16	0	15	1	c	0	shadow	Knock	choice ノックする
+4033	4032	76	0,0,32,16	0	15	1	c	0	shadow	OK	choice いいよ
+4033	4032	77	0,0,32,16	0	15	1	c	0	shadow	Nah!	choice やだよ
+4033	4032	78	0,0,56,16	0	15	1	c	0	shadow	Found it!	choice みつかった!
+4033	4032	79	0,0,64,16	0	15	1	c	0	shadow	Can't find it...	choice みつからない…
+4033	4032	80	0,0,48,16	0	15	1	c	0	shadow	Read it	choice メモを読む
+4033	4032	81	0,0,64,16	0	15	1	c	0	shadow	Whatever	choice どうでもいいや
+4033	4032	82	0,0,64,16	0	15	1	c	0	shadow	Just peek	choice 勝手に見ちゃえ
+4033	4032	83	0,0,64,16	0	15	1	c	0	shadow	No, I can't...	choice いやダメだ…
+4033	4032	84	0,0,56,16	0	15	1	c	0	shadow	Lively song	choice ノリノリの曲
+4033	4032	85	0,0,72,16	0	15	1	c	0	shadow	Uneasy song	choice ざわざわする曲

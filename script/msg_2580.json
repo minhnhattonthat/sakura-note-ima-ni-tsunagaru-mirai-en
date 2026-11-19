@@ -35,7 +35,7 @@
   "id": "2580:4",
   "hdr": "0007 000F",
   "jp": "ねえ、{var_EF}{slot}{slot}{slot}{slot}{slot}くんに{n}この話をする時、とても……",
-  "en": "You know, when I told{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun about this, I was so...",
+  "en": "You know, when I told{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun about this...",
   "status": "done",
   "notes": ""
  },

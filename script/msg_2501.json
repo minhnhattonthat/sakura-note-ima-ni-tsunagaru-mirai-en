@@ -83,7 +83,7 @@
   "id": "2501:10",
   "hdr": "0005 0012",
   "jp": "おっ、このニオイ！{n}豚バラの煮込み！",
-  "en": "Oh, that smell!{n}Braised pork belly!",
+  "en": "Oh, that smell!{n}Stewed pork belly!",
   "status": "done",
   "notes": ""
  },
@@ -251,7 +251,7 @@
   "id": "2501:31",
   "hdr": "FFFF 00FF",
   "jp": "少年と母親はふたりだけで{n}豚バラの煮込みを食べた。",
-  "en": "The boy and his mother ate{n}the braised pork belly, just the two{n}of them.",
+  "en": "The boy and his mother ate{n}the stewed pork belly, just the two{n}of them.",
   "status": "done",
   "notes": ""
  },
@@ -403,7 +403,7 @@
   "id": "2501:50",
   "hdr": "0004 000D",
   "jp": "わん、わわわわん！{n}{col_F8}(よろしくお願いします！)",
-  "en": "Woof, woof-woof!{n}{col_F8}(I'm counting on you, please!)",
+  "en": "Woof, woof-woof!{n}{col_F8}(Please, I'm counting on you!)",
   "status": "done",
   "notes": ""
  },

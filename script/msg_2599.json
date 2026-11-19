@@ -155,7 +155,7 @@
   "id": "2599:19",
   "hdr": "0005 0012",
   "jp": "ピッチイ様だったら{n}情に訴える。",
-  "en": "If it's Chirpy,{n}appeal to his feelings.",
+  "en": "If it's Chirpy-sama,{n}appeal to his feelings.",
   "status": "done",
   "notes": ""
  },
@@ -163,7 +163,7 @@
   "id": "2599:20",
   "hdr": "0005 0012",
   "jp": "ホッホロー様だったら{n}ハトに有利な交換条件、です。",
-  "en": "If it's Coojudge, offer him a deal{n}that benefits pigeons.",
+  "en": "If it's Coojudge-sama, offer a deal{n}that benefits pigeons.",
   "status": "done",
   "notes": ""
  },

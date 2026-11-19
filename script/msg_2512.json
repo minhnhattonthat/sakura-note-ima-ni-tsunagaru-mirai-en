@@ -187,7 +187,7 @@
   "id": "2512:23",
   "hdr": "00FF 000C",
   "jp": "ロッカー研究部長　六科晃男レポート{n}『5つのロッカーの共存について』{page}まず、これは奇跡に他ならない事を{n}先に記しておく必要がある。{page}なぜならロッカーこそがわれら妖怪を{n}より知的な世界に導くからである。{page}その根拠をここに示したい。{n}君たちはある法則に気付くだろうか？{page}ロッカーだけに、5個までなのである。{n}それが宇宙的法則の限界なのだろう。{page}ロッカーを通じ知的になっていく自分に{n}恐れすら感じた事も付け加えておく。{page}この5個のロッカーを制すれば{n}隣の部屋のロッカーを6個目と呼べる。{page}その法則に従うと『1・3・5』はない。{n}『開・閉・開・閉・開』これもない。{page}結果『2・4』の線が濃厚なのである。{n}『{col_FB}閉・開・閉・開・閉{col_FC}』……美しい。{page}オープンとクローズの共存こそ{n}グローバリゼーションなのだ！{page}研究部の後輩たちよ、もっと頭を磨き{n}そしてロッカーも磨くのだ。{page}さすれば6個めのロッカーは開かれる。",
-  "en": "A report by the Locker Club Chief:{page}'On the Coexistence of Five Lockers'{page}First, I must state that this is{n}nothing short of a miracle.{page}For lockers are what lead us yokai{n}into a world of greater knowledge.{page}Here, I shall present my evidence.{n}Can you spot a certain rule?{page}Five lockers, all locked in a row.{n}A sixth? That's pushing your lock!{page}Such must be the limit{n}set by the laws of the universe.{page}I must add that even I feared how{n}much wiser these lockers made me.{page}Master these five lockers, and you{n}may call the one next door the sixth.{page}By that rule, '1, 3, 5' is out.{page}'Open, Shut, Open, Shut, Open'{n}is also out.{page}Thus, '2, 4' seems most likely.{n}'{col_FB}Shut, Open, Shut, Open, Shut{col_FC}'...{page}Beautiful.{page}Open and shut, living side by side!{n}This is globalization!{page}Younger members of the research club!{n}Polish your minds and your lockers!{page}Then the sixth locker shall open.",
+  "en": "A report by the Locker Club Chief:{page}'On the Coexistence of Five Lockers'{page}First, I must state that this is{n}nothing short of a miracle.{page}For lockers are what lead us yokai{n}into a world of greater knowledge.{page}Here, I shall present my evidence.{n}Can you spot a certain rule?{page}Five lockers, all locked in a row.{n}A sixth? That's pushing your lock!{page}Such must be the limit{n}set by the laws of the universe.{page}I must add that even I feared how{n}much wiser these lockers made me.{page}Master these five lockers, and you{n}may call the one next door the sixth.{page}By that rule, '1, 3, 5' is out.{page}'Open, Closed, Open, Closed, Open'{n}is also out.{page}Thus, '2, 4' seems most likely.{n}'{col_FB}Closed, Open, Closed, Open, Closed{col_FC}'...{page}Beautiful.{page}Open and shut, living side by side!{n}This is globalization!{page}Younger members of the research club!{n}Polish your minds and your lockers!{page}Then the sixth locker shall open.",
   "status": "done",
   "notes": ""
  },
@@ -491,7 +491,7 @@
   "id": "2512:61",
   "hdr": "0007 000F",
   "jp": "ねえ、今の男の子……{page}なんかママの方ばっかり見てた気がする。{n}わたしとは目が合わなかったよ。{page}同じクラスになるかもしれないのに{n}失礼よね……",
-  "en": "Hey, that boy just now...{page}I think he only had eyes for you, Mom.{n}He didn't look me in the eye.{page}We might even be in the same class.{n}How rude...",
+  "en": "Hey, that boy just now...{page}I think he kept looking at you, Mom.{n}He didn't look me in the eye.{page}We might even be in the same class.{n}How rude...",
   "status": "done",
   "notes": ""
  },
@@ -811,7 +811,7 @@
   "id": "2512:101",
   "hdr": "0030 0018",
   "jp": "あぁ、ガランリュウ様。{n}申し訳あ・り・ま・せ……",
-  "en": "Oh, Lord Garanryu.{n}I am so ve-ry sor...",
+  "en": "Oh, Garanryu-sama.{n}I am so ve-ry sor...",
   "status": "done",
   "notes": ""
  },
@@ -1691,7 +1691,7 @@
   "id": "2512:211",
   "hdr": "0030 0017",
   "jp": "きゃきゃきゃきゃ！！{n}ビックリした？",
-  "en": "Kya ha ha ha!!{n}Did I scare you?",
+  "en": "Hee hee hee hee!!{n}Did I scare you?",
   "status": "done",
   "notes": ""
  },

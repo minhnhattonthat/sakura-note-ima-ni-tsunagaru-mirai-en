@@ -123,7 +123,7 @@
   "id": "2561:15",
   "hdr": "0024 0010",
   "jp": "ああ、一応自己紹介しておくぞ。{n}おれは佐倉木吉。",
-  "en": "Oh, better introduce myself.{n}I'm Kikichi.",
+  "en": "Oh, better introduce myself.{n}I'm Kikichi Sakura.",
   "status": "done",
   "notes": ""
  },
@@ -171,7 +171,7 @@
   "id": "2561:21",
   "hdr": "0003 000E",
   "jp": "もし会ってたとしても{n}犬には荷が重すぎるよ。",
-  "en": "Even if they'd met, that's too much{n}for a dog to handle.",
+  "en": "Even if he'd come to me, that's{n}too much for a dog to handle.",
   "status": "done",
   "notes": ""
  },

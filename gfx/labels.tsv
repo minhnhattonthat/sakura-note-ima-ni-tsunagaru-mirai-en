@@ -87,12 +87,12 @@ id	recn	cell	rect	fill	ink	shadow	align	dy	style	en	note
 1046	1048	0	2,92,46,12	45	76	13	c	0	bold	Sakuya	map label 咲谷町 (town name alone fits the pill)
 1046	1048	0	208,103,46,11	45	120	13	c	0	bold	Kiriya	map label 桐谷町
 4033	4032	1	0,0,56,16	0	15	1	c	0	shadow	No worries	choice 心配ないさ
-4033	4032	2	0,0,72,16	0	15	1	c	0	shadow	Hmm, no...	choice う～んダメかも
+4033	4032	2	0,0,72,16	0	15	1	c	0	shadow	Maybe not...	choice う～んダメかも
 4033	4032	3	0,0,72,16	0	15	1	c	0	shadow	Pick it up	choice ひろってみよう
 4033	4032	4	0,0,56,16	0	15	1	c	0	shadow	Kick it!	choice けっちゃえ!
 4033	4032	5	0,0,72,16	0	15	1	c	0	shadow	Try jumping...	choice とんでみるか…
-4033	4032	6	0,0,72,16	0	15	1	c	0	shadow	Buy a juice	choice ジュース買おっと
-4033	4032	7	0,0,72,16	0	15	1	c	0	shadow	Sure, I saw!	choice もちろん見たよ!
+4033	4032	6	0,0,72,16	0	15	1	c	0	shadow	Buy a soda	choice ジュース買おっと
+4033	4032	7	0,0,72,16	0	15	1	c	0	shadow	Sure did!	choice もちろん見たよ!
 4033	4032	8	0,0,72,16	0	15	1	c	0	shadow	Oops, forgot...	choice あ～忘れてた…
 4033	4032	9	0,0,56,16	0	15	1	c	0	shadow	Open it	choice あけてみよう
 4033	4032	10	0,0,56,16	0	15	1	c	0	shadow	Close it	choice しめてみよう
@@ -120,18 +120,18 @@ id	recn	cell	rect	fill	ink	shadow	align	dy	style	en	note
 4033	4032	32	0,0,64,16	0	15	1	c	0	shadow	Long shot!	choice ロングシュート!
 4033	4032	33	0,0,64,16	0	15	1	c	0	shadow	Give it back	choice 返してあげよう
 4033	4032	34	0,0,72,16	0	15	1	c	0	shadow	Step on it...	choice ふんでみたい…
-4033	4032	35	0,0,72,16	0	15	1	c	0	shadow	Not helping~	choice 助けないよ～だ
+4033	4032	35	0,0,72,16	0	15	1	c	0	shadow	Won't help!	choice 助けないよ～だ
 4033	4032	36	0,0,56,16	0	15	1	c	0	shadow	Pick on it!	choice いじめちゃえ!
 4033	4032	37	0,0,72,16	0	15	1	c	0	shadow	It's Nazkaiser!	choice ナスカイザーだ!
 4033	4032	38	0,0,72,16	0	15	1	c	0	shadow	That's wrong!	choice それちがうって!
-4033	4032	39	0,0,56,16	0	15	1	c	0	shadow	Hello~	choice こんにちは～
-4033	4032	40	0,0,72,16	0	15	1	c	0	shadow	Look at me~!	choice こっち見てよ～!
+4033	4032	39	0,0,56,16	0	15	1	c	0	shadow	Hello!	choice こんにちは～
+4033	4032	40	0,0,72,16	0	15	1	c	0	shadow	Look at me!	choice こっち見てよ～!
 4033	4032	41	0,0,72,16	0	15	1	c	0	shadow	All together	choice みんないっしょに
 4033	4032	42	0,0,72,16	0	15	1	c	0	shadow	On my own	choice おれだけの力で
 4033	4032	43	0,0,64,16	0	15	1	c	0	shadow	Take it	choice もらっちゃおう
 4033	4032	44	0,0,72,16	0	15	1	c	0	shadow	Don't take it	choice とるのはよくない
 4033	4032	45	0,0,56,16	0	15	1	c	0	shadow	Get it	choice とってあげる
-4033	4032	46	0,0,64,16	0	15	1	c	0	shadow	Lend it	choice ちょっとかして
+4033	4032	46	0,0,64,16	0	15	1	c	0	shadow	Borrow it	choice ちょっとかして
 4033	4032	47	0,0,64,16	0	15	1	c	0	shadow	Carefully...	choice しんちょうに…
 4033	4032	48	0,0,40,16	0	15	1	c	0	shadow	All in!	choice いっきに!
 4033	4032	49	0,0,56,16	0	15	1	c	0	shadow	Take fish	choice にぼし とる

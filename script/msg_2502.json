@@ -475,7 +475,7 @@
   "id": "2502:59",
   "hdr": "0007 000F",
   "jp": "吉田七海といいます。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くんが助けてくれて……",
-  "en": "My name is Nanami.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun saved me...",
+  "en": "My name is Nanami Yoshida.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun saved me...",
   "status": "done",
   "notes": ""
  },

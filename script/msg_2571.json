@@ -443,7 +443,7 @@
   "id": "2571:55",
   "hdr": "002E 000F",
   "jp": "わたしは吉田七海。{n}この子は{var_ED}{slot}{slot}{slot}{slot}{slot}。",
-  "en": "I'm Nanami.{n}And this is {var_ED}{slot}{slot}{slot}{slot}{slot}.",
+  "en": "I'm Nanami Yoshida.{n}And this is {var_ED}{slot}{slot}{slot}{slot}{slot}.",
   "status": "done",
   "notes": ""
  },

@@ -395,7 +395,7 @@
   "id": "2520:49",
   "hdr": "0007 000F",
   "jp": "この時がはじめてかな……{n}うれしくてナミダがでたのは。",
-  "en": "I think that was the first time...{n}I cried Tears because I was happy.",
+  "en": "I think that was the first time...{n}I cried because I was happy.",
   "status": "done",
   "notes": ""
  },
@@ -1307,7 +1307,7 @@
   "id": "2520:163",
   "hdr": "0007 000F",
   "jp": "な、なんでもないよ。{n}{var_EF}{slot}{slot}{slot}{slot}{slot}くん、行こう？",
-  "en": "I-it's nothing.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun, let's go?",
+  "en": "I-it's nothing.{n}{var_EF}{slot}{slot}{slot}{slot}{slot}-kun, shall we go?",
   "status": "done",
   "notes": ""
  },
@@ -1323,7 +1323,7 @@
   "id": "2520:165",
   "hdr": "0007 000F",
   "jp": "パパの机で写真を見つけて……{n}胸がキュンとなっちゃって……",
-  "en": "I found a photo on Dad's desk...{n}And my heart gave a little ache...",
+  "en": "I found a photo on Dad's desk...{n}And my heart ached...",
   "status": "done",
   "notes": ""
  },

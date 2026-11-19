@@ -43,7 +43,7 @@
   "id": "2565:5",
   "hdr": "0009 0012",
   "jp": "佐倉木吉さん？",
-  "en": "Kikichi-san?",
+  "en": "Kikichi Sakura-san?",
   "status": "done",
   "notes": ""
  },
@@ -171,7 +171,7 @@
   "id": "2565:21",
   "hdr": "0009 0012",
   "jp": "あなたは桜のために、娘さんの涙を{n}手に入れたんですよね。",
-  "en": "You got your daughter's Tears{n}for the cherry tree, didn't you?",
+  "en": "You got your daughter's tears{n}for the cherry tree, didn't you?",
   "status": "done",
   "notes": ""
  },
@@ -251,7 +251,7 @@
   "id": "2565:31",
   "hdr": "0024 0010",
   "jp": "おれは、その涙を契約に{n}使おうと思っていたんだが……",
-  "en": "I was going to use those Tears{n}for the pact, but...",
+  "en": "I was going to use those tears{n}for the pact, but...",
   "status": "done",
   "notes": ""
  },
@@ -315,7 +315,7 @@
   "id": "2565:39",
   "hdr": "0024 0010",
   "jp": "おれはおたねに事情を話して{n}その涙をもらって桜に注いだ。",
-  "en": "I explained it all to Otane,{n}then took those Tears to the tree.{page}I poured them over it.",
+  "en": "I explained it all to Otane,{n}then took those tears to the tree.{page}I poured them over it.",
   "status": "done",
   "notes": ""
  },

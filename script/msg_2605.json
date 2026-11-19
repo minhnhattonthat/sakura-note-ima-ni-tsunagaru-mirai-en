@@ -419,7 +419,7 @@
   "id": "2605:52",
   "hdr": "FFFF 00FF",
   "jp": "{col_F8}ピッチィの羽{n}{n}{col_FC}鳥幕府の仏の奉行と呼ばれる{n}ピッチィ様のありがたい羽。{n}もちろん少年にとっては{n}何のありがたみもなかった。",
-  "en": "{col_F8}Chirpy's Feather{n}{n}{col_FC}A blessed feather from Chirpy-sama,{n}the Bird Shogunate's{n}Merciful Magistrate. Of course,{n}the boy felt no gratitude at all.",
+  "en": "{col_F8}Chirpy's Feather{n}{n}{col_FC}A blessed feather from Chirpy-sama,{n}the Bird Shogunate's{n}Merciful Magistrate. To the boy,{n}of course, it was just a feather.",
   "status": "done",
   "notes": ""
  },

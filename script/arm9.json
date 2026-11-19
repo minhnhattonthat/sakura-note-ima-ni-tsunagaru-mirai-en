@@ -21,7 +21,7 @@
   "en": "Toru K.",
   "max": 20,
   "status": "done",
-  "notes": "default full name (surname + given)"
+  "notes": "default full name: no pointer reaches it (the game composes the full name from surname + given), never shown"
  },
  {
   "id": "arm9:0941D4",
@@ -45,7 +45,7 @@
   "en": "Traumerei",
   "max": 20,
   "status": "done",
-  "notes": "default pet name (dog or cat: guess)"
+  "notes": "default cat name (name 3; the cat's name entry shows it)"
  },
  {
   "id": "arm9:094210",
@@ -53,6 +53,6 @@
   "en": "Reinhold",
   "max": 20,
   "status": "done",
-  "notes": "default pet name (dog or cat: guess)"
+  "notes": "default dog name (name 4)"
  }
 ]

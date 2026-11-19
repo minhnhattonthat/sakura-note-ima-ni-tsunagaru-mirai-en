@@ -73,7 +73,7 @@ def box(entry):
             return "narration", [240] * 7, 7, "240px/line centred, <=7 lines, line 6 <=190 on a 6-7 line page"
         return "dlg", [228, 218], 2, "2 lines/page: 228px, last line of a page 218px; add {page} for more"
     if f == 2604:
-        return "credits", [120] * 4, 4, "120px/line, same line count as JP"
+        return "credits", [224] * 4, 4, "224px/line (centred by the build: tools/credits.py), same line count as JP"
     if f == 2605:
         return "item", [216] * 7, 7, "name{n}{n}body: 216px, body <=5 lines"
     if f == 2607:
@@ -169,6 +169,36 @@ def width_problems(entry, en):
     return out
 
 
+LABEL_FORMS = {"menu", "button", "panel", "slot", "tag"}  # where a JP blank can be cursor room or padding
+PARA_FORMS = {"dlg", "narration", "item", "profile", "panel"}
+LEAD = re.compile(r"(\{(?:col|n|page)[^}]*\})*([ 　]|\{sp\})")
+TRAIL = re.compile(r"([ 　]|\{sp\})(\{(?:col|n|page)[^}]*\})*$")
+STUB = 6  # a paragraph's last line shorter than this (chars; a drawn name = 5) is an orphan
+
+
+def plain_len(line):
+    return 5 * len(NAME.findall(line)) + len(TOKEN.sub("", NAME.sub("", line)).strip())
+
+
+def layout_problems(entry, en):
+    """Leading/trailing blanks kept in label forms (JP full-width indents in dialogue are typography, not room
+    for a cursor); no page of a paragraph ends on a stub line."""
+    form = box(entry)[0]
+    out = []
+    jp = entry["jp"]
+    if form in LABEL_FORMS:
+        if bool(LEAD.match(jp)) != bool(LEAD.match(en)):
+            out.append("leading blank: keep it exactly when the JP has one (cursor room / padding)")
+        if bool(TRAIL.search(jp)) != bool(TRAIL.search(en)):
+            out.append("trailing blank: keep it exactly when the JP has one")
+    if form in PARA_FORMS:
+        for p, page in enumerate(en.split("{page}")):
+            rows = page.split("{n}")
+            if len(rows) > 1 and 0 < plain_len(rows[-1]) < STUB and plain_len(rows[-2]) > 4 * STUB:
+                out.append(f"page {p + 1}: last line {rows[-1]!r} is a stub; rebalance the lines")
+    return out
+
+
 def encodable(char):
     return char in EN_CHARS
 # ---- end of ADAPTER ----
@@ -238,7 +268,7 @@ def problems(entry, en, terms):
     for jp_form, en_form in HONORIFICS.items():  # only after a drawn name or a katakana name (not おじさん)
         if re.search(rf"(\{{slot\}}|[ァ-ヺ]){jp_form}(?!と)", jp) and en_form.lower() not in en.lower():
             out.append(f"honorific {jp_form} needs {en_form}")
-    return out + width_problems(entry, en)
+    return out + layout_problems(entry, en) + width_problems(entry, en)
 
 
 def index():

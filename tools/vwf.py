@@ -312,9 +312,11 @@ def pack_tag(codes):
     return b + b"\xff" * (len(b) % 2)
 
 
-def patch_arm9(arm9):
-    """arm9.bin bytes with the advance and tag hooks and their autoload block added."""
+def patch_arm9(arm9, log=None):
+    """arm9.bin bytes with the advance and tag hooks and their autoload block added.
+    log: list for writelog entries (section-0 offsets = arm9.bin offsets)."""
     import ndspy.code
+    from writelog import put
     a9 = ndspy.code.MainCodeFile(arm9, ARM9_BASE)
     s0 = a9.sections[0]
     d = bytearray(s0.data)
@@ -322,12 +324,12 @@ def patch_arm9(arm9):
     toff = TAG_LOOP - ARM9_BASE
     if d[off:off + len(ORIG_ADV)] != ORIG_ADV or d[toff:toff + len(ORIG_TAG)] != ORIG_TAG:
         raise ValueError("hook sites differ from the dump")
-    if struct.unpack_from("<I", d, ARENA_LIT - ARM9_BASE)[0] != HOOK:
-        raise ValueError("arena-lo literal differs from the dump")
     block, labels = hook_block()
-    struct.pack_into("<II", d, off, 0xE51FF004, labels["adv_hook"])  # ldr pc, [pc, #-4]; .word adv_hook
-    struct.pack_into("<II", d, toff, 0xE51FF004, labels["tag_hook"])
-    struct.pack_into("<I", d, ARENA_LIT - ARM9_BASE, HOOK + len(block))
+    put(d, off, struct.pack("<II", 0xE51FF004, labels["adv_hook"]), "vwf adv hook", log,
+        ORIG_ADV[:8])  # ldr pc, [pc, #-4]; .word adv_hook
+    put(d, toff, struct.pack("<II", 0xE51FF004, labels["tag_hook"]), "vwf tag hook", log, ORIG_TAG)
+    put(d, ARENA_LIT - ARM9_BASE, struct.pack("<I", HOOK + len(block)), "arena lo raised", log,
+        struct.pack("<I", HOOK))
     s0.data = bytes(d)
     a9.sections.append(ndspy.code.MainCodeFile.Section(block, HOOK, 0))
     return a9.save(compress=False)

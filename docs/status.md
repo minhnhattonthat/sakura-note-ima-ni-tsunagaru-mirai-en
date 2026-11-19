@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: ready to start (phase 6 done: 5,155/5,155 lines translated, batch check 0
-  problems, reviewer pass 0 Critical, every Important applied or rejected in `docs/review-log.md`).
-  Last build: 2026-11-19 `build/sakuranote_en.nds` (default en build), sha1 5cedc1df89cb4ea72b876971eaa3524254bb9b03,
-  smoke ok. Not yet toured in the emulator.
+- **Phase:** 8. QA in the emulator: ready to start (phase 7 done: build green, text lint 0 problems, ROM audit
+  `tools/romcheck.py` ok, credits re-centred).
+  Last build: 2026-11-19 `build/sakuranote_en.nds` (default en build), sha1 7b2cb2d8ad78f4ec84507bcf59d42501f9b09ccb,
+  smoke ok, romcheck ok. Toured so far: credits (whole roll, every entry centred) and the chapter 1 card.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -61,29 +61,44 @@ Updated at the end of every session. Keep it to what the next session needs; his
     reviewed by `codex exec` read-only (`tools/review_run.py`, `docs/reviewer-brief.md`). Dispositions:
     `docs/review-log.md`. Checker fixes: chapter cards treat full-width-space JP lines as blank, and cards/credits
     take the JP line count as the cap (2613:45-60 have 4 lines with END); `tests/test_batches.py`.
+    Phase 6 review fix: `tools/review_run.py` exits 1 on a failed reviewer run (nonzero codex exit, missing or
+    malformed report); `tests/test_review_run.py`.
+  - Phase 7 checks (`docs/re/checks.md`): `tools/romcheck.py` audits the build leaf by leaf (header fields, arm7,
+    overlays, banner, NitroFS files, arm9 sections + `romdiff.check` with the write log, branch-into-hook scan,
+    FILEDATA entries, font cells, every message string decoded back to its script English with the JP's control
+    codes and the width lint, no Japanese left outside status `data`); every fixed-binary write goes through
+    `tools/writelog.py` (`build/<out>.writes.txt`); `tests/test_romcheck.py` builds its own ROM and tampers with it.
+    Text lint gained label-form blank matching and stub last lines. Credits (`docs/re/credits.md`): x per entry
+    is a `mov r2` immediate in overlay 1; `tools/credits.py` re-centres all 76 from the English width (cap 224);
+    "Marvelous Entertainment" restored. arm9:0941C0 (full default name "Toru K.") has no pointer: the game
+    composes the full name, so it is never shown. Cat = Traumerei, dog = Reinhold (set_name index 3/4, name_cat
+    shot). Chapter card line 2 as ASCII spaces renders fine (chapter1_card shot). New probes in `tools/debug/`:
+    `callerlog.lua`, `writerlog.lua`, `oamlog.lua`.
 - **Next:**
-  1. Phase 7: insert/fit/check: overflow lint over the built script, control codes, `romdiff.py` ranges. Credits:
-     find who sets the pen x for 2604 and re-centre (cap 240), then restore "Marvelous Entertainment" in 2604:78
-     (now the flagged "Marvelous Ent."). arm9:0941C0 default name "Toru K." (9-code slot): restore "Toru Kurosawa"
-     if the pointer can move. Chapter cards 2613:25-44 keep the blank line 2 as ASCII spaces (JP: 6 full-width).
-  2. The glossary lint skips `## Guidance` rows, so variant spellings slipped through there (Okashita, Pitchy...;
+  1. Phase 8 tour: warp every scene in `tools/debug/scenes.tsv` on the en build (`warp_all.py build/sakuranote_en.nds`),
+     contact sheets, read-only visual-QA verdicts into a `qa_gate.py` manifest (no subagents: do the verdict pass
+     yourself in a fresh read-only pass or with `codex exec`), `inkbox.py` on choice/centred boxes, graphics-text
+     rows (`docs/re/graphics.md`) English in zoomed cold-boot shots, stress saves, `textcover.py`.
+  2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
+     the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
+     write). Decide when the title screen is in the tour.
+  3. The glossary lint skips `## Guidance` rows, so variant spellings slipped through there (Okashita, Pitchy...;
      swept by hand, see review-log). A phase 8 story pass should grep EN against Guidance rows too.
-  3. Width rows still **guess** (not reached by any warp): 2609 track names (player-facing list, probably an
+  4. Width rows still **guess** (not reached by any warp): 2609 track names (player-facing list, probably an
      extras/special episode), 2615:0 touch prompt, 2616 tutorial (Nobiyo; presumed dialogue box without tag),
      2607:0/5 save/load prompts (same panel as the measured save messages), 2613:67-81 (same board panel, need
      unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
-  4. Phase 7 engine work (detail): credits line x (fixed per line, pre-centred for the Japanese; not plain data in FILEDATA:
-     trace who sets the pen x for 2604) so English lines can be re-centred; arm9:092798 empty-slot label has 5
-     codes ("Empty" fits) unless its pointer moves.
-  5. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
+  5. `docs/polish.md`: profile bullet indents (2611:31, 59-75).
+  6. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
 - **Open bugs:** none.
 - **Notes for later phases:**
   - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610
     index (verified): give translators the speaker name from 2610 as context.
   - English letters share the name-entry codes, so the name-entry key cells now show left-aligned VWF Latin (big
     font): check the name-entry screen in phase 8 and re-centre if needed.
-  - arm9 default names (20-byte slots, 9 chars + FFFD) and `はじめから` (14 bytes): in-place limits unless phase 7
-    finds their pointers. Which of トロイメライ/ラインホルト is the dog and which the cat is a guess.
+  - arm9 default names (20-byte slots, 9 chars + FFFD; the save's name fields are the same size, so 9 is the real
+    limit) and `はじめから` (14 bytes): in place. Pointers: names from 0x02035F18 (set_name 1-4), はじめから from
+    0x0207F28C; the full-name slot 0x020941C0 has none.
   - The debug menu's オープニング item shows nothing; the title/opening is reached by normal boot instead.
   - The field save screen (save_slots/save_confirm) and file select show graphics/font text: in the phase 8 tour.
 - **Waiting on the user:**

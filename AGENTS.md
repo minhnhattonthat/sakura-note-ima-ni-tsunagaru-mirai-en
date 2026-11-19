@@ -6,6 +6,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Build:    `python -X utf8 tools/build.py`  -> build/sakuranote_en.nds (checks the dump against `rom.sha1` first)
 - Text:     `python -X utf8 tools/script.py extract|verify|stats` (script/*.json from the original ROM; extract keeps translations)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; hooks: `git config core.hooksPath tools/hooks`)
+- Audit:    `python -X utf8 tools/romcheck.py [BUILT]` (leaf-level ROM audit with the build's write log; `docs/re/checks.md`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/sakuranote_en.nds --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/sakuranote_en.nds --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --var STOP_AFTER=30 --frames 12000 --sheet` (scenes: `tools/debug/scenes.tsv`; all scenes + states: `python -X utf8 tools/debug/warp_all.py [ROM]`; never ask the user to play to a scene)
 - Saves:    `python -X utf8 tools/debug/make_save.py` (game-written fixtures in `work/saves/`), `python -X utf8 tools/debug/save.py show|edit` (layout: `docs/re/save.md`)

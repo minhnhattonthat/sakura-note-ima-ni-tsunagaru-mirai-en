@@ -11,7 +11,7 @@
   "id": "2604:1",
   "hdr": "FFFF 00FF",
   "jp": "マーベラスエンターテイメント",
-  "en": "Marvelous{sp}Entertainment",
+  "en": "Marvelous Entertainment",
   "status": "done",
   "notes": ""
  },
@@ -235,7 +235,7 @@
   "id": "2604:29",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}(株式会社マーベラスエンターテイメント{n}　デジタルコンテンツカンパニー)",
-  "en": "{col_F9}Marvelous{sp}Entertainment{n}Digital Content Company",
+  "en": "{col_F9}Marvelous Entertainment{n}Digital Content Company",
   "status": "done",
   "notes": ""
  },
@@ -411,7 +411,7 @@
   "id": "2604:51",
   "hdr": "FFFF 00FF",
   "jp": "高橋　由美子(茜-AKANE-)",
-  "en": "Yumiko{sp}Takahashi{sp}(AKANE)",
+  "en": "Yumiko Takahashi (AKANE)",
   "status": "done",
   "notes": ""
  },
@@ -627,7 +627,7 @@
   "id": "2604:78",
   "hdr": "FFFF 00FF",
   "jp": "{col_F9}(株式会社マーベラスエンターテイメント{n}(株式会社マーベラスエンターテイメント{n}(株式会社マーベラスエンターテイメント{n}　デジタルコンテンツカンパニー)",
-  "en": "{col_F9}(Marvelous Ent.{n}(Marvelous Ent.{n}(Marvelous Ent.{n} Digital Content Co.)",
+  "en": "{col_F9}(Marvelous Entertainment{n}(Marvelous Entertainment{n}(Marvelous Entertainment{n} Digital Content Company)",
   "status": "done",
   "notes": ""
  }

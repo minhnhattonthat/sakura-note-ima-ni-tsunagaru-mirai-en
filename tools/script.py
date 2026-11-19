@@ -56,11 +56,12 @@ def auto_status(fid, k, text):
 ARM9_SLOTS = [
     (0x092798, 0x0E, "title menu item (New Game)"),
     (0x0927A6, 0x20, "save slot date template"),
-    (0x0941C0, 0x14, "default full name (surname + given)"),
+    (0x0941C0, 0x14, "default full name: no pointer reaches it (the game composes the full name from surname + "
+                     "given), never shown"),
     (0x0941D4, 0x14, "default surname"),
     (0x0941E8, 0x14, "default given name"),
-    (0x0941FC, 0x14, "default pet name (dog or cat: guess)"),
-    (0x094210, 0x14, "default pet name (dog or cat: guess)"),
+    (0x0941FC, 0x14, "default cat name (name 3; the cat's name entry shows it)"),
+    (0x094210, 0x14, "default dog name (name 4)"),
 ]
 
 

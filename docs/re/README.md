@@ -19,6 +19,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `debug.md` | FILEDATA load hook, boot-script swap to the debug menu (2477 -> 2494), menu map, normal new-game flow, debug map list (`maplist.tsv`) | warp verified (40 scenes) |
 | `vwf.md` | text renderer (canvas, blits, advance function), speaker tags (2610 + 8x8 font 872), the VWF hooks and encoding | verified (marker build boots, 40/40 warps) |
 | `boxes.md` | box variants and width budgets (width gate) | dialogue measured; rest todo |
+| `credits.md` | staff roll: overlay-1 line calls, per-entry x immediates, engine centring, English re-centring | verified (traces + English shots) |
+| `checks.md` | phase 7 checks: text lint, leaf-level ROM audit `romcheck.py`, write log | verified (tamper tests) |
 | `save.md` | EEPROM layout, checksum, save points, chapter bitmask, names, `save.py` / `make_save.py` | verified (game-written save, load tests); most of the state struct unmapped |
 
 Prior work (one web search, 2026-11-19): no released English patch or tools found. A NeoGAF thread on unlocalized

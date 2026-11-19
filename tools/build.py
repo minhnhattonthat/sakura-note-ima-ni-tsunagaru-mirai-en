@@ -3,7 +3,8 @@
     python -X utf8 tools/build.py [--out build/sakuranote_en.nds] [--marker | --identity]
 
 Steps: check the dump against rom.sha1, unpack FILEDATA.BIN, apply edits, repack FILEDATA and the NitroFS with ndspy,
-then undo ndspy's two non-exact habits (size word at 0x1000, no 0xFF pad to the cartridge size).
+then undo ndspy's two non-exact habits (size word at 0x1000, no 0xFF pad to the cartridge size). The arm9 write
+and overlay write logs go next to the output (`<out>.writes.txt`); `tools/romcheck.py` audits the build with them.
 
 Modes:
 - default: English VWF font + hook (tools/vwf.py), script/ translations inserted (tools/insert.py); untranslated
@@ -38,14 +39,15 @@ def edit_payloads(payloads, mode):
     return insert.payloads(payloads, marker_build=mode == "marker")
 
 
-def edit_arm9(arm9, mode):
+def edit_arm9(arm9, mode, log=None):
+    """arm9.bin after the edits; every write into section 0 goes into log (tools/writelog.py)."""
     if mode == "identity":
         return arm9
     import insert
     import script
     import vwf
-    a9 = insert.patch_arm9_strings(arm9, script.load("arm9.json"), marker_build=mode == "marker")
-    return vwf.patch_arm9(a9)
+    a9 = insert.patch_arm9_strings(arm9, script.load("arm9.json"), marker_build=mode == "marker", log=log)
+    return vwf.patch_arm9(a9, log=log)
 
 
 def fix_ndspy(orig, built):
@@ -58,8 +60,20 @@ def fix_ndspy(orig, built):
     return bytes(out)
 
 
-def build(orig_bytes=None, mode="identity"):
-    """Return the built ROM bytes."""
+def edit_overlays(rom, mode, writes):
+    """Ending overlay: credits line x re-centred for the English (tools/credits.py)."""
+    if mode == "identity":
+        return
+    import credits
+    import script
+    log = writes.setdefault("overlay1", []) if writes is not None else None
+    rom.files[credits.OVERLAY] = credits.patch_overlay(bytes(rom.files[credits.OVERLAY]),
+                                                       script.load(f"msg_{credits.MSG}.json"), log)
+
+
+def build(orig_bytes=None, mode="identity", writes=None):
+    """Return the built ROM bytes. writes: dict that receives the write logs per target ("arm9", "overlay1")
+    for tools/romcheck.py."""
     assert mode in MODES, mode
     orig = orig_bytes if orig_bytes is not None else romfs.ROM.read_bytes()
     rom = ndspy.rom.NintendoDSRom(orig)
@@ -67,7 +81,8 @@ def build(orig_bytes=None, mode="identity"):
     blob = bytes(rom.files[fid])
     payloads = edit_payloads(filedata.files(blob), mode)
     rom.files[fid] = filedata.build(blob, payloads)
-    rom.arm9 = edit_arm9(bytes(rom.arm9), mode)
+    rom.arm9 = edit_arm9(bytes(rom.arm9), mode, writes.setdefault("arm9", []) if writes is not None else None)
+    edit_overlays(rom, mode, writes)
     return fix_ndspy(orig, rom.save())
 
 
@@ -93,10 +108,13 @@ def main():
         import insert
         insert.QA.update(qa)
     check_rom.check()
-    data = build(mode=mode)
+    writes = {}
+    data = build(mode=mode, writes=writes)
     out = Path(a.out or (OUT_MARKER if mode == "marker" else OUT))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)
+    import writelog
+    out.with_suffix(".writes.txt").write_text(writelog.dump(writes), encoding="utf-8", newline="\n")
     same = data == romfs.ROM.read_bytes()
     print(f"{out} ({mode}) {len(data):#x} bytes sha1 {hashlib.sha1(data).hexdigest()}"
           f"{' (identical to the dump)' if same else ''}")

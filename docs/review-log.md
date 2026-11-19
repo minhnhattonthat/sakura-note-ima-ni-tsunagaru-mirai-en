@@ -40,4 +40,4 @@ Nazkaiser Arrives!" (2605:7).
 | 2608:31-32, 47-48, 63-64, 76-77 | `'s` glued to a drawn name | the no-suffix rule is for ordinals; `'s` reads right after any name and matches the chapter cards |
 | 2611:14 | "In her twenties" as present | the JP lists life stages (10代 then 20代); past reading kept |
 | arm9:0941C0 | "Toru K." -> full name | 9-code slot; full name needs the pointer moved (phase 7) |
-| 2604:78 | "Marvelous Ent." -> full name | 125 px > the 120 px credits cap; flagged in glossary, restore when phase 7 re-centres the credits |
+| 2604:78 | "Marvelous Ent." -> full name | 125 px > the 120 px credits cap; flagged in glossary. Phase 7: credits re-centred (cap 224), full name restored (2604:78 is never shown anyway) |

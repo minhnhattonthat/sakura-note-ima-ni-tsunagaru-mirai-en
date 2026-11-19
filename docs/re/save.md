@@ -30,7 +30,7 @@ walk left 50 / down 80 frames, face right, A through the save screen into slot 1
 | 0x15C, 0x160, 0x164, 0x168 | 4 each | per-chapter word; 0x20 in the chapter a debug warp started, 0 elsewhere | RAM diff s1/s2/s3 |
 | 0x120-0x12F | 16 | **item ownership** (だいじなもの grid), presumably one bit per 2605 item; per-bit order not mapped | 0xFF in all 16 bytes (live RAM via `tools/debug/poke.lua`, or the `all_items` fixture) fills the grid and the description panel opens (scene `item_desc`); 0xFF in any other 16-byte chunk of 0x100-0x180 shows nothing |
 | 0x16C | 4 | **chapter tabs on the episode board**, bitmask (bit 0 = chapter 1) | edit 2/4/8/0xF -> tabs 1-2/1-3/1-4 appear; chapter 2-4 cards play |
-| 0x2A4, 0x2B8, 0x2CC, 0x2E0 | 0x14 each | names: boy surname, boy given name, dog, cat; u16 font codes (`tbl/jp.tbl`), 0xFFFD end | クロサワ / トオル / トロイメライ / ラインホルト |
+| 0x2A4, 0x2B8, 0x2CC, 0x2E0 | 0x14 each | names 1-4: boy surname, boy given name, cat, dog (set_name 0x020362E4 index 1-4 from 0x02035F18; the 2610 placeholders 3 = 名前(猫), 4 = 名前(犬); scene name_cat shows トロイメライ); u16 font codes (`tbl/jp.tbl`), 0xFFFD end | クロサワ / トオル / トロイメライ / ラインホルト |
 | 0x9FE | 2 | checksum | above |
 
 Everything else in 0x28-0x9A0 (play time? hearts, items, story flags) is **not mapped**: map it by diffing two

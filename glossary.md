@@ -151,7 +151,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 管理室のカギ | Management Office Key |  | Dimpled security key. |  |
 | 真空管 / 963A真空管 | Vacuum Tube / 963A Vacuum Tube |  | Specific item is rare Soviet prototype; retain model when present. |  |
 | きみと走るとぼくは泣く | Running with You Makes Me Cry |  | Suggested English theme-song title. |  |
-| マーベラスエンターテイメント | Marvelous Entertainment / Marvelous Ent. |  | Historical publisher credit; duplicated final entry appears malformed. "Marvelous Ent." is a FLAGGED last resort for credits 2604:78 only (125 px > the 120 px credits cap); restore the full name when phase 7 re-centres the credits (cap 240). |  |
+| マーベラスエンターテイメント | Marvelous Entertainment |  | Historical publisher credit; the duplicated final entry 2604:78 is malformed and never shown. Phase 7 re-centred the credits (cap 224), so the full name is used everywhere. | Marvelous Ent. |
 
 ## Guidance (context-dependent: use where it fits; the lint does not enforce these)
 

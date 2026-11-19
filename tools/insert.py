@@ -161,8 +161,9 @@ def arm9_marker(k, jp):
     return lead + f"a{k}"
 
 
-def patch_arm9_strings(arm9, rows, marker_build=False, ctx=None):
-    """arm9 bytes with translated (or marker) strings written into their fixed slots."""
+def patch_arm9_strings(arm9, rows, marker_build=False, ctx=None, log=None):
+    """arm9 bytes with translated (or marker) strings written into their fixed slots (log: writelog entries)."""
+    from writelog import put
     ctx = ctx or Ctx()
     out = bytearray(arm9)
     byid = {r["id"]: r for r in rows}
@@ -181,7 +182,7 @@ def patch_arm9_strings(arm9, rows, marker_build=False, ctx=None):
         b = ctx.en.encode(text) + script.pack([script.END])
         if len(b) > slot:
             raise ValueError(f"{r['id']}: {len(b)} bytes, slot holds {slot}")
-        out[off:off + slot] = b + b"\0" * (slot - len(b))
+        put(out, off, b + b"\0" * (slot - len(b)), r["id"], log)
     return bytes(out)
 
 

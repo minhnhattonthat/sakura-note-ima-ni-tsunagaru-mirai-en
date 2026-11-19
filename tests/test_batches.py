@@ -45,6 +45,22 @@ def test_honorific_after_katakana_only():
     assert not any("-san" in p for p in batches.problems(e, "Nanami-chan and the man", []))
 
 
+def test_label_blanks_kept():
+    menu = {"id": "2608:3", "hdr": "FFFF FFFF", "jp": "　アイテム"}  # leading full-width space = cursor room
+    assert batches.layout_problems(menu, " Items") == []
+    assert batches.layout_problems(menu, "Items")
+    assert batches.layout_problems({**menu, "jp": "アイテム"}, "Items ")
+    dlg = {"id": "2500:0", "hdr": "000D 0010", "jp": "　あいうえお"}  # dialogue indent: typography, not checked
+    assert batches.layout_problems(dlg, "Hello") == []
+
+
+def test_stub_last_line():
+    dlg = {"id": "2500:0", "hdr": "000D 0010", "jp": "x"}
+    assert batches.layout_problems(dlg, "This line runs on long enough to need{n}help.")
+    assert batches.layout_problems(dlg, "This line runs on long enough{n}to need help.") == []
+    assert batches.layout_problems(dlg, "Let's go home now, shall we,{n}{var_ED}{slot}{slot}.") == []  # name = 5
+
+
 def test_shipped_english_passes():
     entries, terms = batches.index(), batches.glossary()
     bad = [(i, p) for i, e in entries.items() if e.get("en") for p in batches.problems(e, e["en"], terms)]

@@ -26,7 +26,7 @@ import romfs  # noqa: E402
 
 LABELS = ROOT / "gfx" / "labels.tsv"
 COLS = ["id", "recn", "cell", "rect", "fill", "ink", "shadow", "align", "dy", "style", "en", "note"]
-STYLES = ("shadow", "outline", "bold")
+STYLES = ("shadow", "outline", "bold", "big")
 SPACE = 1  # px between glyphs (the advance is width + 1, as in tools/vwf.py)
 
 
@@ -47,8 +47,8 @@ def char_data(p):
 
 
 def obj_pixels(g, o, shift, xoff):
-    """[(dx, dy, byte, high_nibble)] for every pixel of OBJ o in cell space (flips applied), 4bpp only."""
-    assert g["bpp"] == 4, "8bpp sprite sheets: add when one carries text"
+    """[(dx, dy, byte, high_nibble)] for every pixel of OBJ o in cell space (flips applied). 8bpp pixels use the
+    whole byte (high_nibble None). 1D mapping: the tile number counts 32-byte units << shift at either depth."""
     start = xoff + (o["t"] << shift) * 32
     out = []
     ntw = o["w"] // 8
@@ -61,7 +61,10 @@ def obj_pixels(g, o, shift, xoff):
                 k = t * 64 + (y % 8) * 8 + x % 8
             xx = (o["w"] - 1 - x) if o["hf"] else x
             yy = (o["h"] - 1 - y) if o["vf"] else y
-            out.append((o["x"] + xx, o["y"] + yy, start + k // 2, k & 1))
+            if g["bpp"] == 8:
+                out.append((o["x"] + xx, o["y"] + yy, start + k, None))
+            else:
+                out.append((o["x"] + xx, o["y"] + yy, start + k // 2, k & 1))
     return out
 
 
@@ -188,23 +191,26 @@ def letter(px, rect, text, fill, ink, shadow, align="c", dy=0, gl=None, style="s
                     out[(xx, yy)] = fill[(xx, yy)] if (xx, yy) in fill else fill[yy]
                 else:
                     out[(xx, yy)] = fill
-    rim =1 if style == "outline" else 0
+    rim = 1 if style in ("outline", "big") else 0
     bold = 1 if style == "bold" else 0  # "bold": every ink pixel doubled to the right, glyphs 1 px wider
-    tw = text_width(text, gl) + 2 * rim + bold * len(text)
+    k = 2 if style == "big" else 1  # "big": glyphs at 2x (headings), outlined
+    tw = k * text_width(text, gl) + 2 * rim + bold * len(text)
     if tw > w:
         raise ValueError(f"{text!r}: {tw} px > rect width {w}")
     cx = x + rim + {"l": 0, "c": (w - tw) // 2, "r": w - tw}[align]
-    cy = y + (h - 8) // 2 + dy
+    cy = y + (h - 8 * k) // 2 + dy
     ink_px = set()
     for c in text:
         rows = gl[c]
         for ry, row in enumerate(rows):
             for rx, ch in enumerate(row):
                 if ch == "#":
-                    ink_px.add((cx + rx, cy + ry))
+                    for a in range(k):
+                        for b in range(k):
+                            ink_px.add((cx + k * rx + a, cy + k * ry + b))
                     if bold:
                         ink_px.add((cx + rx + 1, cy + ry))
-        cx += len(rows[0]) + SPACE + bold
+        cx += k * (len(rows[0]) + SPACE) + bold
     for p in ink_px:
         if p not in out or not (x <= p[0] < x + w and y <= p[1] < y + h):
             raise ValueError(f"{text!r}: ink at {p} falls outside the rect or the cell")
@@ -233,12 +239,12 @@ def load_rows(path=LABELS):
 def parse_row(r):
     return {"id": int(r["id"]), "recn": int(r["recn"]), "cell": int(r["cell"]),
             "rect": tuple(int(v) for v in r["rect"].split(",")),
-            "fill": r["fill"] if r["fill"][:1] in "@~=" else int(r["fill"]), "ink": int(r["ink"]),
+            "fill": r["fill"] if r["fill"][:1] in "@~=^" else int(r["fill"]), "ink": int(r["ink"]),
             "shadow": int(r["shadow"]), "align": r["align"], "dy": int(r["dy"] or 0),
             "style": style(r["style"]), "en": r["en"]}
 
 
-def row_fill(r, px, pal=None, bpp=4):
+def row_fill(r, px, pal=None, bpp=4, subs=None):
     """fill = an index; "@X": each rect row cleared to the original value at column X of that row (keeps a banded
     or gradient label background); "~T": inpaint (text over art or a translucent panel), see `inpaint`."""
     if isinstance(r["fill"], int):
@@ -248,7 +254,13 @@ def row_fill(r, px, pal=None, bpp=4):
         return None
     if r["fill"].startswith("~"):
         t, _, d = r["fill"][1:].partition("/")
-        return inpaint(px, r["rect"], int(t), pal, bpp, int(d) if d else None)
+        if t.startswith("h"):  # "~hT": warm (orange/red) letters over green or blue art, R - G > T
+            return inpaint(px, r["rect"], int(t[1:]), pal, bpp, int(d) if d else None, hue=True, subs=subs)
+        return inpaint(px, r["rect"], int(t), pal, bpp, int(d) if d else None, subs=subs)
+    if r["fill"].startswith("^"):  # "^DX,DY": copy the art at that offset (plain art next to the lettering)
+        dx, dy = (int(v) for v in r["fill"][1:].split(","))
+        return {(xx, yy): px[(xx + dx, yy + dy)] for xx in range(x, x + w) for yy in range(y, y + h)
+                if (xx, yy) in px}
     col = int(r["fill"][1:])
     return {yy: px[(col, yy)] for yy in range(y, y + h)}
 
@@ -257,24 +269,31 @@ def luma(c):
     return (c[0] * 299 + c[1] * 587 + c[2] * 114) // 1000
 
 
-def inpaint(px, rect, thresh, pal, bpp, grow=None):
+def inpaint(px, rect, thresh, pal, bpp, grow=None, hue=False, subs=None):
     """{(x, y): index} for every pixel of rect with the old lettering removed. Text = pixels with luma > thresh
     (letters), < 24 (their black rim) or chroma > 64 (coloured letters' anti-aliasing), grown by 1 px; each is
     filled, in passes from the outside in, with the
     palette index nearest the mean colour of its known 8-neighbours (rect pixels that are not text, and the pixels
-    just outside the rect)."""
+    just outside the rect). subs = {(x, y): sub-palette} (4bpp screens and cells: each pixel is read and refilled
+    in its own tile's sub-palette); None = sub-palette 0 everywhere."""
     x, y, w, h = rect
-    rgb = lambda v: G.colour(pal, bpp, 0, v) or (0, 0, 0)
+    subs = subs or {}
+    colour = lambda s, v: G.colour(pal, bpp, s, v) or (0, 0, 0)
     inside = {(xx, yy) for xx in range(x, x + w) for yy in range(y, y + h) if (xx, yy) in px}
+    pix = lambda p: colour(subs.get(p, 0), px[p])
     def is_text(c):
+        if hue:
+            return c[0] - c[1] > thresh
+        if thresh < 0:  # "~-T": dark letters (luma < T) on a pale panel or glow
+            return luma(c) < -thresh
         if grow is not None:  # "~T/D": white letters only (over colourful art), their soft shadow taken by growing
             return luma(c) > thresh and max(c) - min(c) < 48
         return luma(c) > thresh or luma(c) < 24 or max(c) - min(c) > 64  # bright, rim, or coloured lettering
-    text = {p for p in inside if is_text(rgb(px[p]))}
+    text = {p for p in inside if is_text(pix(p))}
     for _ in range(1 if grow is None else grow):
         text |= {(a + i, b + j) for a, b in text for i in (-1, 0, 1) for j in (-1, 0, 1)} & inside
-    known = {p: rgb(px[p]) for p in px if p not in text}
-    cands = [v for v in range(1, 256 if bpp == 8 else 16) if G.colour(pal, bpp, 0, v)]
+    known = {p: pix(p) for p in px if p not in text}
+    cand = {}  # sub-palette -> its usable indices
     near = {}
     out = {}
     todo = set(text)
@@ -287,10 +306,13 @@ def inpaint(px, rect, thresh, pal, bpp, grow=None):
         if not step:
             raise ValueError(f"inpaint: {len(todo)} pixels have no known neighbour")
         for p, c in step.items():
-            if c not in near:
-                near[c] = min(cands, key=lambda v: sum((rgb(v)[k] - c[k]) ** 2 for k in range(3)))
-            out[p] = near[c]
-            known[p] = rgb(near[c])
+            s = subs.get(p, 0)
+            if s not in cand:
+                cand[s] = [v for v in range(1, 256 if bpp == 8 else 16) if G.colour(pal, bpp, s, v)]
+            if (s, c) not in near:
+                near[(s, c)] = min(cand[s], key=lambda v: sum((colour(s, v)[k] - c[k]) ** 2 for k in range(3)))
+            out[p] = near[(s, c)]
+            known[p] = colour(s, out[p])
         todo -= set(step)
     return {p: out.get(p, px[p]) for p in inside}
 
@@ -320,7 +342,9 @@ def apply(payloads, rows=None):
         data = bytearray(g["data"])
         m = row_map(g, unpack(out[r["recn"]])[0], r["cell"])
         px = map_grid(g, m)
-        new = letter(px, r["rect"], r["en"], row_fill(r, px, palette_near(out, r["id"]), g["bpp"]), r["ink"], r["shadow"], r["align"], r["dy"], gl, r["style"])
+        subs = {k: s for k, (_, _, s) in m.items()} if g["bpp"] == 4 else None
+        fill = row_fill(r, px, palette_near(out, r["id"]), g["bpp"], subs)
+        new = letter(px, r["rect"], r["en"], fill, r["ink"], r["shadow"], r["align"], r["dy"], gl, r["style"])
         changed = {k: v for k, v in new.items() if px[k] != v}
         touched = put_map(data, m, changed)
         p[start:start + size] = data
@@ -397,7 +421,7 @@ def main():
             if not objs:
                 continue
             w, h, px = cell_grid(g, objs, shift, cell_xoff(xfer, k))
-            im = render(w, h, px, pal, subpal(objs), a.zoom)
+            im = render(w, h, px, pal, subpal(objs), a.zoom, bpp=g["bpp"])
             G.label(im, f"{a.rgcn} cell {k} {w}x{h}", 1).save(out / f"{a.rgcn}_c{k:03d}.png")
         print(f"{len(objs_all)} cells -> {out}")
     else:
@@ -440,8 +464,12 @@ def main():
 
 def palette_near(fs, i):
     """The RLCN of RGCN i: the next entry when it is one (RGCN, RLCN, RCSN groups), else the nearest one before
-    (an RGCN + RCSN pair sharing the previous group's palette), else the nearest after."""
-    for j in [i + 1] + list(range(i - 1, i - 5, -1)) + list(range(i + 2, i + 5)):
+    (an RGCN + RCSN pair sharing the previous group's palette), else the nearest after. An RGCN, RECN, RLCN group
+    (4218, 4219, 4220) takes its own RLCN two on."""
+    order = [i + 1] + list(range(i - 1, i - 5, -1)) + list(range(i + 2, i + 5))
+    if i + 2 < len(fs) and unpack(fs[i + 1])[0][:4] in (b"RECN", b"RCSN") and unpack(fs[i + 2])[0][:4] == b"RLCN":
+        order.insert(0, i + 2)
+    for j in order:
         if 0 <= j < len(fs) and unpack(fs[j])[0][:4] == b"RLCN":
             return G.palette(unpack(fs[j])[0])
     return []

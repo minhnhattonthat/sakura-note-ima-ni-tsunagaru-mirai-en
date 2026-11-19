@@ -43,3 +43,6 @@ intro_narration	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,
 status_menu	debug	f2612 w30 a w120 a w100 a w100 down a w600 a*22 w60 x w200	1040		field menu, STATUS tab: status panel (top), だいじなもの item grid (bottom)
 newexp_menu	debug	f2612 w30 a w120 a w100 a w100 down a w600 a*22 w60 r w200	1017		field menu, NEWEXP tab: new-experience panel (top), list of 2608 rows (bottom)
 item_desc	title	f1139 w240 start f1126 w200 a w200 a f2615 w200 a w150 a f2630 w600 t128,100 w2000 x w200 a w200	2605	all_items	resume slot 1 (every item owned), STATUS tab, A on item 1: description panel (2605:3)
+puzzle_info	debug	f2612 w30 up*2 a w150 down*5 a w600	73		debug extras ch2 extra 3: Yokai Sliding Puzzle, instructions panel (73+75, bottom)
+puzzle	debug	f2612 w30 up*2 a w150 down*5 a w600 a w400	70		Yokai Sliding Puzzle running: frame with B: Back (70+72, bottom)
+nazkaiser_info	debug	f2612 w30 up*2 a w150 right w100 down*2 a w600	106		debug extras ch3 extra 3: Nazkaiser title logo (109, top, D5) and controls panel (106+108, bottom)

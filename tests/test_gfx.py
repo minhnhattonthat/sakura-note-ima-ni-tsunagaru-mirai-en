@@ -111,3 +111,60 @@ def test_inpaint_removes_bright_text():
         px[(x, 5)] = 15  # a white stroke
     out = gfx.inpaint(px, (2, 2, 16, 6), 100, pal, 4)
     assert all(v == 3 for v in out.values())
+
+
+def test_inpaint_dark_text():  # "~-T": letters darker than T on a pale panel
+    pal = [(0, 0, 0)] + [(16 * i, 16 * i, 16 * i) for i in range(1, 16)]
+    px = {(x, y): 13 for x in range(20) for y in range(10)}
+    for x in range(5, 15):
+        px[(x, 5)] = 3  # a dark stroke (luma 48: not the < 24 rim of bright text)
+    px[(3, 3)] = 12  # panel texture away from the stroke stays as it is
+    r = {"rect": (2, 2, 16, 6), "fill": "~-60"}
+    out = gfx.row_fill(r, px, pal, 4)
+    assert out.pop((3, 3)) == 12
+    assert all(v == 13 for v in out.values())
+
+
+def test_inpaint_warm_text_over_green():  # "~hT": R - G > T
+    pal = [(0, 0, 0), (40, 160, 40), (60, 180, 60), (230, 140, 40), (120, 60, 10)]
+    px = {(x, y): 1 + (x + y) % 2 for x in range(20) for y in range(10)}
+    for x in range(5, 15):
+        px[(x, 5)], px[(x, 6)] = 3, 4  # orange stroke, brown rim
+    r = {"rect": (2, 2, 16, 6), "fill": "~h30"}
+    out = gfx.row_fill(r, px, pal, 4)
+    assert set(out.values()) <= {1, 2}
+
+
+def test_inpaint_reads_each_tiles_subpalette():  # 4bpp: index 5 is white in sub-palette 1, grey in 0
+    pal = [(0, 0, 0)] + [(40, 40, 40)] * 15 + [(0, 0, 0)] + [(40, 40, 40)] * 4 + [(255, 255, 255)] + [(40, 40, 40)] * 10
+    px = {(x, y): 3 for x in range(20) for y in range(10)}
+    for x in range(5, 15):
+        px[(x, 5)] = 5
+    subs = {k: 1 for k in px}
+    assert all(v == 3 for v in gfx.inpaint(px, (2, 2, 16, 6), 100, pal, 4).values()) is False
+    out = gfx.inpaint(px, (2, 2, 16, 6), 100, pal, 4, subs=subs)
+    assert all(gfx.G.colour(pal, 4, 1, v) == (40, 40, 40) for v in out.values())
+
+
+def test_offset_fill_copies_art():  # "^DX,DY": each rect pixel from (x+DX, y+DY)
+    px = {(x, y): (x * 7 + y) % 16 for x in range(40) for y in range(10)}
+    r = {"rect": (2, 1, 10, 6), "fill": "^20,2"}
+    fill = gfx.row_fill(r, px)
+    assert fill == {(x, y): px[(x + 20, y + 2)] for x in range(2, 12) for y in range(1, 7)}
+    out = gfx.letter(px, r["rect"], "", fill, ink=15, shadow=-1)
+    assert all(out[(x, y)] == px[(x + 20, y + 2)] for x in range(2, 12) for y in range(1, 7))
+
+
+def test_big_style_doubles_glyphs():
+    gl = gfx.glyphs()
+    px = {(x, y): 0 for x in range(120) for y in range(24)}
+    out = gfx.letter(px, (0, 0, 120, 24), "Ab", 0, ink=15, shadow=14, style="big")
+    ink = {k for k, v in out.items() if v == 15}
+    n = sum(row.count("#") for c in "Ab" for row in gl[c])
+    assert len(ink) == 4 * n
+    xs, ys = [k[0] for k in ink], [k[1] for k in ink]
+    assert max(ys) - min(ys) + 1 <= 16
+    assert max(xs) - min(xs) + 1 <= 2 * gfx.text_width("Ab", gl)
+    rim = {k for k, v in out.items() if v == 14}
+    for (x, y) in ink:
+        assert all((x + a, y + b) in ink | rim for a in (-1, 0, 1) for b in (-1, 0, 1))

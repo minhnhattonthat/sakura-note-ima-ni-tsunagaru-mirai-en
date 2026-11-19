@@ -1,9 +1,10 @@
 # Graphics-text redraws applied by tools/build.py (tools/gfx.py apply; audited by tools/romcheck.py).
 # id = FILEDATA RGCN; recn = its RECN (sprite cell `cell`) or RCSN (BG screen, cell 0); rect = x,y,w,h in cell or
 # screen pixels, cleared to fill: an index, @X (each row's value at column X), ~T (inpaint: luma > T, rim, colour),
-# ~T/D (inpaint near-white letters grown D px) or = (no clear: drawn over an earlier row's clear).
-# ink/shadow = palette indices (shadow -1 = none); align l|c|r; dy = vertical nudge; style shadow (drop) | outline;
-# en = text (empty = clear only).
+# ~T/D (inpaint near-white letters grown D px), ~-T (dark letters, luma < T), ~hT (warm letters, R - G > T),
+# ^DX,DY (copy the art at that offset) or = (no clear: drawn over an earlier row's clear).
+# ink/shadow = palette indices (shadow -1 = none); align l|c|r; dy = vertical nudge; style shadow (drop) | outline |
+# bold | big (2x glyphs, outlined: headings); en = text (empty = clear only).
 id	recn	cell	rect	fill	ink	shadow	align	dy	style	en	note
 4187	4186	6	1,8,36,12	7	15	3	c	0		Ch. 1	pause tab 1章 active (flagged abbreviation: 37 px tab)
 4187	4186	10	1,9,36,11	6	9	3	c	0		Ch. 1	pause tab 1章 inactive
@@ -170,3 +171,16 @@ id	recn	cell	rect	fill	ink	shadow	align	dy	style	en	note
 4033	4032	83	0,0,64,16	0	15	1	c	0	shadow	No, I can't...	choice いやダメだ…
 4033	4032	84	0,0,56,16	0	15	1	c	0	shadow	Lively song	choice ノリノリの曲
 4033	4032	85	0,0,72,16	0	15	1	c	0	shadow	Uneasy song	choice ざわざわする曲
+70	72	0	181,176,74,15	~245/3	15	1	r	0	outline	B: Back	Bボタン：もどる (puzzle frame, 4bpp: inpaint per tile sub-palette)
+73	75	0	30,40,196,18	^0,110	81	1	c	0	bold	Yokai Sliding Puzzle	妖怪15パズル (panel title, glossary; plain panel copied from y+110)
+73	75	0	28,75,200,31	~90/3	255	1	c	0	shadow		clear instruction lines 1-2 (white letters, soft shadow by growing)
+73	75	0	28,113,200,34	~90/3	255	1	c	0	shadow		clear instruction lines 3-4
+73	75	0	28,77,200,12	=	255	1	c	0	shadow	Use the +Control Pad to move	十字ボタンを使い、ピースを
+73	75	0	28,92,200,12	=	255	1	c	0	shadow	the pieces into the empty space.	空いているスペースに移動します。
+73	75	0	28,120,200,12	=	255	1	c	0	shadow	Which original yokai will appear?	どんなオリジナル妖怪が
+73	75	0	28,134,200,12	=	255	1	c	0	shadow	Wait and see!	出てくるかは、お楽しみ。
+106	108	0	18,16,100,34	~h30	204	37	l	0	big	Controls	操作説明 (orange heading over green art: warm-hue inpaint)
+106	108	0	22,67,210,16	~-60	1	-1	l	0	shadow	+Control Pad: Move Nazkaiser left/right	十字ボタン：ナスカイザーを左右移動
+106	108	0	22,101,214,16	~-60	1	-1	l	0	shadow	A / Y Button: Nazkaiser Beam	Aボタン／Yボタン：ナスカイザービーム
+106	108	0	22,135,102,16	~-60	1	-1	l	0	shadow	B Button: Jump	Bボタン：ジャンプ
+4218	4219	4	8,11,146,17	~180/2	255	2	c	0	shadow	Collect them all for a gift!	NEWEXP tab bottom box 全部そろったらプレゼント! (8bpp linear sprite; palette 4220)

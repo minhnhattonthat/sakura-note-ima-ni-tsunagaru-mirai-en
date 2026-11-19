@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (tour of all 44 scenes done on the en build and the original,
-  visual-QA gate set up with a first verdict round; graphics redraw pipeline built, no row redrawn yet).
-  Last build: 2026-11-19 `build/sakuranote_en.nds` (default en build), sha1 7b2cb2d8ad78f4ec84507bcf59d42501f9b09ccb,
-  smoke ok, romcheck ok.
+- **Phase:** 8. QA in the emulator: in progress (tour + first verdict round done; graphics redraws: 165 rows
+  in `gfx/labels.tsv`, most graphics-text rows English; minigame panels, 4218 and the re-tour still to do).
+  Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 5238a2aa3b8882e620c2587e566c34e1f1c78349,
+  romcheck ok, check ok; status_menu/newexp_menu/item_desc/name_boy/cat/dog warped ok on the 6bdfc0e build.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -85,13 +85,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Save fixtures now carry the English default names (`make_save.en_names`; the debug warp left kana names).
     Graphics: `tools/gfx.py` + `gfx/labels.tsv` + `docs/re/gfx.md` (cell codec in palette indices, lettering with
     the project's VWF glyphs, applied by the build, audited by romcheck; `tests/test_gfx.py`).
+    Redraws (2026-11-20, details in `docs/re/gfx.md`): fixed the RECN transfer-offset bug (tabs were scrambled),
+    added BG screens (RCSN), shared-tile guard, styles shadow/outline/bold, fills index/@X/~T/~T/D/=, `gfx.py dump`.
+    English now: pause tabs Ch. 1-4 (4187/4192/4194), status 1040, Key Items 1020-1035, NEWEXP panel 1017,
+    collection banner 1000-1015, name-entry prompts 988/991/994, banners New Episode! 4052/4056 and New
+    Experience 4060-4068, choice buttons 4044, 85 choice labels 4033, Tears message 4028, map labels 1046.
 - **Next:**
-  1. Phase 8: act on the first verdict round (`work/qa/verdicts/chunk_577dd0c25253_*.tsv`; summary below under
-     Open bugs), fix, re-run those scenes, recheck file `verdicts/recheck_1.tsv`. Then graphics rows
-     (`docs/re/gfx.md` §Findings: pilot = pause-menu tabs 4187/4192/4194, RECN for 4187 still to find), then
-     `inkbox.py` on every choice/centred box (popups, save confirm, episode confirm), stress saves (longest names
-     `WWWWWWWWW` via `save.py edit --name`, full item grid = `all_items`), `textcover.py` (needs a `TEXT` log from
-     the message hook and `build/strings.tsv`).
+  1. Phase 8 graphics left: minigame panels 70-106 (15-puzzle, ramen, Nasukaiser: `docs/re/graphics.md` rows;
+     look with `gfx.py cells`/`dump`, add rows, `gfx.py preview`), collection sprite 4218 (8bpp linear 0x101:
+     `obj_pixels` asserts 4bpp, add 8bpp), 2842 (three 8x8 glyphs from a shared tile, not ゴミ箱 as the sweep
+     guessed: find where it shows before redrawing). Title logo 1139 stays Japanese (D5). The 4033 choice labels
+     were translated without scene context (no script reference): check them when their scenes are toured.
+     Then a cold-boot tour of all scenes (`warp_all.py` on the new build, `tour_cmp.py`, `qa_gate.py init`,
+     `todo`, verdicts with `vqa_run.py`), then `inkbox.py` on every choice/centred box (popups, save confirm,
+     episode confirm), stress saves (longest names `WWWWWWWWW` via `save.py edit --name`, full item grid =
+     `all_items`), `textcover.py` (needs a `TEXT` log from the message hook and `build/strings.tsv`).
   2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
      the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
      write). Decide when the title screen is in the tour.
@@ -103,13 +111,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
      unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
   5. `docs/polish.md`: profile bullet indents (2611:31, 59-75).
   6. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
-- **Open bugs:** visual-QA round 1 (44 sheets, `qa_gate.py check`: 7 not ok, all Japanese graphics rows from
-  `docs/re/graphics.md`, none a text/layout bug): title (logo 1139), name_boy/cat/dog (prompts 988/991/994; the
-  kana keyboard on the touch screen is the game's kana tab, the abc tab exists: decide if the default tab should
-  be abc), status_menu + item_desc (1040, だいじなもの 1020-1035, tab 1章 4187/4192/4194), newexp_menu (1017 and
-  its touch-screen reward line + chapter label). extras_list = debug-only, ok in `verdicts/recheck_1.tsv`.
-  After each redraw: rebuild, re-run those scenes (`warp_all.py --only`), `tour_cmp.py`, `qa_gate.py init`, new
-  verdicts.
+- **Open bugs:** visual-QA round 1 (7 not ok, all graphics text): name_boy/cat/dog, status_menu, item_desc and
+  newexp_menu are redrawn now (need the re-tour + new verdicts); title (logo 1139) stays Japanese by D5: waive it
+  with that reason in the next round. Name entry opens on the kana tab (the abc tab exists): non-blocking, see
+  Waiting on the user. extras_list = debug-only, ok in `verdicts/recheck_1.tsv`.
+  Flagged abbreviation (D4 last resort): pause tabs "Ch. 1".."Ch. 4" (37 px tab, "Chapter 1" = 46 px).
 - **Notes for later phases:**
   - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610
     index (verified): give translators the speaker name from 2610 as context.
@@ -121,5 +127,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - The debug menu's オープニング item shows nothing; the title/opening is reached by normal boot instead.
   - The field save screen (save_slots/save_confirm) and file select show graphics/font text: in the phase 8 tour.
 - **Waiting on the user:**
+  - (non-blocking) Name entry opens on the kana keyboard tab; English players can switch to the abc tab. Default:
+    leave the game's default tab (changing it is engine work); default names are already English.
   - (non-blocking) Small scenery signs in background art (コンビニ, 寿司, たばこ, ゆ, restroom 女 ...; ids in
     `docs/re/graphics.md`): default is to leave them as art and translate only signs the story refers to.

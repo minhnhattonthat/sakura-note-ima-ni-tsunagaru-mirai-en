@@ -2,11 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: not started (phase 8 done 2026-11-20: gate passes, textcover exits 0 with 5,254/5,343
-  shown, 89 waived, 0 failing).
-  Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 c98c098d43ac64482b298744ef18cbb613cff107,
-  romcheck ok, check ok. Gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 on this build
-  (57 sheets incl. the 10 stress sheets; name-entry kana tabs ok by D11, `verdicts/recheck_3.tsv`).
+- **Phase:** 9. Release done (2026-11-20): `release/Sakura_Note_Ima_ni_Tsunagaru_Mirai_EN_v1.0.zip` built and
+  verified by `tools/release.py` (every gate ok, log `work/release_v1.0.log`); not published (owner's call).
+  Build: `build/sakuranote_en.nds` sha1 4c19bf46780c9bda5254a2e0e74ef78c8beb8844, patched CRC32 DB61296F; patch
+  `Sakura_Note_Ima_ni_Tsunagaru_Mirai_EN_v1.0.xdelta` 199,649 bytes, re-applied to the clean dump = build.
+  Gates on this build: visual tour 57/57 (re-toured, 6 changed sheets re-verdicted ok), story pass 13/13, textcover
+  5,254/5,343 shown, 89 waived, 0 failing, jp_scan 0 runs, polish all ticked, debug scripts 2477/2494 untouched.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -129,16 +130,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     string no scene reached through the message fetch of event 1938 (77 runs, all 50/50 forced, exit 0).
     `textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv` exits 0: 5,254/5,343 shown, 89
     waived (2612/2614 debug-only, 2610:0-4 placeholders, arm9 default names), 0 failing. Phase 8 done.
+  - Phase 9 (2026-11-20): story pass = `tools/pairs.py chapters work/qa/story/chapters` (13 files: 11 story
+    segments from the synopsis file map, 12_system, 13_choices = the 4033 buttons) + `qa_gate.py init
+    work/qa/story/manifest.tsv ... --glob "*.txt"` + `tools/story_run.py --tag rN` (codex read-only per chapter,
+    brief `docs/story-reviewer-brief.md`; reports `work/qa/story/reports/`, verdicts `work/qa/story/verdicts/`).
+    Rounds 1-4: Important fixes (Nanami Yoshida / Kikichi Sakura surnames the 2516:8 clue needs, pi/ki bird joke,
+    contact pun, 過程/家庭 pun, 4033:71) in `docs/review-log.md` §Story pass; every Minor fixed or waived in
+    `docs/polish.md` (all ticked). Re-force after each text change: `forcecover.py --jobs 2` (textcover 0 failing).
+    `tools/jp_scan.py`: jp_left.py on every string body + arm9 slot (status data left out, listed in
+    work/jp_known.txt): 0 runs on the build, 10,641 on the dump. `tools/release.py` (all gates, xdelta3 in
+    `tools/xdelta3/`, gitignored, copied from the upstream 3.1.0 release), `docs/release_readme.txt`, README filled.
 - **Next:**
-  1. **Phase 9 (release)**, per the skill's done-when (`references/pipeline.md` §Release): story-pass verdict for
-     every chapter (`work/qa/story/manifest.tsv`, `references/translation.md` §Review; no reviewer subagent will be
-     started for an Orca worker: do the pass yourself read-only or with `codex exec`), tick every line of
-     `docs/polish.md` (item 5 below), `jp_left.py` on the release build, debug tool off in the release build,
-     `tools/release.py` (runs every gate + textcover), README without placeholders and with base ROM hashes, zip =
-     patch + README. Never `gh release create`.
+  1. Publishing v1.0 is the owner's call (zip in `release/`). After any fix: rebuild, re-force coverage, re-tour,
+     re-run the story pass on changed chapters, then `tools/release.py --version 1.1`.
      The forcing pass draws forced strings in the dialogue box: it proves the engine reaches them, not their own
-     screen's layout (that is the width lint + tour sheets). The 4033 choice labels were translated without scene
-     context: re-read them in the story pass.
+     screen's layout (that is the width lint + tour sheets). The 4033 choice labels were reviewed as a list
+     (13_choices), without scene context; waived wording ideas are in `docs/polish.md` for player feedback.
      Coverage notes (done 2026-11-20): logs in `work/qa/cover/` (runs2 = warp scenes, ev = 48 events, force = 77
      forcing runs, all exit 0). Re-run `forcecover.py --jobs 2` after any text change that adds strings (host
      memory is tight: ~1.3 GB free; `--jobs 2` was fine).
@@ -150,7 +157,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
      extras/special episode), 2615:0 touch prompt, 2616 tutorial (Nobiyo; presumed dialogue box without tag),
      2607:0/5 save/load prompts (same panel as the measured save messages), 2613:67-81 (same board panel, need
      unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
-  5. `docs/polish.md`: profile bullet indents (2611:31, 59-75).
+  5. (done 2026-11-20) `docs/polish.md`: profile bullet indents, story-pass Minors; all ticked.
   6. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
 - **Open bugs:** none from visual QA (gate passes). Flagged abbreviation (D4 last resort): pause tabs
   "Ch. 1".."Ch. 4" (37 px tab, "Chapter 1" = 46 px). Puzzle frame "B Button: Back": two 1-px pale specks may

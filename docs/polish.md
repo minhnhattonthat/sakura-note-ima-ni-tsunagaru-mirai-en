@@ -54,3 +54,21 @@ Story pass round 2 (2026-11-20, `*.r2.md`): every chapter `ok`; the Minors:
 - [x] 2611:64 - "dealings and dwellings" reads as property. Waived: round 1 asked for the 過程/家庭 pun; the pun stays.
 - [x] 4033:46 - "Lend it" for ちょっとかして. Fixed: "Borrow it" (45 px in the 64 px button).
 - [x] 4033:48 - "All in!" vs "In one go!". Waived: "In one go!" is 49 px in the 40 px button.
+
+Story pass round 3 (2026-11-20, `*.r3.md`): 12 chapters `ok`; 13_choices `issue` (4033:71). Fixes and Minors:
+
+- [x] 4033:71 (filed Important) - カクゴしてあげる lost its playful tone in "I'll be brave". Fixed: "Scare me!" (47 px / 72).
+- [x] 2498:8 - "Grade 5, Class 2" vs glossary Class 5-2 (quiz callback 2503:186-190). Fixed.
+- [x] 2500:33 - ordinary tears capitalised. Fixed: "the tears on Nanami's cheeks".
+- [x] 2527:5 - "very hard labor". Fixed: "giving birth was very difficult."
+- [x] 2500:56, 2510:11, 2516:11-12, 2555:21 - wording preferences from a third reviewer round (chapter verdicts ok).
+  Waived: the current lines are accurate and in voice; deferred to player feedback.
+- [x] 4033:46 - "Borrow it" reads as an order; "Can I borrow?" suggested. Waived: the button names the action like its
+  pair, and the round-2 fix ("Lend it" -> "Borrow it") already gives the request's direction.
+
+Story pass round 4 (2026-11-20, `*.r4.md`): 01_opening, 04_kiriya, 13_choices `ok`; the story gate passes. Minors:
+
+- [x] 2496:36 - "from the {surname}-san family" phrasing. Waived: reads as Joshu's polite address; kept for v1.0.
+- [x] 4033:45, 4033:48, 4033:71 - alternative button wordings ("Get it for you", "One go!", "I'm ready!"). Waived:
+  round 3-4 reviewers disagree on these (71 was changed at round 3's request); the 40/72 px buttons are fine as they
+  are. Revisit with player feedback.

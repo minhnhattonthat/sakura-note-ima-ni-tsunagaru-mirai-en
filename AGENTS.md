@@ -9,6 +9,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Audit:    `python -X utf8 tools/romcheck.py [BUILT]` (leaf-level ROM audit with the build's write log; `docs/re/checks.md`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/sakuranote_en.nds --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/sakuranote_en.nds --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --var STOP_AFTER=30 --frames 12000 --sheet` (scenes: `tools/debug/scenes.tsv`; all scenes + states: `python -X utf8 tools/debug/warp_all.py [ROM]`; never ask the user to play to a scene)
+- Tour/QA:  `warp_all.py` on the build and the original, `python -X utf8 tools/tour_cmp.py`, `$SKILL/scripts/qa_gate.py init|todo|check`, verdicts `python -X utf8 tools/vqa_run.py CHUNKS` (steps in `docs/status.md`; brief `docs/visual-qa-brief.md`)
+- Graphics: `python -X utf8 tools/gfx.py cells|preview` (rows `gfx/labels.tsv`, notes `docs/re/gfx.md`)
 - Saves:    `python -X utf8 tools/debug/make_save.py` (game-written fixtures in `work/saves/`), `python -X utf8 tools/debug/save.py show|edit` (layout: `docs/re/save.md`)
 - Release:  `python -X utf8 tools/release.py` (xdelta patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)

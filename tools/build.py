@@ -35,8 +35,9 @@ def edit_payloads(payloads, mode):
     """FILEDATA entries after the edits for this mode."""
     if mode == "identity":
         return payloads
+    import gfx
     import insert
-    return insert.payloads(payloads, marker_build=mode == "marker")
+    return gfx.apply(insert.payloads(payloads, marker_build=mode == "marker"))[0]
 
 
 def edit_arm9(arm9, mode, log=None):

@@ -1,0 +1,4 @@
+# Graphics-text redraws applied by tools/build.py (tools/gfx.py apply; audited by tools/romcheck.py).
+# id = FILEDATA RGCN, recn = its RECN, cell = cell index; rect = x,y,w,h in cell pixels (cleared to fill);
+# fill/ink/shadow = 4bpp palette indices (shadow -1 = none); align l|c|r; dy = vertical nudge; en = text.
+id	recn	cell	rect	fill	ink	shadow	align	dy	en	note

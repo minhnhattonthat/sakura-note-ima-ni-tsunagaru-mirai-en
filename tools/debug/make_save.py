@@ -5,7 +5,8 @@
 Fixtures (FIXTURES below):
   s1_living     game-written base: debug warp to scenario 1's living room (map list page 1 row 1, FILEDATA 1232),
                 mash A 1000 frames (arrival dialogue), walk left 50 / down 80 frames to the SAVE sign, face right,
-                A through the save screen into slot 1. The game writes both copies and the checksum itself.
+                A through the save screen into slot 1. The game writes both copies and the checksum itself;
+                then the names are set to the English defaults (en_names), as an English new game has them.
   all_chapters  s1_living edited by tools/debug/save.py: chapters 1-4 unlocked on the episode board (0x16C = 0xF).
 Each fixture is checked: slot 1 valid (checksum, used flag). Scenes in tools/debug/scenes.tsv name the fixture in
 their `save` column; tools/debug/warp_all.py calls fixture() so a fresh clone gets them on first run.
@@ -56,6 +57,22 @@ def make_s1_living(rom, out):
     emu(rom, qa / "3", "--state-in", STATES / "living_s1_free.dst", "--sav", blank_save(), "--route-str", WALK,
         "--frames", 2200, "--shot-every", 100, "--sheet")
     shutil.copy(next((qa / "3").glob("*.dsv")), out)
+    en_names(out)
+
+
+def en_names(path):
+    """Set the English default names (script/arm9.json) in slot 1. The debug warp skips name entry and leaves
+    the kana names of its own script, which an English player never sees. Each field keeps its character: the
+    field at 0x2CC held トロイメライ, the one at 0x2E0 ラインホルト."""
+    import script
+    from tbl import Table
+    en = {r["id"]: r.get("en") for r in script.load("arm9.json")}
+    sv = save.Save.read(path)
+    tbl = Table.load(ROOT / "tbl" / "jp.tbl")
+    for key, slot in (("boy_surname", "arm9:0941D4"), ("boy_name", "arm9:0941E8"), ("dog", "arm9:0941FC"),
+                      ("cat", "arm9:094210")):
+        sv.set_name(0, key, en[slot], tbl)
+    sv.write(path)
 
 
 def make_all_chapters(rom, out):

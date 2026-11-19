@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: ready to start (phase 7 done: build green, text lint 0 problems, ROM audit
-  `tools/romcheck.py` ok, credits re-centred).
+- **Phase:** 8. QA in the emulator: in progress (tour of all 44 scenes done on the en build and the original,
+  visual-QA gate set up with a first verdict round; graphics redraw pipeline built, no row redrawn yet).
   Last build: 2026-11-19 `build/sakuranote_en.nds` (default en build), sha1 7b2cb2d8ad78f4ec84507bcf59d42501f9b09ccb,
-  smoke ok, romcheck ok. Toured so far: credits (whole roll, every entry centred) and the chapter 1 card.
+  smoke ok, romcheck ok.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -74,11 +74,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
     composes the full name, so it is never shown. Cat = Traumerei, dog = Reinhold (set_name index 3/4, name_cat
     shot). Chapter card line 2 as ASCII spaces renders fine (chapter1_card shot). New probes in `tools/debug/`:
     `callerlog.lua`, `writerlog.lua`, `oamlog.lua`.
+    Phase 7 review fixes: romcheck confines every logged arm9 write to `romcheck.arm9_allowed()` (string slots,
+    hook sites, arena literal; fixed independently of the log) and checks each credits write is exactly one
+    `mov r2, #x` with the centred x; the build centres credits on the text it inserts (QA overrides, marker).
+  - Phase 8 so far: tour = `warp_all.py build/sakuranote_en.nds --out work/qa/tour` + the same on the original
+    into `work/qa/tour_jp` (`--no-states`), then `tools/tour_cmp.py` -> `work/qa/tour_cmp/<scene>_sheet.png`
+    (English | original). Gate: `qa_gate.py init work/qa/manifest.tsv work/qa/tour_cmp --build
+    build/sakuranote_en.nds`, `todo ... --size 8 --out-dir work/qa/chunks`, verdicts by `tools/vqa_run.py CHUNKS`
+    (`codex exec` read-only with the sheets attached; brief `docs/visual-qa-brief.md`) into `work/qa/verdicts/`.
+    Save fixtures now carry the English default names (`make_save.en_names`; the debug warp left kana names).
+    Graphics: `tools/gfx.py` + `gfx/labels.tsv` + `docs/re/gfx.md` (cell codec in palette indices, lettering with
+    the project's VWF glyphs, applied by the build, audited by romcheck; `tests/test_gfx.py`).
 - **Next:**
-  1. Phase 8 tour: warp every scene in `tools/debug/scenes.tsv` on the en build (`warp_all.py build/sakuranote_en.nds`),
-     contact sheets, read-only visual-QA verdicts into a `qa_gate.py` manifest (no subagents: do the verdict pass
-     yourself in a fresh read-only pass or with `codex exec`), `inkbox.py` on choice/centred boxes, graphics-text
-     rows (`docs/re/graphics.md`) English in zoomed cold-boot shots, stress saves, `textcover.py`.
+  1. Phase 8: act on the first verdict round (`work/qa/verdicts/chunk_577dd0c25253_*.tsv`; summary below under
+     Open bugs), fix, re-run those scenes, recheck file `verdicts/recheck_1.tsv`. Then graphics rows
+     (`docs/re/gfx.md` §Findings: pilot = pause-menu tabs 4187/4192/4194, RECN for 4187 still to find), then
+     `inkbox.py` on every choice/centred box (popups, save confirm, episode confirm), stress saves (longest names
+     `WWWWWWWWW` via `save.py edit --name`, full item grid = `all_items`), `textcover.py` (needs a `TEXT` log from
+     the message hook and `build/strings.tsv`).
   2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
      the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
      write). Decide when the title screen is in the tour.
@@ -90,7 +103,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
      unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
   5. `docs/polish.md`: profile bullet indents (2611:31, 59-75).
   6. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
-- **Open bugs:** none.
+- **Open bugs:** visual-QA round 1 (44 sheets, `qa_gate.py check`: 7 not ok, all Japanese graphics rows from
+  `docs/re/graphics.md`, none a text/layout bug): title (logo 1139), name_boy/cat/dog (prompts 988/991/994; the
+  kana keyboard on the touch screen is the game's kana tab, the abc tab exists: decide if the default tab should
+  be abc), status_menu + item_desc (1040, だいじなもの 1020-1035, tab 1章 4187/4192/4194), newexp_menu (1017 and
+  its touch-screen reward line + chapter label). extras_list = debug-only, ok in `verdicts/recheck_1.tsv`.
+  After each redraw: rebuild, re-run those scenes (`warp_all.py --only`), `tour_cmp.py`, `qa_gate.py init`, new
+  verdicts.
 - **Notes for later phases:**
   - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610
     index (verified): give translators the speaker name from 2610 as context.

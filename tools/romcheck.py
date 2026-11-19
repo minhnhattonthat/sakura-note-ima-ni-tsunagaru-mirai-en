@@ -36,6 +36,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import batches  # noqa: E402
 import credits  # noqa: E402
 import filedata  # noqa: E402
+import gfx  # noqa: E402
 import insert  # noqa: E402
 import msg  # noqa: E402
 import romdiff  # noqa: E402
@@ -232,8 +233,16 @@ def check_filedata(ob, nb, errs):
         return 0
     ctx = insert.Ctx()
     lines = 0
+    _, gfx_allowed = gfx.apply(fo)
     for i, (a, b) in enumerate(zip(fo, fn)):
-        if i in (vwf.BIG_FONT, vwf.SMALL_FONT):
+        if i in gfx_allowed:
+            ua, ub = gfx.unpack(a)[0], gfx.unpack(b)[0]
+            if len(ua) != len(ub):
+                errs.append(f"graphics {i}: size {len(ua)} -> {len(ub)}")
+            elif bad := [k for k in range(len(ua)) if ua[k] != ub[k] and k not in gfx_allowed[i]]:
+                errs.append(f"graphics {i}: {len(bad)} bytes changed outside the gfx/labels.tsv cells "
+                            f"(first {bad[0]:#x})")
+        elif i in (vwf.BIG_FONT, vwf.SMALL_FONT):
             cells = font_cells(i)
             if len(a) != len(b):
                 errs.append(f"font {i}: size {len(a)} -> {len(b)}")

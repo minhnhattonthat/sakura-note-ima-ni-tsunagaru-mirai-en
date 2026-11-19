@@ -1,0 +1,31 @@
+name	mode	keys	expect	shows
+title	title	f1139 w240		title screen: logo, START GAME / SETTING buttons
+file_select	title	f1139 w240 start f1126 w200	1126	save file select, three slots
+newgame_popup	title	f1139 w240 start f1126 w200 a f2607 w200	2607	はじめから / やっぱりやめる popup
+name_boy	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200	984	name entry: boy surname prompt, NAME ENTRY bar, kana keyboard
+name_dog	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,160 w150 t230,160 w200	994	name entry: dog prompt
+name_cat	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,160 w150 t230,160 w150 t230,160 w200	991	name entry: cat prompt
+episode_ch1	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,160 w150 t230,160 w150 t230,160 w150 t230,160 f2615 w200	2615	episode board, chapter 1 header 第一章 トオル編
+episode_ch1_confirm	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,160 w150 t230,160 w150 t230,160 w150 t230,160 f2615 w200 a w150	2615	episode board: "start this episode?" popup
+chapter1_card	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,160 w150 t230,160 w150 t230,160 w150 t230,160 f2615 w200 a w150 a f2630 w60	2630	chapter 1 title card over the episode intro
+debug_menu	debug	f2612 w150	2612	developers' debug menu (10 items)
+player_select	debug	f2612 w30 a w120		debug: boy / dog / cat select
+scene_s1_list	debug	f2612 w30 a w120 a w100 a w100		debug: scenario 1 map list, page 1
+field_s1_boy	debug	f2612 w30 a w120 a w100 a w100 a w300		scenario 1 field (house front) with opening dialogue
+field_s2_boy	debug	f2612 w30 a w120 a w100 down a w100 a w300		scenario 2 field (mansion 1F)
+field_s3_boy	debug	f2612 w30 a w120 a w100 down*2 a w100 a w300		scenario 3 field, first map
+field_s4_boy	debug	f2612 w30 a w120 a w100 down*3 a w100 a w300		scenario 4 field, first map
+field_s1_dog	debug	f2612 w30 a w120 right a w100 a w100 a w300		scenario 1 as the dog
+field_s1_cat	debug	f2612 w30 a w120 right*2 a w100 a w100 a w300		scenario 1 as the cat
+battle_list	debug	f2612 w30 down a w120 a w150		debug: battle list page 1
+battle_1	debug	f2612 w30 down a w120 a w150 a w400		first battle (boy)
+bg_viewer	debug	f2612 w30 down*2 a w200		debug BG viewer
+obj_viewer	debug	f2612 w30 down*3 a w200		debug OBJ viewer
+sound_test	debug	f2612 w30 down*4 a w120		debug sound menu
+gameover	debug	f2612 w30 up*3 a w300		game over screen (GAME OVER sprite)
+ending	debug	f2612 w30 up*4 a w600	145	ending sequence (petals, ending stills)
+ending_stills	debug	f2612 w30 up*4 a f145 w4000	145	ending, later stills (bottom screen)
+credits	debug	f2612 w30 up*4 a f145 w12000 f2604 w900	2604	staff roll: message file 2604 scrolling on the top screen
+extras_list	debug	f2612 w30 up*2 a w150		debug: chapter extras list (第一章 おまけ1..)
+profile_ch1	debug	f2612 w30 up*2 a w150 a w300		character profile page (extras 1, chapter 1)
+extras_player	debug	f2612 w30 up a w150		debug おまけ item: player select

@@ -59,5 +59,8 @@ as art (legible ones are single words a player reads as decoration); revisit any
 | name entry | "NAME ENTRY" bar, tab bar, BackSpace / Enter keys | RGCN 981 (Latin already); keys are font cells from table 2838 |
 
 ## Still to add (later phases)
-Chapter cards, game over, ending and credits: not obviously in the sweep (credits are likely font text). Warp to each
-with the debug tool (phase 2) and add rows here; the marker tour (phase 5) lists any screen whose Japanese did not change.
+Reached by the debug tool (phase 2, `tools/debug/scenes.tsv`; shots from `warp_all.py` in `work/qa/scenes/`):
+chapter 1 card + episode board (`episode_ch1`, `chapter1_card`: 第一章 トオル編 / いつもと同じ日常, likely font text),
+game over (`gameover`: GAME OVER sprite, Latin), ending (`ending`, `ending_stills`: no text seen), credits
+(`credits`: font text from message file 2604, not graphics), character profile (`profile_ch1`). Chapter 2-4 cards
+need story progress (save editor, not done). The marker tour (phase 5) lists any screen whose Japanese did not change.

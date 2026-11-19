@@ -16,7 +16,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `text.md` | u16 encoding, message files, header words, control codes, arm9 strings, text ranges | encoding verified; code meanings partly guessed |
 | `font.md` | dialogue font (FILEDATA 860), kanji map | verified layout; kanji map read by eye + context |
 | `graphics.md` | graphics-text survey (static sweep `tools/gfxsweep.py`, rows in `graphics_sweep.tsv`), NDS banner | sweep done; RGCN/RECN/RCSN layouts verified by renders; QQ = tilemap guess |
-| `debug.md` | leftover debug scripts (DebugScenario, EpisodeSelect_Test) | to do (phase 2) |
+| `debug.md` | FILEDATA load hook, boot-script swap to the debug menu (2477 -> 2494), menu map, normal new-game flow, save file | warp verified (29 scenes); save layout to do |
 
 Prior work (one web search, 2026-11-19): no released English patch or tools found. A NeoGAF thread on unlocalized
 DS RPGs (https://www.neogaf.com/threads/unlocalized-ds-rpgs-from-nintendo.933358/page-2) mentions a fan

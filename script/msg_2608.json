@@ -1,0 +1,666 @@
+[
+ {
+  "id": "2608:0",
+  "hdr": "FFFF 00FF",
+  "jp": "学校",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:1",
+  "hdr": "FFFF 00FF",
+  "jp": "けんか…",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:2",
+  "hdr": "FFFF 00FF",
+  "jp": "変なおじさん",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:3",
+  "hdr": "FFFF 00FF",
+  "jp": "出会い",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:4",
+  "hdr": "FFFF 00FF",
+  "jp": "亀裂",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:5",
+  "hdr": "FFFF 00FF",
+  "jp": "異変",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:6",
+  "hdr": "FFFF 00FF",
+  "jp": "妖怪",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:7",
+  "hdr": "FFFF 00FF",
+  "jp": "バトル！！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:8",
+  "hdr": "FFFF 00FF",
+  "jp": "予感",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:9",
+  "hdr": "FFFF 00FF",
+  "jp": "決意",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:10",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:11",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:12",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:13",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:14",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:15",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:16",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:17",
+  "hdr": "FFFF 00FF",
+  "jp": "エピソード2",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:18",
+  "hdr": "FFFF 00FF",
+  "jp": "？？？？？？",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:19",
+  "hdr": "FFFF 00FF",
+  "jp": "チュートリアル完了",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:20",
+  "hdr": "FFFF 00FF",
+  "jp": "三又路の猫を怒らせる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:21",
+  "hdr": "FFFF 00FF",
+  "jp": "いねむりお兄さん",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:22",
+  "hdr": "FFFF 00FF",
+  "jp": "ジュースを買った",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:23",
+  "hdr": "FFFF 00FF",
+  "jp": "ナスカイザーファン3人",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:24",
+  "hdr": "FFFF 00FF",
+  "jp": "町の4匹のノラ猫",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:25",
+  "hdr": "FFFF 00FF",
+  "jp": "しかられている不良",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:26",
+  "hdr": "FFFF 00FF",
+  "jp": "三又路のおじいさん",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:27",
+  "hdr": "FFFF 00FF",
+  "jp": "探し物おじさんと娘さん",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:28",
+  "hdr": "FFFF 00FF",
+  "jp": "恋する女生徒の結末は？",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:29",
+  "hdr": "FFFF 00FF",
+  "jp": "インコの謎を解け！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:30",
+  "hdr": "FFFF 00FF",
+  "jp": "またたび{sp}ぜんぶ{sp}とる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:31",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:32",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:33",
+  "hdr": "FFFF 00FF",
+  "jp": "1度も逃避せず戦う",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:34",
+  "hdr": "FFFF 00FF",
+  "jp": "ノーダメージで戦う",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:35",
+  "hdr": "FFFF 00FF",
+  "jp": "行列のできる店で並ぶ人",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:36",
+  "hdr": "FFFF 00FF",
+  "jp": "少女の待つ場所は間違い",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:37",
+  "hdr": "FFFF 00FF",
+  "jp": "おじさんにコンタクト",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:38",
+  "hdr": "FFFF 00FF",
+  "jp": "あえて階段を使う",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:39",
+  "hdr": "FFFF 00FF",
+  "jp": "アイスVSジェラート",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:40",
+  "hdr": "FFFF 00FF",
+  "jp": "変身ポーズレッスン開始",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:41",
+  "hdr": "FFFF 00FF",
+  "jp": "ナイスロングシュート！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:42",
+  "hdr": "FFFF 00FF",
+  "jp": "郵便屋さんのかわりに…",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:43",
+  "hdr": "FFFF 00FF",
+  "jp": "釣り人をじっと見守る",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:44",
+  "hdr": "FFFF 00FF",
+  "jp": "またインコの謎を解け！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:45",
+  "hdr": "FFFF 00FF",
+  "jp": "カギは力を合わせて",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:46",
+  "hdr": "FFFF 00FF",
+  "jp": "三匹の塔の番人",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:47",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:48",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:49",
+  "hdr": "FFFF 00FF",
+  "jp": "一度も逃避せず戦う",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:50",
+  "hdr": "FFFF 00FF",
+  "jp": "ノーダメージの戦い",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:51",
+  "hdr": "FFFF 00FF",
+  "jp": "フルーツを5個ひろう",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:52",
+  "hdr": "FFFF 00FF",
+  "jp": "トンカチ借りて日曜大工",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:53",
+  "hdr": "FFFF 00FF",
+  "jp": "まいごの犬を探し出せ！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:54",
+  "hdr": "FFFF 00FF",
+  "jp": "桜の木と神社で七海と…",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:55",
+  "hdr": "FFFF 00FF",
+  "jp": "第3回{sp}インコの謎！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:56",
+  "hdr": "FFFF 00FF",
+  "jp": "2章で納豆を選びし者",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:57",
+  "hdr": "FFFF 00FF",
+  "jp": "学園で桜を語る隠れ妖怪",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:58",
+  "hdr": "FFFF 00FF",
+  "jp": "廊下の妖怪を追いつめろ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:59",
+  "hdr": "FFFF 00FF",
+  "jp": "変身ポーズレッスン終了",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:60",
+  "hdr": "FFFF 00FF",
+  "jp": "音楽室ノー逃避ノーダメ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:61",
+  "hdr": "FFFF 00FF",
+  "jp": "理科室ノー逃避ノーダメ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:62",
+  "hdr": "FFFF 00FF",
+  "jp": "図書室ノー逃避ノーダメ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:63",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:64",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:65",
+  "hdr": "FFFF 00FF",
+  "jp": "ボス戦で逃避せず戦う",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:66",
+  "hdr": "FFFF 00FF",
+  "jp": "ボス戦でノーダメージ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:67",
+  "hdr": "FFFF 00FF",
+  "jp": "落し物の定期券を返そう",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:68",
+  "hdr": "FFFF 00FF",
+  "jp": "親方に思い出をこめて",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:69",
+  "hdr": "FFFF 00FF",
+  "jp": "ネコ好き工員を喜ばせろ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:70",
+  "hdr": "FFFF 00FF",
+  "jp": "携帯を落とした工員に…",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:71",
+  "hdr": "FFFF 00FF",
+  "jp": "汚水に浮いたどんぐり",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:72",
+  "hdr": "FFFF 00FF",
+  "jp": "エリート工員ひらめいて",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:73",
+  "hdr": "FFFF 00FF",
+  "jp": "ラジオからメロディが",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:74",
+  "hdr": "FFFF 00FF",
+  "jp": "アスレチック4種目制覇",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:75",
+  "hdr": "FFFF 00FF",
+  "jp": "インコの謎{sp}最終回！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:76",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_ED}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:77",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_EE}{slot}{slot}{slot}{slot}{slot}編全部見た",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:78",
+  "hdr": "FFFF 00FF",
+  "jp": "ザコでノー逃避ノーダメ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:79",
+  "hdr": "FFFF 00FF",
+  "jp": "ボス戦で逃避せず戦う",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:80",
+  "hdr": "FFFF 00FF",
+  "jp": "ボス戦でノーダメージ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:81",
+  "hdr": "FFFF 00FF",
+  "jp": "逃避しない勇気",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2608:82",
+  "hdr": "FFFF 00FF",
+  "jp": "立ち向かう正義",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ }
+]

@@ -1,0 +1,802 @@
+[
+ {
+  "id": "2607:0",
+  "hdr": "FFFF 00FF",
+  "jp": "セーブするファイルを{n}選んでください",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:1",
+  "hdr": "FFFF 00FF",
+  "jp": "データを上書きする",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:2",
+  "hdr": "FFFF 00FF",
+  "jp": "セーブする",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:3",
+  "hdr": "FFFF 00FF",
+  "jp": "クリアデータに上書きする",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:4",
+  "hdr": "FFFF 00FF",
+  "jp": "やっぱりやめる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:5",
+  "hdr": "FFFF 00FF",
+  "jp": "ロードするファイルを{n}選んでください",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:6",
+  "hdr": "FFFF 00FF",
+  "jp": "このファイルで再開する",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:7",
+  "hdr": "FFFF 00FF",
+  "jp": "やっぱりやめる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:8",
+  "hdr": "FFFF 00FF",
+  "jp": "はじめから",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:9",
+  "hdr": "FFFF 00FF",
+  "jp": "このファイルを消す",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:10",
+  "hdr": "FFFF 00FF",
+  "jp": "やっぱりやめる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:11",
+  "hdr": "FFFF 00FF",
+  "jp": "いいから消しちゃって",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:12",
+  "hdr": "FFFF 00FF",
+  "jp": "やっぱりやめる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:13",
+  "hdr": "FFFF 00FF",
+  "jp": "セーブしています……{n}{n}{col_F9}電源を切ったり{n}カードの抜き差しをしないで下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:14",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F8}セーブしています……{n}{n}{col_FB}電源を切ったり{n}カードの抜き差しをしないで下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:15",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F8}ファイルを削除しています……{n}{n}{col_FB}電源を切ったり{n}カードの抜き差しをしないで下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:16",
+  "hdr": "FFFF 00FF",
+  "jp": "セーブが終わりました",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:17",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}セーブに失敗しました{n}電源を切り{n}カードを差し直して下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:18",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}セーブデータを読めませんでした{n}電源を切り{n}カードを差し直して下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:19",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}フォーマットしています{n}電源を切ったり{n}カードの抜き差しをしないで下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:20",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}フォーマットに失敗しました{n}電源を切り{n}カードを差し直して下さい",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:21",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}NO　DATA",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:22",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F8}セーブが終了しました",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:23",
+  "hdr": "FFFF 00FF",
+  "jp": "第1話",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:24",
+  "hdr": "FFFF 00FF",
+  "jp": "第2話",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:25",
+  "hdr": "FFFF 00FF",
+  "jp": "第3話",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:26",
+  "hdr": "FFFF 00FF",
+  "jp": "第4話",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:27",
+  "hdr": "FFFF 00FF",
+  "jp": "最終話",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2607:28",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:29",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:30",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:31",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:32",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:33",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:34",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:35",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:36",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:37",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:38",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:39",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:40",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:41",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:42",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:43",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:44",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:45",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:46",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:47",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:48",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:49",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:50",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:51",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:52",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:53",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:54",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:55",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:56",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:57",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:58",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:59",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:60",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:61",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:62",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:63",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:64",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:65",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:66",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:67",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:68",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:69",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:70",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:71",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:72",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:73",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:74",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:75",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:76",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:77",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:78",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:79",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:80",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:81",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:82",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:83",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:84",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:85",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:86",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:87",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:88",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:89",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:90",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:91",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:92",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:93",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:94",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:95",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:96",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:97",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:98",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2607:99",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ }
+]

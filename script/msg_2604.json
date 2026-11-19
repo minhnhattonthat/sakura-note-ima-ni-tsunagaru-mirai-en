@@ -1,0 +1,634 @@
+[
+ {
+  "id": "2604:0",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}製作",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:1",
+  "hdr": "FFFF 00FF",
+  "jp": "マーベラスエンターテイメント",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:2",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}エグゼクティブプロデューサー",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:3",
+  "hdr": "FFFF 00FF",
+  "jp": "和田　康宏",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:4",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}プロデューサー",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:5",
+  "hdr": "FFFF 00FF",
+  "jp": "高木　謙一郎",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:6",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}開発",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:7",
+  "hdr": "FFFF 00FF",
+  "jp": "有限会社アウディオ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:8",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}原案/ディレクター/背景グラフィック",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:9",
+  "hdr": "FFFF 00FF",
+  "jp": "上田　晃",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:10",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}原案/シナリオ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:11",
+  "hdr": "FFFF 00FF",
+  "jp": "野島　一成{n}(有限会社ステラヴィスタ)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:12",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}メインプログラム/バトル",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:13",
+  "hdr": "FFFF 00FF",
+  "jp": "吉尾　享",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:14",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}システムプログラム",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:15",
+  "hdr": "FFFF 00FF",
+  "jp": "大澤　健二",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:16",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}原案/イラスト",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:17",
+  "hdr": "FFFF 00FF",
+  "jp": "皆葉　英夫{n}(有限会社デザイネイション)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:18",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}キャラクターデザイン",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:19",
+  "hdr": "FFFF 00FF",
+  "jp": "黒川　理加",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:20",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}妖怪キャラクターデザイン",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:21",
+  "hdr": "FFFF 00FF",
+  "jp": "倉島　一幸{n}YDA(代々木ドット協会)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:22",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}背景グラフィック/マップ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:23",
+  "hdr": "FFFF 00FF",
+  "jp": "橋本　昌之{n}太田　亜樹",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:24",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}NPCデザイン",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:25",
+  "hdr": "FFFF 00FF",
+  "jp": "八幡　裕二",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:26",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}プランニング/スクリプト",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:27",
+  "hdr": "FFFF 00FF",
+  "jp": "佐藤　栄作{n}植草　健治",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:28",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}スクリプト",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:29",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}(株式会社マーベラスエンターテイメント{n}　デジタルコンテンツカンパニー)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:30",
+  "hdr": "FFFF 00FF",
+  "jp": "開発グループ{n}　木村　未来{n}　大門　寛正{n}　高須賀　大",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:31",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}スペシャルサンクス",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:32",
+  "hdr": "FFFF 00FF",
+  "jp": "開発グループ{n}　小山　顕{n}　坂本　知則{n}　松澤　要",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:33",
+  "hdr": "FFFF 00FF",
+  "jp": "　平田　真",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:34",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}サウンドマニピュレータ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:35",
+  "hdr": "FFFF 00FF",
+  "jp": "高石　一二三{n}梶浦　雄一",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:36",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}サウンドエフェクト",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:37",
+  "hdr": "FFFF 00FF",
+  "jp": "斉藤　正剛",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:38",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}サウンドプロダクションマネージャー",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:39",
+  "hdr": "FFFF 00FF",
+  "jp": "松下　謙介{n}(株式会社ドッグイヤーレコーズ)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:40",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}原案/音楽",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:41",
+  "hdr": "FFFF 00FF",
+  "jp": "植松　伸夫{n}(有限会社スマイルプリーズ)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:42",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}テーマ曲{n}「きみと走るとぼくは泣く」",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:43",
+  "hdr": "FFFF 00FF",
+  "jp": "演奏:茜-AKANE-",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:44",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}作詞",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:45",
+  "hdr": "FFFF 00FF",
+  "jp": "野島　一成",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:46",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}作曲",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:47",
+  "hdr": "FFFF 00FF",
+  "jp": "植松　伸夫",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:48",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}編曲",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:49",
+  "hdr": "FFFF 00FF",
+  "jp": "小林　早織(茜-AKANE-)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:50",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}ボーカル",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:51",
+  "hdr": "FFFF 00FF",
+  "jp": "高橋　由美子(茜-AKANE-)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:52",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}マニュアルデザイン{n}(株式会社インタック)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:53",
+  "hdr": "FFFF 00FF",
+  "jp": "鈴木　哲夫{n}秋元　舞美",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:54",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}アートワーク",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:55",
+  "hdr": "FFFF 00FF",
+  "jp": "関根　弘子{n}馬場　広導",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:56",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}マーケティング",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:57",
+  "hdr": "FFFF 00FF",
+  "jp": "佐藤　澄宣{n}金子　知賢{n}真瀬　徹{n}安藤　弘樹",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:58",
+  "hdr": "FFFF 00FF",
+  "jp": "小山　航",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:59",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}スペシャルサンクス",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:60",
+  "hdr": "FFFF 00FF",
+  "jp": "林　慶{n}岸　重勝",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:61",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}プロモーション",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:62",
+  "hdr": "FFFF 00FF",
+  "jp": "高島　寿洋{n}山岸　幸恵",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:63",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}制作アシスタント",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:64",
+  "hdr": "FFFF 00FF",
+  "jp": "藤永　健生",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:65",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}Webデザイン",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:66",
+  "hdr": "FFFF 00FF",
+  "jp": "福田　寛",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:67",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}デバッグ{n}(株式会社デジタルハーツ)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:68",
+  "hdr": "FFFF 00FF",
+  "jp": "相馬　明和{n}米森　靖晃{n}永島　麻未{n}佐藤　祐輔",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:69",
+  "hdr": "FFFF 00FF",
+  "jp": "安住　翔{n}吉田　菜美{n}金井　遥香{n}菅野　竜太",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:70",
+  "hdr": "FFFF 00FF",
+  "jp": "三浦　祐太",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:71",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}スペシャルサンクス",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:72",
+  "hdr": "FFFF 00FF",
+  "jp": "PAO(ラインホルトモデル){n}あじ(トロイメライモデル)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:73",
+  "hdr": "FFFF 00FF",
+  "jp": "植松　玲子{n}皆葉　正子{n}今井　紀男{n}横田　幸次(株式会社シェード)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:74",
+  "hdr": "FFFF 00FF",
+  "jp": "森嶋　雅人{n}森嶋　桃子{n}亀岡　慎太",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:75",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}目黒川の桜",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2604:76",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2604:77",
+  "hdr": "FFFF 00FF",
+  "jp": "",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2604:78",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F9}(株式会社マーベラスエンターテイメント{n}(株式会社マーベラスエンターテイメント{n}(株式会社マーベラスエンターテイメント{n}　デジタルコンテンツカンパニー)",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ }
+]

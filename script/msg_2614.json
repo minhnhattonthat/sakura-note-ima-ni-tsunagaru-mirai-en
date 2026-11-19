@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2614:0",
+  "hdr": "FFFF 00FF",
+  "jp": "メッセージのテスト",
+  "en": "",
+  "status": "data",
+  "notes": "developers' message test (メッセージのテスト); no script shows it"
+ },
+ {
+  "id": "2614:1",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_F0}字とカタカナのコラボレーション{n}ちゃんと出るかな？",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2614:2",
+  "hdr": "FFFF 00FF",
+  "jp": "なんとなく長い文章を書いてみる{page}行変更はうまくいくのかな？{n}ウィンドウはうまく出てるかな？{page}ABCDEFGHIJKLMNOP{n}亜亜亜亜亜亜亜亜亜亜亜亜亜亜亜亜",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ }
+]

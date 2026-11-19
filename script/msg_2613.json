@@ -1,0 +1,674 @@
+[
+ {
+  "id": "2613:0",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}{num_F6}",
+  "en": "",
+  "status": "data",
+  "notes": "copy of the 2612 debug labels at the head of the system-text file"
+ },
+ {
+  "id": "2613:1",
+  "hdr": "FFFF 00FF",
+  "jp": "2009/9/12　17:53",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:2",
+  "hdr": "FFFF 00FF",
+  "jp": "　MAIN{n}　SUB{n}　マップスクロール{n}{n}　MAP　ALLOPEN{n}　GLOBAL　WORK{n}　ITEM　ALL",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:3",
+  "hdr": "FFFF 00FF",
+  "jp": "　VISIBLE{n}　OBJ{n}　NPC",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:4",
+  "hdr": "FFFF 00FF",
+  "jp": "CHARACTER　SELECT",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:5",
+  "hdr": "FFFF 00FF",
+  "jp": "　MOTION{n}　ROTATE{n}　SCALE{n}　PRIORITY{n}　MOVE",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:6",
+  "hdr": "FFFF 00FF",
+  "jp": "MOTION　NO．{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:7",
+  "hdr": "FFFF 00FF",
+  "jp": "POS　X:{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:8",
+  "hdr": "FFFF 00FF",
+  "jp": "POS　Y:{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:9",
+  "hdr": "FFFF 00FF",
+  "jp": "MAPID:{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:10",
+  "hdr": "FFFF 00FF",
+  "jp": "ROT　{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:11",
+  "hdr": "FFFF 00FF",
+  "jp": "PRIORITY　{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:12",
+  "hdr": "FFFF 00FF",
+  "jp": "TIME={col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:13",
+  "hdr": "FFFF 00FF",
+  "jp": "イベント:{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:14",
+  "hdr": "FFFF 00FF",
+  "jp": "SCREEN:{col_FB}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:15",
+  "hdr": "FFFF 00FF",
+  "jp": "BG1:{num_F6}　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:16",
+  "hdr": "FFFF 00FF",
+  "jp": "BG2:{num_F6}　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:17",
+  "hdr": "FFFF 00FF",
+  "jp": "BG3:{num_F6}　　　　　　　",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:18",
+  "hdr": "FFFF 00FF",
+  "jp": "S-SPRITE:{num_F6}　　",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:19",
+  "hdr": "FFFF 00FF",
+  "jp": "H-SPRITE:{num_F6}　　",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:20",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F8}ON{col_FC}　",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:21",
+  "hdr": "FFFF 00FF",
+  "jp": "OFF",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:22",
+  "hdr": "FFFF 00FF",
+  "jp": "　EVENT:{num_F6}",
+  "en": "",
+  "status": "data",
+  "notes": ""
+ },
+ {
+  "id": "2613:23",
+  "hdr": "00FF 00FF",
+  "jp": "『{col_F8}{num_F6}{col_FC}』{n}を手に入れた！！",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:24",
+  "hdr": "FFFF 00FF",
+  "jp": "{num_F6}",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2613:25",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:26",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:27",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:28",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:29",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:30",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:31",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:32",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:33",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:34",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:35",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:36",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:37",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:38",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:39",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:40",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:41",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:42",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:43",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:44",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}スペシャル{n}　　　　　　{n}{num_F6}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:45",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:46",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:47",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:48",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:49",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:50",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:51",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:52",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}{var_ED}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:53",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:54",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:55",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:56",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}{var_EE}{slot}{slot}{slot}{slot}{slot}編{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:57",
+  "hdr": "FFFF 00FF",
+  "jp": "第一章{sp}スペシャル{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:58",
+  "hdr": "FFFF 00FF",
+  "jp": "第二章{sp}スペシャル{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:59",
+  "hdr": "FFFF 00FF",
+  "jp": "第三章{sp}スペシャル{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:60",
+  "hdr": "FFFF 00FF",
+  "jp": "第四章{sp}スペシャル{n}{n}{num_F6}{n}END",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:61",
+  "hdr": "FFFF 00FF",
+  "jp": "丘下地区{sp}住宅街",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:62",
+  "hdr": "FFFF 00FF",
+  "jp": "丘下地区{sp}神社街",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:63",
+  "hdr": "FFFF 00FF",
+  "jp": "高台地区",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:64",
+  "hdr": "FFFF 00FF",
+  "jp": "工場地帯",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:65",
+  "hdr": "FFFF 00FF",
+  "jp": "丘下地区{sp}駅前",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:66",
+  "hdr": "FFFF 00FF",
+  "jp": "このエピソードを始めますか？{n}{col_FB}はじめる{n}{col_F7}もどる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:67",
+  "hdr": "FFFF 00FF",
+  "jp": "このエピソードを始めますか？{n}{col_FB}はじめる{n}{col_F7}もどる{n}{col_FA}章のはじめからやり直す",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:68",
+  "hdr": "FFFF 00FF",
+  "jp": "このエピソードを続けますか？{n}{col_FB}つづける{n}{col_F7}もどる{n}{col_FA}章のはじめからやり直す",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:69",
+  "hdr": "FFFF 00FF",
+  "jp": "このエピソードを始めるには{n}{col_FB}{num_F5}{col_FC}のナミダが必要です",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:70",
+  "hdr": "FFFF 00FF",
+  "jp": "持っているナミダは{col_F7}{num_F5}{n}{col_FA}散らばったナミダを探しましょう",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:71",
+  "hdr": "FFFF 00FF",
+  "jp": "今までの進行をセーブしますか？{n}　{n}これは仮画面です{n}　{n}Aボタン　はい{n}Bボタン　いいえ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:72",
+  "hdr": "FFFF 00FF",
+  "jp": "これまでの進行をセーブします。{n}この場所から再開します。",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:73",
+  "hdr": "FFFF 00FF",
+  "jp": "このエピソードを開始すると、{n}{num_F5}章の再開地点は{n}{col_FA}セーブポイント{col_FC}からとなります。{n}よろしいですか？",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:74",
+  "hdr": "FFFF 00FF",
+  "jp": "{num_F5}章{sp}{var_EF}{slot}{slot}{slot}{slot}{slot}編の{col_FB}中断データ{col_FC}を{n}再開してよろしいですか？{n}{col_FB}中断データ{col_FC}は削除されますので{n}電源を切る前に必ず{col_FA}セーブポイント{col_FC}で{n}セーブを行なってください。",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:75",
+  "hdr": "FFFF 00FF",
+  "jp": "開始すると他の章の{col_FB}中断データ{col_FC}が{n}消去され、その章で最後にセーブした{n}{col_FA}セーブポイント{col_FC}から再開となります。{n}よろしいですか？",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:76",
+  "hdr": "FFFF 00FF",
+  "jp": "{var_EF}{slot}{slot}{slot}{slot}{slot}編のここまでの進行を{n}{col_FB}中断データ{col_FC}としてセーブします。{n}よろしいですか？",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:77",
+  "hdr": "FFFF 00FF",
+  "jp": "現在、{col_FB}{num_F5}章の中断データ{col_FC}があるため{n}他の章を選べません。",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:78",
+  "hdr": "FFFF 00FF",
+  "jp": "{num_F5}章の{col_FB}中断データ{col_FC}に戻り{n}{col_FA}セーブポイント{col_FC}でセーブすると、{n}他の章がプレイ出来るようになります。",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:79",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}はい{n}{col_F7}いいえ",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:80",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FB}はい{n}{col_F7}いいえ{n}{col_FA}章のはじめからやり直す",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:81",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_F7}もどる",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "2613:82",
+  "hdr": "FFFF 00FF",
+  "jp": "{col_FA}{num_F5}",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ },
+ {
+  "id": "2613:83",
+  "hdr": "FFFF 00FF",
+  "jp": "%",
+  "en": "",
+  "status": "data",
+  "notes": "no Japanese text: insert the original"
+ }
+]

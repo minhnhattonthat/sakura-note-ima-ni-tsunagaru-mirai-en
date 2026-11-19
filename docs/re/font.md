@@ -18,5 +18,9 @@ the phase 5 engine spike.
   209 告 (vs 2F3 吉), 23D 襲 (vs 315 顔), 2EB 鳴 (vs 49F 嗚), 4D9 充 (vs 535 究), 586 営 (vs 621 堂, 650 菅),
   434 箝 (箝口令), 467 茶, 592 〆. MS Gothic pixel matching (`tools/fontmatch.py`) got under 50% right on 176
   hand-read cells, so it is not used.
-- Risk: other rarely used kanji may still be misread. Phase 4 should list every code used 1-2 times with its
-  context for one more check.
+- Phase 4 context check (`tools/rarekanji.py` -> `docs/re/rare_kanji.tsv`: every kanji cell used 1-2 times with
+  context, all 606 rows read; then every use of each suspect cell): fixed 2FE 葉 (was 棄: 言葉, 観葉, 皆葉英夫),
+  36D 漠 (漢: 漠然), 398 警 (誓: 警備員, 警戒), 3D5 質 (貿: 良質, 鳥質), 4AB 干 (千: 若干, 干した), 508 基 (墓:
+  基本的, 秘密基地), 59F 濡 (需), 5C6 含 (宮), 603 尽 (凧: 愛想が尽き), 620 遺 (遭: 遺産). Each verified by every
+  use of the cell reading as a real word. Then all 1,631 distinct kanji compounds in the todo text went to an independent `codex exec` read for
+  look-alike misreads: one more, 446 条 (柔: 条件, 8 uses). Single kanji between kana were not covered by that pass.

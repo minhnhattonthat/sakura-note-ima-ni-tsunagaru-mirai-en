@@ -40,26 +40,14 @@ def parse(d):
 
 
 def load_tbl(path=ROOT / "tbl" / "jp.tbl"):
-    m = {}
-    for line in Path(path).read_text(encoding="utf-8").splitlines():
-        if "=" in line and not line.startswith("#"):
-            k, v = line.split("=", 1)
-            m[int(k, 16)] = v
-    return m
+    from tbl import Table
+    return Table.load(path)
 
 
 def decode(words, tbl):
-    out = []
-    for w in words:
-        if w == 0xFFFF:
-            out.append("\n")
-        elif w == 0xFFFD:
-            pass
-        elif w in tbl:
-            out.append(tbl[w])
-        else:
-            out.append(f"[{w:04X}]")
-    return "".join(out)
+    """Decode u16 words with a tbl.Table (keys are little-endian bytes: code 0x0010 = key 1000)."""
+    b = struct.pack("<%dH" % len(words), *words)
+    return tbl.decode(b, 0, len(b))[0]
 
 
 def all_files():
@@ -83,7 +71,7 @@ def main():
         for k, w in enumerate(ms):
             if a.grep is not None and a.grep not in w:
                 continue
-            print(f"{fid}:{k}\t" + decode(w, tbl).replace("\n", "⏎"))
+            print(f"{fid}:{k}\t" + decode(w, tbl))
 
 
 if __name__ == "__main__":

@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (tour + first verdict round done; graphics redraws: 165 rows
-  in `gfx/labels.tsv`, most graphics-text rows English; minigame panels, 4218 and the re-tour still to do).
-  Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 5238a2aa3b8882e620c2587e566c34e1f1c78349,
-  romcheck ok, check ok; status_menu/newexp_menu/item_desc/name_boy/cat/dog warped ok on the 6bdfc0e build.
+- **Phase:** 8. QA in the emulator: in progress (every graphics-text row English or ruled out; cold-boot tour of
+  47 scenes passes the visual-QA gate; inkbox done; stress saves and textcover still to do).
+  Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 a3175bc8b7811ae58ec3ae114cb34a7460c2958f,
+  romcheck ok, check ok, smoke ok; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 on it.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -90,16 +90,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     English now: pause tabs Ch. 1-4 (4187/4192/4194), status 1040, Key Items 1020-1035, NEWEXP panel 1017,
     collection banner 1000-1015, name-entry prompts 988/991/994, banners New Episode! 4052/4056 and New
     Experience 4060-4068, choice buttons 4044, 85 choice labels 4033, Tears message 4028, map labels 1046.
+    Second graphics session (2026-11-20, `docs/re/gfx.md` §Findings): minigames reached from the debug イベント
+    list (new scenes `puzzle_info`, `puzzle`, `nazkaiser_info`): puzzle frame 70 "B Button: Back", puzzle panel 73,
+    Nazkaiser controls 106; NEWEXP bottom box 4218 (8bpp sprites now supported). `gfx.py` gained `~-T` (dark
+    letters), `~hT` (warm letters), `^DX,DY` (offset copy), style `big`, per-tile sub-palettes for 4bpp inpaint;
+    `tools/gfxprobe.py` reads a region's indices and text lines. Ramen panels 80-91 and 2842 (ナナミ) are unused
+    (D12); the Nazkaiser logo 109 stays Japanese like the title logo (D5).
+    Re-tour 2026-11-20: 47/47 scenes on the build, sheets in `work/qa/tour_cmp`, verdicts round 2-3 by codex
+    (`work/qa/verdicts/`), `recheck_2.tsv` = name entry kana keyboard ok by D11. `inkbox.py` on newgame_popup,
+    save_confirm, load_popup, episode_ch1_confirm: every button and line centred within 2 px; the popup title bar
+    text sits 12 px right of the bar centre in the original too (the game's own layout, not a bug).
 - **Next:**
-  1. Phase 8 graphics left: minigame panels 70-106 (15-puzzle, ramen, Nasukaiser: `docs/re/graphics.md` rows;
-     look with `gfx.py cells`/`dump`, add rows, `gfx.py preview`), collection sprite 4218 (8bpp linear 0x101:
-     `obj_pixels` asserts 4bpp, add 8bpp), 2842 (three 8x8 glyphs from a shared tile, not ゴミ箱 as the sweep
-     guessed: find where it shows before redrawing). Title logo 1139 stays Japanese (D5). The 4033 choice labels
-     were translated without scene context (no script reference): check them when their scenes are toured.
-     Then a cold-boot tour of all scenes (`warp_all.py` on the new build, `tour_cmp.py`, `qa_gate.py init`,
-     `todo`, verdicts with `vqa_run.py`), then `inkbox.py` on every choice/centred box (popups, save confirm,
-     episode confirm), stress saves (longest names `WWWWWWWWW` via `save.py edit --name`, full item grid =
-     `all_items`), `textcover.py` (needs a `TEXT` log from the message hook and `build/strings.tsv`).
+  1. Phase 8 left: stress saves (longest names `WWWWWWWWW` via `save.py edit --name` on a game-written fixture,
+     full item grid = `all_items`; route each through file select/load popup, status, NEWEXP, save screen; sheets
+     to the gate as extra manifest dirs), then `textcover.py` (needs a `TEXT` log from the message hook and
+     `build/strings.tsv`; waive what is shown unreachable in `docs/text_unshown.tsv`). The 4033 choice labels were
+     translated without scene context: check them when their scenes are reached.
   2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
      the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
      write). Decide when the title screen is in the tour.
@@ -111,11 +117,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
      unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
   5. `docs/polish.md`: profile bullet indents (2611:31, 59-75).
   6. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
-- **Open bugs:** visual-QA round 1 (7 not ok, all graphics text): name_boy/cat/dog, status_menu, item_desc and
-  newexp_menu are redrawn now (need the re-tour + new verdicts); title (logo 1139) stays Japanese by D5: waive it
-  with that reason in the next round. Name entry opens on the kana tab (the abc tab exists): non-blocking, see
-  Waiting on the user. extras_list = debug-only, ok in `verdicts/recheck_1.tsv`.
-  Flagged abbreviation (D4 last resort): pause tabs "Ch. 1".."Ch. 4" (37 px tab, "Chapter 1" = 46 px).
+- **Open bugs:** none from visual QA (gate passes). Flagged abbreviation (D4 last resort): pause tabs
+  "Ch. 1".."Ch. 4" (37 px tab, "Chapter 1" = 46 px). Puzzle frame "B Button: Back": two 1-px pale specks may
+  remain where sub-palette 2 has no light blue (codex: ok).
 - **Notes for later phases:**
   - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610
     index (verified): give translators the speaker name from 2610 as context.
@@ -128,6 +132,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - The field save screen (save_slots/save_confirm) and file select show graphics/font text: in the phase 8 tour.
 - **Waiting on the user:**
   - (non-blocking) Name entry opens on the kana keyboard tab; English players can switch to the abc tab. Default:
-    leave the game's default tab (changing it is engine work); default names are already English.
+    leave the game's default tab (changing it is engine work); default names are already English. The kana keys
+    and the あいう / アイウ tab labels stay as they are (D11); say if the tabs should read e.g. "Hiragana".
+  - (non-blocking) decisions.md had lost rows D9/D10 that the glossary cites; restored from the glossary wording
+    (sound effects in natural English; English names for descriptive yokai/NPC names). Correct them if wrong.
   - (non-blocking) Small scenery signs in background art (コンビニ, 寿司, たばこ, ゆ, restroom 女 ...; ids in
     `docs/re/graphics.md`): default is to leave them as art and translate only signs the story refers to.

@@ -171,7 +171,7 @@ id	recn	cell	rect	fill	ink	shadow	align	dy	style	en	note
 4033	4032	83	0,0,64,16	0	15	1	c	0	shadow	No, I can't...	choice いやダメだ…
 4033	4032	84	0,0,56,16	0	15	1	c	0	shadow	Lively song	choice ノリノリの曲
 4033	4032	85	0,0,72,16	0	15	1	c	0	shadow	Uneasy song	choice ざわざわする曲
-70	72	0	181,176,74,15	~245/3	15	1	r	0	outline	B: Back	Bボタン：もどる (puzzle frame, 4bpp: inpaint per tile sub-palette)
+70	72	0	181,176,74,15	~245/3	15	1	r	0	outline	B Button: Back	Bボタン：もどる (puzzle frame, 4bpp: inpaint per tile sub-palette)
 73	75	0	30,40,196,18	^0,110	81	1	c	0	bold	Yokai Sliding Puzzle	妖怪15パズル (panel title, glossary; plain panel copied from y+110)
 73	75	0	28,75,200,31	~90/3	255	1	c	0	shadow		clear instruction lines 1-2 (white letters, soft shadow by growing)
 73	75	0	28,113,200,34	~90/3	255	1	c	0	shadow		clear instruction lines 3-4

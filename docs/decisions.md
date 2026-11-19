@@ -14,3 +14,7 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-11-19 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint without asking. |
 | D7 | 2026-11-19 | Existing saves / savestates | user's saves, none | None provided; build the debug tool as usual. |
 | D8 | 2026-11-19 | Git identity | ask | Already set by new-game.ps1 (minhnhattonthat); do not change it. |
+| D9 | 2026-11-19 | Sound effects and interjections | romaji, natural English | Natural English (ドキドキ -> "ba-dump"), never romaji. (Row restored 2026-11-20 from the glossary ruling that cites it.) |
+| D10 | 2026-11-19 | Names with no official English (Japan-only game) | Hepburn for all, English for descriptive names | Hepburn without macrons for names; descriptive and pun names (yokai, NPC labels) get English names. (Row restored 2026-11-20 from the glossary ruling.) |
+| D11 | 2026-11-20 | Name-entry keyboard (kana key sheet 984, tabs あいう / アイウ) | translate the tab labels, leave | **Agent default under D6, owner may override** (non-blocking note in `docs/status.md`): leave. The keys are the characters the player types and the tabs name those kana sets; the abc tab gives English letters and the default names are English. Visual QA counts them as ok. |
+| D12 | 2026-11-20 | Unused graphics (ramen minigame panels 80-91, ナナミ sprite 2842) | redraw, leave | Agent default under D6: leave; nothing in the game loads them (evidence in `docs/re/gfx.md`). |

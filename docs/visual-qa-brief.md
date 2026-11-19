@@ -37,6 +37,9 @@ Standing non-bugs, `ok`:
 - the debug menu, BG/OBJ viewers, sound test, extras list (extras_list, extras_player) and battle list (debug-only screens, labels from file 2612 are left
   in Japanese on purpose: status `data`);
 - player-entered names on the save/file screens are save data (the fixtures were made on the original ROM).
+- the two logos with no official English version stay Japanese by the owner's decision D5: the title-screen logo
+  サクラノート / ～いまにつながるみらい～ (scene title) and the Nazkaiser minigame logo 古代戦士 ナスカイザー (top
+  screen of nazkaiser_info). Every other Japanese text on those screens is still an issue.
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:

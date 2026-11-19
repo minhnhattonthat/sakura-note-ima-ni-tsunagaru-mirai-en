@@ -2,10 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build in progress: VWF done and booted, marker tour 40/40, width gate
-  partly measured (`docs/re/boxes.md`).
+- **Phase:** 6. Translate: ready to start (phase 5 done: VWF booted, marker tour, width gate in `docs/re/boxes.md`).
   Last build: 2026-11-19 marker build `build/sakuranote_marker.nds` (`build.py --marker`), smoke ok, 40/40 warps ok
-  (shots `work/qa/marker/`).
+  (shots `work/qa/marker/`); width-gate builds `build/qa_gate1-4.nds` from `tools/qa/gate1-4.tsv`.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -47,15 +46,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `build.py` modes: default (en), `--marker`, `--identity`, `--qa ID=TEXT`. Grown message files load fine.
     `tests/test_vwf.py`. Debug probes: `tools/debug/glyphlog.lua` (every glyph: ctx, font, code, x, y),
     `reglog.lua`, `ramdump.lua`. Dialogue budget measured: 228 px/line, 218 on a page's last line, 2 lines/page.
+  - Phase 5 width gate (`docs/re/boxes.md`): `build.py --qa ID=@W` / `@W1,W2` / `@WxN` fills a line to exactly W px
+    with `|` at both ends, `--qa-file tools/qa/gateN.tsv` for a batch (arm9 slots too). Measured: dialogue 228/218,
+    tag 18 codes, narration 240 x 7 lines centred (line 6 <= 190 on 6-7 line pages), popup buttons 164, popup and
+    save-message panel 216, board 216 / buttons 164, chapter card 200 (line 2 stays blank), items 216 x name +
+    blank + 5, NEWEXP rows 164, profile 228 (header 128), credits 120 (fixed per-line x). Glyph torture line ok in
+    the dialogue font; tag font: `)` = stop byte 0xFD (rejected by `vwf.pack_tag`, tested), `:;` odd glyphs. New
+    scenes: intro_narration, status_menu, newexp_menu, item_desc (fixture `all_items`: state +0x120..0x12F = item
+    bits, found with `tools/debug/poke.lua`). Marker sheets: the only Japanese left is graphics (name-entry
+    prompts, status/NEWEXP panels: all in `docs/re/graphics.md`), save data names, and debug-only labels (2612).
 - **Next:**
-  1. Finish the phase 5 width gate (`docs/re/boxes.md` todo rows): `--qa` exact-limit builds for popup buttons
-     (2607), popup header (arm9:092798, 2615:1-2), episode board (2615:3+, 2613:66), chapter card (2613:29-30, take a
-     later frame), item descriptions 2605, profile 2611, lists 2608/2609, help 2616, credits 2604, tag px budget.
-     Narration (speaker FFFF, up to 7 lines e.g. 2500:49): add a warp scene that shows one (debug event list), then
-     measure. Choices: find whether any exist (look for a choice opcode in SCR0) and add a scene. Glyph torture line
-     (all printable ASCII + double spaces) in the dialogue box. Look at every marker sheet for Japanese left (text
-     not extracted) and odd markers (non-text entries).
-  2. Phase 8 stress saves: map more of the 0x28-0x9A0 state (items, hearts, flags) by diffing game-written saves.
+  1. Phase 6: translate in batches (translator agents, `references/translation.md`) with the budgets from
+     `docs/re/boxes.md` per file; speaker name from 2610 as context for each line. Keep blank layout lines blank.
+  2. Width rows still **guess** (not reached by any warp): 2609 track names (player-facing list, probably an
+     extras/special episode), 2615:0 touch prompt, 2616 tutorial (Nobiyo; presumed dialogue box without tag),
+     2607:0/5 save/load prompts (same panel as the measured save messages), 2613:67-81 (same board panel, need
+     unlock flags). Reach them in phase 8 and re-measure; translators keep these short meanwhile.
+  3. Phase 7 engine work: credits line x (fixed per line, pre-centred for the Japanese; not plain data in FILEDATA:
+     trace who sets the pen x for 2604) so English lines can be re-centred; arm9:092798 empty-slot label has 5
+     codes ("Empty" fits) unless its pointer moves.
+  4. Phase 8 stress saves: map more of the 0x28-0x9A0 state (hearts, flags, per-item bits) by diffing saves.
 - **Open bugs:** none.
 - **Notes for later phases:**
   - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610

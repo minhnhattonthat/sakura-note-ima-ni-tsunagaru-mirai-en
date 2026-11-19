@@ -1,0 +1,3 @@
+# Width gate batch 4 (phase 5): item description panel. `build.py --qa-file tools/qa/gate4.tsv
+# --out build/qa_gate4.nds`; scene item_desc (save all_items). Name line, the blank line ('||', 4 px), 5 body lines.
+2605:3	@216,4,216,216,216,216,216

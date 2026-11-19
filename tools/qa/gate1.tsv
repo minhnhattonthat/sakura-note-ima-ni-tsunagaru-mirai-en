@@ -1,0 +1,32 @@
+# Width gate batch 1 (phase 5): exact-width fills, `build.py --qa-file tools/qa/gate1.tsv --out build/qa_gate1.nds`.
+# @W = one line exactly W px ('|' at both ends), @W1,W2 = one line per width, @WxN = N lines. Results: docs/re/boxes.md.
+# popup buttons (load_popup, newgame_popup, save_confirm)
+2607:1	@164
+2607:2	@164
+2607:3	@164
+2607:4	@164
+2607:6	@164
+2607:7	@164
+2607:8	@164
+2607:9	@164
+2607:10	@164
+2607:11	@164
+2607:12	@164
+# popup prompts (two lines)
+2607:0	@200x2
+2607:5	@200x2
+# episode board: chapter header (with the name), episode title, confirm popup (prompt, two buttons)
+2615:3	@200
+2615:19	@216
+2613:66	@216,164,164
+# chapter card: title, blank, number
+2613:29	@200,200,40
+# profile: top header, bottom page lines
+2611:76	@130
+2611:1	@236x10
+# credits: three widths to find the centring axis
+2604:3	@60
+2604:4	@120
+2604:5	@200
+# speaker tag: 18 of the widest letter (copy limit is 18 codes)
+2610:6	MMMMMMMMMMMMMMMMMM

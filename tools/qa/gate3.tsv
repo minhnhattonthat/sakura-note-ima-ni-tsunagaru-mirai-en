@@ -1,0 +1,8 @@
+# Width gate batch 3 (phase 5): glyph torture lines + NEWEXP centring. `build.py --qa-file tools/qa/gate3.tsv
+# --out build/qa_gate3.nds`; scenes field_s1_boy (+ one A for 2499:1), newexp_menu. '{' and '}' are left out: they
+# open control tokens in script text.
+2499:0	 !"#$%&'()*+,-./0123456789:;<=>?{n}@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`
+2499:1	abcdefghijklmnopqrstuvwxyz|~ x{n}Two  spaces,  then…—é♪♥ end.
+# speaker tag: the symbols the tag font has, plus letters (')' is code 0xFD = the packed tag's stop byte: unusable)
+2610:6	Az09.!?'-&(B+:;=/*
+2608:18	@150

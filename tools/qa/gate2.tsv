@@ -1,0 +1,11 @@
+# Width gate batch 2 (phase 5): `build.py --qa-file tools/qa/gate2.tsv --out build/qa_gate2.nds`, scenes
+# intro_narration, newexp_menu, status_menu. Syntax as gate1.tsv. Results: docs/re/boxes.md.
+# intro narration (white on black): 2498:0-3 = 7 lines of 240 (line count, vertical fit); 2498:4-5 = alignment
+2498:0	@240x7
+2498:1	@240x7
+2498:2	@240x7
+2498:3	@240x7
+2498:4	@248,120,40
+2498:5	@244,160,80,20
+# NEWEXP list row: every locked row shows 2608:18
+2608:18	@180

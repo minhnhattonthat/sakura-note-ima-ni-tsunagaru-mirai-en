@@ -81,12 +81,44 @@ def marker(eid, jp, ctx, tag=False):
 
 
 QA = {}  # id -> text: single-entry overrides for width tests (build.py --qa ID=TEXT)
+QA_FILL = re.compile(r"@(\d+(?:,\d+)*)(?:x(\d+))?")
+FILL_CHARS = "234567890"
+
+
+def fill(px, width):
+    """A line exactly px wide: '|' + digits + '|', closed with 2-px '.' and one 5-px 'k' for an odd width.
+    The bars mark both ends, so a zoomed shot shows whether the last column still draws."""
+    s = "|"
+    k = 0
+    while width(s + FILL_CHARS[k % len(FILL_CHARS)] + "|") <= px - 2:
+        s += FILL_CHARS[k % len(FILL_CHARS)]
+        k += 1
+    if (px - width(s + "|")) % 2:
+        s += "k"
+    while width(s + "|") < px:
+        s += "."
+    s += "|"
+    if width(s) != px:
+        sys.exit(f"--qa fill: cannot make exactly {px} px (got {width(s)})")
+    return s
+
+
+def qa_text(r, spec, ctx, tag=False):
+    """--qa value: literal text, or @W / @WxL = L lines each exactly W px, @W1,W2,W3 = one line per width
+    (the original's leading tokens kept)."""
+    m = QA_FILL.fullmatch(spec)
+    if not m:
+        return spec
+    lead = re.match(r"(\{[^}]*\})*", r["jp"])[0]
+    lead = "".join(t for t in TOKEN.findall(lead) if t not in ("{n}", "{page}"))
+    widths = [int(w) for w in m[1].split(",")] * int(m[2] or 1)
+    return lead + "{n}".join(fill(w, lambda s: ctx.width(s, tag)) for w in widths)
 
 
 def entry_text(r, marker_build, ctx, tag=False):
     """(text, table) for one entry."""
     if r["id"] in QA:
-        return QA[r["id"]], ctx.tag if tag else ctx.en
+        return qa_text(r, QA[r["id"]], ctx, tag), ctx.tag if tag else ctx.en
     if r.get("status") == "data":
         return r["jp"], ctx.jp
     if r.get(LANG):
@@ -138,7 +170,9 @@ def patch_arm9_strings(arm9, rows, marker_build=False, ctx=None):
         r = byid[f"arm9:{off:06X}"]
         if r.get("status") == "data":
             continue
-        if r.get(LANG):
+        if r["id"] in QA:
+            text = qa_text(r, QA[r["id"]], ctx)
+        elif r.get(LANG):
             text = r[LANG]
         elif marker_build:
             text = arm9_marker(k, r["jp"])

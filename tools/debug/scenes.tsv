@@ -39,3 +39,7 @@ credits	debug	f2612 w30 up*4 a f145 w12000 f2604 w900	2604		staff roll: message 
 extras_list	debug	f2612 w30 up*2 a w150			debug: chapter extras list (第一章 おまけ1..)
 profile_ch1	debug	f2612 w30 up*2 a w150 a w300			character profile page (extras 1, chapter 1)
 extras_player	debug	f2612 w30 up a w150			debug おまけ item: player select
+intro_narration	title	f1139 w240 start f1126 w200 a f2607 w200 a f984 w200 t230,160 w150 t230,160 w150 t230,160 w150 t230,160 f2615 w200 a w150 a f2630 w600 t128,100 w300 t128,100 w300 t128,100 w300 t128,100 w300 t128,100 w300 t128,100 w300	2498		chapter 1 intro narration (speaker FFFF, white on black, 2498:0-5; touch advances)
+status_menu	debug	f2612 w30 a w120 a w100 a w100 down a w600 a*22 w60 x w200	1040		field menu, STATUS tab: status panel (top), だいじなもの item grid (bottom)
+newexp_menu	debug	f2612 w30 a w120 a w100 a w100 down a w600 a*22 w60 r w200	1017		field menu, NEWEXP tab: new-experience panel (top), list of 2608 rows (bottom)
+item_desc	title	f1139 w240 start f1126 w200 a w200 a f2615 w200 a w150 a f2630 w600 t128,100 w2000 x w200 a w200	2605	all_items	resume slot 1 (every item owned), STATUS tab, A on item 1: description panel (2605:3)

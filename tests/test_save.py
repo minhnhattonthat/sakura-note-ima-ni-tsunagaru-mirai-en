@@ -70,4 +70,4 @@ def test_scenes_tsv_shape():
     for r in rows[1:]:
         assert len(r) == 6, r
         assert r[1] in ("title", "debug"), r
-        assert r[4] in ("", "s1_living", "all_chapters"), r
+        assert r[4] in ("", "s1_living", "all_chapters", "all_items"), r

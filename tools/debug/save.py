@@ -27,6 +27,9 @@ HEADER = b"SAKURA NOTE1J."
 IMG0, IMGSZ, SUMLEN, SUMOFF = 0x20, 0xA00, 0x9A0, 0x9FE
 # name: (offset, size) of u16 strings ended by 0xFFFD; codes are dialogue-font cells (tbl/jp.tbl)
 NAMES = {"boy_surname": (0x2A4, 0x14), "boy_name": (0x2B8, 0x14), "dog": (0x2CC, 0x14), "cat": (0x2E0, 0x14)}
+# [lo, hi) of the item-ownership bytes (だいじなもの grid): 0xFF in all of them shows a full grid. Found by poking
+# the live state struct in 16-byte chunks (tools/debug/poke.lua); bit order per item not mapped yet.
+ITEM_BITS = (0x120, 0x130)
 # name: (offset, size). Date = when the slot was saved (shown on the file select).
 FIELDS = {
     "used": (0x00, 4), "slot": (0x08, 4),

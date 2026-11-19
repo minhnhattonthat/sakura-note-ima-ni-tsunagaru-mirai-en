@@ -64,7 +64,15 @@ def make_all_chapters(rom, out):
     sv.write(out)
 
 
-FIXTURES = {"s1_living": make_s1_living, "all_chapters": make_all_chapters}
+def make_all_items(rom, out):
+    """s1_living with every item-ownership bit set (state +0x120..+0x12F, found by poking RAM: docs/re/save.md)."""
+    sv = save.Save.read(fixture("s1_living", rom))
+    for off in range(*save.ITEM_BITS):
+        sv.put(0, off, 1, 0xFF)
+    sv.write(out)
+
+
+FIXTURES = {"s1_living": make_s1_living, "all_chapters": make_all_chapters, "all_items": make_all_items}
 
 
 def fixture(name, rom=ORIG, force=False):

@@ -79,13 +79,19 @@ def main():
     g.add_argument("--identity", action="store_true")
     ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT",
                     help="override one entry's text (width tests), e.g. --qa \"2499:0=Wide{n}line\"")
+    ap.add_argument("--qa-file", action="append", default=[], metavar="TSV",
+                    help="--qa overrides from a file: one 'ID<TAB>TEXT' per line, # comments (tools/qa/*.tsv)")
     a = ap.parse_args()
     mode = "marker" if a.marker else "identity" if a.identity else "en"
-    if a.qa:
+    qa = [q.partition("=")[::2] for q in a.qa]
+    for f in a.qa_file:
+        for line in Path(f).read_text(encoding="utf-8").splitlines():
+            if line.strip() and not line.startswith("#"):
+                k, _, v = line.partition("\t")
+                qa.append((k.strip(), v.strip()))
+    if qa:
         import insert
-        for q in a.qa:
-            k, _, v = q.partition("=")
-            insert.QA[k] = v
+        insert.QA.update(qa)
     check_rom.check()
     data = build(mode=mode)
     out = Path(a.out or (OUT_MARKER if mode == "marker" else OUT))

@@ -49,6 +49,22 @@ def test_pack_tag():
         vwf.pack_tag([0xB0] * 19)
     with pytest.raises(ValueError):
         vwf.pack_tag([0x140])
+    # ')' is tag code 0xFD, the packed tag's stop byte (docs/re/boxes.md): rejected, not silently cut
+    codes = struct.unpack("<H", vwf.tag_table().encode(")"))
+    with pytest.raises(ValueError):
+        vwf.pack_tag(list(codes))
+
+
+def test_qa_fill_exact_widths():
+    import insert
+    ctx = insert.Ctx()
+    for w in (4, 9, 40, 41, 164, 216, 240):  # odd widths need the 5 px 'k': 9 is the smallest
+        s = insert.fill(w, ctx.width)
+        assert ctx.width(s) == w and s[0] == s[-1] == "|", (w, s)
+    r = {"id": "2605:3", "jp": "{col_F8}名前{n}{n}{col_FC}本文"}
+    text = insert.qa_text(r, "@216,4,216", ctx)
+    assert text.startswith("{col_F8}|") and text.count("{n}") == 2
+    assert insert.qa_text(r, "plain text", ctx) == "plain text"
 
 
 @need_rom

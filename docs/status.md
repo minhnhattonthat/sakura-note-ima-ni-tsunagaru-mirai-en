@@ -2,8 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done: script/ roundtrip + coverage tests).
-  Last build: 2026-11-19 identity build, sha1 911782fa06c3006cd66818914c7684d6422d200c (= the dump), smoke ok.
+- **Phase:** 5. Engine spike and marker build in progress: VWF done and booted, marker tour 40/40, width gate
+  partly measured (`docs/re/boxes.md`).
+  Last build: 2026-11-19 marker build `build/sakuranote_marker.nds` (`build.py --marker`), smoke ok, 40/40 warps ok
+  (shots `work/qa/marker/`).
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -38,16 +40,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
     overlay scan finds only the 7 listed slots. The old "2604 credits mapping" note was a bug in `msg.py`'s own
     decoder (byte-swapped table keys); fixed, the credits decode fine. Kanji check: 11 misread cells fixed in
     `tbl/jp.tbl` (`docs/re/font.md`), `tools/rarekanji.py` lists the rare cells.
+  - Phase 5 so far (`docs/re/vwf.md`): dialogue VWF = hook on the advance function 0x02037A00 (new arm9 autoload
+    block at 0x021D6540, arena-lo raised); hand-drawn glyphs `fonts/vwf_glyphs.txt` in font 860 (Latin at the
+    name-entry codes 0xB0-0xFD, rest at 0x680+); speaker tags (2610, index = header word0) drawn from 8x8 font 872 by a
+    replacement tag loop with VWF widths, tags packed two codes per u16 so 18 chars fit the game's 10-u16 copy.
+    `build.py` modes: default (en), `--marker`, `--identity`, `--qa ID=TEXT`. Grown message files load fine.
+    `tests/test_vwf.py`. Debug probes: `tools/debug/glyphlog.lua` (every glyph: ctx, font, code, x, y),
+    `reglog.lua`, `ramdump.lua`. Dialogue budget measured: 228 px/line, 218 on a page's last line, 2 lines/page.
 - **Next:**
-  1. Phase 5: font/VWF spike (font 860, 16x16 cells, 12 px advance guess) and the marker build: replace every
-     todo string with `[id]` markers via `build.edit_payloads()` (message files can grow: offsets are file-relative),
-     warp through the scenes, find which box variants exist and measure their widths (width gate). Confirm the
-     header-word meanings (speaker/face) and that scripts address messages by index only.
+  1. Finish the phase 5 width gate (`docs/re/boxes.md` todo rows): `--qa` exact-limit builds for popup buttons
+     (2607), popup header (arm9:092798, 2615:1-2), episode board (2615:3+, 2613:66), chapter card (2613:29-30, take a
+     later frame), item descriptions 2605, profile 2611, lists 2608/2609, help 2616, credits 2604, tag px budget.
+     Narration (speaker FFFF, up to 7 lines e.g. 2500:49): add a warp scene that shows one (debug event list), then
+     measure. Choices: find whether any exist (look for a choice opcode in SCR0) and add a scene. Glyph torture line
+     (all printable ASCII + double spaces) in the dialogue box. Look at every marker sheet for Japanese left (text
+     not extracted) and odd markers (non-text entries).
   2. Phase 8 stress saves: map more of the 0x28-0x9A0 state (items, hearts, flags) by diffing game-written saves.
 - **Open bugs:** none.
 - **Notes for later phases:**
-  - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker names for `hdr` word0
-    are not mapped yet (translators get context from the text; map them in phase 5 if the marker build shows them).
+  - 2612 (debug labels) and 2614 (message test) are status `data`: not translated. Speaker for `hdr` word0 = 2610
+    index (verified): give translators the speaker name from 2610 as context.
+  - English letters share the name-entry codes, so the name-entry key cells now show left-aligned VWF Latin (big
+    font): check the name-entry screen in phase 8 and re-centre if needed.
   - arm9 default names (20-byte slots, 9 chars + FFFD) and `はじめから` (14 bytes): in-place limits unless phase 7
     finds their pointers. Which of トロイメライ/ラインホルト is the dog and which the cat is a guess.
   - The debug menu's オープニング item shows nothing; the title/opening is reached by normal boot instead.

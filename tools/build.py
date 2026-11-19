@@ -77,8 +77,15 @@ def main():
     g = ap.add_mutually_exclusive_group()
     g.add_argument("--marker", action="store_true")
     g.add_argument("--identity", action="store_true")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT",
+                    help="override one entry's text (width tests), e.g. --qa \"2499:0=Wide{n}line\"")
     a = ap.parse_args()
     mode = "marker" if a.marker else "identity" if a.identity else "en"
+    if a.qa:
+        import insert
+        for q in a.qa:
+            k, _, v = q.partition("=")
+            insert.QA[k] = v
     check_rom.check()
     data = build(mode=mode)
     out = Path(a.out or (OUT_MARKER if mode == "marker" else OUT))

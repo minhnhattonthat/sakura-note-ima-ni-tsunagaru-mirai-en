@@ -80,8 +80,13 @@ def marker(eid, jp, ctx, tag=False):
     return "".join(out)
 
 
+QA = {}  # id -> text: single-entry overrides for width tests (build.py --qa ID=TEXT)
+
+
 def entry_text(r, marker_build, ctx, tag=False):
     """(text, table) for one entry."""
+    if r["id"] in QA:
+        return QA[r["id"]], ctx.tag if tag else ctx.en
     if r.get("status") == "data":
         return r["jp"], ctx.jp
     if r.get(LANG):

@@ -17,6 +17,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `font.md` | dialogue font (FILEDATA 860), kanji map | verified layout; kanji map read by eye + context |
 | `graphics.md` | graphics-text survey (static sweep `tools/gfxsweep.py`, rows in `graphics_sweep.tsv`), NDS banner | sweep done; RGCN/RECN/RCSN layouts verified by renders; QQ = tilemap guess |
 | `debug.md` | FILEDATA load hook, boot-script swap to the debug menu (2477 -> 2494), menu map, normal new-game flow, debug map list (`maplist.tsv`) | warp verified (40 scenes) |
+| `vwf.md` | text renderer (canvas, blits, advance function), speaker tags (2610 + 8x8 font 872), the VWF hooks and encoding | verified (marker build boots, 40/40 warps) |
+| `boxes.md` | box variants and width budgets (width gate) | dialogue measured; rest todo |
 | `save.md` | EEPROM layout, checksum, save points, chapter bitmask, names, `save.py` / `make_save.py` | verified (game-written save, load tests); most of the state struct unmapped |
 
 Prior work (one web search, 2026-11-19): no released English patch or tools found. A NeoGAF thread on unlocalized

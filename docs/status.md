@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows, inkbox, stress saves done; visual-QA gate passes on
-  the current build; text coverage 3,928/5,343 shown, 112 waived, 1,303 left = 27 forcing runs (see Next 1)).
+- **Phase:** 9. Release: not started (phase 8 done 2026-11-20: gate passes, textcover exits 0 with 5,254/5,343
+  shown, 89 waived, 0 failing).
   Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 c98c098d43ac64482b298744ef18cbb613cff107,
   romcheck ok, check ok. Gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 on this build
   (57 sheets incl. the 10 stress sheets; name-entry kana tabs ok by D11, `verdicts/recheck_3.tsv`).
@@ -125,42 +125,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     NearScript by `tools/debug/entryname.lua`), `tools/debug/battlecover.py` (debug battle list x chars x 4
     pages). `work/qa/cover/mash/` = an older plain mash; `work/qa/cover/runs/` = the 58 warp scenes.
     `tests/test_scrrefs.py`. `vqa_run.py` labels stress sheets (single image, scene note from scenes.tsv).
+  - Text coverage complete (2026-11-20): `tools/debug/forcemsg.lua` + `tools/debug/forcecover.py` forced every
+    string no scene reached through the message fetch of event 1938 (77 runs, all 50/50 forced, exit 0).
+    `textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv` exits 0: 5,254/5,343 shown, 89
+    waived (2612/2614 debug-only, 2610:0-4 placeholders, arm9 default names), 0 failing. Phase 8 done.
 - **Next:**
-  1. **Finish the forcing sweep, then textcover exits 0 and phase 8 is done.** 2026-11-20: `tools/debug/forcemsg.lua`
-     + `tools/debug/forcecover.py` (docs/re/scripts.md §Coverage, Forcing) play every still-missing string through
-     the message fetch in event 1938 (opening map), 50 a run, ~85 s each. 48/77 runs done, all exit 0 and 50/50
-     forced; Claude Code then stopped the sweep for low host memory (3 incomplete runs deleted). Resume:
-     `python -X utf8 tools/debug/forcecover.py --jobs 2` (check free memory first; it recomputes the missing list
-     and skips done runs: 1,303 strings / 27 runs left), then
-     `textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`. A run that still can't reach a
-     string (e.g. an empty string hashing like another) needs a waiver with a reason. The warp scenes were re-run
-     with the new probe into `work/qa/cover/runs2/` (57/57 ok). The event sweep (`evcover.py`) was stopped at 48
-     runs: the remaining events mostly crash DeSmuME in the opening map (0xC0000005, same frame on the original ROM,
-     e.g. 1912) and in parallel the crashed process sits in Windows error reporting until the 360 s timeout; forcing
-     covers their strings instead, so it need not be finished. arm9 default names waived (drawn from the save name
-     record, not the hooked fetch). Guidance-row glossary sweep (old Next 3) done: no Avoid words in EN; the
-     mismatches checked are context choices.
-  1b. (old notes) Re-run the coverage sweeps with the extended probe. 2026-11-20: `textlog.lua` now also hooks the message fetch
-     0x0203742C/0x020374C4 and the tag loader 0x020360F4 (the expand hook alone saw 0/113 tags, 2/131 item
-     strings; `docs/re/scripts.md` §Coverage). Old map/battle runs (old probe) were deleted; ev now has 48/200 runs
-     with the new probe. `work/qa/cover/runs/` (58 warp scenes) and `mash/` are still old-probe: re-run the scenes
-     with `warp_all.py build/sakuranote_en.nds --out work/qa/cover/runs --no-states --script tools/debug/textlog.lua`.
-     Some runs freeze DeSmuME at 0 % CPU; timeouts cut to 360/300/420 s (ev/map/battle; full runs take ~75/55/120 s).
-     **Memory:** the sweep at `--jobs 8` was killed again by the host for low memory, though the emulators use only
-     ~75 MB each: the host had ~2 GB free with no emulator running. Use `--jobs 4`, one runner at a time (ev, then
-     `mashcover.py`, then `battlecover.py`), and check free memory first. Each runner skips runs with a log;
-     incomplete runs (no `final.png`) were deleted. Then `textcover.py work/qa/cover build/strings.tsv --waive
-     docs/text_unshown.tsv`.
-     Computed indices: many dialogue strings are named by no immediate (`scrrefs.py --unref`, e.g. 2512:11-87 in
-     the school scripts 1596/1601; GetRandom is used 241 times). Reaching them needs forcing (e.g. a hook on the
-     MessageObj native that rewrites the index), not more mashing.
-  2. Close the gaps: group the never-shown ids by file (`scrrefs.tsv` says which script names each). NPC lines in
-     TouchPositive/TouchNegative (13 chars, longer than "StartScript": entryname.lua can't rename to them) and
-     MapExit, and NearScript branches behind flags, need more: ideas are patching the script's own function-name
-     record in RAM after load, or forcing IsFlagChk results. Waive in `docs/text_unshown.tsv` only with a reason:
-     2612/2614 debug-only (status `data`), the 16 placeholder files if no script sets them (check the computed
-     SetMessageFile calls in 2478 StartScript, 2626 GetItem and 2836 StartScript first). The 4033 choice labels
-     were translated without scene context: check them when their scenes are reached.
+  1. **Phase 9 (release)**, per the skill's done-when (`references/pipeline.md` §Release): story-pass verdict for
+     every chapter (`work/qa/story/manifest.tsv`, `references/translation.md` §Review; no reviewer subagent will be
+     started for an Orca worker: do the pass yourself read-only or with `codex exec`), tick every line of
+     `docs/polish.md` (item 5 below), `jp_left.py` on the release build, debug tool off in the release build,
+     `tools/release.py` (runs every gate + textcover), README without placeholders and with base ROM hashes, zip =
+     patch + README. Never `gh release create`.
+     The forcing pass draws forced strings in the dialogue box: it proves the engine reaches them, not their own
+     screen's layout (that is the width lint + tour sheets). The 4033 choice labels were translated without scene
+     context: re-read them in the story pass.
+     Coverage notes (done 2026-11-20): logs in `work/qa/cover/` (runs2 = warp scenes, ev = 48 events, force = 77
+     forcing runs, all exit 0). Re-run `forcecover.py --jobs 2` after any text change that adds strings (host
+     memory is tight: ~1.3 GB free; `--jobs 2` was fine).
   2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
      the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
      write). Decide when the title screen is in the tour.

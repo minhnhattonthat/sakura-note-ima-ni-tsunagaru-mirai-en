@@ -2,10 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done; inkbox done; stress saves done (D13 engine
-  fix); the gate must be re-run on the new build; textcover plumbing done, coverage itself is the big job left).
+- **Phase:** 8. QA in the emulator: in progress (graphics rows, inkbox, stress saves done; visual-QA gate passes on
+  the current build; text coverage runners built, sweeps partly run: 1,479/5,343 strings shown, see Next 1).
   Last build: 2026-11-20 `build/sakuranote_en.nds` (default en build), sha1 c98c098d43ac64482b298744ef18cbb613cff107,
-  romcheck ok, check ok. The visual-QA gate passed on the previous build (a3175bc8): re-tour this one (see Next 1).
+  romcheck ok, check ok. Gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 on this build
+  (57 sheets incl. the 10 stress sheets; name-entry kana tabs ok by D11, `verdicts/recheck_3.tsv`).
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -115,19 +116,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
     default build regenerates it); `warp_all.py --script tools/debug/textlog.lua` adds the probe to every run.
     Keys verified against an in-game log (2499:0, 2612 labels). Baseline 2026-11-20: the 58 warp scenes show
     64/5,343 strings (`work/qa/cover.txt`).
+  - Text coverage runners (2026-11-20, `docs/re/scripts.md`): SCR0 script format read; `tools/scrrefs.py` lists
+    every (message file, index) a script names (`work/qa/scrrefs.tsv`; 3,355/4,106 dialogue strings; `--unref`
+    lists the rest: battle text, GetItem "Got X" lines, Tears, and 16 one-line "Oh, Fugeiji-chan. Hello." files
+    no script sets). Runners, logs under `work/qa/cover/<runner>/<run>/log.txt` (+ `final.png` when complete):
+    `tools/debug/evcover.py` (every Event(N) target played in the opening map via `warp.lua SWAP='1943:N'`),
+    `tools/debug/mashcover.py` (every map-list row x boy/dog/cat, A-mash + walking, NPC object scripts started at
+    NearScript by `tools/debug/entryname.lua`), `tools/debug/battlecover.py` (debug battle list x chars x 4
+    pages). `work/qa/cover/mash/` = an older plain mash; `work/qa/cover/runs/` = the 58 warp scenes.
+    `tests/test_scrrefs.py`. `vqa_run.py` labels stress sheets (single image, scene note from scenes.tsv).
 - **Next:**
-  1. Re-run the tour and gate on the new build (sha1 c98c098d): `warp_all.py` (build + `work/qa/tour_jp`),
-     `tour_cmp.py`, `qa_gate.py init ... --build build/sakuranote_en.nds`, add `work/qa/stress` as an extra
-     manifest dir (no JP pair: judge on their own; the brief's stress note is the scene's `shows` column),
-     `vqa_run.py` on the chunks. Sheets that changed: name_boy/dog/cat (12 px field) + all `stress_*`.
-  2. Text coverage (phase 8 release gate): `warp_all.py build/sakuranote_en.nds --out work/qa/cover --no-states
-     --script C:/.../tools/debug/textlog.lua`, then `textcover.py work/qa/cover build/strings.tsv --waive
-     docs/text_unshown.tsv`. The 58 warp scenes reach only a small part of the 5,343 strings (story dialogue is
-     triggered by map events). Plan: (a) a mash runner over every debug map-list row (`docs/re/maplist.tsv`,
-     scenario 1-4 x boy/dog/cat) with textlog + A-mash and walking; (b) for what no route reaches, a forced-display
-     harness (load the message file, point r1 at each string in an open dialogue box) to prove it renders, and
-     waive with that reason; (c) waive 2612/2614 (status `data`, debug-only) in `docs/text_unshown.tsv`. The 4033
-     choice labels were translated without scene context: check them when their scenes are reached.
+  1. Finish the coverage sweeps. They were killed by the host for low memory (16 GB RAM; ~22 DeSmuME at once is too
+     many): restart with **at most ~8 emulators in total**, one runner at a time, e.g. `evcover.py --jobs 8`, then
+     `mashcover.py --jobs 8`, then `battlecover.py --jobs 8`. Each skips runs that already have a log; incomplete
+     runs (no `final.png`) were deleted. Done so far: ev 37/~200, map 70/~530, battle 13/60. Then
+     `textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv` (now 1,479/5,343).
+  2. Close the gaps: group the never-shown ids by file (`scrrefs.tsv` says which script names each). NPC lines in
+     TouchPositive/TouchNegative (13 chars, longer than "StartScript": entryname.lua can't rename to them) and
+     MapExit, and NearScript branches behind flags, need more: ideas are patching the script's own function-name
+     record in RAM after load, or forcing IsFlagChk results. Waive in `docs/text_unshown.tsv` only with a reason:
+     2612/2614 debug-only (status `data`), the 16 placeholder files if no script sets them (check the computed
+     SetMessageFile calls in 2478 StartScript, 2626 GetItem and 2836 StartScript first). The 4033 choice labels
+     were translated without scene context: check them when their scenes are reached.
   2. Title menu arm9:092798 shows "Start" (slot: 5 chars). Its one pointer is the literal at arm9 0x0207F28C: if
      the title screen wants "New Game", put the string in the VWF autoload block and repoint that literal (log the
      write). Decide when the title screen is in the tour.

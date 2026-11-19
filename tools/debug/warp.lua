@@ -46,13 +46,23 @@ else
   sc = load_scenes()[name] or error("warp.lua: unknown scene " .. name .. " (see " .. TSV .. ")")
 end
 
--- file-open log + boot-script swap
+-- file-open log + boot-script swap. SWAP='FROM:TO' (opt-in) also swaps every open of entry FROM for TO: an event
+-- script for another (tools/debug/evcover.py plays any event in the opening map, whose StartScript calls Event(1943)).
+local swap_from, swap_to
+if SWAP then
+  local a, b = SWAP:match("^(%d+):(%d+)$")
+  swap_from, swap_to = tonumber(a), tonumber(b)
+end
 local opened = {}
 L.on_exec(FILE_OPEN_PC, function()
   local id = memory.getregister("arm9.r4")
   if sc.mode == "debug" and id == BOOT_SCRIPT then
     memory.setregister("arm9.r4", DEBUG_SCRIPT)
     id = DEBUG_SCRIPT
+  elseif swap_from and id == swap_from then
+    memory.setregister("arm9.r4", swap_to)
+    if FILELOG then L.log(string.format("SWAP %d %d -> %d", L.frame, id, swap_to)) end
+    id = swap_to
   end
   opened[id] = L.frame -- last open
   if FILELOG then L.log(string.format("FILE %d %d", L.frame, id)) end

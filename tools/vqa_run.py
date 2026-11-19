@@ -34,9 +34,29 @@ def glossary_names():
     return "\n".join(out)
 
 
+def scene_notes():
+    """scene name -> its `shows` column (tools/debug/scenes.tsv)."""
+    out = {}
+    for ln in (ROOT / "tools" / "debug" / "scenes.tsv").read_text(encoding="utf-8").splitlines()[1:]:
+        c = ln.split("\t")
+        if len(c) >= 6 and not ln.startswith("#"):
+            out[c[0]] = c[5]
+    return out
+
+
+def label(i, notes):
+    """An id line; a stress sheet (no original half) carries its scene note."""
+    scene = i[:-6] if i.endswith("_sheet") else i
+    if scene.startswith("stress_"):
+        return (f"{i}  (single image, no original half: stress save with 9-letter names; judge it alone; "
+                f"scene: {notes.get(scene, '')})")
+    return i
+
+
 def prompt(rows):
     brief = (ROOT / "docs" / "visual-qa-brief.md").read_text(encoding="utf-8")
-    ids = "\n".join(f"{n + 1}. {i}" for n, (i, _) in enumerate(rows))
+    notes = scene_notes()
+    ids = "\n".join(f"{n + 1}. {label(i, notes)}" for n, (i, _) in enumerate(rows))
     return (f"{brief}\n\n## This dispatch\nYou cannot run tools or open files: everything is in this prompt. The "
             f"{len(rows)} attached images are the sheets, in this order (image n = id n):\n{ids}\n\n"
             f"## Glossary (names)\n{glossary_names()}\n\n"

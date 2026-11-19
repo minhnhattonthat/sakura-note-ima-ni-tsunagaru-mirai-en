@@ -22,6 +22,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `credits.md` | staff roll: overlay-1 line calls, per-entry x immediates, engine centring, English re-centring | verified (traces + English shots) |
 | `checks.md` | phase 7 checks: text lint, leaf-level ROM audit `romcheck.py`, write log | verified (tamper tests) |
 | `save.md` | EEPROM layout, checksum, save points, chapter bitmask, names, `save.py` / `make_save.py` | verified (game-written save, load tests); most of the state struct unmapped |
+| `scripts.md` | SCR0 script format (functions, imports, stack code), how scripts show text, event/NPC coverage runners | format + message args verified on events 1943/2000 |
 | `nameentry.md` | name-entry object, length cap, field drawing, name record, file-select name line, stress scenes | verified (traces, 9 x W in game) |
 
 Prior work (one web search, 2026-11-19): no released English patch or tools found. A NeoGAF thread on unlocalized

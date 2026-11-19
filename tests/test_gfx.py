@@ -56,3 +56,58 @@ def test_letter_inside_rect():
     assert all(v == 0 for (x, y), v in out.items() if not (2 <= x < 38 and 1 <= y < 11))
     with pytest.raises(ValueError):
         gfx.letter(px, (0, 0, 10, 10), "Chapter", 1, 15, 14)
+
+
+def test_xfer_offset_is_entry_0():
+    # RECN per-cell VRAM transfer entries are (offset, size): reading through entry[1] scrambled 4187/4194
+    assert gfx.cell_xoff([(0, 2304), (2304, 512)], 1) == 2304
+    assert gfx.cell_xoff(None, 3) == 0
+
+
+def screen(entries, w=16, h=8):
+    import struct
+    ents = b"".join(struct.pack("<H", e) for e in entries)
+    return b"RCSN" + bytes(0x14) + struct.pack("<HHII", w, h, 0, len(ents)) + ents
+
+
+def test_screen_roundtrip_and_flip():
+    g = {"bpp": 8, "flag": 0, "data": bytes(range(128)), "h": 1, "w": 2}
+    scr = screen([0, 1 | 1 << 10])  # tile 0, then tile 1 h-flipped
+    m = gfx.screen_map(g, scr)
+    px = gfx.map_grid(g, m)
+    assert px[(0, 0)] == 0 and px[(15, 0)] == 64 and px[(8, 0)] == 71
+    data = bytearray(g["data"])
+    gfx.put_map(data, m, {(15, 0): 200})
+    assert data[64] == 200
+
+
+def test_shared_tile_refused():
+    g = {"bpp": 8, "flag": 0, "data": bytes(64), "h": 1, "w": 2}
+    m = gfx.screen_map(g, screen([0, 0]))  # one tile shown twice
+    with pytest.raises(ValueError):
+        gfx.put_map(bytearray(g["data"]), m, {(0, 0): 5})
+    data = bytearray(g["data"])
+    gfx.put_map(data, m, {(0, 0): 5, (8, 0): 5})  # both copies agree: fine
+    assert data[0] == 5
+
+
+def test_outline_and_row_fill():
+    px = {(x, y): y for x in range(40) for y in range(14)}
+    r = {"rect": (2, 1, 36, 12), "fill": "@0"}
+    fill = gfx.row_fill(r, px)
+    out = gfx.letter(px, r["rect"], "Ab", fill, ink=15, shadow=14, style="outline")
+    ink = {k for k, v in out.items() if v == 15}
+    rim = {k for k, v in out.items() if v == 14}
+    assert ink and rim
+    for (x, y) in ink:  # every ink pixel is ringed by ink or rim
+        assert all((x + a, y + b) in ink | rim for a in (-1, 0, 1) for b in (-1, 0, 1))
+    assert all(out[(30, y)] == y for y in range(1, 13))  # cleared rows keep their own value
+
+
+def test_inpaint_removes_bright_text():
+    pal = [(0, 0, 0)] + [(10 * i, 10 * i, 10 * i) for i in range(1, 16)]
+    px = {(x, y): 3 for x in range(20) for y in range(10)}
+    for x in range(5, 15):
+        px[(x, 5)] = 15  # a white stroke
+    out = gfx.inpaint(px, (2, 2, 16, 6), 100, pal, 4)
+    assert all(v == 3 for v in out.values())

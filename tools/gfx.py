@@ -25,7 +25,8 @@ import gfxsweep as G  # noqa: E402
 import romfs  # noqa: E402
 
 LABELS = ROOT / "gfx" / "labels.tsv"
-COLS = ["id", "recn", "cell", "rect", "fill", "ink", "shadow", "align", "dy", "en", "note"]
+COLS = ["id", "recn", "cell", "rect", "fill", "ink", "shadow", "align", "dy", "style", "en", "note"]
+STYLES = ("shadow", "outline")
 SPACE = 1  # px between glyphs (the advance is width + 1, as in tools/vwf.py)
 
 
@@ -64,6 +65,12 @@ def obj_pixels(g, o, shift, xoff):
     return out
 
 
+def cell_xoff(xfer, k):
+    """Byte offset of cell k's characters in the RGCN data. RECN per-cell VRAM transfer entries are
+    (offset, size); the offset is entry[0] (gfxsweep renders with it too)."""
+    return xfer[k][0] if xfer else 0
+
+
 def cell_box(objs):
     return (min(o["x"] for o in objs), min(o["y"] for o in objs),
             max(o["x"] + o["w"] for o in objs), max(o["y"] + o["h"] for o in objs))
@@ -80,26 +87,80 @@ def cell_map(g, objs, shift, xoff):
     return m
 
 
+def screen_map(g, scr):
+    """BG: {(x, y) screen px: (byte, nibble, subpalette)} through an RCSN screen (flips applied). 8bpp pixels use
+    the whole byte (nibble None)."""
+    w, h = struct.unpack_from("<HH", scr, 0x18)
+    size = struct.unpack_from("<I", scr, 0x20)[0]
+    ents = scr[0x24:0x24 + size]
+    wt = w // 8
+    tb = 32 if g["bpp"] == 4 else 64
+    m = {}
+    for k in range(len(ents) // 2):
+        e = ents[2 * k] | ents[2 * k + 1] << 8
+        t, hf, vf, sub = e & 0x3FF, e >> 10 & 1, e >> 11 & 1, e >> 12
+        ox, oy = k % wt * 8, k // wt * 8
+        if oy >= h or (t + 1) * tb > len(g["data"]):
+            continue
+        for y in range(8):
+            for x in range(8):
+                i = y * 8 + x
+                xx, yy = ox + (7 - x if hf else x), oy + (7 - y if vf else y)
+                if g["bpp"] == 8:
+                    m[(xx, yy)] = (t * tb + i, None, 0)
+                else:
+                    m[(xx, yy)] = (t * tb + i // 2, i & 1, sub)
+    return m
+
+
+def map_grid(g, m):
+    d = g["data"]
+    return {k: d[b] if hi is None else (d[b] >> 4 if hi else d[b] & 15) for k, (b, hi, _) in m.items()}
+
+
+def put_map(data, m, px):
+    """Write {(x, y): index} into data (bytearray of the RGCN pixel data) through map m; returns the set of bytes
+    touched. A pixel whose byte also shows somewhere else (a tile used twice in a screen, an OBJ drawing the same
+    characters twice) must get the same value there, or this raises."""
+    where = {}
+    for k, (b, hi, _) in m.items():
+        where.setdefault((b, hi), []).append(k)
+    touched = set()
+    for k, v in px.items():
+        if k not in m:
+            raise ValueError(f"pixel {k} is outside the cell or screen")
+        b, hi, _ = m[k]
+        for other in where[(b, hi)]:
+            if other != k and px.get(other, v) != v:
+                raise ValueError(f"pixel {k} shares its byte with {other}, which wants another value")
+            if other != k and other not in px:
+                raise ValueError(f"pixel {k} shares its byte with {other} outside the label (shared tile)")
+        if hi is None:
+            data[b] = v
+        else:
+            data[b] = (data[b] & 0x0F) | (v << 4) if hi else (data[b] & 0xF0) | v
+        touched.add(b)
+    return touched
+
+
 def cell_grid(g, objs, shift, xoff):
     """(w, h, {(x, y): index}) of one cell."""
     x0, y0, x1, y1 = cell_box(objs)
-    m = cell_map(g, objs, shift, xoff)
-    px = {k: (g["data"][b] >> 4 if hi else g["data"][b] & 15) for k, (b, hi, _) in m.items()}
-    return x1 - x0, y1 - y0, px
+    return x1 - x0, y1 - y0, map_grid(g, cell_map(g, objs, shift, xoff))
 
 
 def put_cell_grid(data, g, objs, shift, xoff, px):
     """Write {(x, y): index} into data (bytearray of the RGCN pixel data) through the cell's OBJs; returns the set
     of bytes touched."""
-    m = cell_map(g, objs, shift, xoff)
-    touched = set()
-    for k, v in px.items():
-        if k not in m:
-            raise ValueError(f"pixel {k} is outside the cell's OBJs")
-        b, hi, _ = m[k]
-        data[b] = (data[b] & 0x0F) | (v << 4) if hi else (data[b] & 0xF0) | v
-        touched.add(b)
-    return touched
+    return put_map(data, cell_map(g, objs, shift, xoff), px)
+
+
+def row_map(g, src, cell):
+    """Pixel map of one labels.tsv row: src = the RECN (sprite cell `cell`) or RCSN (whole BG screen) payload."""
+    if src[:4] == b"RCSN":
+        return screen_map(g, src)
+    objs_all, shift, xfer = G.cells(src)
+    return cell_map(g, objs_all[cell], shift, cell_xoff(xfer, cell))
 
 
 def glyphs():
@@ -112,21 +173,26 @@ def text_width(text, gl=None):
     return sum(len(gl[c][0]) + SPACE for c in text) - SPACE if text else 0
 
 
-def letter(px, rect, text, fill, ink, shadow, align="c", dy=0, gl=None):
-    """Clear rect (x, y, w, h) to fill and draw text in it: ink pixels, shadow one px below each ink pixel that is
-    not ink itself (as the dialogue font does; shadow -1 = none). Glyph rows 0-7 sit on the cap line; the text is
-    centred vertically on the cap height (+dy). Returns the new grid (a copy)."""
+def letter(px, rect, text, fill, ink, shadow, align="c", dy=0, gl=None, style="shadow"):
+    """Clear rect (x, y, w, h) to fill and draw text in it: ink pixels, then `shadow` (-1 = none) one px below each
+    ink pixel that is not ink itself (style "shadow", as the dialogue font does) or on all 8 sides of it (style
+    "outline", for white-on-colour labels with a dark rim). Glyph rows 0-7 sit on the cap line; the text is centred
+    vertically on the cap height (+dy). Returns the new grid (a copy)."""
     gl = gl or glyphs()
     x, y, w, h = rect
     out = dict(px)
     for yy in range(y, y + h):
         for xx in range(x, x + w):
-            if (xx, yy) in out:
-                out[(xx, yy)] = fill
-    tw = text_width(text, gl)
+            if (xx, yy) in out and fill is not None:  # None = draw over what is there (cleared by an earlier row)
+                if isinstance(fill, dict):
+                    out[(xx, yy)] = fill[(xx, yy)] if (xx, yy) in fill else fill[yy]
+                else:
+                    out[(xx, yy)] = fill
+    rim =1 if style == "outline" else 0
+    tw = text_width(text, gl) + 2 * rim
     if tw > w:
         raise ValueError(f"{text!r}: {tw} px > rect width {w}")
-    cx = x + {"l": 0, "c": (w - tw) // 2, "r": w - tw}[align]
+    cx = x + rim + {"l": 0, "c": (w - tw) // 2, "r": w - tw}[align]
     cy = y + (h - 8) // 2 + dy
     ink_px = set()
     for c in text:
@@ -141,10 +207,12 @@ def letter(px, rect, text, fill, ink, shadow, align="c", dy=0, gl=None):
             raise ValueError(f"{text!r}: ink at {p} falls outside the rect or the cell")
         out[p] = ink
     if shadow >= 0:
+        around = [(0, 1)] if rim == 0 else [(a, b) for a in (-1, 0, 1) for b in (-1, 0, 1) if a or b]
         for (sx, sy) in ink_px:
-            q = (sx, sy + 1)
-            if q not in ink_px and q in out and y <= q[1] < y + h:
-                out[q] = shadow
+            for a, b in around:
+                q = (sx + a, sy + b)
+                if q not in ink_px and q in out and x <= q[0] < x + w and y <= q[1] < y + h:
+                    out[q] = shadow
     return out
 
 
@@ -161,8 +229,74 @@ def load_rows(path=LABELS):
 
 def parse_row(r):
     return {"id": int(r["id"]), "recn": int(r["recn"]), "cell": int(r["cell"]),
-            "rect": tuple(int(v) for v in r["rect"].split(",")), "fill": int(r["fill"]), "ink": int(r["ink"]),
-            "shadow": int(r["shadow"]), "align": r["align"], "dy": int(r["dy"] or 0), "en": r["en"]}
+            "rect": tuple(int(v) for v in r["rect"].split(",")),
+            "fill": r["fill"] if r["fill"][:1] in "@~=" else int(r["fill"]), "ink": int(r["ink"]),
+            "shadow": int(r["shadow"]), "align": r["align"], "dy": int(r["dy"] or 0),
+            "style": style(r["style"]), "en": r["en"]}
+
+
+def row_fill(r, px, pal=None, bpp=4):
+    """fill = an index; "@X": each rect row cleared to the original value at column X of that row (keeps a banded
+    or gradient label background); "~T": inpaint (text over art or a translucent panel), see `inpaint`."""
+    if isinstance(r["fill"], int):
+        return r["fill"]
+    x, y, w, h = r["rect"]
+    if r["fill"] == "=":
+        return None
+    if r["fill"].startswith("~"):
+        t, _, d = r["fill"][1:].partition("/")
+        return inpaint(px, r["rect"], int(t), pal, bpp, int(d) if d else None)
+    col = int(r["fill"][1:])
+    return {yy: px[(col, yy)] for yy in range(y, y + h)}
+
+
+def luma(c):
+    return (c[0] * 299 + c[1] * 587 + c[2] * 114) // 1000
+
+
+def inpaint(px, rect, thresh, pal, bpp, grow=None):
+    """{(x, y): index} for every pixel of rect with the old lettering removed. Text = pixels with luma > thresh
+    (letters), < 24 (their black rim) or chroma > 64 (coloured letters' anti-aliasing), grown by 1 px; each is
+    filled, in passes from the outside in, with the
+    palette index nearest the mean colour of its known 8-neighbours (rect pixels that are not text, and the pixels
+    just outside the rect)."""
+    x, y, w, h = rect
+    rgb = lambda v: G.colour(pal, bpp, 0, v) or (0, 0, 0)
+    inside = {(xx, yy) for xx in range(x, x + w) for yy in range(y, y + h) if (xx, yy) in px}
+    def is_text(c):
+        if grow is not None:  # "~T/D": white letters only (over colourful art), their soft shadow taken by growing
+            return luma(c) > thresh and max(c) - min(c) < 48
+        return luma(c) > thresh or luma(c) < 24 or max(c) - min(c) > 64  # bright, rim, or coloured lettering
+    text = {p for p in inside if is_text(rgb(px[p]))}
+    for _ in range(1 if grow is None else grow):
+        text |= {(a + i, b + j) for a, b in text for i in (-1, 0, 1) for j in (-1, 0, 1)} & inside
+    known = {p: rgb(px[p]) for p in px if p not in text}
+    cands = [v for v in range(1, 256 if bpp == 8 else 16) if G.colour(pal, bpp, 0, v)]
+    near = {}
+    out = {}
+    todo = set(text)
+    while todo:
+        step = {}
+        for a, b in todo:
+            ns = [known[q] for q in ((a + i, b + j) for i in (-1, 0, 1) for j in (-1, 0, 1)) if q in known]
+            if len(ns) >= 2 or (ns and len(todo) < 8):
+                step[(a, b)] = tuple(sum(c[k] for c in ns) // len(ns) for k in range(3))
+        if not step:
+            raise ValueError(f"inpaint: {len(todo)} pixels have no known neighbour")
+        for p, c in step.items():
+            if c not in near:
+                near[c] = min(cands, key=lambda v: sum((rgb(v)[k] - c[k]) ** 2 for k in range(3)))
+            out[p] = near[c]
+            known[p] = rgb(near[c])
+        todo -= set(step)
+    return {p: out.get(p, px[p]) for p in inside}
+
+
+def style(s):
+    s = s or "shadow"
+    if s not in STYLES:
+        raise ValueError(f"style {s!r} is not one of {STYLES}")
+    return s
 
 
 def apply(payloads, rows=None):
@@ -181,13 +315,11 @@ def apply(payloads, rows=None):
         g = G.rgcn(bytes(p))
         start, size = char_data(p)
         data = bytearray(g["data"])
-        objs_all, shift, xfer = G.cells(unpack(out[r["recn"]])[0])
-        objs = objs_all[r["cell"]]
-        xoff = xfer[r["cell"]][1] if xfer else 0
-        w, h, px = cell_grid(g, objs, shift, xoff)
-        new = letter(px, r["rect"], r["en"], r["fill"], r["ink"], r["shadow"], r["align"], r["dy"], gl)
+        m = row_map(g, unpack(out[r["recn"]])[0], r["cell"])
+        px = map_grid(g, m)
+        new = letter(px, r["rect"], r["en"], row_fill(r, px, palette_near(out, r["id"]), g["bpp"]), r["ink"], r["shadow"], r["align"], r["dy"], gl, r["style"])
         changed = {k: v for k, v in new.items() if px[k] != v}
-        touched = put_cell_grid(data, g, objs, shift, xoff, changed)
+        touched = put_map(data, m, changed)
         p[start:start + size] = data
         allowed.setdefault(r["id"], set()).update(start + b for b in touched)
     for i, (p, z) in work.items():
@@ -195,11 +327,11 @@ def apply(payloads, rows=None):
     return out, allowed
 
 
-def render(w, h, px, pal, sub=0, zoom=1, bg=G.BG):
+def render(w, h, px, pal, sub=0, zoom=1, bg=G.BG, bpp=4):
     im = Image.new("RGB", (w, h), bg)
     d = im.load()
     for (x, y), v in px.items():
-        c = G.colour(pal, 4, sub, v)
+        c = G.colour(pal, bpp, sub, v)
         if c:
             d[x, y] = c
     return im.resize((w * zoom, h * zoom), Image.NEAREST) if zoom > 1 else im
@@ -231,12 +363,20 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     if a.cmd == "cells":
         g = G.rgcn(unpack(fs[a.rgcn])[0])
-        pal = G.palette(unpack(fs[a.pal])[0]) if a.pal is not None else []
-        objs_all, shift, xfer = G.cells(unpack(fs[a.recn])[0])
+        pal = G.palette(unpack(fs[a.pal])[0]) if a.pal is not None else palette_near(fs, a.rgcn)
+        src = unpack(fs[a.recn])[0]
+        if src[:4] == b"RCSN":  # BG: the whole screen, 8 px grid ticks on the edge for reading rects off
+            m = screen_map(g, src)
+            w, h = struct.unpack_from("<HH", src, 0x18)
+            im = render(w, h, map_grid(g, m), pal, next(iter(m.values()))[2] if m else 0, a.zoom, bpp=g["bpp"])
+            im.save(out / f"{a.rgcn}_screen.png")
+            print(f"screen {w}x{h} -> {out}")
+            return
+        objs_all, shift, xfer = G.cells(src)
         for k, objs in enumerate(objs_all):
             if not objs:
                 continue
-            w, h, px = cell_grid(g, objs, shift, xfer[k][1] if xfer else 0)
+            w, h, px = cell_grid(g, objs, shift, cell_xoff(xfer, k))
             im = render(w, h, px, pal, subpal(objs), a.zoom)
             G.label(im, f"{a.rgcn} cell {k} {w}x{h}", 1).save(out / f"{a.rgcn}_c{k:03d}.png")
         print(f"{len(objs_all)} cells -> {out}")
@@ -245,20 +385,43 @@ def main():
         new, _ = apply(fs)
         for r in rows:
             g0, g1 = G.rgcn(unpack(fs[r["id"]])[0]), G.rgcn(unpack(new[r["id"]])[0])
-            objs_all, shift, xfer = G.cells(unpack(fs[r["recn"]])[0])
-            objs = objs_all[r["cell"]]
-            xoff = xfer[r["cell"]][1] if xfer else 0
-            pal = G.palette(unpack(fs[r["pal"]])[0]) if r.get("pal") else palette_near(fs, r["id"])
-            ims = [render(*cell_grid(g, objs, shift, xoff), pal, subpal(objs), a.zoom) for g in (g0, g1)]
+            src = unpack(fs[r["recn"]])[0]
+            pal = palette_near(fs, r["id"])
+            ims = []
+            for g in (g0, g1):  # the label rect plus a 4 px margin
+                m = row_map(g, src, r["cell"])
+                x, y, w, h = r["rect"]
+                pad = 4
+                box = {(px - x + pad, py - y + pad): v for (px, py), v in map_grid(g, m).items()
+                       if x - pad <= px < x + w + pad and y - pad <= py < y + h + pad}
+                sub = next(iter(m.values()))[2] if m else 0
+                ims.append(render(w + 2 * pad, h + 2 * pad, box, pal, sub, a.zoom, bpp=g["bpp"]))
             im = Image.new("RGB", (ims[0].width * 2 + 8, ims[0].height), (255, 255, 255))
             im.paste(ims[0], (0, 0))
             im.paste(ims[1], (ims[0].width + 8, 0))
-            im.save(out / f"{r['id']}_c{r['cell']:03d}.png")
+            x, y = r["rect"][:2]  # BG rows share cell 0: the rect origin keeps names apart
+            im.save(out / f"{r['id']}_c{r['cell']:03d}_{y:03d}_{x:03d}.png")
+        for i, sc in sorted({(r["id"], r["recn"]) for r in rows}):  # BG: the whole screen, original | English
+            src = unpack(fs[sc])[0]
+            if src[:4] != b"RCSN":
+                continue
+            pal = palette_near(fs, i)
+            w, h = struct.unpack_from("<HH", src, 0x18)
+            ims = []
+            for p in (fs[i], new[i]):
+                g = G.rgcn(unpack(p)[0])
+                ims.append(render(w, h, map_grid(g, screen_map(g, src)), pal, 0, a.zoom, bpp=g["bpp"]))
+            im = Image.new("RGB", (ims[0].width * 2 + 8, ims[0].height), (255, 255, 255))
+            im.paste(ims[0], (0, 0))
+            im.paste(ims[1], (ims[0].width + 8, 0))
+            im.save(out / f"{i}_screen.png")
         print(f"{len(rows)} rows -> {out}")
 
 
 def palette_near(fs, i):
-    for j in list(range(i + 1, i + 5)) + list(range(i - 1, i - 5, -1)):
+    """The RLCN of RGCN i: the next entry when it is one (RGCN, RLCN, RCSN groups), else the nearest one before
+    (an RGCN + RCSN pair sharing the previous group's palette), else the nearest after."""
+    for j in [i + 1] + list(range(i - 1, i - 5, -1)) + list(range(i + 2, i + 5)):
         if 0 <= j < len(fs) and unpack(fs[j])[0][:4] == b"RLCN":
             return G.palette(unpack(fs[j])[0])
     return []

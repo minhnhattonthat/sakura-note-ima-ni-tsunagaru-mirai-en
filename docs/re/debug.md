@@ -37,7 +37,13 @@ Title (1139) → START → file select (1126) → A on slot 1 → はじめか�
 Script 2478 holds `Chapter1-4` and `DisplayIntro` (the profile page); 2627 `GameOverScript`; 2630 `EpisodeStart`.
 
 ## Saves
-32 KiB EEPROM (`.dsv` = raw + DeSmuME footer). A game-initialised save with no slots used: header 0x00-0x40, six
-0x18-byte blocks at 0xA28 + n*0xA00 (3 slots x 2 copies, **guess**). A blank all-0xFF EEPROM is initialised to
-exactly this (verified byte-equal), so `warp_all.py` boots every warp with a generated `work/saves/blank.sav`. DeSmuME's own `tools/desmume/desmume-qa/Battery/*.dsv` is shared between runs: never rely on it.
-Slot layout, checksum and `save.py`: **not done** (needs a save written in game: find where the game saves).
+32 KiB EEPROM (`.dsv` = raw + DeSmuME footer). Layout, checksum, save points and the editor: `docs/re/save.md`.
+A blank all-0xFF EEPROM is initialised by the game to three empty slots, so `warp_all.py` boots warps with a
+generated `work/saves/blank.sav`, or with the fixture named in the scene's `save` column (`tools/debug/make_save.py`
+builds `s1_living` and `all_chapters` on first use). DeSmuME's own `tools/desmume/desmume-qa/Battery/*.dsv` is
+shared between runs: never rely on it.
+
+## Debug map list
+`tools/debug/maplist.py` warps to every row of シーン -> boy -> scenario 1-4 and records the map-range files each
+loads (`docs/re/maplist.tsv`; first id = the map script). Pages wrap; short pages repeat rows when `down` passes
+the end. Key token `hKEY:N` in warp.lua holds a key (walking).

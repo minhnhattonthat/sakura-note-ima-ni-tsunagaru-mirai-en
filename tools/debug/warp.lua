@@ -13,6 +13,7 @@
 --   fID         wait until FILEDATA entry ID is opened at or after the last press (or boot when none yet),
 --               so "a f984" also passes when the load happened during a wait between them (timeout 3000 -> WARP_FAIL)
 --   down*N      repeat a press N times
+--   hKEY:N      hold KEY for N frames, no release gap (walking: hleft:50 hdown:80)
 -- When the program ends the log gets "WARP_OK <scene> frame <n>"; the scene's `expect` file id (if any) must have
 -- loaded by then or the run exits 3 with WARP_FAIL. Opt-in: STOP_AFTER=N ends the run N frames later (final.png,
 -- --state-out); tools/debug/warp_all.py runs every scene that way. FILELOG=1 logs every file open.
@@ -73,6 +74,8 @@ local function step()
     local f = tok:match("^f(%d+)$")
     if f then wait_file = tonumber(f); wait_since = last_press; wait_start = L.frame; return end
     last_press = L.frame
+    local hk, hn = tok:match("^h(%a+):(%d+)$")
+    if hk then L.press(hk, tonumber(hn)); wait_until = L.frame + tonumber(hn); return end
     L.press(tok, 6); L.press("-", 40); wait_until = L.frame + 46
     return
   end

@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2. Debug tool in progress (warps done, 30/30 scenes; save editor and chapter 2-4 cards left). Last build: none yet.
+- **Phase:** 3. Identity build next (phase 2 debug tool done: 40/40 scenes, save editor verified). Last build: none yet.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -18,18 +18,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (runs all, checks WARP_OK, shots `work/qa/scenes/`, states `work/states/<scene>.dst`): 30/30 ok on the original
     ROM. `tools/debug/fileid.lua` logs every file load. Every warp boots with a blank 0xFF EEPROM (`--sav`
     work/saves/blank.sav, generated), never the emulator's shared Battery file.
+  - Phase 2 saves (`docs/re/save.md`): game saves at field SAVE points (23 map scripts). Slot n copy k at
+    0x20 + (2n+k)*0xA00, u16 checksum at +0x9FE = ~bytesum(image[0:0x9A0]); image = RAM state struct 0x021C0830.
+    0x16C = chapter-tab bitmask, names at 0x2A4.. `tools/debug/make_save.py` builds the game-written fixture
+    `s1_living` (debug warp to the living room 1232, walk to SAVE, save) and `all_chapters` (0x16C=0xF);
+    `tools/debug/save.py show|edit` fixes both copies + checksum; edited saves load with no error. New scenes (6th
+    column `save` in scenes.tsv): file_select_used, load_popup, episode_ch2-4, chapter2-4_card, save_slots,
+    save_confirm. `tools/debug/maplist.py` -> `docs/re/maplist.tsv` (every debug map-list row -> files loaded).
+    warp.lua token `hKEY:N` holds a key. 40/40 scenes ok on the original ROM. `tests/test_save.py`.
 - **Next:**
-  1. Finish phase 2: `tools/debug/save.py`. Get a game-written save with data (find where the game saves: likely
-     the episode board or the end of an episode; try warping to `chapter1_card`, play the episode with a `--mash`
-     tour, and diff `<out>/*.dsv` against the empty save a blank EEPROM becomes), map slot layout + checksum (`watch.lua` on the EEPROM write
-     routine), edit chapter/flags so the episode board shows chapters 2-4 (chapter cards 2-4 are not reachable yet),
-     and prove an edited save loads with no corruption message. Add `episode_ch2..4` / `chapter2..4_card` scenes.
-  2. Phase 3: identity repack of FILEDATA (keep original inter-entry padding; `filedata.build()` currently differs).
+  1. Phase 3: identity repack of FILEDATA (keep original inter-entry padding; `filedata.build()` currently differs).
+  2. Phase 8 stress saves: map more of the 0x28-0x9A0 state (items, hearts, flags) by diffing game-written saves.
 - **Open bugs:** none.
 - **Notes for later phases:**
   - Message files 2604 (credits) and 2612 (debug labels) decode to `[00xx]` codes with `jp.tbl` though the credits
     read as Japanese on screen: another font/mapping. Fix before extracting 2604 (phase 4). 2612 needs no translation.
   - The debug menu's オープニング item shows nothing; the title/opening is reached by normal boot instead.
+  - The field save screen (save_slots/save_confirm) and file select show graphics/font text: in the phase 8 tour.
 - **Waiting on the user:**
   - (non-blocking) Small scenery signs in background art (コンビニ, 寿司, たばこ, ゆ, restroom 女 ...; ids in
     `docs/re/graphics.md`): default is to leave them as art and translate only signs the story refers to.

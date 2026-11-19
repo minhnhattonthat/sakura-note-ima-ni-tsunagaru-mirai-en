@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build next (phase 2 debug tool done: 40/40 scenes, save editor verified). Last build: none yet.
+- **Phase:** 4. Extract next (phase 3 identity build done: byte-identical ROM, test in check). Last build:
+  2026-11-19 identity build, sha1 911782fa06c3006cd66818914c7684d6422d200c (= the dump), smoke ok.
 - **Done:**
   - Step 0: repo setup. DeSmuME QA fork in `tools/desmume/`, original ROM smoke boot ok, scripted start + touch input
     work, pre-commit rejects a failing test, guard hook blocks `sed -i`, `rom.sha1` pinned.
@@ -26,8 +27,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     column `save` in scenes.tsv): file_select_used, load_popup, episode_ch2-4, chapter2-4_card, save_slots,
     save_confirm. `tools/debug/maplist.py` -> `docs/re/maplist.tsv` (every debug map-list row -> files loaded).
     warp.lua token `hKEY:N` holds a key. 40/40 scenes ok on the original ROM. `tests/test_save.py`.
+  - Phase 3 identity (`docs/re/filesystem.md`): `tools/build.py` unpacks FILEDATA, repacks it keeping each entry's
+    original (non-zero) alignment pad bytes, rebuilds NitroFS with ndspy and restores 0x1000-0x1003 + the 0xFF tail.
+    Output equals the dump; `tests/test_identity.py` (FILEDATA, whole ROM, resized-entry alignment). Edits go in
+    `build.edit_payloads()`. Room to grow: the ~1.65 MiB 0xFF tail (dump is the full 64 MiB cart).
 - **Next:**
-  1. Phase 3: identity repack of FILEDATA (keep original inter-entry padding; `filedata.build()` currently differs).
+  1. Phase 4: extract the 122 message files (2495-2616) to `script/` JSON with a roundtrip test; fix the 2604
+     credits mapping first (see notes below).
   2. Phase 8 stress saves: map more of the 0x28-0x9A0 state (items, hearts, flags) by diffing game-written saves.
 - **Open bugs:** none.
 - **Notes for later phases:**

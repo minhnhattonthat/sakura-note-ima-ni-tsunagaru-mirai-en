@@ -12,7 +12,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| `filesystem.md` | NitroFS, FILEDATA.BIN "LF 2" archive, id map, free space | verified (identity repack pending) |
+| `filesystem.md` | NitroFS, FILEDATA.BIN "LF 2" archive, id map, free space | verified (identity repack byte-exact) |
 | `text.md` | u16 encoding, message files, header words, control codes, arm9 strings, text ranges | encoding verified; code meanings partly guessed |
 | `font.md` | dialogue font (FILEDATA 860), kanji map | verified layout; kanji map read by eye + context |
 | `graphics.md` | graphics-text survey (static sweep `tools/gfxsweep.py`, rows in `graphics_sweep.tsv`), NDS banner | sweep done; RGCN/RECN/RCSN layouts verified by renders; QQ = tilemap guess |

@@ -33,15 +33,29 @@ def files(blob):
     return [blob[o:o + s] for o, s in h["entries"]]
 
 
-def build(blob, payloads):
-    """Rebuild the archive: same header, entries packed back to back, 4-byte aligned (pad 0x00)."""
+def pads(blob):
+    """The alignment bytes after each entry in the original. They are not zero (leftover garbage), so the
+    identity repack keeps them: 3235 entries end aligned, 1463 have 1-3 pad bytes of 973 zeros + other values."""
     h = parse(blob)
+    ent = h["entries"]
+    ends = [o for o, _ in ent[1:]] + [len(blob)]
+    return [blob[o + s:e] for (o, s), e in zip(ent, ends)]
+
+
+def build(blob, payloads):
+    """Rebuild the archive: same header, entries packed back to back in id order, 4-byte aligned.
+
+    An entry whose length keeps its original residue mod 4 gets its original pad bytes back (identity repack
+    is byte-exact); any other gets 0x00 pad."""
+    h = parse(blob)
+    orig_pads = pads(blob)
     out = bytearray(blob[:h["first"] * 4])
     for i, p in enumerate(payloads):
-        while len(out) % 4:
-            out.append(0)
         struct.pack_into("<II", out, h["table"] + 8 * i, len(out) // 4, len(p))
         out += p
+        need = -len(p) % 4
+        op = orig_pads[i]
+        out += op if len(op) == need else bytes(need)
     return bytes(out)
 
 

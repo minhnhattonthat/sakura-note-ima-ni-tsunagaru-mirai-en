@@ -24,8 +24,10 @@ arm9: 0xACC18 bytes at 0x02000000, entry 0x02000800, not compressed (module para
 0x10 count x { u32 offset / 4, u32 size }
 ```
 No names. Entries are raw (some payloads are LZ10 themselves), 4-byte aligned, back to back; the last ends exactly at
-the archive end. `filedata.build()` with the original payloads is **not yet byte-identical** (alignment padding bytes
-are probably not zero): phase 3 must keep the original padding per entry.
+the archive end. The 1-3 alignment bytes after 1463 of the 4698 entries are leftover garbage, not zero (973 zero
+bytes, the rest 0x41, 0x01, 0xF0, 0xFF ...). `filedata.build()` reuses each entry's original pad bytes while its
+length keeps the same residue mod 4, else pads 0x00. **verified**: identity repack of FILEDATA and of the whole ROM
+(`tools/build.py`, ndspy + the 0x1000 size-word and 0xFF tail fixes) is byte-identical (`tests/test_identity.py`).
 
 ### What is where (by id; kinds from magic, LZ10 payloads decompressed)
 
@@ -39,6 +41,6 @@ are probably not zero): phase 3 must keep the original padding per entry.
 | 2838 | name-entry keyboard table: 256 UTF-16 chars = font codes 0x00-0xFF |
 
 ## Free space
-FILEDATA is rebuilt whole (ndspy rebuilds NitroFS), so files can grow; the ROM may grow into the 0xFF tail
-(1.65 MiB) and beyond up to the 64 MiB cart size only if the header size is updated. **guess** until the identity
-and marker builds prove it.
+FILEDATA is rebuilt whole (ndspy rebuilds NitroFS), so files can grow. The dump is the full 64 MiB cart and ndspy's
+packed image is 0x3E59608 bytes, so the 0xFF tail (about 1.65 MiB) is the room to grow; `build.py` refuses a ROM
+over 64 MiB. Whether the game reads a grown FILEDATA correctly is a **guess** until the marker build proves it.

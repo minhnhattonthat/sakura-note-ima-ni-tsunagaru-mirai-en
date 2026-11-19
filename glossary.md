@@ -250,7 +250,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 高台 / 高台地区 | Hilltop / Hilltop District |  | Descriptive district rendering; avoids unsupported Takadai reading. |  |
 | 高台3丁目 | Hilltop, Block 3 |  | Nanami's address; consistent with district name. |  |
 | 住宅街 | Residential Area |  | Lower Hill map area. |  |
-| 神社街 | Shrine Quarter |  | Lower Hill map area. |  |
+| 神社街 | Shrine Quarter |  | Lower Hill map area. The district label 2613:62 reads "Lower Hill: Shrine Area" to match "Lower Hill: Residential Area" (2613:61). |  |
 | 駅前 | Station Front |  | Lower Hill map area. |  |
 | 工場地帯 | Industrial District |  | Kiriya factory area. |  |
 | 塔 / マンション | tower / apartment building |  | Spirits call Nanami's apartment building a tower. | mansion |

@@ -42,6 +42,14 @@
   twin 0x020374C4 (message fetch: r1 = file id, r2 = index; copies one string out) and the tag loader 0x020360F4
   (2610). The probe hooks the table read in each (0x02037448 r4/r6, 0x020374DC r5/r4, 0x020361F0 r4/r6) and hashes
   the body at base + [base + 4i] + 4. Other loader callers (0x02034B1C.., 0x0204429C, 0x02048910) load whole files.
+- Forcing (2026-11-20): `tools/debug/forcemsg.lua` rewrites r1/r2 (file id, index) at the entry of the message
+  fetch 0x0203742C (header copy: dialogue) or its twin 0x020374C4 (no header: menus), so the host scene's next
+  fetch draws the chosen string in its own box; `FETCHLOG=1` logs every fetch. `tools/debug/forcecover.py` lists the
+  strings still missing from `work/qa/cover` and plays them in chunks of 50 through a host (`event` = event 1938 in
+  the opening map, ~60 fetches), logs under `work/qa/cover/force/`. Checked: 6/6 forced strings logged by textlog.
+- Crashes: some events played in the opening map crash DeSmuME (0xC0000005) at the same frame on the original ROM
+  too (e.g. 1912 at frame 700, right after its files load): a staging problem of the SWAP trick, not the
+  translation. In a parallel sweep the crashed process can sit at 0 % CPU (Windows error report) until the timeout.
 - Hangs: some event runs freeze the emulator at 0 % CPU right after boot (seen 2026-11-20, 8 at once); a full run
   takes 60-95 s, so evcover's timeout is 360 s.
 - Waivers: `docs/text_unshown.tsv` (2612/2614 debug-only, 2610:0-4 name placeholders).

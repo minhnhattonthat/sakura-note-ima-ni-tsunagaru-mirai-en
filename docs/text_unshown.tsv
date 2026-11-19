@@ -157,3 +157,8 @@
 2610:2	name placeholder: speaker 0-4 is taken from the save's name slots by 0x02036248, 2610 is never read for it (docs/re/vwf.md)
 2610:3	name placeholder: speaker 0-4 is taken from the save's name slots by 0x02036248, 2610 is never read for it (docs/re/vwf.md)
 2610:4	name placeholder: speaker 0-4 is taken from the save's name slots by 0x02036248, 2610 is never read for it (docs/re/vwf.md)
+arm9:0941D4	default surname: copied into the save name record by set_name (0x02035F18) and drawn from there in the name-entry field and dialogue {name} codes (tour sheets name_boy/name_dog/name_cat ok); never read through the message fetch or expand routine the probe hooks
+arm9:0941E8	default given name: copied into the save name record by set_name (0x02035F18) and drawn from there in the name-entry field and dialogue {name} codes (tour sheets name_boy/name_dog/name_cat ok); never read through the message fetch or expand routine the probe hooks
+arm9:0941FC	default cat name: copied into the save name record by set_name (0x02035F18) and drawn from there in the name-entry field and dialogue {name} codes (tour sheets name_boy/name_dog/name_cat ok); never read through the message fetch or expand routine the probe hooks
+arm9:094210	default dog name: copied into the save name record by set_name (0x02035F18) and drawn from there in the name-entry field and dialogue {name} codes (tour sheets name_boy/name_dog/name_cat ok); never read through the message fetch or expand routine the probe hooks
+arm9:0941C0	default full name slot: no pointer or literal in arm9/overlays reaches it (the game composes the full name from surname + given name); unused

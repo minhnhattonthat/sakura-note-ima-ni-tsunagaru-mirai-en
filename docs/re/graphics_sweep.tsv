@@ -1,0 +1,374 @@
+page	cell	lang	text	looks_like
+p003	70 scr72	MIXED	Bボタン：もどる	back-button prompt
+p003	70 tiles	MIXED	Bボタン：もどる	back-button prompt
+p003	73 tiles	JA	妖怪15パズル／十字ボタンを使い、ピースを空いているスペースに移動します。／どんなオリジナル妖怪が出てくるかは、お楽しみ。	puzzle title and instructions
+p003	76 tiles	EN	15 PAZZLE	menu label
+p003	84 tiles	EN	YAKO TEMP	temperature gauge label
+p003	86 tiles	MIXED	操作説明／Aボタン：麺を喰らう／マイクに向かって息を吹く：冷ます／TEMPメーターがいっぱいになると弥子は休憩してしまう。／フーフーするタイミングをつかんで8杯完食を目指すお前を誰も責めはしない。	minigame instructions
+p003	89 tiles	JA	小遊戯　丼／【ラーメン大喰い】	minigame title card
+p005	106 tiles	MIXED	操作説明／十字ボタン：ナスカイザーを左右移動／Aボタン／Yボタン：ナスカイザービーム／Bボタン：ジャンプ	minigame instructions
+p006	109 scr111	MIXED	サクラノート / PRESS A button or TOUCH the SCREEN! / 2009 audio inc. / GAME DESIGNED BY KANAME KUROSAWA	title logo, start prompt, and credits
+p006	109 tiles	MIXED	サクラノート / PRESS A button or TOUCH the SCREEN! / 2009 audio inc. / GAME DESIGNED BY KANAME KUROSAWA	title logo, start prompt, and credits
+p012	269 tiles	JA	[判読不能]	Bus-stop sign and timetable
+p012	277 tiles	JA	[判読不能]	Framed wall advertisement
+p013	278 tiles	JA	たばこ [不鮮明]	Shop sign
+p013	283 tiles	JA	寿司 [不鮮明]／営業中 [不鮮明]	Storefront sign and vertical banner
+p015	323 tiles	JA	女	Restroom sign
+p015	324 tiles	JA	[判読不能]	Restroom signs
+p019	397 tiles	JA	判読不能	屋根付き掲示板の文字
+p019	398 tiles	JA	ゆ	入口のガラス戸に描かれた浴場マーク
+p019	403 tiles	JA	ゆ	入口のガラス戸に描かれた浴場マーク
+p022	447 tiles	EN	… Hospital	病院入口のアーチ看板
+p023	464 tiles	JA	判読不能	階段入口の青い案内看板
+p023	465 tiles	JA	判読不能	左下の額縁状の看板
+p027	522 tiles	EN	ACDB	control-room wall panel
+p027	535 tiles	JA	← [Japanese text illegible]	directional sign
+p028	544 tiles	EN	STATION	large angled ground sign
+p029	554 tiles	JA	[Japanese text illegible]	small fence sign
+p029	558 tiles	EN	S; G	route diagram sign and S ground marking
+p029	559 tiles	EN	G	ground marking
+p030	569 tiles	JA	判読困難	道端の小さな標識
+p030	570 tiles	JA	判読困難	道端の小さな標識
+p030	574 tiles	EN	imperium（不確か）	店舗上部の看板
+p032	614 tiles	JA	判読困難	入口上の小さな看板
+p033	621 tiles	JA	判読困難	店先の立て看板
+p034	644 tiles	JA	判読困難	左端に一部見える店舗看板
+p034	645 tiles	JA	判読困難	入口上の看板と右側のメニュー看板
+p035	649 tiles	JA	判読困難	店頭の看板
+p035	650 tiles	JA	判読困難	テラス奥のメニュー看板
+p035	657 tiles	JA	コンビニ	店舗入口上の看板
+p035	658 tiles	JA	コンビニ；縦看板の文字は判読困難	店舗正面の看板、窓、のぼり
+p036	660 tiles	JA	青果（ほかの看板文字は判読困難）	店先の看板
+p036	661 tiles	JA	コンビニ	店舗正面の看板
+p036	664 tiles	JA	判読困難	店舗の看板
+p036	665 tiles	JA	判読困難	店先の立て看板
+p036	671 tiles	EN	判読困難	店舗の窓の文字
+p048	850 tiles	EN	0 1 2 3 4 5 6 7 8 9 (repeated)	Numeral glyph atlas
+p048	853 tiles	EN	0 1 2 3 4 5 6 7 8 9 (repeated)	Outlined numeral glyph atlas
+p048	856 tiles	EN	0 1 2 3 4 5 6 7 8 9 (repeated)	Outlined numeral glyph atlas
+p048	859 tiles	EN	0 1 2 3 4 5 6 7 8 9 (partially obscured)	Dark numeral glyph atlas
+p048	860 scr864	MIXED	おお！ なんということじゃ…; [partly garbled Latin and Japanese sample]; Q R S T U V W X Y Z; a–z; 0 1 2 3 4 5 6 7 8 9; & @ ( )	Font preview with sample dialogue, alphabet, numerals and punctuation
+p049	860 tiles	MIXED	あいうえおかきくけこさしすせそた…; アイウエオカキクケコサシスセソタ…; A–Z; a–z; 0–9; 手 入 幕 一 話 二 三 四 終 了 崖 下 地 区 和 谷…	Japanese and Latin font atlas with punctuation, symbols and extensive kanji
+p049	863 scr864	MIXED	おお！ なんということじゃ…; Young Quaday; [unclear]モンスターが あらわれたぞ; Q R S T U V W X Y Z; a–z; 0–9	Font preview with sample dialogue, alphabet, numerals and punctuation
+p049	863 tiles	MIXED	あいうえおかきくけこさしすせそた…; アイウエオカキクケコサシスセソタ…; A–Z; a–z; 0–9	Small Japanese and Latin font atlas
+p050	865 scr864	EN	Young Quaday; Q R S T U V W X Y Z; a–z; 0–9; [garbled accented Latin characters]	Font preview with corrupted sample text
+p050	865 tiles	EN	À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í…; à á â ã ä å æ ç è é ê ë ì í…; A–Z; a–z; 0–9	Accented Latin font atlas with alphabet, numerals and punctuation
+p050	866 scr864	MIXED	おお！ なんということじゃ…; [partly garbled Latin sample]; [unclear]モンスターが あらわれたぞ; Q R S T U V W X Y Z; a–z; 0–9	Font preview with sample dialogue, alphabet, numerals and punctuation
+p051	866 tiles	MIXED	あいうえおかきくけこさしすせそた…; アイウエオカキクケコサシスセソタ…; A–Z; a–z; 0–9; Grasshopper Manufacture Inc.; グラスホッパー マニファクチュア インク; [extensive kanji]	Japanese and Latin font atlas with company credit and symbols
+p051	868 scr864	EN	Young Quaday; Q R S T U V W X Y Z; a–z; 0–9; [garbled accented Latin characters]	Dark font preview with corrupted sample text
+p051	868 tiles	EN	À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í…; à á â ã ä å æ ç è é ê ë ì í…; A–Z; a–z; 0–9	Accented Latin font atlas with alphabet, numerals, punctuation and symbols
+p052	869 tiles	MIXED	あいうえおかきくけこさしすせそた…; アイウエオカキクケコサシスセソタ…; A–Z; a–z; 0–9; [extensive kanji]	Dark Japanese and Latin font atlas
+p052	872 scr875	MIXED	あいうえお…; アイウエオ…; A–Z; a–z; 0–9	Compact Japanese and Latin glyph specimen
+p052	872 tiles	MIXED	あいうえお…; アイウエオ…; A–Z; a–z; 0–9	Compact Japanese and Latin font atlas
+p056	981 scr983	MIXED	NAME ENTRY; L; R; あいう; アイウ; abc; BackSpace; Enter	Name-entry header, keyboard tabs, and buttons
+p057	981 tiles	MIXED	NAME ENTRY; L; R; あいう; アイウ; abc; BackSpace; Enter	Name-entry header, keyboard tabs, and buttons
+p057	984 scr985	JA	あかさたなはまやらわがざだばぱ／いきしちにひみりをぎじぢびぴ／うくすつぬふむよるんぐずづぶぷ／えけせてねへめ！れーげぜでべぺ／おこそとのほも？ろ～ごぞどぼぽ／ぁぃぅぇぉゃゅょっ・…＆＠（）	Hiragana and punctuation glyph sheet
+p057	984 tiles	MIXED	あいうえおかきくけこさしすせそた／ちつてとなにぬねのはひふへほまみ／むめもやゆよらりるれろわをんがぎ／ぐげござじずぜぞだぢづでどばびぶ／べぼぱぴぷぺぽぁぃぅぇぉゃゅょっ／アイウエオカキクケコサシスセソタ／チツテトナニヌネノハヒフヘホマミ／ムメモヤユヨラリルレロワヲンガギ／グゲゴザジズゼゾダヂヅデドバビブ／ベボパピプペポァィゥェォャュョッ／ABCDEFGHIJKLMNOPQRSTUVWXYZ／abcdefghijklmnopqrstuvwxyz／0123456789／！？「」『』＆＠（）	Font glyph sheet with kana, Latin letters, digits, and punctuation
+p057	988 tiles	JA	少年の「苗字」と「名前」を決めましょう	Name-entry instruction beneath boy portrait
+p057	991 tiles	JA	猫の「名前」を決めましょう	Name-entry instruction beneath cat portrait
+p057	994 tiles	JA	犬の「名前」を決めましょう	Name-entry instruction beneath dog portrait
+p057	1000 tiles	JA	全部そろったらプレゼント！	Collection reward banner
+p057	1005 tiles	JA	全部そろったらプレゼント！	Collection reward banner
+p057	1010 tiles	JA	全部そろったらプレゼント！	Collection reward banner
+p058	1015 tiles	JA	全部そろったらプレゼント！	Collection reward banner
+p058	1017 tiles	JA	新しい経験!!／いくつかの「新しい経験」を／1ページ分そろえると…／体力（ハートの数アップ）／攻撃力（敵へのダメージアップ）／すばやさ（攻撃速度アップ）／足の速さ（移動速度アップ）／どれかひとつをプレゼント！／これで妖怪とも互角に戦える!?	Tutorial panel with stat icons and explanatory text
+p058	1020 tiles	JA	だいじなもの	Inventory header
+p058	1025 tiles	JA	だいじなもの	Inventory header
+p058	1030 tiles	JA	だいじなもの	Inventory header
+p058	1035 tiles	JA	だいじなもの	Inventory header
+p058	1040 tiles	JA	ステータス／体力／攻撃力／すばやさ／足の速さ	Status menu header and stat labels
+p059	1043 tiles	EN	SELECT EPISODE; 1; ?	Episode-selection header, page number, and locked-episode cards
+p059	1046 tiles	JA	咲谷町／桐谷町	Map location labels
+p059	1055 tiles	EN	EXIT; 2 3 4 5 6 7 8	Exit sign above door and numbered floor buttons
+p060	1074 tiles	EN	CH… [repeated; remaining characters unclear]; SELECT BGM	sound-test track list and selection prompt
+p060	1077 tiles	EN	SOUND TEST; OPERATION; L; NORMAL ↔ HEAD PHONE ↔ SURROUND; R; B button:Quit	sound-test heading, audio-mode controls, and exit prompt
+p061	1114 tiles	EN	GAME OVER	menu banner
+p061	1120 tiles	EN	Shining [remaining logo text unclear]; STELLAVISTA., LTD; Dog Ear; audio inc.; www.audiogames.jp; DESIGNATION	company logos and website address
+p061	1122 tiles	EN	MMV; Marvelous Entertainment Inc.	publisher logo
+p062	1129 tiles	EN	SAVE FILE	menu header
+p062	1133 tiles	EN	audio SETTING; STEREO; HEAD PHONE; SURROUND; SELECT BGM	audio settings menu buttons and labels
+p062	1136 tiles	EN	START GAME; audio SETTING; ©2009 Marvelous Entertainment Inc.	title menu buttons and copyright
+p062	1139 tiles	JA	サクラノート; いまにつながるみらい	title logo and subtitle
+p062	2842#0	JA	ゴミ箱	small graphic label
+p062	2842 raw	JA	ゴミ箱	small graphic label
+p078	3175#0	EN	0	number
+p078	3175#1	EN	1	number
+p078	3175#2	EN	2	number
+p078	3175#3	EN	3	number
+p078	3175#4	EN	4	number
+p078	3175#5	EN	5	number
+p078	3175#6	EN	6	number
+p078	3175#7	EN	7	number
+p078	3175#8	EN	8	number
+p078	3175#9	EN	9	number
+p078	3175#10	EN	:	timer separator
+p078	3175#11	EN	TIME	timer label
+p101	3758#0	JA	[illegible]	wooden sign
+p101	3758#1	JA	[illegible]	wooden sign
+p102	3980#0	EN	POST	postbox lettering
+p102	3980#1	EN	POST	postbox lettering
+p103	4001#0	EN	SAVE	save indicator
+p103	4001#1	EN	SAVE	save indicator
+p103	4001#2	EN	SAVE	save indicator
+p103	4001#3	EN	SAVE	save indicator
+p103	4001#4	EN	SAVE	save indicator
+p103	4003 raw	EN	SAVE	save indicator texture
+p103	4007#0	EN	BOSS NAMIDA; MAX	boss gauge
+p103	4007 raw	EN	BOSS NAMIDA; MAX	boss gauge texture
+p103	4015#1	JA	！	reaction icon
+p103	4015#2	JA	？	reaction icon
+p103	4015#3	JA	[illegible]	speech icon
+p103	4015#4	JA	[illegible]	speech icon
+p103	4015#5	JA	[illegible]	speech icon
+p103	4015#6	JA	…	speech icon
+p103	4015#7	JA	…	speech icon
+p103	4015#8	JA	…	speech icon
+p103	4015#34	EN	1UP	status icon
+p103	4015#35	EN	SP	status icon
+p103	4015#36	EN	SP	status icon
+p103	4015#38	EN	Z	sleep icon
+p103	4015#39	EN	ZZ	sleep icon
+p103	4015#40	EN	ZZZ	sleep icon
+p103	4015#41	EN	3	countdown icon
+p103	4015#42	EN	2	countdown icon
+p103	4015#43	EN	1	countdown icon
+p103	4015#49	JA	……	speech icon
+p103	4015#50	EN	POWER	power icon
+p103	4015#51	EN	POWER	power icon
+p103	4015#52	EN	POWER	power icon
+p103	4015#55	JA	？	reaction icon
+p103	4015#56	JA	？	reaction icon
+p103	4017 raw	MIXED	！; ？; …; 1UP; SP; Z; ZZ; ZZZ; 3; 2; 1; POWER; [other tiny text illegible]	reaction icon texture
+p103	4021#0	EN	DEMO	filmstrip indicator
+p103	4021 raw	EN	DEMO	filmstrip texture
+p103	4028#0	JA	もうナミダは出ないようだ…	message
+p103	4028#1	JA	もうナミダは出ないようだ…	message
+p103	4028#2	JA	もうナミダは出ないようだ…	message
+p103	4028#3	JA	もうナミダは出ないようだ…	message
+p103	4028#4	JA	もうナミダは出ないようだ…	message
+p103	4033#1	JA	心配ないさ！	dialogue option
+p103	4033#2	JA	う～んダメかも	dialogue option
+p103	4033#3	JA	ひろってみようか	dialogue option
+p103	4033#4	JA	けっちまえ！	dialogue option
+p103	4033#5	JA	どんなふうか…	dialogue option
+p103	4033#6	JA	ジュース買おっと	dialogue option
+p103	4033#7	JA	もちろん見たよ！	dialogue option
+p103	4033#8	JA	お～忘れてた…	dialogue option
+p103	4033#9	JA	あけてみよう	dialogue option
+p103	4033#10	JA	しめておくよぅ	dialogue option
+p103	4033#11	JA	これを投げば…	dialogue option
+p103	4033#12	JA	引いてみるか…	dialogue option
+p103	4033#13	JA	どかしてみよう	dialogue option
+p103	4033#14	JA	なんだこれ？	dialogue option
+p103	4033#15	JA	ここ調べてみよう	dialogue option
+p103	4033#16	JA	アレだよアレ	dialogue option
+p103	4033#17	JA	おこしてみよう	dialogue option
+p103	4033#18	JA	しらんぷりしよう	dialogue option
+p103	4033#19	JA	ダイサクラモチ	dialogue option
+p103	4033#20	JA	タカダイマンジュウ	dialogue option
+p103	4033#21	EN	5-1	dialogue option
+p103	4033#22	EN	5-2	dialogue option
+p103	4033#23	JA	ジンジャーパーク	dialogue option
+p103	4033#24	JA	キテンソウ	dialogue option
+p103	4033#25	JA	こびてやる！	dialogue option
+p103	4033#26	JA	ほえてやる！	dialogue option
+p103	4033#27	JA	せーすすき	dialogue option
+p103	4033#28	JA	やっぱりその答え	dialogue option
+p103	4033#29	JA	そうだよ	dialogue option
+p103	4033#30	JA	ちがうよ、あっち！	dialogue option
+p103	4033#31	JA	いいことしちゃお	dialogue option
+p103	4033#32	JA	ロングシュート！	dialogue option
+p103	4033#33	JA	返してあげよう	dialogue option
+p103	4033#34	JA	なんでもない…	dialogue option
+p103	4033#35	JA	助けないよ～～だ	dialogue option
+p103	4033#36	JA	いいのちゃん	dialogue option
+p103	4033#37	JA	ナスカイザーだ！	dialogue option
+p103	4033#38	JA	それちがうって！	dialogue option
+p103	4033#39	JA	こんにちは～	dialogue option
+p103	4033#40	JA	こっち見てよ～！	dialogue option
+p103	4033#41	JA	みんないっしょに	dialogue option
+p103	4033#42	JA	おれだけの力で	dialogue option
+p103	4033#43	JA	もらっちゃおう	dialogue option
+p103	4033#44	JA	とるのはよくない	dialogue option
+p103	4033#45	JA	とってあげる	dialogue option
+p103	4033#46	JA	ちょっとかして	dialogue option
+p103	4033#47	JA	しんちょうに…	dialogue option
+p103	4033#48	JA	いっきに！	dialogue option
+p103	4033#49	JA	ほほえしとく	dialogue option
+p103	4033#50	JA	ほほえまぬある	dialogue option
+p103	4033#51	JA	たまおきでしょう？	dialogue option
+p103	4033#52	JA	なっとうだよ！	dialogue option
+p103	4033#53	JA	だっち。約束が…	dialogue option
+p103	4033#54	JA	お金が落ちてる！	dialogue option
+p103	4033#55	JA	ピッチィ	dialogue option
+p103	4033#56	JA	ホッホロー	dialogue option
+p103	4033#57	JA	どうしよう…	dialogue option
+p103	4033#58	JA	まわれまわれ	dialogue option
+p103	4033#59	JA	スイッチオン！	dialogue option
+p103	4033#60	JA	押すのやめよう	dialogue option
+p103	4033#61	JA	こんちわ	dialogue option
+p103	4033#62	JA	ばーかばーか！	dialogue option
+p103	4033#63	JA	そうだよ	dialogue option
+p103	4033#64	JA	ちがうよ	dialogue option
+p103	4033#65	JA	ガンタ	dialogue option
+p103	4033#66	JA	キイチ	dialogue option
+p103	4033#67	JA	いい話だな	dialogue option
+p103	4033#68	JA	きわいでみるか	dialogue option
+p103	4033#69	JA	もっとききたい	dialogue option
+p103	4033#70	JA	話がながい…	dialogue option
+p103	4033#71	JA	カンコしてあげる	dialogue option
+p103	4033#72	JA	ぶっぽうにあげる	dialogue option
+p103	4033#73	JA	おかせて	dialogue option
+p103	4033#74	JA	変なかお…	dialogue option
+p103	4033#75	JA	ノックする	dialogue option
+p103	4033#76	JA	いいよ	dialogue option
+p103	4033#77	JA	やだよ	dialogue option
+p103	4033#78	JA	みつかった！	dialogue option
+p103	4033#79	JA	みつからな～い	dialogue option
+p103	4033#80	JA	メモを読む	dialogue option
+p103	4033#81	JA	どうでもいいや	dialogue option
+p103	4033#82	JA	勝手に見ちゃえ	dialogue option
+p103	4033#83	JA	いやダメだ…	dialogue option
+p103	4033#84	JA	ノリノリの曲	dialogue option
+p103	4033#85	JA	さわやかなる曲	dialogue option
+p104	4033 raw	JA	心配ないさ！; う～んダメかも; ひろってみようか; [many fragmented dialogue options]	dialogue option texture
+p104	4037#0	JA	？	question mark icon
+p104	4037#1	JA	？	question mark icon
+p104	4037#2	JA	？	question mark icon
+p104	4037 raw	JA	？	question mark texture
+p104	4040#0	EN	A; B	choice buttons
+p104	4040#1	EN	A; B	choice buttons
+p104	4040#2	EN	A; B	choice buttons
+p104	4040#3	EN	A; B	choice buttons
+p104	4040 raw	EN	A; B	choice button texture
+p104	4044#0	MIXED	おもしろい！; タイクツだ…; A; B	choice buttons
+p104	4044#1	MIXED	おもしろい！; タイクツだ…; A; B	choice buttons
+p104	4044#2	MIXED	おもしろい！; タイクツだ…; A; B	choice buttons
+p104	4044#3	MIXED	おもしろい！; タイクツだ…; A; B	choice buttons
+p104	4044 raw	MIXED	おもしろい！; タイクツだ…; A; B	choice button texture
+p104	4052#0	JA	エピソード出現！	notification banner
+p104	4052#1	JA	エピソード出現！	notification banner
+p104	4052 raw	JA	エピソード出現！	notification banner texture
+p104	4056#0	JA	エピソード出現！	notification banner
+p104	4056#1	JA	エピソード出現！	notification banner
+p104	4056 raw	JA	エピソード出現！	notification banner texture
+p104	4060#0	JA	新しい経験!!	notification banner
+p104	4060#1	JA	新しい経験!!	notification banner
+p104	4060#2	JA	新しい経験!!	notification banner
+p104	4060 raw	JA	新しい経験!!	notification banner texture
+p104	4064#0	JA	新しい経験!!	notification banner
+p104	4064#1	JA	新しい経験!!	notification banner
+p104	4064#2	JA	新しい経験!!	notification banner
+p104	4064 raw	JA	新しい経験!!	notification banner texture
+p104	4068#0	JA	新しい経験!!	notification banner
+p104	4068#1	JA	新しい経験!!	notification banner
+p104	4068#2	JA	新しい経験!!	notification banner
+p104	4068 raw	JA	新しい経験!!	notification banner texture
+p104	4071#0	EN	L	controller button icon
+p104	4071#1	EN	L	controller button icon
+p104	4071#2	EN	L	controller button icon
+p105	4113#8	EN	L	controller button prompt
+p105	4113#9	EN	R	controller button prompt
+p105	4115 raw	EN	L; R	controller button texture
+p105	4131#0	EN	START GAME	menu item
+p105	4131#1	EN	audio SETTING	menu item
+p105	4135#0	EN	STEREO	audio option
+p105	4135#1	EN	HEAD PHONE	audio option
+p105	4135#2	EN	SURROUND	audio option
+p105	4139#0	EN	STEREO	audio option
+p105	4139#1	EN	HEAD PHONE	audio option
+p105	4139#2	EN	SURROUND	audio option
+p105	4139#6	EN	STEREO	audio option
+p105	4139#7	EN	HEAD PHONE	audio option
+p105	4139#8	EN	SURROUND	audio option
+p105	4143#0	EN	0	number
+p105	4143#1	EN	1	number
+p105	4143#2	EN	2	number
+p105	4143#3	EN	3	number
+p105	4143#4	EN	4	number
+p105	4143#5	EN	5	number
+p105	4143#6	EN	6	number
+p105	4143#7	EN	7	number
+p105	4143#8	EN	8	number
+p105	4143#9	EN	9	number
+p105	4143#10	EN	A	letter
+p105	4143#11	EN	B	letter
+p105	4143#12	EN	C	letter
+p105	4143#13	EN	D	letter
+p105	4143#15	EN	MAX	maximum indicator
+p105	4143 raw	EN	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; A; B; C; D; MAX	character texture
+p105	4148#0	EN	0	number
+p105	4148#1	EN	1	number
+p105	4148#2	EN	2	number
+p105	4148#3	EN	3	number
+p105	4148#4	EN	4	number
+p105	4148#5	EN	5	number
+p105	4148#6	EN	6	number
+p105	4148#7	EN	7	number
+p105	4148#8	EN	8	number
+p105	4148#9	EN	9	number
+p105	4152#0	EN	1	numbered episode icon
+p105	4152#1	EN	2	numbered episode icon
+p105	4152#2	EN	3	numbered episode icon
+p105	4152#3	EN	4	numbered episode icon
+p105	4152#4	EN	5	numbered episode icon
+p105	4152#5	EN	6	numbered episode icon
+p105	4152#6	EN	7	numbered episode icon
+p105	4152#7	EN	8	numbered episode icon
+p105	4154 raw	EN	1; 2; 3; 4; 5; 6; 7; 8	numbered episode icon texture
+p105	4157#0	EN	1	numbered episode icon
+p105	4157#1	EN	2	numbered episode icon
+p105	4157#2	EN	3	numbered episode icon
+p105	4157#3	EN	4	numbered episode icon
+p105	4157#4	EN	5	numbered episode icon
+p105	4157#5	EN	6	numbered episode icon
+p105	4157#6	EN	7	numbered episode icon
+p105	4157#7	EN	8	numbered episode icon
+p105	4159 raw	EN	1; 2; 3; 4; 5; 6; 7; 8	numbered episode icon texture
+p105	4167#0	EN	NEW	new item badge
+p105	4169 raw	EN	NEW	new item badge texture
+p105	4172#0	EN	L	controller button icon
+p105	4172#1	EN	R	controller button icon
+p105	4176#0	EN	1	number
+p105	4176#1	EN	2	number
+p105	4176#2	EN	3	number
+p105	4176#3	EN	4	number
+p105	4178 raw	EN	1; 2; 3; 4	number texture
+p105	4181#1	EN	2	numbered medallion
+p105	4181#2	EN	2; 3	numbered medallions
+p105	4181#3	EN	2; 3; 4	numbered medallions
+p105	4183 raw	EN	2; 3; 4	numbered medallion texture
+p105	4187#0	EN	L; STATUS; MAP; NEWEXP.; R	menu tab strip
+p105	4187#2	EN	STATUS	menu tab
+p105	4187#3	EN	MAP	menu tab
+p105	4187#4	EN	NEWEXP.	menu tab
+p105	4187#6	JA	1章	chapter tab
+p105	4187#7	JA	2章	chapter tab
+p105	4187#8	JA	3章	chapter tab
+p105	4187#9	JA	4章	chapter tab
+p105	4187#10	JA	1章	chapter tab
+p105	4187#11	JA	2章	chapter tab
+p105	4187#12	JA	3章	chapter tab
+p105	4187#13	JA	4章	chapter tab
+p105	4187#14	EN	STATUS	menu tab
+p105	4187#15	EN	MAP	menu tab
+p105	4187#16	EN	NEWEXP.	menu tab
+p105	4187 raw	MIXED	L; R; STATUS; MAP; NEWEXP.; 1章; 2章; 3章; 4章	menu texture
+p105	4192#0	EN	L; STATUS; MAP; NEWEXP.; R	menu tab strip
+p105	4192#6	JA	1章	chapter tab
+p105	4192#7	JA	2章	chapter tab
+p105	4192#8	JA	3章	chapter tab
+p105	4192#9	JA	4章	chapter tab
+p105	4192#10	JA	1章	chapter tab
+p105	4192#11	JA	2章	chapter tab
+p105	4192#12	JA	3章	chapter tab
+p105	4192#13	JA	4章	chapter tab
+p105	4194 raw	MIXED	L; R; STATUS; MAP; NEWEXP.; 1章; 2章; 3章; 4章	menu texture
+p106	4218#4	JA	全部そろったらプレゼント！	reward banner
+p106	4218#9	JA	全部そろったらプレゼント！	reward banner
+p106	4222#5	EN	GET!	icon label
+p106	4222#6	EN	GET!	icon label
+p106	4222#7	EN	GET!	icon label
+p106	4222#8	EN	GET!	icon label
+p106	4239#1	EN	P	icon label
+p106	4241 raw	EN	P	icon label in raw graphics

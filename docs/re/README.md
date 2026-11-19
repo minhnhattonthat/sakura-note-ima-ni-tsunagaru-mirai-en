@@ -15,7 +15,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `filesystem.md` | NitroFS, FILEDATA.BIN "LF 2" archive, id map, free space | verified (identity repack pending) |
 | `text.md` | u16 encoding, message files, header words, control codes, arm9 strings, text ranges | encoding verified; code meanings partly guessed |
 | `font.md` | dialogue font (FILEDATA 860), kanji map | verified layout; kanji map read by eye + context |
-| `graphics.md` | graphics-text survey | in progress |
+| `graphics.md` | graphics-text survey (static sweep `tools/gfxsweep.py`, rows in `graphics_sweep.tsv`), NDS banner | sweep done; RGCN/RECN/RCSN layouts verified by renders; QQ = tilemap guess |
 | `debug.md` | leftover debug scripts (DebugScenario, EpisodeSelect_Test) | to do (phase 2) |
 
 Prior work (one web search, 2026-11-19): no released English patch or tools found. A NeoGAF thread on unlocalized
